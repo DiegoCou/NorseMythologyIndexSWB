@@ -33,7 +33,7 @@ namespace NorseMythologyIndex.Services
                 };
 
                 var mythologyIndex = await _httpClient.GetFromJsonAsync<MythologyIndex>(
-                    "Data/NorseMythologyIndex.json", options);
+                    "/Data/NorseMythologyIndex.json", options);
 
                 if (mythologyIndex != null)
                 {
