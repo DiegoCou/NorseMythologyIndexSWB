@@ -12,7 +12,7 @@
         @if (!string.IsNullOrEmpty(reference.Value.Link))
         {
             <a href="@reference.Value.Link" target="_blank" class="source-section-link">
-                <h3>@reference.Key</h3>
+                <h4>@reference.Key</h4>
             </a>
         }
         else
@@ -90,14 +90,17 @@
         margin: 0;
         max-height: @collapseState;
         overflow: hidden;
+        text-align: center;
     }
-    .source-section-title h3{
+    .source-section-title h4{
         margin: 0;
         padding: 0;
+        text-align: center;
     }
     .source-section-title{
         margin: 0rem auto;
         padding: 0;
+        text-align: center;
     }
 
     .source-section-link{
@@ -106,9 +109,7 @@
         font-weight: bold;
         margin: 0;
         padding: 0;
-    }
-    .source-section-content{
-
+        text-align: center;
     }
     .source-section-content-title{
         text-align: left;
@@ -139,12 +140,16 @@
         margin: 0.5rem 0;
         padding: 0;
     }
+    .source-link{
+        text-align: center;
+    }
     
     .source-link h2, a{
         margin: 0rem auto;
     }
     .source-link h3{
         margin: 0rem auto 1rem auto;
+        text-align: center;
     }
 
     .reference h5 {

@@ -18,7 +18,7 @@
                 foreach (var item in searchedItems)
                 {
                     <div >
-                        <NavLink class="nav-link" href="@($"/item/{item}")">@item</NavLink>
+                        <NavLink class="item" href="@($"/item/{item}")">@item</NavLink>
                     </div>
                 }
             }
@@ -52,19 +52,24 @@
     .items-list{
         font-weight: normal;
         font-size: 14px;
-        margin: auto;
         text-align: left;
-        padding: 1rem;
-        margin-left: 13.5rem;
         width: 40rem;
+        padding: 1rem;
+        margin: auto;
+    }
+    .item {
+        margin: 0;
+        padding: 0;
+        text-decoration: none;
+        color: black;
     }
     .page-container{
-        max-width: 1400px;
-        margin: 0 auto;
-        padding: 5rem;
+        margin: auto;
+        text-align: center;
     }
     .page-title{
         font-size: 4rem;
+        margin-bottom: 1rem;
     }
     .round {
         width: 100%;
@@ -83,5 +88,6 @@
         width: 75%;
         margin: 7.5% auto;
         font-weight: bold;
+        align-content: center;
     }
 </style>

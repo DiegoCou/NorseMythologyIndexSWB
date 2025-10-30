@@ -18,25 +18,8 @@
     }
     else if (jotunItems.Any())
     {
-        <!--
-        <div class="Items-grid">
-            @foreach (var Item in jotunItems)
-            {
-                <div class="Item-card" @onclick="(() => SelectItem(Item.Key))">
-                    <h4>@Item.Key</h4>
-                    
-                    <div class="tags">
-                        @foreach (var tag in Item.Value.Tags)
-                        {
-                            <span class="tag">@tag</span>
-                        }
-                    </div>  
-                </div>
-            }
-        </div>
-        !-->
-        <div style="width:40rem; display: inline-block" onclick="document.querySelector('.navbar-toggler').click()">
-            <table class="jotun-table">
+        <div class="tables-container">
+            <table class="as-table">
                 <tr>
                     <th style="font-size: 18px">Male</th>
                 </tr>
@@ -45,12 +28,12 @@
                         @if (item.Value.Tags.Contains("Male"))
                         {
                             <tr>
-                                <td class="jotun-table-item"> <NavLink class="nav-link" href="@($"/item/{item.Key}")">@item.Key</NavLink></td>
+                                <td > <NavLink class="item" href="@($"/item/{item.Key}")">@item.Key</NavLink></td>
                             </tr>
                         }
                 }
             </table>
-            <table class="jotun-table">
+            <table class="as-table">
                 <tr>
                     <th style="font-size: 18px">Female</th>
                 </tr>
@@ -59,12 +42,12 @@
                     @if (item.Value.Tags.Contains("Female"))
                     {
                         <tr>
-                            <td class="jotun-table-item" > <NavLink class="nav-link" href="@($"/item/{item.Key}")">@item.Key</NavLink></td>
+                            <td > <NavLink class="item" href="@($"/item/{item.Key}")">@item.Key</NavLink></td>
                         </tr>
                     }
                 }
             </table>
-            <table class="jotun-table">
+            <table class="as-table">
                 <tr>
                     <th style="font-size: 18px">Creature</th>
                 </tr>
@@ -73,7 +56,7 @@
                     @if (item.Value.Tags.Contains("Creature"))
                     {
                         <tr>
-                            <td class="jotun-table-item" > <NavLink class="nav-link" href="@($"/item/{item.Key}")">@item.Key</NavLink></td>
+                            <td  > <NavLink class="item" href="@($"/item/{item.Key}")">@item.Key</NavLink></td>
                         </tr>
                     }
                 }
@@ -101,14 +84,6 @@
 }
 
 <style>
-    .jotun-table{
-        text-align: left; 
-        float: left;
-        margin: 0 2rem ;
-    }
-    .jotun-table-item{
-        padding: 0.1rem;
-    }
     .page-container {
         max-width: 1400px;
         margin: 0 auto;
@@ -120,35 +95,30 @@
         color: #2c3e50;
         margin-bottom: 2rem;
         font-size: 2.5rem;
+        text-align: center;
     }
-
+    .tables-container{
+        margin:auto;
+        width: fit-content;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-gap: 5rem;
+    }
+    .as-table{
+        height: fit-content;
+    }
+    .item {
+        margin: 0;
+        padding: 0;
+        text-decoration: none;
+        color: black;
+    }
     .loading {
         text-align: center;
         padding: 3rem;
         font-size: 1.2rem;
         color: #666;
     }
-
-    .Item-card h3 {
-        margin: 0 0 1rem 0;
-        color: #2c3e50;
-        font-size: 1.5rem;
-    }
-
-
-    .reference h5 {
-        color: #34495e;
-        margin-bottom: 0.75rem;
-    }
-
-    .quote blockquote {
-        border-left: 3px solid #95a5a6;
-        padding-left: 1rem;
-        margin: 1rem 0;
-        font-style: italic;
-        color: #555;
-    }
-    
 </style>
 
 
