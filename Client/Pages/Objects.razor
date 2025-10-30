@@ -1,0 +1,116 @@
+﻿@page "/objects"
+@using System.Reflection.Metadata
+@using NorseMythologyIndex.Models
+@using NorseMythologyIndex.Services
+@inject MythologyService MythologyService
+@inject Microsoft.AspNetCore.Components.NavigationManager navigationManager
+
+<PageTitle>Æsir</PageTitle>
+<div class="page-container">
+    <h1>Objects</h1>
+
+    @if (isLoading)
+    {
+        <div class="loading">
+            <p>Loading...</p>
+        </div>
+    }
+    else if (objectItems.Any())
+    {
+        <!--
+        <div class="Items-grid">
+            @foreach (var Item in objectItems)
+            {
+                <div class="Item-card" @onclick="(() => SelectItem(Item.Key))">
+                    <h4>@Item.Key</h4>
+                    
+                    <div class="tags">
+                        @foreach (var tag in Item.Value.Tags)
+                        {
+                            <span class="tag">@tag</span>
+                        }
+                    </div>  
+                </div>
+            }
+        </div>
+        !-->
+        <div style="width:40rem; display: inline-block" onclick="document.querySelector('.navbar-toggler').click()">
+            <table style=" text-align: left; float: left">
+                <tr>
+                    <th style="font-size: 18px">Object</th>
+                </tr>
+                @foreach (var item in objectItems)
+                {
+                        <tr>
+                            <td class="object-table-item"> <NavLink class="nav-link" href="@($"/item/{item.Key}")">@item.Key</NavLink></td>
+                        </tr>
+                }
+            </table>
+        </div>
+    }
+    else
+    {
+        <p>No object Items found.</p>
+    }
+</div>
+
+@code {
+    private Dictionary<string, MythologyItem> objectItems = new();
+    private bool isLoading = true;
+    private string? selectedItemName;
+    
+    
+    protected override async Task OnInitializedAsync()
+    {
+        objectItems = await MythologyService.GetItemsByTypeAsync("Object");
+        isLoading = false;
+    }
+
+}
+
+<style>
+    
+    .object-table-item{
+        padding: 0.1rem;
+    }
+    .page-container {
+        max-width: 1400px;
+        margin: 0 auto;
+        padding: 6rem;
+        height: fit-content;
+    }
+
+    h1 {
+        color: #2c3e50;
+        margin-bottom: 2rem;
+        font-size: 2.5rem;
+    }
+
+    .loading {
+        text-align: center;
+        padding: 3rem;
+        font-size: 1.2rem;
+        color: #666;
+    }
+    
+    .Item-card h3 {
+        margin: 0 0 1rem 0;
+        color: #2c3e50;
+        font-size: 1.5rem;
+    }
+
+    .reference h5 {
+        color: #34495e;
+        margin-bottom: 0.75rem;
+    }
+    .quote blockquote {
+        border-left: 3px solid #95a5a6;
+        padding-left: 1rem;
+        margin: 1rem 0;
+        font-style: italic;
+        color: #555;
+    }
+    
+</style>
+
+

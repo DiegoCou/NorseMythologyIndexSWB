@@ -1,0 +1,105 @@
+﻿@page "/item/{selectedItemName}"
+@using NorseMythologyIndex.Models
+@using NorseMythologyIndex.Services
+@inject MythologyService MythologyService
+@inject Microsoft.AspNetCore.Components.NavigationManager navigationManager
+
+<PageTitle>@selectedItemName</PageTitle>
+<div class="page-container">
+<h3>SelectedItem</h3>
+@if (isLoading)
+{
+    <div class="loading">
+        <p>Loading Æsir...</p>
+    </div>
+}
+else if (selectedItem is not null)
+{
+    <div class="Item-detail">
+        <h2>@selectedItemName</h2>
+        <div class="tags-section">
+            @foreach (var tag in selectedItem.Tags)
+            {
+                <span class="tag">@tag</span>
+            }
+        </div>
+        @foreach (var attestation in selectedItem.Attestations)
+        {
+            <Attestation attestation="@attestation"></Attestation>
+        }
+    </div>
+}
+</div>
+
+@code{
+
+    private MythologyItem selectedItem { get; set; }
+    [Parameter] public string selectedItemName { get; set; }
+    private Dictionary<string, MythologyItem> aesirItems = new();
+    public bool isLoading = true;
+    protected override async Task OnInitializedAsync()
+    {
+        //navigationManager.NavigateTo($"/item/{selectedItemName}");
+        aesirItems = await MythologyService.GetAllItemsAsync();
+        selectedItem = aesirItems[selectedItemName];
+        isLoading = false;
+    }
+}
+
+<style>
+    .page-container {
+        max-width: 1400px;
+        margin: 0 auto;
+        padding: 2rem;
+        position: relative;
+    }
+
+    h1 {
+        color: #2c3e50;
+        margin-bottom: 2rem;
+        font-size: 2.5rem;
+    }
+
+    .loading {
+        text-align: center;
+        padding: 3rem;
+        font-size: 1.2rem;
+        color: #666;
+    }
+
+
+    .tag {
+        background: #3498db;
+        color: white;
+        padding: 0.25rem 0.75rem;
+        border-radius: 12px;
+        font-size: 0.8rem;
+        margin: 0 0.25rem;
+
+    }
+
+    .Item-detail {
+        background: white;
+        padding: 3rem;
+        border-radius: 8px;
+        position: relative;
+        margin: auto;
+        width: 60rem;
+        height: fit-content;
+    }
+    
+    .reference h5 {
+        color: #34495e;
+        margin-bottom: 0.75rem;
+    }
+
+ 
+    .quote blockquote {
+        border-left: 3px solid #95a5a6;
+        padding-left: 1rem;
+        margin: 1rem 0;
+        font-style: italic;
+        color: #555;
+    }
+    
+</style>

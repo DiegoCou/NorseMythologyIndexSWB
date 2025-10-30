@@ -1,0 +1,176 @@
+﻿@using System.Reflection.Metadata
+@using System.Text
+@using System.Text.RegularExpressions
+@using BlazorBootstrap
+@using NorseMythologyIndex.Models
+@using NorseMythologyIndex.Services
+@inject MythologyService MythologyService
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.0/font/bootstrap-icons.css">
+
+<div class="source-section-@RemoveSpecialCharacters(@reference.Key)">
+    <div class="source-section-title">
+        @if (!string.IsNullOrEmpty(reference.Value.Link))
+        {
+            <a href="@reference.Value.Link" target="_blank" class="source-section-link">
+                <h3>@reference.Key</h3>
+            </a>
+        }
+        else
+        {
+            <h3>@reference.Key</h3>
+        }
+        <button class="collapse-button-2" @onclick="Collapse"><Icon Name="@collapseIcon"></Icon></button>
+    </div>
+    <div class="source-section-content">
+        @foreach (var content in reference.Value.GetContents())
+        {
+            <hr/>
+            <div class="source-section-content-title">
+                @if (!string.IsNullOrEmpty(@content.Value.Link))
+                {
+                    <a href="@content.Value.Link" target="_blank">
+                        @content.Key:
+                    </a>
+                }
+                else
+                {
+                    <span class="source-section-content-title-1">@content.Key: </span>
+                }
+                @if (!string.IsNullOrEmpty(@content.Value.Explanation))
+                {
+                    <span >@content.Value.Explanation</span>
+                }
+            </div>
+            <div class="source-section-content-text">
+                @if (!string.IsNullOrEmpty(@content.Value.Text))
+                {
+                    <p class="textarea-content">@content.Value.Text</p>
+                }
+            </div>
+        }
+    </div>
+</div>
+
+@code{
+    
+    [Parameter]
+    public KeyValuePair<string, Reference> reference { get; set; }
+
+    public bool isCollapsed = true;
+    public string collapseState = "3rem";
+    public IconName collapseIcon = IconName.CaretRightFill;
+    protected override async Task OnInitializedAsync()
+    {
+        
+    }
+    
+    public void Collapse()
+    {
+        isCollapsed = !isCollapsed;
+        collapseState = isCollapsed ? "3rem" : "fit-content";
+        collapseIcon = isCollapsed ? IconName.CaretRightFill : IconName.CaretDownFill;
+    }
+
+    public string RemoveSpecialCharacters(string str)
+    {
+        return Regex.Replace(str, "[^a-zA-Z0-9_.]+", "", RegexOptions.Compiled);
+    }
+    
+}
+
+<style>
+    .collapse-button-2{
+        background-color: transparent;
+        border-width: 0px;
+        font-weight: bold;
+        margin: 0;
+        float:right;
+    }
+    .source-section-@RemoveSpecialCharacters(@reference.Key){
+        margin: 0;
+        max-height: @collapseState;
+        overflow: hidden;
+    }
+    .source-section-title h3{
+        margin: 0;
+        padding: 0;
+    }
+    .source-section-title{
+        margin: 0rem auto;
+        padding: 0;
+    }
+
+    .source-section-link{
+        color: #3498db;
+        text-decoration: none;
+        font-weight: bold;
+        margin: 0;
+        padding: 0;
+    }
+    .source-section-content{
+
+    }
+    .source-section-content-title{
+        text-align: left;
+        padding: 0 0.3rem;
+        margin: 0.5rem auto;
+    }
+    .source-section-content-title a{
+        color: #2980b9;
+        text-decoration: none;
+        margin: 0;
+        font-weight: bold;
+    }
+    .source-section-content-title-1{
+        font-weight: bold;
+    }
+    .source-section-content-text {
+        margin: 0.2rem 0;
+        line-height: 1.6;
+        align-content: center;
+        width: 100%;
+    }
+
+    hr{
+        display: block;
+        height: 1px;
+        border: 0;
+        border-top: 1px solid #ccc;
+        margin: 0.5rem 0;
+        padding: 0;
+    }
+    
+    .source-link h2, a{
+        margin: 0rem auto;
+    }
+    .source-link h3{
+        margin: 0rem auto 1rem auto;
+    }
+
+    .reference h5 {
+        color: #34495e;
+        margin-bottom: 0.75rem;
+    }
+
+
+    .textarea-content{
+        border: 0;
+        border-radius: 10px;
+        background-color: #f8f9fa;
+        padding: 1rem;
+        white-space: pre-line;
+        resize: none;
+        text-align: left;
+        font-size: 1rem;
+    }
+
+
+    .quote blockquote {
+        border-left: 3px solid #95a5a6;
+        padding-left: 1rem;
+        margin: 1rem 0;
+        font-style: italic;
+        color: #555;
+    }
+    
+</style>

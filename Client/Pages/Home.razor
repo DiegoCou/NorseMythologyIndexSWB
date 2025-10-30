@@ -1,0 +1,83 @@
+﻿@page "/"
+@using System.Runtime.Serialization
+@using System.Text
+@using NorseMythologyIndex.Models
+@using NorseMythologyIndex.Services
+@inject MythologyService MythologyService
+
+<PageTitle>Norse Mythology Index</PageTitle>
+<div class="page-container">
+    <div class="homeContent">
+        <h1 class="page-title">Norse Mythology Index</h1>
+        <div class="search">
+            <input type="text" name="search" placeholder="Search for characters, locations or objects" autocomplete="off"  @bind-value="_searchString" @bind-value:event="oninput" class="round"/>
+        </div>
+        <div class="items-list" onclick="document.querySelector('.navbar-toggler').click()">
+            @if (searchedItems.Count() > 0)
+            {
+                foreach (var item in searchedItems)
+                {
+                    <div >
+                        <NavLink class="nav-link" href="@($"/item/{item}")">@item</NavLink>
+                    </div>
+                }
+            }
+        </div>
+    </div>
+    
+</div>
+
+@code{
+
+    private Dictionary<string, MythologyItem> mythologyItems = new();
+    private bool isLoading = true;
+    private IEnumerable<string> searchedItems => mythologyItems.Keys.Count > 0 && _searchString != "" ? 
+        mythologyItems.Keys.Where(
+            item => 
+                item.Normalize(NormalizationForm.FormD).ToLower().Contains(_searchString.Normalize(NormalizationForm.FormD).ToLower())) : new List<string>();
+    private string _searchString = "";
+
+    
+    protected override async Task OnInitializedAsync()
+    {
+        mythologyItems = await MythologyService.GetAllItemsAsync();
+        isLoading = false;
+    }
+}
+<style>
+    .items-list{
+        font-weight: normal;
+        font-size: 14px;
+        margin: auto;
+        text-align: left;
+        padding: 1rem;
+        margin-left: 13.5rem;
+        width: 40rem;
+    }
+    .page-container{
+        max-width: 1400px;
+        margin: 0 auto;
+        padding: 5rem;
+    }
+    .page-title{
+        font-size: 4rem;
+    }
+    .round {
+        width: 100%;
+        border-radius: 30px;
+        border: 1px #E6E6E6 solid;
+        padding: 5px 5px 5px 25px;
+        background-color: #E6E6E6;
+        font-size: 1rem;
+        height: 35px;
+    }
+    .search {
+        margin: auto;
+        width: 40rem;
+    }
+    .homeContent{
+        width: 75%;
+        margin: 7.5% auto;
+        font-weight: bold;
+    }
+</style>

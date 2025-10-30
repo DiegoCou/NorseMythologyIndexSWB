@@ -1,0 +1,232 @@
+﻿@using System.Reflection.Metadata
+@using BlazorBootstrap
+@using NorseMythologyIndex.Models
+@using NorseMythologyIndex.Services
+@inject MythologyService MythologyService
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.0/font/bootstrap-icons.css">
+<div class="attestation-section-@attestation.Key.ToString().Remove(4)">
+    @if (!string.IsNullOrEmpty(attestation.Value.Link))
+    {
+        <div class="source">
+            <a href="@attestation.Value.Link" target="_blank" class="source-link">
+                <h2>@attestation.Key</h2>
+            </a>
+
+            <button class="collapse-button" @onclick="Collapse"><Icon Name="@collapseIcon"></Icon></button>
+        </div>
+    }
+    
+    @foreach (var reference in attestation.Value.GetReferences())
+    {
+        <hr/>
+        <!--
+        <div class="source-section">
+            <div class="source-section-title">
+                @if (!string.IsNullOrEmpty(reference.Value.Link))
+                {
+                    <a href="@reference.Value.Link" target="_blank" class="source-section-link">
+                        <h3>@reference.Key</h3>
+                    </a>
+                }
+                else
+                {
+                    <h3>@reference.Key</h3>
+                }
+                <button class="collapse-button" @onclick="Collapse"><Icon Name="@collapseIcon"></Icon></button>
+            </div>
+            <div class="source-section-content">
+                @foreach (var content in reference.Value.GetContents())
+                {
+                    <hr/>
+                    <div class="source-section-content-title">
+                        @if (!string.IsNullOrEmpty(@content.Value.Link))
+                        {
+                            <a href="@content.Value.Link" target="_blank">
+                                @content.Key:
+                            </a>
+                        }
+                        else
+                        {
+                            <span class="source-section-content-title-1">@content.Key: </span>
+                        }
+                        @if (!string.IsNullOrEmpty(@content.Value.Explanation))
+                        {
+                            <span >@content.Value.Explanation</span>
+                        }
+                    </div>
+                    <div class="source-section-content-text">
+                        @if (!string.IsNullOrEmpty(@content.Value.Text))
+                        {
+                            <p class="textarea-content">@content.Value.Text</p>
+                        }
+                    </div>
+                }
+            </div>
+        </div> -->
+        <SourceSection reference="@reference"></SourceSection>
+    }
+</div>
+
+
+@code{
+    
+    [Parameter]
+    public KeyValuePair<string, Source> attestation { get; set; }
+
+    public bool isCollapsed = false;
+    public string collapseState = "fit-content";
+    public IconName collapseIcon = IconName.CaretDownFill;
+    public Dictionary<string, Reference> references;
+    protected override async Task OnInitializedAsync()
+    {
+        references = attestation.Value.GetReferences();
+    }
+    
+    public void Collapse()
+    {
+        isCollapsed = !isCollapsed;
+        collapseState = isCollapsed ? "3.5rem" : "fit-content";
+        collapseIcon = isCollapsed ? IconName.CaretRightFill : IconName.CaretDownFill;
+    }
+
+}
+
+<style>
+    .attestation-section-@attestation.Key.ToString().Remove(4) {
+        border-left: 3px solid black;
+        padding-left: 1.5rem;
+        margin: 2rem 0;
+        max-height: @collapseState;
+        overflow: hidden;
+    }
+    .collapse-button{
+        float:right; 
+        height: 1rem; 
+        margin-top: auto;
+        background-color: transparent;
+        border-width: 0px;
+        font-weight: bold;
+    }
+    .source{
+        margin: 1rem auto;
+    }
+    .source-section{
+        margin: 0;
+    }
+    .source-section h3{
+        margin: 0;
+    }
+    .source-section-title{
+        margin: 0.5rem auto;
+    }
+    
+    .source-section-link{
+        color: #3498db;
+        text-decoration: none;
+        font-weight: bold;
+        display: inline-block;
+        margin: 0;
+    }
+    .source-section-content{
+        
+    }
+    .source-section-content-title{
+        text-align: left;
+        padding: 0 0.3rem;
+        margin: 0.5rem auto;
+    }
+    .source-section-content-title a{
+        color: #2980b9;
+        text-decoration: none;
+        margin: 0;
+        font-weight: bold;
+    }
+    .source-section-content-title-1{
+        font-weight: bold;
+    }
+    .source-section-content-text {
+        margin: 0.2rem 0;
+        line-height: 1.6;
+        align-content: center;
+        width: 100%;
+    }
+    
+    hr{
+        display: block;
+        height: 1px;
+        border: 0;
+        border-top: 1px solid #ccc;
+        margin: 0.5rem 0;
+        padding: 0;
+    }
+    
+    
+    
+    
+    
+    .source-link {
+        color: #3498db;
+        text-decoration: none;
+        font-weight: bold;
+        display: inline-block;
+        margin: 0;
+    }
+    .source-link h2, a{
+        margin: 0rem auto;
+    }
+    .source-link h3{
+        margin: 0rem auto 1rem auto;
+    }
+    .source-link:hover {
+        text-decoration: underline;
+    }
+
+    .reference h5 {
+        color: #34495e;
+        margin-bottom: 0.75rem;
+    }
+
+    .text-content {
+        margin: 0.2rem 0;
+        line-height: 1.6;
+        align-content: center;
+        width: 100%;
+    }
+    .textarea-content{
+        border: 0;
+        border-radius: 10px;
+        background-color: #f8f9fa;
+        padding: 1rem;
+        white-space: pre-line;
+        resize: none;
+        text-align: left;
+        font-size: 1rem;
+    }
+    .textarea-explanation {
+        white-space: pre-line;
+        text-align: left;
+        margin: 0 0 0.5rem 0;
+        float:left;
+        padding: 0 0.3rem;
+    }
+
+    .quote blockquote {
+        border-left: 3px solid #95a5a6;
+        padding-left: 1rem;
+        margin: 1rem 0;
+        font-style: italic;
+        color: #555;
+    }
+
+    .ref-link {
+        color: #2980b9;
+        text-decoration: none;
+        margin: 0;
+        padding: 0 0.3rem;
+        font-weight: bold;
+    }
+
+    .ref-link:hover {
+        text-decoration: underline;
+    }
+</style>
