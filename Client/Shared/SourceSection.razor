@@ -56,8 +56,8 @@
     [Parameter]
     public KeyValuePair<string, Reference> reference { get; set; }
 
-    public bool isCollapsed = true;
-    public string collapseState = "3rem";
+    public bool isCollapsed = false;
+    public string collapseState = "fit-content";
     public IconName collapseIcon = IconName.CaretRightFill;
     protected override async Task OnInitializedAsync()
     {
@@ -80,26 +80,24 @@
 
 <style>
     .collapse-button-2{
+        float:right;
+        height: 1rem;
+        margin-top: auto;
         background-color: transparent;
         border-width: 0px;
         font-weight: bold;
-        margin: 0;
-        float:right;
     }
     .source-section-@RemoveSpecialCharacters(@reference.Key){
         margin: 0;
         max-height: @collapseState;
         overflow: hidden;
-        text-align: center;
     }
     .source-section-title h4{
         margin: 0;
         padding: 0;
-        text-align: center;
     }
     .source-section-title{
-        margin: 0rem auto;
-        padding: 0;
+        margin: 0 auto;
         text-align: center;
     }
 
@@ -107,9 +105,8 @@
         color: #3498db;
         text-decoration: none;
         font-weight: bold;
+        display: inline-block;
         margin: 0;
-        padding: 0;
-        text-align: center;
     }
     .source-section-content-title{
         text-align: left;
@@ -140,16 +137,12 @@
         margin: 0.5rem 0;
         padding: 0;
     }
-    .source-link{
-        text-align: center;
-    }
     
     .source-link h2, a{
         margin: 0rem auto;
     }
     .source-link h3{
         margin: 0rem auto 1rem auto;
-        text-align: center;
     }
 
     .reference h5 {
