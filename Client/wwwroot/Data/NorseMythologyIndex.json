@@ -52,10 +52,6 @@
       },
       "Prose Edda": {
         "link": "http://vsnrweb-publications.org.uk/SNORRA%20EDDA%20searchable.pdf",
-        "Gylfaginning (The Beguiling of Gylfi)": {
-          "link": "http://vsnrweb-publications.org.uk/SNORRA%20EDDA%20searchable.pdf#page=34&zoom=auto",
-          "There are no attestations of Ægir in Gylfaginning.": {}
-        },
         "Skáldskaparmál (The Language of Poetry)": {
           "link": "http://vsnrweb-publications.org.uk/SNORRA%20EDDA%20searchable.pdf#page=87&zoom=auto",
           "Introduction (p.59)": {
@@ -130,10 +126,6 @@
             "quote": "High said: ‘Many splendid places are there. There is one place that is called Alfheim. There live the folk called light-elves, but dark-elves live down in the ground, and they are unlike them in appearance, and even more unlike them in nature. Light-elves are fairer than the sun to look at, but dark-elves are blacker than pitch.",
             "link": "http://vsnrweb-publications.org.uk/SNORRA%20EDDA%20searchable.pdf#page=47"
           }
-        },
-        "Skáldskaparmál (The Language of Poetry)": {
-          "link": "http://vsnrweb-publications.org.uk/SNORRA%20EDDA%20searchable.pdf#page=87&zoom=auto",
-          "There are no attestations of Alfheimr in Skáldskaparmál.": {}
         }
       }
     }
@@ -494,10 +486,6 @@
   "Búri": {
     "tags": ["Aesir", "Male"],
     "attestations": {
-      "Poetic Edda": {
-        "link": "https://books.openbookpublishers.com/10.11647/obp.0308/",
-        "There are no attestations of Búri on the Poetic Edda.": {}
-      },
       "Prose Edda": {
         "link": "http://vsnrweb-publications.org.uk/EDDArestr.pdf",
         "Gylfaginning (The Beguiling of Gylfi)": {
@@ -1543,10 +1531,6 @@
   "Gna": {
     "tags": ["Aesir", "Female"],
     "attestations": {
-      "Poetic Edda": {
-        "link": "https://books.openbookpublishers.com/10.11647/obp.0308/",
-        "There are no attestations in the Poetic Edda about Gná.": {}
-      },
       "Prose Edda": {
         "link": "http://vsnrweb-publications.org.uk/SNORRA%20EDDA%20searchable.pdf",
         "Gylfaginning (The Beguiling of Gylfi)": {
@@ -1885,10 +1869,6 @@
   "Hnoss": {
     "tags": ["Aesir", "Vanir", "Female"],
     "attestations": {
-      "Poetic Edda": {
-        "link": "https://books.openbookpublishers.com/10.11647/obp.0308/",
-        "There are no attestations of Hnoss in The Poetic Edda.": {}
-      },
       "Prose Edda": {
         "link": "http://vsnrweb-publications.org.uk/SNORRA%20EDDA%20searchable.pdf",
         "Gylfaginning (The Beguiling of Gylfi)": {
@@ -2332,10 +2312,6 @@
   "Kvasir": {
     "tags": ["Aesir", "Vanir", "Male"],
     "attestations": {
-      "Poetic Edda": {
-        "link": "https://books.openbookpublishers.com/10.11647/obp.0308/",
-        "There are no attestations of Kvasir in the Poetic Edda.": {}
-      },
       "Prose Edda": {
         "link": "http://vsnrweb-publications.org.uk/SNORRA%20EDDA%20searchable.pdf",
         "Gylfaginning (The Beguiling of Gylfi)": {
@@ -2390,10 +2366,6 @@
   "Lofn": {
     "tags": ["Aesir", "Female"],
     "attestations": {
-      "Poetic Edda": {
-        "link": "https://books.openbookpublishers.com/10.11647/obp.0308/",
-        "There are no attestations of Lofn in The Poetic Edda.": {}
-      },
       "Prose Edda": {
         "link": "http://vsnrweb-publications.org.uk/SNORRA%20EDDA%20searchable.pdf",
         "Gylfaginning (The Beguiling of Gylfi)": {
@@ -3103,10 +3075,6 @@
   "Nepr": {
     "tags": ["Aesir", "Male"],
     "attestations": {
-      "Poetic Edda": {
-        "link": "https://books.openbookpublishers.com/10.11647/obp.0308/",
-        "There are no attestations of Nepr in the Poetic Edda.": {}
-      },
       "Prose Edda": {
         "link": "http://vsnrweb-publications.org.uk/SNORRA%20EDDA%20searchable.pdf",
         "Gylfaginning (The Beguiling of Gylfi)": {
@@ -4074,10 +4042,6 @@
   "Rindr": {
     "tags": ["Aesir", "Female"],
     "attestations": {
-      "Poetic Edda": {
-        "link": "https://books.openbookpublishers.com/10.11647/obp.0308/",
-        "There are no attestations of Rindr in the Poetic Edda.": {}
-      },
       "Prose Edda": {
         "link": "http://vsnrweb-publications.org.uk/SNORRA%20EDDA%20searchable.pdf",
         "Gylfaginning (The Beguiling of Gylfi)": {
@@ -4370,10 +4334,6 @@
   "Sjöfn": {
     "tags": ["Aesir", "Female"],
     "attestations": {
-      "Poetic Edda": {
-        "link": "https://books.openbookpublishers.com/10.11647/obp.0308/",
-        "There are no attestations of Sjöfn in the Poetic Edda.": {}
-      },
       "Prose Edda": {
         "link": "http://vsnrweb-publications.org.uk/SNORRA%20EDDA%20searchable.pdf",
         "Gylfaginning (The Beguiling of Gylfi)": {
@@ -4529,10 +4489,6 @@
   "Snotra": {
     "tags": ["Aesir", "Female"],
     "attestations": {
-      "Poetic Edda": {
-        "link": "https://books.openbookpublishers.com/10.11647/obp.0308/",
-        "There are no attestations of Snotra in the Poetic Edda.": {}
-      },
       "Prose Edda": {
         "link": "httpvsnrweb-publications.org.uk/SNORRA%20EDDA%20searchable.pdf",
         "Gylfaginning (The Beguiling of Gylfi)": {
@@ -4646,10 +4602,6 @@
   "Syn": {
     "tags": ["Aesir", "Female"],
     "attestations": {
-      "Poetic Edda": {
-        "link": "https://books.openbookpublishers.com/10.11647/obp.0308/",
-        "There are no attestations of Syn in the Poetic Edda.": {}
-      },
       "Prose Edda": {
         "link": "http://vsnrweb-publications.org.uk/SNORRA%20EDDA%20searchable.pdf",
         "Gylfaginning (The Beguiling of Gylfi)": {
@@ -5330,10 +5282,6 @@
             "quote": "‘Niord is not of the race of the Æsir. He was brought up in the land of the Vanir, but the Vanir gave him as hostage to the gods and took in exchange as an Æsir-hostage the one called Hænir. He came to be the pledge of truce between the gods and the Vanir.’",
             "link": "http://vsnrweb-publications.org.uk/SNORRA%20EDDA%20searchable.pdf#page=51"
           }
-        },
-        "Skáldskaparmál (The Language of Poetry)": {
-          "link": "http://vsnrweb-publications.org.uk/SNORRA%20EDDA%20searchable.pdf#page=87&zoom=auto",
-          "There are no attestations of Vanaheimr in Skáldskaparmál.": {}
         }
       }
     }
@@ -5543,10 +5491,6 @@
   "Vör": {
     "tags": ["Aesir", "Female"],
     "attestations": {
-      "Poetic Edda": {
-        "link": "https://books.openbookpublishers.com/10.11647/obp.0308/",
-        "There are no attestations of Vör in the Poetic Edda.": {}
-      },
       "Prose Edda": {
         "link": "http://vsnrweb-publications.org.uk/SNORRA%20EDDA%20searchable.pdf",
         "Gylfaginning (The Beguiling of Gylfi)": {
