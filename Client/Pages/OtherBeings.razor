@@ -1,6 +1,7 @@
 ﻿
 @page "/otherbeings"
 @using System.Reflection.Metadata
+@using MudBlazor
 @using NorseMythologyIndex.Models
 @using NorseMythologyIndex.Services
 @inject MythologyService MythologyService
@@ -18,36 +19,30 @@
     }
     else if (mythItems.Any())
     {
-        <div class="tables-container" >
-            <table class="as-table">
-                <tr>
-                    <th style="font-size: 18px">Male</th>
-                </tr>
-                @foreach (var item in mythItems)
+        <MudText Typo="Typo.h6" >Male</MudText>
+        <MudStack Style="margin-bottom: 2rem" Row="true" Wrap="Wrap.Wrap" Spacing="2">
+            @foreach (var item in mythItems)
+            {
+                if (item.Value.Tags.Contains("Male"))
                 {
-                        @if (item.Value.Tags.Contains("Male"))
-                        {
-                            <tr>
-                                <td > <NavLink class="item" href="@($"/item/{item.Key}")">@item.Key</NavLink></td>
-                            </tr>
-                        }
+                    <tr style="width: 8rem;">
+                        <td ><NavLink class="item" href="@($"/item/{item.Key}")">@item.Key.Split(" ")[0]</NavLink></td>
+                    </tr>
                 }
-            </table>
-            <table class="as-table">
-                <tr>
-                    <th style="font-size: 18px">Female</th>
-                </tr>
-                @foreach (var item in mythItems)
+            }
+        </MudStack>
+        <MudText Typo="Typo.h6" >Female</MudText>
+        <MudStack Style="margin-bottom: 2rem" Row="true" Wrap="Wrap.Wrap" Spacing="2">
+            @foreach (var item in mythItems)
+            {
+                if (item.Value.Tags.Contains("Female"))
                 {
-                    @if (item.Value.Tags.Contains("Female"))
-                    {
-                        <tr>
-                            <td  > <NavLink class="item" href="@($"/item/{item.Key}")">@item.Key</NavLink></td>
-                        </tr>
-                    }
+                    <tr style="width: 8rem;">
+                        <td ><NavLink class="item" href="@($"/item/{item.Key}")">@item.Key</NavLink></td>
+                    </tr>
                 }
-            </table>
-        </div>
+            }
+        </MudStack>
     }
     else
     {

@@ -1,5 +1,6 @@
 ﻿@page "/objects"
 @using System.Reflection.Metadata
+@using MudBlazor
 @using NorseMythologyIndex.Models
 @using NorseMythologyIndex.Services
 @inject MythologyService MythologyService
@@ -17,20 +18,17 @@
     }
     else if (objectItems.Any())
     {
-        
-        <div class="tables-container">
-            <table class="as-table">
-                <tr>
-                    <th style="font-size: 18px">Object</th>
-                </tr>
-                @foreach (var item in objectItems)
+        <MudStack Style="margin-bottom: 2rem" Row="true" Wrap="Wrap.Wrap" Spacing="2">
+            @foreach (var item in objectItems)
+            {
+                if (item.Value.Tags.Contains("Object"))
                 {
-                        <tr>
-                            <td > <NavLink class="item" href="@($"/item/{item.Key}")">@item.Key</NavLink></td>
-                        </tr>
+                    <tr style="width: 8rem;">
+                        <td ><NavLink class="item" href="@($"/item/{item.Key}")">@item.Key</NavLink></td>
+                    </tr>
                 }
-            </table>
-        </div>
+            }
+        </MudStack>
     }
     else
     {
