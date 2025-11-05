@@ -1,4 +1,6 @@
 ﻿@page "/item/{selectedItemName}"
+@using System.Reflection.Metadata.Ecma335
+@using MudBlazor
 @using NorseMythologyIndex.Models
 @using NorseMythologyIndex.Services
 @inject MythologyService MythologyService
@@ -14,6 +16,7 @@
 }
 else if (selectedItem is not null)
 {
+    <!--
     <div class="Item-detail">
         <h2>@selectedItemName</h2>
         <div class="tags-section">
@@ -27,27 +30,99 @@ else if (selectedItem is not null)
             <Attestation attestation="@attestation"></Attestation>
         }
     </div>
+    -->
+    <MudContainer Class="attestations-container">
+        <MudScrollToTop>
+            <MudFab Color="Color.Tertiary" StartIcon="@Icons.Material.Filled.ArrowCircleUp" />
+        </MudScrollToTop>
+        <!-- Name of the Selected Item -->
+        <MudText class="selected-item-name" Typo="Typo.h3">@selectedItemName</MudText>
+        <MudList T="string">
+            @foreach (var attestation in selectedItem.Attestations)
+            {
+                <MudListItem Expanded>
+                    <ChildContent>
+                        <!-- Name of the main source (Prose Edda/ Poetic Edda) -->
+                        <MudText Typo="Typo.h4"><a style="text-decoration: underline" href="@attestation.Value.Link" target="_blank">@attestation.Key</a></MudText>
+                        <hr/>
+                    </ChildContent>
+                    <NestedList>
+                        @foreach (var reference in attestation.Value.GetReferences())
+                        {
+                            <MudListItem Expanded>
+                                <ChildContent>
+                                    <!-- Name of Book/Poem -->
+                                    <MudText Typo="Typo.h5"> <a style="text-decoration: underline" href="@reference.Value.Link" target="_blank">@reference.Key</a>
+                                    </MudText>
+                                    <hr/>
+                                </ChildContent>
+                                <NestedList>
+                                    @foreach (var content in reference.Value.GetContents())
+                                    {
+                                        <!-- Stanza or chapter -->
+                                        <MudContainer  Style="padding: 0 2rem" Text="@(content.Key + ": " + content.Value.Explanation)">
+                                            <ChildContent>
+                                                <a style="font-weight: bold; text-decoration: underline" target="_blank" href="@content.Value.Link">@content.Key:</a>
+                                                <span>@content.Value.Explanation</span>
+                                                @if (!string.IsNullOrEmpty(content.Value.Text))
+                                                {
+                                                    <p style="white-space: pre-line; margin: 1rem 0; background-color: #f8f9fa; border-radius: 1rem; padding: 1.5rem">@content.Value.Text</p>
+                                                }
+                                            </ChildContent>
+                                        </MudContainer>
+                                    }
+                                </NestedList>
+                            </MudListItem>
+                        }
+                    </NestedList>
+                </MudListItem>
+            }
+        </MudList>
+    </MudContainer>
 }
 </div>
 
 @code{
 
-    private MythologyItem selectedItem { get; set; }
+    private MythologyItem selectedItem
+    {
+        get
+        {
+            if (_mythologyItems.Any())
+            {
+                return _mythologyItems[selectedItemName];
+            }
+
+            return null;
+        }
+        set
+        {
+            
+        }
+    }
+
     [Parameter] public string selectedItemName { get; set; }
-    private Dictionary<string, MythologyItem> aesirItems = new();
+    private Dictionary<string, MythologyItem> _mythologyItems = new();
     public bool isLoading = true;
     protected override async Task OnInitializedAsync()
     {
-        //navigationManager.NavigateTo($"/item/{selectedItemName}");
-        aesirItems = await MythologyService.GetAllItemsAsync();
-        selectedItem = aesirItems[selectedItemName];
+        _mythologyItems = await MythologyService.GetAllItemsAsync();
+        selectedItem = _mythologyItems[selectedItemName];
         isLoading = false;
     }
 }
 
 <style>
+    .attestations-container{
+        margin-top: 3rem;
+    }
+    .selected-item-name{
+        padding: 0 1rem;
+        margin-bottom: 1rem;
+    }
+    
     .page-container {
-        max-width: 60rem;
+        max-width: 70rem;
         margin: 0 auto;
         padding: 2rem;
         position: relative;

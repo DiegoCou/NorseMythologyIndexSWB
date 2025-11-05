@@ -1,5 +1,12 @@
-﻿<div class="menu-container"  onclick="document.querySelector('.navbar-toggler').click()">
-    <nav >
+﻿@using BlazorBasic.Pages
+@using MudBlazor
+@using NorseMythologyIndex.Models
+@using NorseMythologyIndex.Services
+@inject NavigationManager NavigationManager
+@inject MythologyService MythologyService
+
+<div class="menu-container"  onclick="document.querySelector('.navbar-toggler').click()">
+    <MudStack Justify="Justify.Center" Row="true">
         <div class="nav-item">
             <NavLink class="nav-link" href="" Match="NavLinkMatch.All">
                 Home
@@ -36,8 +43,43 @@
                 Locations
             </NavLink>
         </div>
-    </nav>
+        <div class="nav-item">
+            <MudAutocomplete  Style="width: 10rem; margin-top: -1rem" Dense="true" T="string" MaxItems="100"
+                              Label="Search" Variant="Variant.Text"
+                              Value="_searchString" ValueChanged="OnValueChanged" SearchFunc="@Search" Clearable="true" >
+            </MudAutocomplete>
+        </div>
+    </MudStack>
 </div>
+
+@code{
+
+    private Dictionary<string, MythologyItem> _mythologyItems = new();
+    private bool _isLoading = true;
+    private string _searchString = string.Empty;
+    
+    protected override async Task OnInitializedAsync()
+    {
+        _mythologyItems = await MythologyService.GetAllItemsAsync();
+        _isLoading = false;
+    }
+    private void OnValueChanged(string value)
+    {
+        _searchString = value;
+        NavigationManager.NavigateTo($"/item/{_searchString}");
+    }
+
+    private async Task<IEnumerable<string>> Search(string value, CancellationToken token)
+    {
+        if (string.IsNullOrEmpty(value))
+        {
+            return _mythologyItems.Keys.Where(x => x.Contains(""));
+        }
+
+        return _mythologyItems.Keys.Where(x => x.Contains(value, StringComparison.CurrentCultureIgnoreCase));
+    }
+
+}
 
 <style>
     .menu-container{
