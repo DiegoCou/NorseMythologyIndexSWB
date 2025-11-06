@@ -1,0 +1,67 @@
+﻿@page "/aboutus"
+
+
+@using System.Reflection.Metadata
+@using MudBlazor
+@using NorseMythologyIndex.Models
+@using NorseMythologyIndex.Services
+@inject MythologyService MythologyService
+@inject Microsoft.AspNetCore.Components.NavigationManager navigationManager
+
+<PageTitle>Æsir</PageTitle>
+<div class="page-container">
+    <MudText>
+        <p style="white-space: pre-line">
+            This website is a personal project made by just one person.
+            
+            It is a work in progress as I improve the website and add new references to the project.
+            
+            I only refer to the Prose Edda and Poetic Edda for my sources. For this, I use the Anthony Faulkes translation of the Prose Edda and the Edward Pettit translation of the Poetic Edda. I prefer these versions because they are regarded as some of the best translations of the sources and are freely available online, allowing me to link directly to the texts for anyone who wants to read the context of each attestation.            
+            
+            When looking for attestation in this website, you can click on the names of the source, the poem/book or the stanza/chapter to go directly to the sources and read the original text. For "The Poetic Edda" you will be able to read the original old norse version of the stanzas by clicking on the number of the stanza once you are in the website hosting the poem.
+            
+            Lastly, if you want to help me improve this website, you can send me feedback about errors or ideas on how to improve the website to the email norsemythologyindex@gmail.com.
+        </p>
+    </MudText>
+</div>
+
+<style>
+    
+    .page-container {
+        max-width: 70rem;
+        margin: 0 auto;
+        padding: 6rem;
+        height: fit-content;
+    }
+
+    h1 {
+        color: #2c3e50;
+        margin-bottom: 2rem;
+        font-size: 2.5rem;
+        text-align: center;
+    }
+    .tables-container{
+        margin:auto;
+        width: fit-content;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 5rem;
+    }
+    .as-table{
+        height: fit-content;
+    }
+    .item {
+        margin: 0;
+        padding: 0;
+        text-decoration: none;
+        color: black;
+    }
+    .loading {
+        text-align: center;
+        padding: 3rem;
+        font-size: 1.2rem;
+        color: #666;
+    }
+</style>
+
+
