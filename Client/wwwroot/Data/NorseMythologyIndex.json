@@ -1552,6 +1552,80 @@
       }
     }
   },
+  "Gungnir": {
+    "tags": ["Object","Weapon"],
+    "attestations": {
+      "Poetic Edda": {
+        "link": "https://books.openbookpublishers.com/10.11647/obp.0308/",
+        "Völuspá (The Seeress's Prophecy)": {
+          "link": "https://books.openbookpublishers.com/10.11647/obp.0308/ch1.xhtml",
+          "Stanza 24": {
+            "explanation": "(note: reference to Odin's spear not specifically Gungnir) Odin casts a projectile over the enemy, probably his spear to begin the first war in the world between the Æsir and the Vanir.",
+            "quote": "‘Óðinn let fly and shot into the army —\nthat was still the first tribe-war in the world;\nbroken was the board-way of the Æsir’s stronghold,\nthe Vanir bestrode the plains with a battle-spell.",
+            "link": "https://books.openbookpublishers.com/10.11647/obp.0308/ch1.xhtml#_idTextAnchor127"
+          }
+        },
+        "Hávamál (The Sayings of Hávi)": {
+          "link": "https://books.openbookpublishers.com/10.11647/obp.0308/ch2.xhtml",
+          "Stanza 138": {
+            "explanation": "(note: reference to Odin's spear not specifically Gungnir) As part of his self-sacrifice for knowledge, Odin describes being \"wounded by a spear\" while hanging from the world-tree.",
+            "quote": "‘I know that I hung on a windy tree\nfor all of nine nights,\nwounded by a spear and given to Óðinn,\nmyself to myself,\non that tree of which no one knows\nthe kind of roots it runs from.",
+            "link": "https://books.openbookpublishers.com/10.11647/obp.0308/ch2.xhtml#_idTextAnchor483"
+          }
+        },
+        "Sigrdrífumál (The Sayings of Sigrdrífa)": {
+          "link": "https://books.openbookpublishers.com/10.11647/obp.0308/ch19.xhtml",
+          "Stanza 17": {
+            "explanation": "Gungnir is mentioned by name as one of the significant items upon which runes are carved.",
+            "quote": "‘on glass and on gold and on men’s amulets,\nin wine and wort and a favoured seat,\non Gungnir’s point and on Grani’s breast,\non a Norn’s nail and on an owl’s nose.",
+            "link": "https://books.openbookpublishers.com/10.11647/obp.0308/ch19.xhtml#_idTextAnchor2163"
+          }
+        },
+        "Helgakviða Hundingsbana ǫnnur (The Second Lay of Helgi Hundingsbani)": {
+          "link": "https://books.openbookpublishers.com/10.11647/obp.0308/ch14.xhtml#_idTextAnchor1695",
+          "Prose before Stanza 30": {
+            "explanation": "(note: reference to Odin's spear not specifically Gungnir) Odin lends his spear to Dagr, who then uses it to kill Helgi Hundingsbani.",
+            "quote": "Helgi married Sigrún and they had sons; Helgi was not old. Dagr, Hǫgni’s son, sacrificed to Óðinn to avenge his father. Óðinn lent Dagr his spear. Dagr found Helgi, his brother-in-law, at the place called Fjǫturlundr. He ran Helgi through with the spear. There Helgi fell.",
+            "link": "https://books.openbookpublishers.com/10.11647/obp.0308/ch14.xhtml#_idTextAnchor1789"
+          }
+        }
+      },
+      "Prose Edda": {
+        "link": "http://vsnrweb-publications.org.uk/SNORRA%20EDDA%20searchable.pdf",
+        "Gylfaginning (The Beguiling of Gylfi)": {
+          "link": "http://vsnrweb-publications.org.uk/SNORRA%20EDDA%20searchable.pdf#page=34&zoom=auto",
+          "Chapter 51 (p. 54)": {
+            "explanation": "As the gods prepare for their final battle, Odin is described leading the charge, armed with his spear.",
+            "quote": "Odin will ride in front with golden helmet and fine coat of mail and his spear called Gungnir.",
+            "link": "http://vsnrweb-publications.org.uk/SNORRA%20EDDA%20searchable.pdf#page=82&zoom=auto"
+          }
+        },
+        "Skáldskaparmál (The Language of Poetry)": {
+          "link": "http://vsnrweb-publications.org.uk/SNORRA%20EDDA%20searchable.pdf#page=87&zoom=auto",
+          "Chapter 2 (p. 69)": {
+            "explanation": "A verse by the poet Kormak mentions Odin taking up his famous spear.",
+            "quote": "Hropt [Odin] took Gungnir.",
+            "link": "http://vsnrweb-publications.org.uk/SNORRA%20EDDA%20searchable.pdf#page=97&zoom=auto"
+          },
+          "Chapter 34-35 (p. 96)": {
+            "explanation": "The creation of Gungnir is detailed as one of the precious gifts made by the dwarves. After Loki cuts off Sif's hair, he commissions the sons of Ivaldi to create treasures for the gods to appease them.",
+            "quote": "After this Loki went to some dwarfs called Ivaldi’s sons, and they made the head of hair and Skidbladnir and the spear belonging to Odin called Gungnir.",
+            "link": "http://vsnrweb-publications.org.uk/SNORRA%20EDDA%20searchable.pdf#page=124&zoom=auto"
+          },
+          "Chapter 35-36 (p. 97)": {
+            "explanation": "When the treasures are presented to the gods for judgment, Loki gives the spear to Odin and explains its magical property.",
+            "quote": "Then Loki gave the spear Gungnir to Odin... and announced the features of all the precious things, that the spear never stopped in its thrust...",
+            "link": "http://vsnrweb-publications.org.uk/SNORRA%20EDDA%20searchable.pdf#page=125&zoom=auto"
+          },
+          "Chapter 39-40 (p. 100)": {
+            "explanation": "In the tale of the Otter's Ransom, after the curse is placed on the treasure, Odin departs with his spear, which is mentioned as one of his key possessions.",
+            "quote": "And when Odin had taken his spear and Loki his shoes and they had no need to have any more fear, then Loki pronounced that it should remain valid...",
+            "link": "http://vsnrweb-publications.org.uk/SNORRA%20EDDA%20searchable.pdf#page=128&zoom=auto"
+          }
+        }
+      }
+    }
+  },
   "Heimdallr": {
     "tags": ["Aesir", "Male"],
     "attestations": {
@@ -4452,6 +4526,61 @@
       }
     }
   },
+  "Skidbladnir (Skíðblaðnir)": {
+    "tags": ["Object","Ship"],
+    "attestations": {
+      "Poetic Edda": {
+        "link": "https://books.openbookpublishers.com/10.11647/obp.0308/",
+        "Grímnismál (The Lay of Grímnir)": {
+          "link": "https://books.openbookpublishers.com/10.11647/obp.0308/ch4.xhtml",
+          "Stanza 43-44": {
+            "explanation": "The poem recounts that the sons of Ívaldi created Skíðblaðnir, the best of ships, for Freyr.",
+            "quote": "43.‘Ívaldi’s sons went in early days\nto build Skíðblaðnir,\nbest of ships, for shining Freyr,\nfor the able son of Njǫrðr.\n\n44.‘The ash of Yggdrasill, it’s the greatest of trees,\nand Skíðblaðnir of ships,\nÓðinn of Æsir, and Sleipnir of steeds,\nBilrǫst of bridges, and Bragi of poets,\nHábrók of hawks, and Garmr of hounds,\nand Brimir of swords.",
+            "link": "https://books.openbookpublishers.com/10.11647/obp.0308/ch4.xhtml#_idTextAnchor743"
+          }
+        }
+      },
+      "Prose Edda": {
+        "link": "http://vsnrweb-publications.org.uk/SNORRA%20EDDA%20searchable.pdf",
+        "Gylfaginning (The Beguiling of Gylfi)": {
+          "link": "http://vsnrweb-publications.org.uk/SNORRA%20EDDA%20searchable.pdf#page=34&zoom=auto",
+          "Chapter 42 (p. 36)": {
+            "explanation": "When discussing the foremost of various things, the Æsir themselves declare Skidbladnir to be the best of ships. And Gangleri asks about the ship.",
+            "quote": "“The ash Yggdrasil, this is the foremost of trees, and Skidbladnir of ships...\"\n[…]\nThen spoke Gangleri: ‘What is there to be told about Skidbladnir if it is the best of ships? Is there no other ship as good as it or as big?’\nHigh said: ‘Skidbladnir is the best ship and constructed with",
+            "link": "http://vsnrweb-publications.org.uk/SNORRA%20EDDA%20searchable.pdf#page=64&zoom=auto"
+          },
+          "Chapter 43 (p. 37)": {
+            "explanation": "High elaborates on Skidbladnir's origins and abilities, confirming it as the best and most ingeniously crafted ship.",
+            "quote": "Skidbladnir is the best ship and constructed with greatest ingenuity... It was certain dwarfs, sons of Ivaldi, that made Skidbladnir and gave Freyr the ship. It is big enough for all the Æsir to be able to go aboard it with weapons and war gear, and it gets a fair wind as soon as the sail is hoisted, wherever it is required to go. And when it is not to be taken to sea, then it is made of so many parts and with such great art that it can be folded up like a cloth and put in one’s pocket.",
+            "link": "http://vsnrweb-publications.org.uk/SNORRA%20EDDA%20searchable.pdf#page=65&zoom=auto"
+          }
+        },
+        "Skáldskaparmál (The Language of Poetry)": {
+          "link": "http://vsnrweb-publications.org.uk/SNORRA%20EDDA%20searchable.pdf#page=87&zoom=auto",
+          "Chapter 5-8 (p. 75)": {
+            "explanation": "When listing kennings for Freyr, the text explicitly states that he is the \"possessor of Skidbladnir\" and includes a verse about its creation by the sons of Ivaldi.",
+            "quote": "He is possessor of Skidbladnir and of the boar known as Gullinbursti, as it says here: Ivaldi’s sons set to work in days of yore to construct Skidbladnir, best of ships, for bright Freyr, bounteous son of Niord.",
+            "link": "http://vsnrweb-publications.org.uk/SNORRA%20EDDA%20searchable.pdf#page=103&zoom=auto"
+          },
+          "Chapter 34-35 (p. 96)": {
+            "explanation": "The creation of Skidbladnir is recounted in the story of Loki's mischief. After cutting Sif's hair, Loki commissions the sons of Ivaldi to create several treasures to appease the gods.",
+            "quote": "After this Loki went to some dwarfs called Ivaldi’s sons, and they made the head of hair and Skidbladnir and the spear belonging to Odin called Gungnir.",
+            "link": "http://vsnrweb-publications.org.uk/SNORRA%20EDDA%20searchable.pdf#page=124&zoom=auto"
+          },
+          "Chapter 35-36 (p. 97)": {
+            "explanation": "When Loki presents the treasures to the gods, he gives the ship to Freyr and lists its magical qualities.",
+            "quote": "Then Loki gave the spear Gungnir to Odin, the head of hair which was to be Sif’s to Thor, and Skidbladnir to Freyr, and announced the features of all the precious things... and Skidbladnir had a fair wind as soon as its sail was hoisted, wherever it was intended to go, and could be folded up like a cloth and put in one’s pocket if desired.",
+            "link": "http://vsnrweb-publications.org.uk/SNORRA%20EDDA%20searchable.pdf#page=125&zoom=auto"
+          },
+          "Chapter 75 (p. 162)": {
+            "explanation": "Skidbladnir is included in a long list of names and terms for ships.",
+            "quote": "Now I shall expound the names of ships. Ark, oar-claw, ash, Sessrumnir, cutter, scout, ship and Skidbladnir, nave, Naglfari, row-boat, snack.",
+            "link": "http://vsnrweb-publications.org.uk/SNORRA%20EDDA%20searchable.pdf#page=190&zoom=auto"
+          }
+        }
+      }
+    }
+  },
   "Skuld": {
     "tags": ["Aesir","Female"],
     "attestations": {
@@ -5627,5 +5756,4 @@
       }
     }
   }
-
 }
