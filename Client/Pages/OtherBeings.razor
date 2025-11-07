@@ -1,15 +1,13 @@
 ﻿
 @page "/otherbeings"
-@using System.Reflection.Metadata
 @using MudBlazor
 @using NorseMythologyIndex.Models
 @using NorseMythologyIndex.Services
 @inject MythologyService MythologyService
-@inject Microsoft.AspNetCore.Components.NavigationManager navigationManager
 
 <PageTitle>Other Beings</PageTitle>
 <div class="page-container">
-    <h1>Other beigns</h1>
+    <h1>Other beings</h1>
 
     @if (isLoading)
     {
@@ -53,9 +51,8 @@
 @code {
     private Dictionary<string, MythologyItem> mythItems = new();
     private bool isLoading = true;
-    private string? selectedItemName;
-    
-    
+
+
     protected override async Task OnInitializedAsync()
     {
         mythItems = await MythologyService.GetItemsByTypeAsync("Other");

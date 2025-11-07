@@ -8,43 +8,51 @@
 <div class="menu-container"  onclick="document.querySelector('.navbar-toggler').click()">
     <MudStack Justify="Justify.Center" Row="true">
         <div class="nav-item">
-            <NavLink class="nav-link" href="" Match="NavLinkMatch.All">
+            <NavLink class="nav-link-menu" href="" Match="NavLinkMatch.All">
                 Home
             </NavLink>
         </div>
-
+        <MudMenu  >
+            <ActivatorContent>
+                <NavLink class="nav-link-menu">
+                    Characters
+                </NavLink>
+            </ActivatorContent>
+            <ChildContent>
+                <MudMenuItem Style="padding: 0;margin:0">
+                    <NavLink class="nav-link" href="aesir">
+                        Æsir
+                    </NavLink>
+                </MudMenuItem>
+                <MudMenuItem Style="padding: 0;margin:0">
+                    <NavLink class="nav-link" href="vanir">
+                        Vanir
+                    </NavLink>
+                </MudMenuItem>
+                <MudMenuItem Style="padding: 0;margin:0">
+                    <NavLink class="nav-link" href="jotunn">
+                        Jötunn
+                    </NavLink>
+                </MudMenuItem>
+                <MudMenuItem Style="padding: 0;margin:0">
+                    <NavLink class="nav-link" href="otherbeings">
+                        Other Beings
+                    </NavLink>
+                </MudMenuItem>
+            </ChildContent>
+        </MudMenu>
         <div class="nav-item ">
-            <NavLink class="nav-link" href="aesir">
-                Æsir
-            </NavLink>
-        </div>
-        <div class="nav-item ">
-            <NavLink class="nav-link" href="vanir">
-                Vanir
-            </NavLink>
-        </div>
-        <div class="nav-item ">
-            <NavLink class="nav-link" href="jotunn">
-                Jötunn
-            </NavLink>
-        </div>
-        <div class="nav-item">
-            <NavLink class="nav-link" href="otherbeings">
-                Other Beings
-            </NavLink>
-        </div>
-        <div class="nav-item ">
-            <NavLink class="nav-link" href="objects">
+            <NavLink class="nav-link-menu" href="objects">
                 Objects
             </NavLink>
         </div>
         <div class="nav-item ">
-            <NavLink class="nav-link" href="locations">
+            <NavLink class="nav-link-menu" href="locations">
                 Locations
             </NavLink>
         </div>
         <div class="nav-item ">
-            <NavLink class="nav-link" href="aboutus">
+            <NavLink class="nav-link-menu" href="aboutus">
                 About Us
             </NavLink>
         </div>
@@ -99,16 +107,29 @@
     }
     .nav-item{
         display: inline-block;
-        margin: auto 0;
+        margin: auto 0.5rem;
     }
     .nav-link{
         color: black;
         text-decoration: none;
         font-size: 1.1rem;
     }
-
+    .mud-menu-item .mud-menu-item-text{
+        margin:0;
+    }
     /* Estilo para el enlace activo */
     .nav-link.active{
+        background-color: #E6E6E6; /* Azul, puedes cambiarlo al color que prefieras */
+    }
+
+    .nav-link-menu{
+        color: black;
+        text-decoration: none;
+        font-size: 1.1rem;
+    }
+
+    /* Estilo para el enlace activo */
+    .nav-link-menu.active{
         background-color: white; /* Azul, puedes cambiarlo al color que prefieras */
         border-radius: 30px;
         border: 1px #E6E6E6 solid;
