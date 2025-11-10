@@ -18,30 +18,34 @@
     }
     else if (aesirItems.Any())
     {
-        <MudText Typo="Typo.h6" >Male</MudText>
-        <MudStack Style="margin-bottom: 2rem" Row="true" Wrap="Wrap.Wrap" Spacing="2">
-            @foreach (var item in aesirItems)
-            {
-                if (item.Value.Tags.Contains("Male"))
+        <MudContainer >
+            <MudText Typo="Typo.h6" >Male</MudText>
+            <MudStack Style="margin-bottom: 2rem" Row="true" Wrap="Wrap.Wrap" Spacing="2">
+                @foreach (var item in aesirItems)
                 {
-                    <tr style="width: 8rem;">
-                        <td ><NavLink class="item" href="@($"/item/{item.Key}")">@item.Key</NavLink></td>
-                    </tr>
+                    if (item.Value.Tags.Contains("Male"))
+                    {
+                        <tr style="width: 8rem;">
+                            <td ><NavLink class="item" href="@($"/item/{item.Key}")">@item.Key</NavLink></td>
+                        </tr>
+                    }
                 }
-            }
-        </MudStack>
-        <MudText Typo="Typo.h6" >Female</MudText>
-        <MudStack Style="margin-bottom: 2rem" Row="true" Wrap="Wrap.Wrap" Spacing="2">
-            @foreach (var item in aesirItems)
-            {
-                if (item.Value.Tags.Contains("Female"))
+            </MudStack>
+        </MudContainer>
+        <MudContainer>
+            <MudText Typo="Typo.h6" >Female</MudText>
+            <MudStack Style="margin-bottom: 2rem" Row="true" Wrap="Wrap.Wrap" Spacing="2">
+                @foreach (var item in aesirItems)
                 {
-                    <tr style="width: 8rem;">
-                        <td ><NavLink class="item" href="@($"/item/{item.Key}")">@item.Key</NavLink></td>
-                    </tr>
+                    if (item.Value.Tags.Contains("Female"))
+                    {
+                        <tr style="width: 8rem;">
+                            <td ><NavLink class="item" href="@($"/item/{item.Key}")">@item.Key</NavLink></td>
+                        </tr>
+                    }
                 }
-            }
-        </MudStack>
+            </MudStack>
+        </MudContainer>
         <!--
         <div class="tables-container" >
             <table class="as-table" >

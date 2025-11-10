@@ -18,17 +18,19 @@
     }
     else if (objectItems.Any())
     {
-        <MudStack Style="margin-bottom: 2rem" Row="true" Wrap="Wrap.Wrap" Spacing="2">
-            @foreach (var item in objectItems)
-            {
-                if (item.Value.Tags.Contains("Object"))
+        <MudContainer>
+            <MudStack Style="margin-bottom: 2rem" Row="true" Wrap="Wrap.Wrap" Spacing="2">
+                @foreach (var item in objectItems)
                 {
-                    <tr style="width: 8rem;">
-                        <td ><NavLink class="item" href="@($"/item/{item.Key}")">@item.Key</NavLink></td>
-                    </tr>
+                    if (item.Value.Tags.Contains("Object"))
+                    {
+                        <tr style="width: 8rem;">
+                            <td ><NavLink class="item" href="@($"/item/{item.Key}")">@item.Key</NavLink></td>
+                        </tr>
+                    }
                 }
-            }
-        </MudStack>
+            </MudStack>
+        </MudContainer>
     }
     else
     {
