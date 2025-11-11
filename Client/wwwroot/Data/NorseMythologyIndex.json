@@ -1591,36 +1591,36 @@
         }
       },
       "Prose Edda": {
-        "link": "http://vsnrweb-publications.org.uk/SNORRA%20EDDA%20searchable.pdf",
+        "link": "/Data/SNORRAEDDAsearchable.pdf",
         "Gylfaginning (The Beguiling of Gylfi)": {
-          "link": "http://vsnrweb-publications.org.uk/SNORRA%20EDDA%20searchable.pdf#page=34&zoom=auto",
+          "link": "/Data/SNORRAEDDAsearchable.pdf#page=34&zoom=auto",
           "Chapter 51 (p. 54)": {
             "explanation": "As the gods prepare for their final battle, Odin is described leading the charge, armed with his spear.",
             "quote": "Odin will ride in front with golden helmet and fine coat of mail and his spear called Gungnir.",
-            "link": "http://vsnrweb-publications.org.uk/SNORRA%20EDDA%20searchable.pdf#page=82&zoom=auto"
+            "link": "/Data/SNORRAEDDAsearchable.pdf#page=82&zoom=auto"
           }
         },
         "Skáldskaparmál (The Language of Poetry)": {
-          "link": "http://vsnrweb-publications.org.uk/SNORRA%20EDDA%20searchable.pdf#page=87&zoom=auto",
+          "link": "/Data/SNORRAEDDAsearchable.pdf#page=87&zoom=auto",
           "Chapter 2 (p. 69)": {
             "explanation": "A verse by the poet Kormak mentions Odin taking up his famous spear.",
             "quote": "Hropt [Odin] took Gungnir.",
-            "link": "http://vsnrweb-publications.org.uk/SNORRA%20EDDA%20searchable.pdf#page=97&zoom=auto"
+            "link": "/Data/SNORRAEDDAsearchable.pdf#page=97&zoom=auto"
           },
           "Chapter 34-35 (p. 96)": {
             "explanation": "The creation of Gungnir is detailed as one of the precious gifts made by the dwarves. After Loki cuts off Sif's hair, he commissions the sons of Ivaldi to create treasures for the gods to appease them.",
             "quote": "After this Loki went to some dwarfs called Ivaldi’s sons, and they made the head of hair and Skidbladnir and the spear belonging to Odin called Gungnir.",
-            "link": "http://vsnrweb-publications.org.uk/SNORRA%20EDDA%20searchable.pdf#page=124&zoom=auto"
+            "link": "/Data/SNORRAEDDAsearchable.pdf#page=124&zoom=auto"
           },
           "Chapter 35-36 (p. 97)": {
             "explanation": "When the treasures are presented to the gods for judgment, Loki gives the spear to Odin and explains its magical property.",
             "quote": "Then Loki gave the spear Gungnir to Odin... and announced the features of all the precious things, that the spear never stopped in its thrust...",
-            "link": "http://vsnrweb-publications.org.uk/SNORRA%20EDDA%20searchable.pdf#page=125&zoom=auto"
+            "link": "/Data/SNORRAEDDAsearchable.pdf#page=125&zoom=auto"
           },
           "Chapter 39-40 (p. 100)": {
             "explanation": "In the tale of the Otter's Ransom, after the curse is placed on the treasure, Odin departs with his spear, which is mentioned as one of his key possessions.",
             "quote": "And when Odin had taken his spear and Loki his shoes and they had no need to have any more fear, then Loki pronounced that it should remain valid...",
-            "link": "http://vsnrweb-publications.org.uk/SNORRA%20EDDA%20searchable.pdf#page=128&zoom=auto"
+            "link": "/Data/SNORRAEDDAsearchable.pdf#page=128&zoom=auto"
           }
         }
       }
@@ -1787,7 +1787,7 @@
         "Fáfnismál (The Sayings/Lay of Fáfnir)": {
           "link": "https://books.openbookpublishers.com/10.11647/obp.0308/ch18.xhtml#_idTextAnchor2001",
           "Stanza 21": {
-            "explanation": "the hero Sigurd stands before the mortally wounded body of the dragon Fáfnir, and states that Fáfnir lies in life-spasms and “Hel may have you”.",
+            "explanation": "The hero Sigurd stands before the mortally wounded body of the dragon Fáfnir, and states that Fáfnir lies in life-spasms and “Hel may have you”.",
             "quote": "‘Advice has been advised by you, but I shall ride to the gold\nwhich lies in the ling;\nbut you, Fáfnir, lie in life-spasms,\nthere where Hel may have you!’",
             "link": "https://books.openbookpublishers.com/10.11647/obp.0308/ch18.xhtml#_idTextAnchor2075"
           }
@@ -1804,7 +1804,7 @@
           "link": "https://books.openbookpublishers.com/10.11647/obp.0308/ch33.xhtml#_idTextAnchor3296",
           "Stanza 3": {
             "explanation": "Óðinn rides to the “high hall of Hel”.",
-            "quote": "It was bloody across the front of its breast,9\nand it bayed long at the father of incantation;10\nforward rode Óðinn, the earth-way resounded,\nhe came to the high hall of Hel.",
+            "quote": "It was bloody across the front of its breast,\nand it bayed long at the father of incantation;\nforward rode Óðinn, the earth-way resounded,\nhe came to the high hall of Hel.",
             "link": "https://books.openbookpublishers.com/10.11647/obp.0308/ch33.xhtml#_idTextAnchor3318"
           }
         }
@@ -2413,6 +2413,74 @@
             "explanation": "The text reiterates that the mead in the cauldron Odrerir was originally Kvasir's blood.",
             "quote": "Poetry is called sea or liquid of the dwarfs, because the liquid in Odrerir was Kvasir’s blood before the mead was made...",
             "link": "/Data/SNORRAEDDAsearchable.pdf#page=100"
+          }
+        }
+      }
+    }
+  },
+  "Laufey": {
+    "tags": ["Aesir","Female"],
+    "attestations": {
+      "Poetic Edda": {
+        "link": "https://books.openbookpublishers.com/10.11647/obp.0308/",
+        "Þrymskviða (The Lay of Thrym)": {
+          "link": "https://books.openbookpublishers.com/10.11647/obp.0308/ch9.xhtml",
+          "Stanza 18": {
+            "explanation": "Loki, identified as Laufey's son, rebukes Þórr for his hesitation to dress as a woman.",
+            "quote": "Then Loki, Laufey’s son, said this:\n‘Be silent, Þórr, [enough] of those words!\nAt once will the giants occupy Ásgarðr,\nunless you bring home your hammer!’",
+            "link": "https://books.openbookpublishers.com/10.11647/obp.0308/ch9.xhtml#_idTextAnchor1280"
+          },
+          "Stanza 20": {
+            "explanation": "Identified again as Laufey's son, Loki offers to act as Þórr's bridesmaid.",
+            "quote": "Then Loki, Laufey’s son, said:\n‘I shall also be with you as bridesmaid,\nwe two shall drive into Jǫtunheimar!’",
+            "link": "https://books.openbookpublishers.com/10.11647/obp.0308/ch9.xhtml#_idTextAnchor1282"
+          }
+        },
+        "Lokasenna (Loki's Flyting)": {
+          "link": "https://books.openbookpublishers.com/10.11647/obp.0308/ch8.xhtml",
+          "Stanza 52": {
+            "explanation": "Loki, calling himself Laufey's son, reminds Sif of their past affair.",
+            "quote": "‘You were lighter in speech to Laufey’s son\nwhen you had me bidden to your bed;\nsuch a matter must be mentioned by us,\nif we’re fully to count our faults!’",
+            "link": "https://books.openbookpublishers.com/10.11647/obp.0308/ch8.xhtml#_idTextAnchor1204"
+          }
+        }
+      },
+      "Prose Edda": {
+        "link": "/Data/SNORRAEDDAsearchable.pdf",
+        "Gylfaginning (The Beguiling of Gylfi)": {
+          "link": "/Data/SNORRAEDDAsearchable.pdf#page=34&zoom=auto",
+          "Chapter 34 (p. 26)": {
+            "explanation": "When introducing Loki, his parentage is detailed, naming both his father and mother.",
+            "quote": "His name is Loki or Lopt, son of the giant Farbauti. Laufey or Nal is his mother.",
+            "link": "/Data/SNORRAEDDAsearchable.pdf#page=54&zoom=auto"
+          },
+          "Chapter 42 (p. 35)": {
+            "explanation": "After the gods realize they have been tricked by the giant builder, they identify Loki Laufeyiarson (son of Laufey) as the one responsible for the poor advice.",
+            "quote": "And there was agreement among them all that he must have been responsible for this decision who is responsible for most evil, Loki Laufeyiarson, and declared he would deserve an evil death if he did not find a scheme whereby the builder would forfeit his payment, and they offered to attack Loki.",
+            "link": "/Data/SNORRAEDDAsearchable.pdf#page=63&zoom=auto"
+          },
+          "Chapter 49 (p. 48)": {
+            "explanation": "When Baldr is killed, Loki Laufeyiarson is identified as the one who is displeased by Baldr's invulnerability, setting the tragedy in motion.",
+            "quote": "But when Loki Laufeyiarson saw this he was not pleased that Baldr was unharmed.",
+            "link": "/Data/SNORRAEDDAsearchable.pdf#page=76&zoom=auto"
+          },
+          "Chapter 49-50 (p. 51)": {
+            "explanation": "After the giantess Þökk (Loki in disguise) refuses to weep for Baldr, preventing his return from Hel, the text presumes this evil act was the work of Laufey's son.",
+            "quote": "‘It is presumed that this was Loki Laufeyiarson, who has done most evil among the Æsir.’",
+            "link": "/Data/SNORRAEDDAsearchable.pdf#page=79&zoom=auto"
+          }
+        },
+        "Skáldskaparmál (The Language of Poetry)": {
+          "link": "/Data/SNORRAEDDAsearchable.pdf#page=87&zoom=auto",
+          "Chapter 16 (p. 76)": {
+            "explanation": "In a list of kennings for Loki, he is identified as the \"son of Farbauti and Laufey.\"",
+            "quote": "How shall Loki be referred to? By calling him son of Farbauti and Laufey, of Nal...",
+            "link": "/Data/SNORRAEDDAsearchable.pdf#page=104&zoom=auto"
+          },
+          "Chapter 35 (p. 96)": {
+            "explanation": "The story of the creation of Sif's golden hair begins by naming Loki by his matronymic, Loki Laufeyiarson.",
+            "quote": "Why is gold called Sif’s hair? Loki Laufeyiarson had done this for love of mischief: he had cut off all Sif’s hair.",
+            "link": "/Data/SNORRAEDDAsearchable.pdf#page=124&zoom=auto"
           }
         }
       }
@@ -4452,7 +4520,7 @@
           "link": "https://books.openbookpublishers.com/10.11647/obp.0308/ch5.xhtml#_idTextAnchor760",
           "Stanza 1": {
             "explanation": "Skaði speaks, noticing Freyr's unhappiness.",
-            "quote": "Then Skaði said:\n1. ‘Arise now, Skírnir, and go urge10\nour boy to speak,\nand ask him this: with whom the virile youth\nis so very angry!’",
+            "quote": "Then Skaði said:\n1. ‘Arise now, Skírnir, and go urge\nour boy to speak,\nand ask him this: with whom the virile youth\nis so very angry!’",
             "link": "https://books.openbookpublishers.com/10.11647/obp.0308/ch5.xhtml#_idTextAnchor812"
           }
         },
@@ -4541,41 +4609,41 @@
         }
       },
       "Prose Edda": {
-        "link": "http://vsnrweb-publications.org.uk/SNORRA%20EDDA%20searchable.pdf",
+        "link": "/Data/SNORRAEDDAsearchable.pdf",
         "Gylfaginning (The Beguiling of Gylfi)": {
-          "link": "http://vsnrweb-publications.org.uk/SNORRA%20EDDA%20searchable.pdf#page=34&zoom=auto",
+          "link": "/Data/SNORRAEDDAsearchable.pdf#page=34&zoom=auto",
           "Chapter 42 (p. 36)": {
             "explanation": "When discussing the foremost of various things, the Æsir themselves declare Skidbladnir to be the best of ships. And Gangleri asks about the ship.",
             "quote": "“The ash Yggdrasil, this is the foremost of trees, and Skidbladnir of ships...\"\n[…]\nThen spoke Gangleri: ‘What is there to be told about Skidbladnir if it is the best of ships? Is there no other ship as good as it or as big?’\nHigh said: ‘Skidbladnir is the best ship and constructed with",
-            "link": "http://vsnrweb-publications.org.uk/SNORRA%20EDDA%20searchable.pdf#page=64&zoom=auto"
+            "link": "/Data/SNORRAEDDAsearchable.pdf#page=64&zoom=auto"
           },
           "Chapter 43 (p. 37)": {
             "explanation": "High elaborates on Skidbladnir's origins and abilities, confirming it as the best and most ingeniously crafted ship.",
             "quote": "Skidbladnir is the best ship and constructed with greatest ingenuity... It was certain dwarfs, sons of Ivaldi, that made Skidbladnir and gave Freyr the ship. It is big enough for all the Æsir to be able to go aboard it with weapons and war gear, and it gets a fair wind as soon as the sail is hoisted, wherever it is required to go. And when it is not to be taken to sea, then it is made of so many parts and with such great art that it can be folded up like a cloth and put in one’s pocket.",
-            "link": "http://vsnrweb-publications.org.uk/SNORRA%20EDDA%20searchable.pdf#page=65&zoom=auto"
+            "link": "/Data/SNORRAEDDAsearchable.pdf#page=65&zoom=auto"
           }
         },
         "Skáldskaparmál (The Language of Poetry)": {
-          "link": "http://vsnrweb-publications.org.uk/SNORRA%20EDDA%20searchable.pdf#page=87&zoom=auto",
+          "link": "/Data/SNORRAEDDAsearchable.pdf#page=87&zoom=auto",
           "Chapter 5-8 (p. 75)": {
             "explanation": "When listing kennings for Freyr, the text explicitly states that he is the \"possessor of Skidbladnir\" and includes a verse about its creation by the sons of Ivaldi.",
             "quote": "He is possessor of Skidbladnir and of the boar known as Gullinbursti, as it says here: Ivaldi’s sons set to work in days of yore to construct Skidbladnir, best of ships, for bright Freyr, bounteous son of Niord.",
-            "link": "http://vsnrweb-publications.org.uk/SNORRA%20EDDA%20searchable.pdf#page=103&zoom=auto"
+            "link": "/Data/SNORRAEDDAsearchable.pdf#page=103&zoom=auto"
           },
           "Chapter 34-35 (p. 96)": {
             "explanation": "The creation of Skidbladnir is recounted in the story of Loki's mischief. After cutting Sif's hair, Loki commissions the sons of Ivaldi to create several treasures to appease the gods.",
             "quote": "After this Loki went to some dwarfs called Ivaldi’s sons, and they made the head of hair and Skidbladnir and the spear belonging to Odin called Gungnir.",
-            "link": "http://vsnrweb-publications.org.uk/SNORRA%20EDDA%20searchable.pdf#page=124&zoom=auto"
+            "link": "/Data/SNORRAEDDAsearchable.pdf#page=124&zoom=auto"
           },
           "Chapter 35-36 (p. 97)": {
             "explanation": "When Loki presents the treasures to the gods, he gives the ship to Freyr and lists its magical qualities.",
             "quote": "Then Loki gave the spear Gungnir to Odin, the head of hair which was to be Sif’s to Thor, and Skidbladnir to Freyr, and announced the features of all the precious things... and Skidbladnir had a fair wind as soon as its sail was hoisted, wherever it was intended to go, and could be folded up like a cloth and put in one’s pocket if desired.",
-            "link": "http://vsnrweb-publications.org.uk/SNORRA%20EDDA%20searchable.pdf#page=125&zoom=auto"
+            "link": "/Data/SNORRAEDDAsearchable.pdf#page=125&zoom=auto"
           },
           "Chapter 75 (p. 162)": {
             "explanation": "Skidbladnir is included in a long list of names and terms for ships.",
             "quote": "Now I shall expound the names of ships. Ark, oar-claw, ash, Sessrumnir, cutter, scout, ship and Skidbladnir, nave, Naglfari, row-boat, snack.",
-            "link": "http://vsnrweb-publications.org.uk/SNORRA%20EDDA%20searchable.pdf#page=190&zoom=auto"
+            "link": "/Data/SNORRAEDDAsearchable.pdf#page=190&zoom=auto"
           }
         }
       }
@@ -4823,6 +4891,105 @@
             "explanation": "Another verse from *Þórsdrápa* mentions Thialfi accompanying Thor as one of the \"pool-riders\" [river-crossers].",
             "quote": "And then the allied sword’s help haters waged shield’s hard-fetter-[strap-]board’s [shield’s] din [battle] against slope-Hords [giants], before the pool-riders [river-crossers, Thor and Thialfi]...",
             "link": "/Data/SNORRAEDDAsearchable.pdf#page=112"
+          }
+        }
+      }
+    }
+  },
+  "Thiazi (Þjazi)": {
+    "tags": ["Jötunn", "Male"],
+    "attestations": {
+      "Poetic Edda": {
+        "link": "https://books.openbookpublishers.com/10.11647/obp.0308/",
+        "Grímnismál (The Lay of Grímnir)": {
+          "link": "https://books.openbookpublishers.com/10.11647/obp.0308/ch4.xhtml",
+          "Stanza 11": {
+            "explanation": "Þjazi is named as the previous owner of the hall Þrymheimr, which now belongs to his daughter, Skaði.",
+            "quote": "‘Þrymheimr is the name of the sixth, where Þjazi lived,\nthat almighty giant;\nbut now Skaði, the gods’ shining bride, inhabits\nthe ancient sites of her father.",
+            "link": "https://books.openbookpublishers.com/10.11647/obp.0308/ch4.xhtml#_idTextAnchor707"
+          }
+        },
+        "Hárbarðsljóð (The Song of Hárbarðr)": {
+          "link": "https://books.openbookpublishers.com/10.11647/obp.0308/ch6.xhtml",
+          "Stanza 19": {
+            "explanation": "In his flyting with Hárbarðr (Odin), Þórr boasts that he was the one who killed Þjazi and threw his eyes into the sky to become stars.",
+            "quote": "‘I slew Þjazi, the strong-minded giant,\nI threw the eyes of Allvaldi’s son up\ninto the shining sky;\nthey are the greatest signs of my deeds,\nthose which all people since may see!",
+            "link": "https://books.openbookpublishers.com/10.11647/obp.0308/ch6.xhtml#_idTextAnchor945"
+          }
+        },
+        "Lokasenna (Loki's Flyting)": {
+          "link": "https://books.openbookpublishers.com/10.11647/obp.0308/ch8.xhtml",
+          "Stanzas 50-51": {
+            "explanation": "During his verbal assault, Loki boasts to Skaði that he was \"first and last\" at the killing of her father, Þjazi. Skaði retorts, cursing him from her sanctuaries.",
+            "quote": "Loki said:\n50.‘Know [this], if the gods shall bind me on a cliff-edge\nwith the guts of my frost-cold son;\nI was first and last at the life-loss,\nwhen we laid hands on Þjazi!’\n\nSkaði said:\n51.‘Know this, if first and last you were at the life-loss,\nwhen you laid hands on Þjazi;\nfrom my sanctuaries and fields\ncold counsels shall always come to you!’",
+            "link": "https://books.openbookpublishers.com/10.11647/obp.0308/ch8.xhtml#_idTextAnchor1202"
+          }
+        },
+        "Hyndluljóð (The Song of Hyndla)": {
+          "link": "https://books.openbookpublishers.com/10.11647/obp.0308/ch35.xhtml#_idTextAnchor3440",
+          "Stanza 30": {
+            "explanation": "While recounting genealogies, the giantess Hyndla identifies Skaði as the daughter of the giant Þjazi.",
+            "quote": "‘Baldr’s father was Burr’s heir;\nFreyr married Gerðr, she was Gymir’s daughter,\nof the kindred of giants, and of Aurboða;\nÞjazi was yet their kinsman,\nthe covering(?)-eager giant — his daughter was Skaði.",
+            "link": "https://books.openbookpublishers.com/10.11647/obp.0308/ch35.xhtml#_idTextAnchor3530"
+          }
+        }
+      },
+      "Prose Edda": {
+        "link": "/Data/SNORRAEDDAsearchable.pdf",
+        "Gylfaginning (The Beguiling of Gylfi)": {
+          "link": "/Data/SNORRAEDDAsearchable.pdf#page=34&zoom=auto",
+          "Chapter 21-23 (p. 23)": {
+            "explanation": "When introducing the goddess Skadi, her parentage is established, naming Þjazi as her father.",
+            "quote": "‘Niord has a wife called Skadi, daughter of the giant Thiassi.",
+            "link": "/Data/SNORRAEDDAsearchable.pdf#page=51&zoom=auto"
+          },
+          "Chapter 23-25 (p. 24)": {
+            "explanation": "The text describes Skadi's desire to live in her father's former home, Thrymheim, and identifies Þjazi as its original dweller.",
+            "quote": "It is called Thrymheim where Thiassi dwelt, that most mighty giant, but now Skadi, bright bride of gods, inhabits her father’s old abode.",
+            "link": "/Data/SNORRAEDDAsearchable.pdf#page=52&zoom=auto"
+          }
+        },
+        "Skáldskaparmál (The Language of Poetry)": {
+          "link": "/Data/SNORRAEDDAsearchable.pdf#page=87&zoom=auto",
+          "Chapter 56 (p. 59-60)": {
+            "explanation": "The main story begins here. Bragi recounts to Ægir how Odin, Loki, and Hænir are on a journey. An eagle (Þjazi in disguise) prevents their ox from cooking and demands a share. When Loki strikes the eagle, he becomes stuck to it and is flown away. To be freed, Loki must promise to lure Idunn out of Asgard.",
+            "quote": "Then giant Thiassi arrived in eagle shape and snatched Idunn and flew away with her to his home in Thrymheim.\n[...]\nThen the eagle’s feathers caught fire and his flight was ended. Then the Æsir were close by and killed giant Thiassi within the As-gates, and this killing is greatly renowned.",
+            "link": "/Data/SNORRAEDDAsearchable.pdf#page=88&zoom=auto"
+          },
+          "Chapter 56-57 (p. 61)": {
+            "explanation": "Þjazi's daughter, Skadi, arrives in Asgard to avenge him. As part of the settlement, Odin takes Þjazi's eyes and turns them into stars. Then Bragi explains that Þjazi was one of three sons of the giant Ölvaldi.",
+            "quote": "It is said that Odin, as compensation for her, did this: he took Thiassi’s eyes and threw them up into the sky and out of them made two stars.\n\nThen spoke Ægir: ‘Thiassi seems to me to have been very powerful, what was his origin?’\n[...]\nOne of them was Thiassi, the second Idi, the third Gang.",
+            "link": "/Data/SNORRAEDDAsearchable.pdf#page=89&zoom=auto"
+          },
+          "Chapter 21-23 (p. 86)": {
+            "explanation": "When explaining kennings for Idunn, she is referred to as \"giant Thiassi’s booty.\" The text then introduces a lengthy quotation from the poem *Haustlöng* by Thiodolf of Hvinir, which retells the story of the abduction.",
+            "quote": "How shall Idunn be referred to? By calling her wife of Bragi and\nkeeper of the apples, and the apples the Æsir’s old-age cure. She is\nalso giant Thiassi’s booty in accordance with the story told above\nabout his abducting her from the Æsir.",
+            "link": "/Data/SNORRAEDDAsearchable.pdf#page=114&zoom=auto"
+          },
+          "Chapter 22 (p. 87)": {
+            "explanation": "Within the *Haustlöng* excerpt, Loki is described getting stuck to Þjazi.",
+            "quote": "Then the burden of Sigyn’s arms [Loki]... got stuck to the ski-deity’s [Skadi’s] fosterer [father, Thiassi].",
+            "link": "/Data/SNORRAEDDAsearchable.pdf#page=115&zoom=auto"
+          },
+          "Chapter 43 (p. 108)": {
+            "explanation": "Within the poem *Grottasong*, which is quoted in its entirety, the giantesses Fenia and Menia are grinding the mill and recount their lineage and deeds. They claim kinship with Þjazi.",
+            "quote": "‘Hard was Hrungnir, and his father, yet Thiassi was mightier than they, Idi and Aurnir, our kinsmen, brothers of mountain-giants, from them are we descended.",
+            "link": "/Data/SNORRAEDDAsearchable.pdf#page=135&zoom=auto"
+          },
+          "Chapter 45-6 (p. 113)": {
+            "explanation": "In a list of kennings for gold, \"Thiassi's assembly-agenda [talk]\" is mentioned, referencing the story of his father Ölvaldi's inheritance where gold was measured by the mouthful.",
+            "quote": "The battle-giver gladdened — we advanced beautifully adorned — with Thiassi’s assembly-agenda [talk] the multitudinous hosts, with the Rhine’s red metal, Niflungs’ strife, the battle-bold ruler. The silent Baldr defended him.",
+            "link": "/Data/SNORRAEDDAsearchable.pdf#page=141&zoom=auto"
+          },
+          "Chapter 60-61 (p. 139)": {
+            "explanation": "A verse by Thiodolf refers to Þjazi as \"the lady-wolf\" in his eagle form.",
+            "quote": "The lady-wolf [Thiassi] flew noisily to meet the commanders of the crew [the Æsir] no short time ago in an old old-one’s form.",
+            "link": "/Data/SNORRAEDDAsearchable.pdf#page=167&zoom=auto"
+          },
+          "Chapter 73-75 (p. 155)": {
+            "explanation": "Þjazi is included in a comprehensive list of names for giants.",
+            "quote": "I shall tell the names of giants. Ymir, Gang and Mimir, Idi and Thiassi, Hrungnir, Hrimnir...",
+            "link": "/Data/SNORRAEDDAsearchable.pdf#page=183&zoom=auto"
           }
         }
       }
