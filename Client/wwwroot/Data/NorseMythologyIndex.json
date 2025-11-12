@@ -603,6 +603,66 @@
       }
     }
   },
+  "Draupnir": {
+    "tags": ["Object"],
+    "attestations": {
+      "Poetic Edda": {
+        "link": "https://books.openbookpublishers.com/10.11647/obp.0308/",
+        "Fǫr Skírnis (Skírnir's Journey)": {
+          "link": "https://books.openbookpublishers.com/10.11647/obp.0308/ch5.xhtml",
+          "Stanza 21-22": {
+            "explanation": "The ring is referenced while Skirnir tries to convince Gerdr to marry Freyr. She then refuses the ring.",
+            "quote": "Skírnir said:\n21. ‘Then I give you a ring, the one which was burnt\nwith Óðinn’s young son;\neight are the equally heavy ones that drip from it\nevery ninth night!’\n\nGerðr said:\n22. ‘I refuse the ring, even if it was burnt\nwith Óðinn’s young son;\nfor me there is no want of gold in Gymir’s courts,\nto share my father’s wealth!’",
+            "link": "https://books.openbookpublishers.com/10.11647/obp.0308/ch5.xhtml#_idTextAnchor833"
+          }
+        }
+      },
+      "Prose Edda": {
+        "link": "http://vsnrweb-publications.org.uk/SNORRA%20EDDA%20searchable.pdf",
+        "Gylfaginning (The Beguiling of Gylfi)": {
+          "link": "http://vsnrweb-publications.org.uk/SNORRA%20EDDA%20searchable.pdf#page=34&zoom=auto",
+          "Chapter 49 (p. 50)": {
+            "explanation": "During the grand funeral of his son Baldr, Odin places the ring on the pyre. Its magical property is then described. Later, when Hermod journeys to Hel to bargain for Baldr's return, the deceased god sends the ring back to Odin as a keepsake.",
+            "quote": "Odin laid on the pyre a gold arm-ring called Draupnir. It afterwards had the property that every ninth night there dripped from it eight gold rings of the same weight.\n[…]\n‘Then Hermod got up and Baldr went with him out of the hall and took the ring Draupnir and sent it to Odin as a keepsake...",
+            "link": "http://vsnrweb-publications.org.uk/SNORRA%20EDDA%20searchable.pdf#page=78&zoom=auto"
+          }
+        },
+        "Skáldskaparmál (The Language of Poetry)": {
+          "link": "http://vsnrweb-publications.org.uk/SNORRA%20EDDA%20searchable.pdf#page=87&zoom=auto",
+          "Chapter 4-5 (p. 74)": {
+            "explanation": "While listing the proper kennings (poetic names) for Baldr, the text notes he can be referred to as the \"owner of... Draupnir.\"",
+            "quote": "How shall Baldr be referred to? By calling him son of Odin and Frigg... owner of Hringhorni and Draupnir...",
+            "link": "http://vsnrweb-publications.org.uk/SNORRA%20EDDA%20searchable.pdf#page=102&zoom=auto"
+          },
+          "Chapter 23 (p. 89)": {
+            "explanation": "In a verse by the skald Orm Barreyiarskald, a lady is referred to by a kenning as the \"goddess of Draupnir’s band,\" linking her to the distribution of gold rings.",
+            "quote": "However mighty, goddess of Draupnir’s band [lady], I learn the lord is...",
+            "link": "http://vsnrweb-publications.org.uk/SNORRA%20EDDA%20searchable.pdf#page=117&zoom=auto"
+          },
+          "Chapter 32 (p. 94-95)": {
+            "explanation": "In a list of kennings for gold, its poetic descriptions include references to the ring's dripping nature.",
+            "quote": "How shall gold be referred to? By calling it Ægir’s fire and Glasir’s foliage, Sif’s hair, Fulla’s snood, Freyia’s weeping, mouth count and voice and words of giants, dripping from Draupnir and rain or shower from Draupnir or from Freyia’s eyes, otter payment, Æsir’s forced payment, seed of Fyri plains, Holgi’smound-roof, fire of all kinds of waters and of the arm, stones and rocks or gleam of the arm.",
+            "link": "http://vsnrweb-publications.org.uk/SNORRA%20EDDA%20searchable.pdf#page=122&zoom=auto"
+          },
+          "Chapter 34-35 (p. 96)": {
+            "explanation": "In the story of the creation of the gods' treasures, the dwarf Eitri forges Draupnir as part of a wager with Loki.",
+            "quote": "And then the smith took from the forge a gold ring called Draupnir.",
+            "link": "http://vsnrweb-publications.org.uk/SNORRA%20EDDA%20searchable.pdf#page=124&zoom=auto"
+          },
+          "Chapter 35-36 (p. 97)": {
+            "explanation": "When the dwarf Brokk presents the treasures to the gods, he gives the ring to Odin and explains its power.",
+            "quote": "He gave the ring to Odin and said that every ninth night there would drip from it eight rings equal to it in weight.",
+            "link": "http://vsnrweb-publications.org.uk/SNORRA%20EDDA%20searchable.pdf#page=125&zoom=auto"
+          },
+          "Chapter 45-46 (p. 113)": {
+            "explanation": "A quote from the old *Lay of Biarki* lists \"Draupnir’s precious sweat\" as a kenning for gold.",
+            "quote": "The most munificent prince enriched his men with... Draupnir’s precious sweat...",
+            "link": "http://vsnrweb-publications.org.uk/SNORRA%20EDDA%20searchable.pdf#page=141&zoom=auto"
+          }
+        }
+      }
+    }
+  },
   "Eir": {
     "tags": ["Aesir", "Female"],
     "attestations": {
@@ -1528,6 +1588,51 @@
       }
     }
   },
+  "Gleipnir": {
+    "tags": ["Object"],
+    "attestations": {
+      "Poetic Edda": {
+        "link": "https://books.openbookpublishers.com/10.11647/obp.0308/",
+        "Völuspá (The Seeress's Prophecy)": {
+          "link": "https://books.openbookpublishers.com/10.11647/obp.0308/ch1.xhtml",
+          "Stanza 43": {
+            "explanation": "As Ragnarök approaches, the fetter that binds the ravener which might be Fenrir or Garmr is foretold to break.",
+            "quote": "‘Garmr howls loudly before Gnipahellir,\nthe fetter will break and the ravener run free;\nshe knows much lore, I see further ahead,\nabout the great doom of the powers, of the victory-gods.",
+            "link": "https://books.openbookpublishers.com/10.11647/obp.0308/ch1.xhtml#_idTextAnchor148"
+          },
+          "Stanza 47": {
+            "explanation": "This stanza is a refrain, repeating the prophecy of the fetter breaking and the ravener (Fenrir or Garmr) running free.",
+            "quote": "‘Now Garmr howls loudly before Gnipahellir,\nthe fetter will break and the ravener run free;\nshe knows much lore, I see further ahead,\nabout the great doom of the powers, of the victory-gods.",
+            "link": "https://books.openbookpublishers.com/10.11647/obp.0308/ch1.xhtml#_idTextAnchor152"
+          }
+        },
+        "Lokasenna (Loki's Flyting)": {
+          "link": "https://books.openbookpublishers.com/10.11647/obp.0308/ch8.xhtml",
+          "Stanza 39": {
+            "explanation": "Týr retorts, reminding Loki that his son Fenrir (Hróðrsvitnir) is also suffering, as he must wait \"in bonds\" until Ragnarök.",
+            "quote": "‘I’m wanting a hand, and you [are wanting] Hróðrsvitnir,\nthe affliction is intense pain for us both;\nthings don’t go well for the wolf, either, who must wait\nin bonds for the darkness of the powers!’",
+            "link": "https://books.openbookpublishers.com/10.11647/obp.0308/ch8.xhtml#_idTextAnchor1191"
+          }
+        }
+      },
+      "Prose Edda": {
+        "link": "http://vsnrweb-publications.org.uk/SNORRA%20EDDA%20searchable.pdf",
+        "Gylfaginning (The Beguiling of Gylfi)": {
+          "link": "http://vsnrweb-publications.org.uk/SNORRA%20EDDA%20searchable.pdf#page=34&zoom=auto",
+          "Chapter 25-27 (p. 25)": {
+            "explanation": "While describing the god Tyr, his bravery is proven by his willingness to sacrifice his hand as a pledge to Fenrir.",
+            "quote": "It is one proof of his bravery that when the Æsir were luring Fenriswolf so as to get the fetter Gleipnir on him, he did not trust them that they would let him go until they placed Tyr’s hand in the wolf’s mouth as a pledge.",
+            "link": "http://vsnrweb-publications.org.uk/SNORRA%20EDDA%20searchable.pdf#page=53&zoom=auto"
+          },
+          "Chapter 34 (p. 28)": {
+            "explanation": "This chapter contains the main story of Fenrir's binding. After the wolf easily breaks the first two fetters, Leyding and Dromi, the gods despair. All-father then sends a messenger to the dwarves to create a unique, magical bond.",
+            "quote": "Then All-father sent some one called Skirnir, Freyr’s messenger, down into the world of black-elves to some dwarfs and had a fetter called Gleipnir made. It was made of six ingredients: the sound of the cat’s footfall and the woman’s beard, the mountain’s roots and the bear’s sinews and the fish’s breath and bird’s spittle.",
+            "link": "http://vsnrweb-publications.org.uk/SNORRA%20EDDA%20searchable.pdf#page=56&zoom=auto"
+          }
+        }
+      }
+    }
+  },
   "Gna": {
     "tags": ["Aesir", "Female"],
     "attestations": {
@@ -1547,6 +1652,40 @@
             "explanation": "Gna’s name is given in a list of Asyniur.",
             "quote": "Now shall all the Asyniur be named. Frigg and Freyia, Fulla and Snotra, Gerd and Gefiun, Gna, Lofn, Skadi, Iord and Idunn, Ilm, Bil, Niorun.",
             "link": "/Data/SNORRAEDDAsearchable.pdf#page=185"
+          }
+        }
+      }
+    }
+  },
+  "Gullinbursti": {
+    "tags": ["Object", "Creature", "Other"],
+    "attestations": {
+      "Prose Edda": {
+        "link": "http://vsnrweb-publications.org.uk/SNORRA%20EDDA%20searchable.pdf",
+        "Gylfaginning (The Beguiling of Gylfi)": {
+          "link": "http://vsnrweb-publications.org.uk/SNORRA%20EDDA%20searchable.pdf#page=34&zoom=auto",
+          "Chapter 49 (p. 50)": {
+            "explanation": "During the funeral of Baldr, the various gods are described arriving, including Freyr with his magnificent boar. The text also provides its alternate name, Slidrugtanni.",
+            "quote": "...while Freyr drove in a chariot with a boar called Gullinbursti or Slidrugtanni.",
+            "link": "http://vsnrweb-publications.org.uk/SNORRA%20EDDA%20searchable.pdf#page=78&zoom=auto"
+          }
+        },
+        "Skáldskaparmál (The Language of Poetry)": {
+          "link": "http://vsnrweb-publications.org.uk/SNORRA%20EDDA%20searchable.pdf#page=87&zoom=auto",
+          "Chapter 5-8 (p. 75)": {
+            "explanation": "While listing the proper kennings (poetic names) for Freyr, the text states that he is the \"possessor of... the boar known as Gullinbursti.\" It also mentions its other name, Slidrugtanni, and includes a verse depicting Freyr riding the \"golden-bristled boar\" to Baldr's pyre.",
+            "quote": "He is possessor of Skidbladnir and of the boar known as Gullinbursti...\n\nBattle-skilled Freyr rides in front to Odin’s son’s [Baldr’s] pyre on golden-bristled boar and governs hosts.\n\nIt is also called Slidrugtanni.",
+            "link": "http://vsnrweb-publications.org.uk/SNORRA%20EDDA%20searchable.pdf#page=103&zoom=auto"
+          },
+          "Chapter 34-35 (p. 96)": {
+            "explanation": "In the detailed story of the creation of the gods' treasures, the dwarf Eitri places a pig's hide in the forge to create the second of three great works.",
+            "quote": "...Eitri put a pig’s hide in the forge... but he went on blowing as before until the smith took his work out of the forge, and it was a boar and its bristles were of gold.",
+            "link": "http://vsnrweb-publications.org.uk/SNORRA%20EDDA%20searchable.pdf#page=124&zoom=auto"
+          },
+          "Chapter 35-36 (p. 97)": {
+            "explanation": "When the dwarf Brokk presents the treasures to the gods, he gives the boar to Freyr and describes its magical properties: its ability to run faster than any horse through air and sea, and to illuminate the darkest of nights with its bristles.",
+            "quote": "To Freyr he gave the boar and said that it could run across sky and sea by night and day faster than any horse, and it never got so dark from night or in worlds of darkness that it was not bright enough wherever it went, there was so much light shed from its bristles.",
+            "link": "http://vsnrweb-publications.org.uk/SNORRA%20EDDA%20searchable.pdf#page=125&zoom=auto"
           }
         }
       }
@@ -1900,6 +2039,27 @@
       }
     }
   },
+  "Hildisvíni": {
+    "tags": ["Other", "Creature"],
+    "attestations": {
+      "Poetic Edda": {
+        "link": "https://books.openbookpublishers.com/10.11647/obp.0308/",
+        "Hyndluljóð (The Song of Hyndla)": {
+          "link": "https://books.openbookpublishers.com/10.11647/obp.0308/ch35.xhtml#_idTextAnchor3440",
+          "Stanza 7": {
+            "explanation": "Freyja corrects the giantess Hyndla, explaining that her mount is not her human lover Óttarr, but her boar Hildisvíni, which was crafted by dwarves and has golden bristles.",
+            "author_note": "Cf. Freyr’s dwarf-made boar Gullinbu(r)sti ‘Golden-Bristled’, mentioned in SnEGylf (49, p. 47), SnESkáld (I, 7, p. 18; 35, p. 42); Húsdr. 7.",
+            "quote": "‘You’re deluded, Hyndla, I think you’re dreaming,\nwhen you say it’s my man on the slaughter-road!\nThere’s my glowing gelded boar, golden-bristled,\nHildisvíni, which skilful ones made for me,\ntwo dwarves, Dáinn and Nabbi.",
+            "link": "https://books.openbookpublishers.com/10.11647/obp.0308/ch35.xhtml#_idTextAnchor3505"
+          }
+        }
+      },
+      "Prose Edda": {
+        "link": "http://vsnrweb-publications.org.uk/SNORRA%20EDDA%20searchable.pdf",
+        "There are no attestations of Hildisvíni in the Prose Edda.": {}
+      }
+    }
+  },
   "Hlín": {
     "tags": ["Aesir","Female"],
     "attestations": {
@@ -2076,7 +2236,7 @@
     }
   },
   "Honir (Hœnir)": {
-    "tags": [ "Aesir", "Male" ],
+    "tags": ["Aesir", "Male"],
     "attestations": {
       "Poetic Edda": {
         "link": "https://books.openbookpublishers.com/10.11647/obp.0308/",
@@ -2135,105 +2295,6 @@
       }
     }
   },
-    "Hrungnir": {
-      "tags": [ "Jötunn", "Male" ],
-      "attestations": {
-        "Poetic Edda": {
-          "link": "https://books.openbookpublishers.com/10.11647/obp.0308/",
-          "Hymiskviða (The Lay of Hymir)": {
-            "link": "https://books.openbookpublishers.com/10.11647/obp.0308/ch7.xhtml",
-            "Stanza 16": {
-              "explanation": "Hymir is referred to as the \"hoary friend of Hrungnir\" after seeing how much Þórr has eaten.",
-              "quote": "It seemed to the hoary friend of Hrungnir\nthat Hlórriði’s meal was, well, large enough:\n‘Tomorrow evening, we three will have to live\non food caught by fishing!’",
-              "link": "https://books.openbookpublishers.com/10.11647/obp.0308/ch7.xhtml#_idTextAnchor1051"
-            }
-          },
-          "Hárbarðsljóð (The Song of Hárbarðr)": {
-            "link": "https://books.openbookpublishers.com/10.11647/obp.0308/ch6.xhtml",
-            "Stanza 14-15": {
-              "explanation": "Hárbarðr (Odin in disguise) taunts Þórr, claiming to be a tougher opponent than the giant Hrungnir, whom Þórr had killed. In response, Þórr recalls his famous duel with the \"stout-hearted giant whose head was made of stone.\"",
-              "quote": "Hárbarðr said:\n14.‘Here I’ll stand and here I’ll await you;\nyou’ve not found a harder man since Hrungnir’s death!’\n\nÞórr said:\n15.‘Now you want to talk of the time when Hrungnir and I had dealings,\nthat stout-hearted giant whose head was made of stone;\neven so, I made him fall and sink before me!\nWhat were you doing meanwhile, Hárbarðr?’",
-              "link": "https://books.openbookpublishers.com/10.11647/obp.0308/ch6.xhtml#_idTextAnchor940"
-            }
-          },
-          "Lokasenna (Loki's Flyting)": {
-            "link": "https://books.openbookpublishers.com/10.11647/obp.0308/ch8.xhtml",
-            "Stanza 61": {
-              "explanation": "Þórr threatens Loki with his hammer Mjǫllnir, calling it \"Hrungnir's slayer\" to emphasize its deadly power.",
-              "quote": "‘Silence, perverted creature! My power-hammer,\nMjǫllnir, shall deprive you of speech;\nwith my right hand I’ll strike you with Hrungnir’s slayer,\nso that all your bones will be broken!’",
-              "link": "https://books.openbookpublishers.com/10.11647/obp.0308/ch8.xhtml#_idTextAnchor1213"
-            },
-            "Stanza 63": {
-              "explanation": "Þórr repeats his threat, again referring to Mjǫllnir as \"Hrungnir's slayer\" before declaring he will send Loki to Hel.",
-              "quote": "‘Silence, perverted creature! My power-hammer,\nMjǫllnir, shall deprive you of speech;\nHrungnir’s slayer will send you to Hel,\ndown below corpse-gates!’",
-              "link": "https://books.openbookpublishers.com/10.11647/obp.0308/ch8.xhtml#_idTextAnchor1215"
-            }
-          }
-        },
-        "Prose Edda": {
-          "link": "http://vsnrweb-publications.org.uk/SNORRA%20EDDA%20searchable.pdf",
-          "Gylfaginning (The Beguiling of Gylfi)": {
-            "link": "http://vsnrweb-publications.org.uk/SNORRA%20EDDA%20searchable.pdf#page=34&zoom=auto",
-            "Chapter 1(p.1)": {
-              "explanation": "Lorem ipsum"
-            }
-          },
-          "Skáldskaparmál (The Language of Poetry)": {
-            "link": "http://vsnrweb-publications.org.uk/SNORRA%20EDDA%20searchable.pdf#page=87&zoom=auto",
-            "Chapter 4 (p. 73)": {
-              "explanation": "In a verse by the skald Bragi, Thor's hammer Mjöllnir is given the kenning (a poetic name) \"Hrungnir’s skull-splitter.\"",
-              "quote": "And the ugly ring [serpent] of the side-oared ship’s road [sea] stared up spitefully at Hrungnir’s skull-splitter.",
-              "link": "http://vsnrweb-publications.org.uk/SNORRA%20EDDA%20searchable.pdf#page=101&zoom=auto"
-            },
-            "Chapter 17 (p. 77)": {
-              "explanation": "The main narrative of the duel begins. Odin, riding Sleipnir, encounters Hrungnir and they wager on which of their horses is superior. This chase leads to Hrungnir recklessly entering Asgard.",
-              "quote": "...Odin rode Sleipnir into Giantland and arrived at a giant’s called Hrungnir. Then Hrungnir asked what sort of person this was with the golden helmet riding sky and sea, and said he had a marvellously good horse.",
-              "link": "http://vsnrweb-publications.org.uk/SNORRA%20EDDA%20searchable.pdf#page=105&zoom=auto"
-            },
-            "Chapter 17 (p. 78)": {
-              "explanation": "After getting drunk in the gods' hall, Hrungnir becomes boastful and threatening. Thor arrives and challenges him. Hrungnir agrees to a formal duel, and the text describes his famous stone heart, head, and shield.",
-              "quote": "Then Thor said that Hrungnir was going to regret that invitation before he got out. Hrungnir said it would be no honour to Asa-Thor to kill him when he was unarmed, whereas it would be a greater proof of his valour if he dared to fight with him on the frontier at Griotunagardar.",
-              "link": "http://vsnrweb-publications.org.uk/SNORRA%20EDDA%20searchable.pdf#page=106&zoom=auto"
-            },
-            "Chapter 17 (p. 79)": {
-              "explanation": "The duel is described in detail. Thor's hammer shatters Hrungnir's whetstone and then his skull. The giant falls dead, trapping Thor beneath his leg.",
-              "quote": "...the hammer Miollnir hit the middle of Hrungnir’s head and shattered his skull into small fragments...\n\n‘And I have decided,’ he said, ‘to give you the horse Gullfaxi, which used to be Hrungnir’s.’",
-              "link": "http://vsnrweb-publications.org.uk/SNORRA%20EDDA%20searchable.pdf#page=107&zoom=auto"
-            },
-            "Chapter 17 (p. 80)": {
-              "explanation": "A long passage from the poem *Haustlöng* is quoted, which poetically recounts the story of Thor's encounter with the giant.",
-              "quote": "...when the goats drew the temple-power [Thor] of the easy-chariot forward to the encounter with Hrungnir.\n\nBaldr’s brother [Thor] did not spare there the greedy enemy of men [Hrungnir].",
-              "link": "http://vsnrweb-publications.org.uk/SNORRA%20EDDA%20searchable.pdf#page=108&zoom=auto"
-            },
-            "Chapter 17-18 (p. 81)": {
-              "explanation": "At the end of the quoted poem, Ægir speaks to Bragi, acknowledging the giant's power.",
-              "quote": "Then Ægir said: ‘Hrungnir seems to me to have been very mighty.'",
-              "link": "http://vsnrweb-publications.org.uk/SNORRA%20EDDA%20searchable.pdf#page=109&zoom=auto"
-            },
-            "Chapter 43 (p. 108)": {
-              "explanation": "Within the quoted poem *Grottasong*, the jötunn Fenia and Menia boast of their lineage, claiming that Þjazi was mightier than both Hrungnir and his father.",
-              "quote": "‘Hard was Hrungnir, and his father, yet Thiassi was mightier than they...",
-              "link": "http://vsnrweb-publications.org.uk/SNORRA%20EDDA%20searchable.pdf#page=136&zoom=auto"
-            },
-            "Chapter 48-49 (p. 118)": {
-              "explanation": "In a list of kennings for shields, it is mentioned that a shield can be referred to in terms of \"Hrungnir’s feet when he stood on his shield.\"",
-              "quote": "A shield is also called Ulli’s ship and referred to in terms of Hrungnir’s feet when he stood on his shield.",
-              "link": "http://vsnrweb-publications.org.uk/SNORRA%20EDDA%20searchable.pdf#page=146&zoom=auto"
-            },
-            "Chapter 49 (p. 120)": {
-              "explanation": "A verse by the poet Bragi calls a shield the \"sole-blade of the thief of Thrud [Hrungnir].\"",
-              "quote": "Hrungnir’s sole-blade, as Bragi said:\nWill you hear, Hrafnketil, how I shall praise the sole-blade of the thief of Thrud [Hrungnir], which has fine colour planted on it, and the prince?",
-              "link": "http://vsnrweb-publications.org.uk/SNORRA%20EDDA%20searchable.pdf#page=148"
-            },
-            "Chapter 75 (p. 155)": {
-              "explanation": "Hrungnir is included in a long list of names for giants.",
-              "quote": "I shall tell the names of giants. Ymir, Gang and Mimir, Idi and Thiassi, Hrungnir, Hrimnir...",
-              "link": "http://vsnrweb-publications.org.uk/SNORRA%20EDDA%20searchable.pdf#page=183&zoom=auto"
-            }
-          }
-        }
-      }
-    },
   "Idun (Iðunn)": {
     "tags": ["Aesir","Female"],
     "attestations": {
@@ -4408,7 +4469,7 @@
           "link": "https://books.openbookpublishers.com/10.11647/obp.0308/ch7.xhtml#_idTextAnchor990",
           "Stanza 3": {
             "explanation": "Thor is named as “Sif’s husband”",
-            "quote": "The word-trying man18 made work for the giant,\nhe brooded revenge at once against the god;\nhe called on Sif’s husband to bring him a cauldron:\n‘the one in which I can brew ale for you all!’",
+            "quote": "The word-trying man made work for the giant,\nhe brooded revenge at once against the god;\nhe called on Sif’s husband to bring him a cauldron:\n‘the one in which I can brew ale for you all!’",
             "link": "https://books.openbookpublishers.com/10.11647/obp.0308/ch7.xhtml#_idTextAnchor1037"
           },
           "Stanza 15": {
@@ -4505,6 +4566,42 @@
             "explanation": "\"Shaking Sif\" is used as a kenning for the valkyrie Hild (whose name also means battle).",
             "quote": "...when the ring(-sword) shaking Sif [Hild], filled with malice, brought a neck-ring on to the wind’s horse [ship] to the battle-trunk [warrior].",
             "link": "/Data/SNORRAEDDAsearchable.pdf#page=151"
+          }
+        }
+      }
+    }
+  },
+  "Sif's golden hair": {
+    "tags": ["Object"],
+    "attestations": {
+      "Prose Edda": {
+        "link": "http://vsnrweb-publications.org.uk/SNORRA%20EDDA%20searchable.pdf",
+        "Skáldskaparmál (The Language of Poetry)": {
+          "link": "http://vsnrweb-publications.org.uk/SNORRA%20EDDA%20searchable.pdf#page=87&zoom=auto",
+          "Chapter 16 (p. 77)": {
+            "explanation": "When listing the various kennings for Loki, he is called \"Sif’s hair-harmer,\" referencing his malicious act of cutting her hair which sets the story in motion.",
+            "quote": "…of Sigyn, enemy of gods, Sif’s hair-harmer, maker of mischief, the cunning As, accuser and tricker of the gods, contriver of Baldr’s death, the bound one, wrangler with Heimdall and Skadi. As Ulf Uggason says here:",
+            "link": "http://vsnrweb-publications.org.uk/SNORRA%20EDDA%20searchable.pdf#page=105&zoom=auto"
+          },
+          "Chapter 32 (p. 94)": {
+            "explanation": "In a list of poetic names for gold, \"Sif's hair\" is explicitly mentioned as a valid kenning.",
+            "quote": "How shall gold be referred to? By calling it Ægir’s fire and Glasir’s foliage, Sif’s hair...",
+            "link": "http://vsnrweb-publications.org.uk/SNORRA%20EDDA%20searchable.pdf#page=122&zoom=auto"
+          },
+          "Chapter 34-35 (p. 96)": {
+            "explanation": "This is the main origin story. The section begins by asking why gold is called \"Sif's hair\" and proceeds to tell the tale of how Loki cut off her hair and, under threat from Thor, promised to have the black-elves forge a replacement.",
+            "quote": "Why is gold called Sif’s hair? Loki Laufeyiarson had done this for love of mischief: he had cut off all Sif’s hair. And when Thor found out, he caught Loki and was going to break every one of his bones until he swore that he would get black-elves to make Sif a head of hair out of gold that would grow like any other hair.",
+            "link": "http://vsnrweb-publications.org.uk/SNORRA%20EDDA%20searchable.pdf#page=124&zoom=auto"
+          },
+          "Chapter 35-36 (p. 97)": {
+            "explanation": "The story concludes when Loki presents the treasures to the gods. He gives the golden hair to Thor for Sif and describes its magical property of rooting itself to the flesh.",
+            "quote": "Then Loki gave... the head of hair which was to be Sif’s to Thor... and announced the features of all the precious things... the hair was rooted in the flesh as soon as it came on to Sif’s head...",
+            "link": "http://vsnrweb-publications.org.uk/SNORRA%20EDDA%20searchable.pdf#page=125&zoom=auto"
+          },
+          "Chapter 45-46 (p. 113)": {
+            "explanation": "In a verse from the old *Lay of Biarki*, a kenning for gold is used that directly references Sif's hair.",
+            "quote": "The generous lord pushed, men received, Sif’s scalp-strings...",
+            "link": "http://vsnrweb-publications.org.uk/SNORRA%20EDDA%20searchable.pdf#page=141&zoom=auto"
           }
         }
       }

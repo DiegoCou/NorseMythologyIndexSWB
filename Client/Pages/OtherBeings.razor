@@ -45,6 +45,20 @@
                 }
             </MudStack>
         </MudContainer>
+        <MudContainer>
+            <MudText Typo="Typo.h6" >Creature</MudText>
+            <MudStack Style="margin-bottom: 2rem" Row="true" Wrap="Wrap.Wrap" Spacing="2">
+                @foreach (var item in mythItems)
+                {
+                    if (item.Value.Tags.Contains("Creature"))
+                    {
+                        <tr style="width: 8rem;">
+                            <td ><NavLink class="item" href="@($"/item/{item.Key}")">@item.Key</NavLink></td>
+                        </tr>
+                    }
+                }
+            </MudStack>
+        </MudContainer>
     }
     else
     {
