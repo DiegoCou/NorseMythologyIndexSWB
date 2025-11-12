@@ -2076,7 +2076,7 @@
     }
   },
   "Honir (Hœnir)": {
-    "tags": ["Aesir", "Male"],
+    "tags": [ "Aesir", "Male" ],
     "attestations": {
       "Poetic Edda": {
         "link": "https://books.openbookpublishers.com/10.11647/obp.0308/",
@@ -2135,6 +2135,105 @@
       }
     }
   },
+    "Hrungnir": {
+      "tags": [ "Jötunn", "Male" ],
+      "attestations": {
+        "Poetic Edda": {
+          "link": "https://books.openbookpublishers.com/10.11647/obp.0308/",
+          "Hymiskviða (The Lay of Hymir)": {
+            "link": "https://books.openbookpublishers.com/10.11647/obp.0308/ch7.xhtml",
+            "Stanza 16": {
+              "explanation": "Hymir is referred to as the \"hoary friend of Hrungnir\" after seeing how much Þórr has eaten.",
+              "quote": "It seemed to the hoary friend of Hrungnir\nthat Hlórriði’s meal was, well, large enough:\n‘Tomorrow evening, we three will have to live\non food caught by fishing!’",
+              "link": "https://books.openbookpublishers.com/10.11647/obp.0308/ch7.xhtml#_idTextAnchor1051"
+            }
+          },
+          "Hárbarðsljóð (The Song of Hárbarðr)": {
+            "link": "https://books.openbookpublishers.com/10.11647/obp.0308/ch6.xhtml",
+            "Stanza 14-15": {
+              "explanation": "Hárbarðr (Odin in disguise) taunts Þórr, claiming to be a tougher opponent than the giant Hrungnir, whom Þórr had killed. In response, Þórr recalls his famous duel with the \"stout-hearted giant whose head was made of stone.\"",
+              "quote": "Hárbarðr said:\n14.‘Here I’ll stand and here I’ll await you;\nyou’ve not found a harder man since Hrungnir’s death!’\n\nÞórr said:\n15.‘Now you want to talk of the time when Hrungnir and I had dealings,\nthat stout-hearted giant whose head was made of stone;\neven so, I made him fall and sink before me!\nWhat were you doing meanwhile, Hárbarðr?’",
+              "link": "https://books.openbookpublishers.com/10.11647/obp.0308/ch6.xhtml#_idTextAnchor940"
+            }
+          },
+          "Lokasenna (Loki's Flyting)": {
+            "link": "https://books.openbookpublishers.com/10.11647/obp.0308/ch8.xhtml",
+            "Stanza 61": {
+              "explanation": "Þórr threatens Loki with his hammer Mjǫllnir, calling it \"Hrungnir's slayer\" to emphasize its deadly power.",
+              "quote": "‘Silence, perverted creature! My power-hammer,\nMjǫllnir, shall deprive you of speech;\nwith my right hand I’ll strike you with Hrungnir’s slayer,\nso that all your bones will be broken!’",
+              "link": "https://books.openbookpublishers.com/10.11647/obp.0308/ch8.xhtml#_idTextAnchor1213"
+            },
+            "Stanza 63": {
+              "explanation": "Þórr repeats his threat, again referring to Mjǫllnir as \"Hrungnir's slayer\" before declaring he will send Loki to Hel.",
+              "quote": "‘Silence, perverted creature! My power-hammer,\nMjǫllnir, shall deprive you of speech;\nHrungnir’s slayer will send you to Hel,\ndown below corpse-gates!’",
+              "link": "https://books.openbookpublishers.com/10.11647/obp.0308/ch8.xhtml#_idTextAnchor1215"
+            }
+          }
+        },
+        "Prose Edda": {
+          "link": "http://vsnrweb-publications.org.uk/SNORRA%20EDDA%20searchable.pdf",
+          "Gylfaginning (The Beguiling of Gylfi)": {
+            "link": "http://vsnrweb-publications.org.uk/SNORRA%20EDDA%20searchable.pdf#page=34&zoom=auto",
+            "Chapter 1(p.1)": {
+              "explanation": "Lorem ipsum"
+            }
+          },
+          "Skáldskaparmál (The Language of Poetry)": {
+            "link": "http://vsnrweb-publications.org.uk/SNORRA%20EDDA%20searchable.pdf#page=87&zoom=auto",
+            "Chapter 4 (p. 73)": {
+              "explanation": "In a verse by the skald Bragi, Thor's hammer Mjöllnir is given the kenning (a poetic name) \"Hrungnir’s skull-splitter.\"",
+              "quote": "And the ugly ring [serpent] of the side-oared ship’s road [sea] stared up spitefully at Hrungnir’s skull-splitter.",
+              "link": "http://vsnrweb-publications.org.uk/SNORRA%20EDDA%20searchable.pdf#page=101&zoom=auto"
+            },
+            "Chapter 17 (p. 77)": {
+              "explanation": "The main narrative of the duel begins. Odin, riding Sleipnir, encounters Hrungnir and they wager on which of their horses is superior. This chase leads to Hrungnir recklessly entering Asgard.",
+              "quote": "...Odin rode Sleipnir into Giantland and arrived at a giant’s called Hrungnir. Then Hrungnir asked what sort of person this was with the golden helmet riding sky and sea, and said he had a marvellously good horse.",
+              "link": "http://vsnrweb-publications.org.uk/SNORRA%20EDDA%20searchable.pdf#page=105&zoom=auto"
+            },
+            "Chapter 17 (p. 78)": {
+              "explanation": "After getting drunk in the gods' hall, Hrungnir becomes boastful and threatening. Thor arrives and challenges him. Hrungnir agrees to a formal duel, and the text describes his famous stone heart, head, and shield.",
+              "quote": "Then Thor said that Hrungnir was going to regret that invitation before he got out. Hrungnir said it would be no honour to Asa-Thor to kill him when he was unarmed, whereas it would be a greater proof of his valour if he dared to fight with him on the frontier at Griotunagardar.",
+              "link": "http://vsnrweb-publications.org.uk/SNORRA%20EDDA%20searchable.pdf#page=106&zoom=auto"
+            },
+            "Chapter 17 (p. 79)": {
+              "explanation": "The duel is described in detail. Thor's hammer shatters Hrungnir's whetstone and then his skull. The giant falls dead, trapping Thor beneath his leg.",
+              "quote": "...the hammer Miollnir hit the middle of Hrungnir’s head and shattered his skull into small fragments...\n\n‘And I have decided,’ he said, ‘to give you the horse Gullfaxi, which used to be Hrungnir’s.’",
+              "link": "http://vsnrweb-publications.org.uk/SNORRA%20EDDA%20searchable.pdf#page=107&zoom=auto"
+            },
+            "Chapter 17 (p. 80)": {
+              "explanation": "A long passage from the poem *Haustlöng* is quoted, which poetically recounts the story of Thor's encounter with the giant.",
+              "quote": "...when the goats drew the temple-power [Thor] of the easy-chariot forward to the encounter with Hrungnir.\n\nBaldr’s brother [Thor] did not spare there the greedy enemy of men [Hrungnir].",
+              "link": "http://vsnrweb-publications.org.uk/SNORRA%20EDDA%20searchable.pdf#page=108&zoom=auto"
+            },
+            "Chapter 17-18 (p. 81)": {
+              "explanation": "At the end of the quoted poem, Ægir speaks to Bragi, acknowledging the giant's power.",
+              "quote": "Then Ægir said: ‘Hrungnir seems to me to have been very mighty.'",
+              "link": "http://vsnrweb-publications.org.uk/SNORRA%20EDDA%20searchable.pdf#page=109&zoom=auto"
+            },
+            "Chapter 43 (p. 108)": {
+              "explanation": "Within the quoted poem *Grottasong*, the jötunn Fenia and Menia boast of their lineage, claiming that Þjazi was mightier than both Hrungnir and his father.",
+              "quote": "‘Hard was Hrungnir, and his father, yet Thiassi was mightier than they...",
+              "link": "http://vsnrweb-publications.org.uk/SNORRA%20EDDA%20searchable.pdf#page=136&zoom=auto"
+            },
+            "Chapter 48-49 (p. 118)": {
+              "explanation": "In a list of kennings for shields, it is mentioned that a shield can be referred to in terms of \"Hrungnir’s feet when he stood on his shield.\"",
+              "quote": "A shield is also called Ulli’s ship and referred to in terms of Hrungnir’s feet when he stood on his shield.",
+              "link": "http://vsnrweb-publications.org.uk/SNORRA%20EDDA%20searchable.pdf#page=146&zoom=auto"
+            },
+            "Chapter 49 (p. 120)": {
+              "explanation": "A verse by the poet Bragi calls a shield the \"sole-blade of the thief of Thrud [Hrungnir].\"",
+              "quote": "Hrungnir’s sole-blade, as Bragi said:\nWill you hear, Hrafnketil, how I shall praise the sole-blade of the thief of Thrud [Hrungnir], which has fine colour planted on it, and the prince?",
+              "link": "http://vsnrweb-publications.org.uk/SNORRA%20EDDA%20searchable.pdf#page=148"
+            },
+            "Chapter 75 (p. 155)": {
+              "explanation": "Hrungnir is included in a long list of names for giants.",
+              "quote": "I shall tell the names of giants. Ymir, Gang and Mimir, Idi and Thiassi, Hrungnir, Hrimnir...",
+              "link": "http://vsnrweb-publications.org.uk/SNORRA%20EDDA%20searchable.pdf#page=183&zoom=auto"
+            }
+          }
+        }
+      }
+    },
   "Idun (Iðunn)": {
     "tags": ["Aesir","Female"],
     "attestations": {
