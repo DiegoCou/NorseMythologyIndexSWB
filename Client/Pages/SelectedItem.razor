@@ -1,10 +1,13 @@
 ﻿@page "/item/{selectedItemName}"
+@using System.ComponentModel.Design
 @using System.Reflection.Metadata.Ecma335
+@using System.Text.RegularExpressions
 @using MudBlazor
 @using NorseMythologyIndex.Models
 @using NorseMythologyIndex.Services
 @inject MythologyService MythologyService
 @inject Microsoft.AspNetCore.Components.NavigationManager navigationManager
+@inject IScrollManager ScrollManager
 
 <PageTitle>@selectedItemName</PageTitle>
 <div class="page-container">
@@ -31,6 +34,28 @@ else if (selectedItem is not null)
         }
     </div>
     -->
+    <MudContainer Style="margin-top: 5rem; margin-left: -17rem; width: 25rem; position: fixed;">
+        <MudList T="string">
+            <ChildContent>
+            @foreach (var attestation in selectedItem.Attestations)
+            {
+                <button style="text-align: left" onclick="document.getElementById('@RemoveSpecialCharacters(@attestation.Key)').scrollIntoView({behavior:'smooth'})">@attestation.Key</button>
+                <MudList T="string">
+                    <ChildContent>
+                        <MudStack Style="margin: 0 5rem 0 0; padding: 0" Justify="Justify.FlexStart" AlignItems="AlignItems.Start" Spacing="0" >
+                        @foreach (var reference in attestation.Value.GetReferences())
+                        {
+                            <button style="margin-left: 1rem; text-align: left" onclick="document.getElementById('@RemoveSpecialCharacters(@reference.Key)').scrollIntoView({behavior:'smooth'})">· @reference.Key</button>
+
+                        }
+                        </MudStack>
+                    </ChildContent>
+                </MudList>
+            }
+            </ChildContent>
+        </MudList>
+    </MudContainer>
+    
     <MudContainer Class="attestations-container">
         <MudScrollToTop>
             <MudFab Color="Color.Tertiary" StartIcon="@Icons.Material.Filled.ArrowCircleUp" />
@@ -40,7 +65,7 @@ else if (selectedItem is not null)
         <MudList T="string">
             @foreach (var attestation in selectedItem.Attestations)
             {
-                <MudListItem Expanded>
+                <MudListItem class="reference-item" id="@RemoveSpecialCharacters(attestation.Key)" Expanded>
                     <ChildContent>
                         <!-- Name of the main source (Prose Edda/ Poetic Edda) -->
                         <MudText Typo="Typo.h4"><a style="text-decoration: underline" href="@attestation.Value.Link" target="_blank">@attestation.Key</a></MudText>
@@ -49,7 +74,7 @@ else if (selectedItem is not null)
                     <NestedList>
                         @foreach (var reference in attestation.Value.GetReferences())
                         {
-                            <MudListItem Expanded>
+                            <MudListItem id="@RemoveSpecialCharacters(reference.Key)" Class="reference-item" Expanded>
                                 <ChildContent>
                                     <!-- Name of Book/Poem -->
                                     <MudText Typo="Typo.h5"> <a style="text-decoration: underline" href="@reference.Value.Link" target="_blank">@reference.Key</a>
@@ -60,7 +85,7 @@ else if (selectedItem is not null)
                                     @foreach (var content in reference.Value.GetContents())
                                     {
                                         <!-- Stanza or chapter -->
-                                        <MudContainer  Style="padding: 0 2rem" Text="@(content.Key + ": " + content.Value.Explanation)">
+                                        <MudContainer Style="padding: 0 2rem" Text="@(content.Key + ": " + content.Value.Explanation)">
                                             <ChildContent>
                                                 <a style="font-weight: bold; text-decoration: underline" target="_blank" href="@content.Value.Link">@content.Key:</a>
                                                 <span>@content.Value.Explanation</span>
@@ -110,9 +135,22 @@ else if (selectedItem is not null)
         selectedItem = _mythologyItems[selectedItemName];
         isLoading = false;
     }
+
+    public void ScrollToId(string id)
+    {
+        ScrollManager.ScrollToAsync(id, 1,1,ScrollBehavior.Auto);
+    }
+    
+    public string RemoveSpecialCharacters(string str)
+    {
+        return Regex.Replace(str, "[^a-zA-Z0-9_.]+", "", RegexOptions.Compiled);
+    }
 }
 
 <style>
+    .reference-item{
+        scroll-margin: 4.5rem;
+    }
     .attestations-container{
         margin-top: 3rem;
     }
