@@ -703,6 +703,44 @@
       }
     }
   },
+  "Fárbauti": {
+    "tags": ["Jötunn", "Male"],
+    "attestations": {
+      "Poetic Edda": {
+        "link": "https://books.openbookpublishers.com/10.11647/obp.0308/",
+        "There are no attestations of Fárbauti in the Poetic Edda.": {}
+      },
+      "Prose Edda": {
+        "link": "http://vsnrweb-publications.org.uk/SNORRA%20EDDA%20searchable.pdf",
+        "Gylfaginning (The Beguiling of Gylfi)": {
+          "link": "http://vsnrweb-publications.org.uk/SNORRA%20EDDA%20searchable.pdf#page=34&zoom=auto",
+          "Chapter 34 (p. 26)": {
+            "explanation": "When introducing the character of Loki, the text identifies his giant father by name.",
+            "quote": "His name is Loki or Lopt, son of the giant Farbauti. Laufey or Nal is his mother.",
+            "link": "http://vsnrweb-publications.org.uk/SNORRA%20EDDA%20searchable.pdf#page=54&zoom=auto"
+          }
+        },
+        "Skáldskaparmál (The Language of Poetry)": {
+          "link": "http://vsnrweb-publications.org.uk/SNORRA%20EDDA%20searchable.pdf#page=87&zoom=auto",
+          "Chapter 16 (p. 76)": {
+            "explanation": "In the list of kennings (poetic names) for Loki, \"son of Farbauti\" is the first one mentioned.",
+            "quote": "How shall Loki be referred to? By calling him son of Farbauti and Laufey...",
+            "link": "http://vsnrweb-publications.org.uk/SNORRA%20EDDA%20searchable.pdf#page=104&zoom=auto"
+          },
+          "Chapter 16-17 (p. 77)": {
+            "explanation": "A verse by the skald Úlfr Uggason is quoted, which refers to Loki as \"Farbauti's terribly sly son.\"",
+            "quote": "Renowned defender [Heimdall] of the powers’ way [Bifrost], kind of counsel, competes with Farbauti’s terribly sly son at Singastein.",
+            "link": "http://vsnrweb-publications.org.uk/SNORRA%20EDDA%20searchable.pdf#page=105&zoom=auto"
+          },
+          "Chapter 22 (p. 87)": {
+            "explanation": "In the poem *Haustlöng*, a verse refers to Odin commanding \"Farbauti's son\" (Loki) to share the ox, a key event in the story of Idunn's abduction.",
+            "quote": "The gracious lord of earth [Odin] bade Farbauti’s son [Loki] quickly share the bow-string-Var’s [Skadi’s] whale [ox] among the fellows.",
+            "link": "http://vsnrweb-publications.org.uk/SNORRA%20EDDA%20searchable.pdf#page=115&zoom=auto"
+          }
+        }
+      }
+    }
+  },
   "Fenrir": {
     "tags": ["Jötunn","Creature", "Male"],
     "attestations": {
@@ -2290,6 +2328,99 @@
             "explanation": "Hænir is named as one of the three Æsir, with Odin and Loki, who killed Otter and thus became involved in the story of Andvari's gold.",
             "quote": "What is the reason for gold being called otter-payment? It is said that when the Æsir went to explore the whole world – Odin and Loki and Hænir – they came to a certain river and went along the river to a certain waterfall, and by the waterfall there was an otter...",
             "link": "https://books.openbookpublishers.com/10.11647/obp.0308/ch5.xhtml#_idTextAnchor817"
+          }
+        }
+      }
+    }
+  },
+  "Hrungnir": {
+    "tags": ["Jötunn", "Male"],
+    "attestations": {
+      "Poetic Edda": {
+        "link": "https://books.openbookpublishers.com/10.11647/obp.0308/",
+        "Hymiskviða (The Lay of Hymir)": {
+          "link": "https://books.openbookpublishers.com/10.11647/obp.0308/ch7.xhtml",
+          "Stanza 16": {
+            "explanation": "Hymir is referred to as the \"hoary friend of Hrungnir\" after seeing how much Þórr has eaten.",
+            "quote": "It seemed to the hoary friend of Hrungnir\nthat Hlórriði’s meal was, well, large enough:\n‘Tomorrow evening, we three will have to live\non food caught by fishing!’",
+            "link": "https://books.openbookpublishers.com/10.11647/obp.0308/ch7.xhtml#_idTextAnchor1051"
+          }
+        },
+        "Hárbarðsljóð (The Song of Hárbarðr)": {
+          "link": "https://books.openbookpublishers.com/10.11647/obp.0308/ch6.xhtml",
+          "Stanza 14-15": {
+            "explanation": "Hárbarðr (Odin in disguise) taunts Þórr, claiming to be a tougher opponent than the giant Hrungnir, whom Þórr had killed. In response, Þórr recalls his famous duel with the \"stout-hearted giant whose head was made of stone.\"",
+            "quote": "Hárbarðr said:\n14.‘Here I’ll stand and here I’ll await you;\nyou’ve not found a harder man since Hrungnir’s death!’\n\nÞórr said:\n15.‘Now you want to talk of the time when Hrungnir and I had dealings,\nthat stout-hearted giant whose head was made of stone;\neven so, I made him fall and sink before me!\nWhat were you doing meanwhile, Hárbarðr?’",
+            "link": "https://books.openbookpublishers.com/10.11647/obp.0308/ch6.xhtml#_idTextAnchor940"
+          }
+        },
+        "Lokasenna (Loki's Flyting)": {
+          "link": "https://books.openbookpublishers.com/10.11647/obp.0308/ch8.xhtml",
+          "Stanza 61": {
+            "explanation": "Þórr threatens Loki with his hammer Mjǫllnir, calling it \"Hrungnir's slayer\" to emphasize its deadly power.",
+            "quote": "‘Silence, perverted creature! My power-hammer,\nMjǫllnir, shall deprive you of speech;\nwith my right hand I’ll strike you with Hrungnir’s slayer,\nso that all your bones will be broken!’",
+            "link": "https://books.openbookpublishers.com/10.11647/obp.0308/ch8.xhtml#_idTextAnchor1213"
+          },
+          "Stanza 63": {
+            "explanation": "Þórr repeats his threat, again referring to Mjǫllnir as \"Hrungnir's slayer\" before declaring he will send Loki to Hel.",
+            "quote": "‘Silence, perverted creature! My power-hammer,\nMjǫllnir, shall deprive you of speech;\nHrungnir’s slayer will send you to Hel,\ndown below corpse-gates!’",
+            "link": "https://books.openbookpublishers.com/10.11647/obp.0308/ch8.xhtml#_idTextAnchor1215"
+          }
+        }
+      },
+      "Prose Edda": {
+        "link": "http://vsnrweb-publications.org.uk/SNORRA%20EDDA%20searchable.pdf",
+        "Skáldskaparmál (The Language of Poetry)": {
+          "link": "http://vsnrweb-publications.org.uk/SNORRA%20EDDA%20searchable.pdf#page=87&zoom=auto",
+          "Chapter 4 (p. 73)": {
+            "explanation": "In a verse by the skald Bragi, Thor's hammer Mjöllnir is given the kenning (a poetic name) \"Hrungnir’s skull-splitter.\"",
+            "quote": "And the ugly ring [serpent] of the side-oared ship’s road [sea] stared up spitefully at Hrungnir’s skull-splitter.",
+            "link": "http://vsnrweb-publications.org.uk/SNORRA%20EDDA%20searchable.pdf#page=101&zoom=auto"
+          },
+          "Chapter 17 (p. 77)": {
+            "explanation": "The main narrative of the duel begins. Odin, riding Sleipnir, encounters Hrungnir and they wager on which of their horses is superior. This chase leads to Hrungnir recklessly entering Asgard.",
+            "quote": "...Odin rode Sleipnir into Giantland and arrived at a giant’s called Hrungnir. Then Hrungnir asked what sort of person this was with the golden helmet riding sky and sea, and said he had a marvellously good horse.",
+            "link": "http://vsnrweb-publications.org.uk/SNORRA%20EDDA%20searchable.pdf#page=105&zoom=auto"
+          },
+          "Chapter 17 (p. 78)": {
+            "explanation": "After getting drunk in the gods' hall, Hrungnir becomes boastful and threatening. Thor arrives and challenges him. Hrungnir agrees to a formal duel, and the text describes his famous stone heart, head, and shield.",
+            "quote": "Then Thor said that Hrungnir was going to regret that invitation before he got out. Hrungnir said it would be no honour to Asa-Thor to kill him when he was unarmed, whereas it would be a greater proof of his valour if he dared to fight with him on the frontier at Griotunagardar.",
+            "link": "http://vsnrweb-publications.org.uk/SNORRA%20EDDA%20searchable.pdf#page=106&zoom=auto"
+          },
+          "Chapter 17 (p. 79)": {
+            "explanation": "The duel is described in detail. Thor's hammer shatters Hrungnir's whetstone and then his skull. The giant falls dead, trapping Thor beneath his leg.",
+            "quote": "...the hammer Miollnir hit the middle of Hrungnir’s head and shattered his skull into small fragments...\n\n‘And I have decided,’ he said, ‘to give you the horse Gullfaxi, which used to be Hrungnir’s.’",
+            "link": "http://vsnrweb-publications.org.uk/SNORRA%20EDDA%20searchable.pdf#page=107&zoom=auto"
+          },
+          "Chapter 17 (p. 80)": {
+            "explanation": "A long passage from the poem *Haustlöng* is quoted, which poetically recounts the story of Thor's encounter with the giant.",
+            "quote": "...when the goats drew the temple-power [Thor] of the easy-chariot forward to the encounter with Hrungnir.\n\nBaldr’s brother [Thor] did not spare there the greedy enemy of men [Hrungnir].",
+            "link": "http://vsnrweb-publications.org.uk/SNORRA%20EDDA%20searchable.pdf#page=108&zoom=auto"
+          },
+          "Chapter 17-18 (p. 81)": {
+            "explanation": "At the end of the quoted poem, Ægir speaks to Bragi, acknowledging the giant's power.",
+            "quote": "Then Ægir said: ‘Hrungnir seems to me to have been very mighty.'",
+            "link": "http://vsnrweb-publications.org.uk/SNORRA%20EDDA%20searchable.pdf#page=109&zoom=auto"
+          },
+          "Chapter 43 (p. 108)": {
+            "explanation": "Within the quoted poem *Grottasong*, the jötunn Fenia and Menia boast of their lineage, claiming that Þjazi was mightier than both Hrungnir and his father.",
+            "quote": "‘Hard was Hrungnir, and his father, yet Thiassi was mightier than they...",
+            "link": "http://vsnrweb-publications.org.uk/SNORRA%20EDDA%20searchable.pdf#page=136&zoom=auto"
+          },
+          "Chapter 48-49 (p. 118)": {
+            "explanation": "In a list of kennings for shields, it is mentioned that a shield can be referred to in terms of \"Hrungnir’s feet when he stood on his shield.\"",
+            "quote": "A shield is also called Ulli’s ship and referred to in terms of Hrungnir’s feet when he stood on his shield.",
+            "link": "http://vsnrweb-publications.org.uk/SNORRA%20EDDA%20searchable.pdf#page=146&zoom=auto"
+          },
+          "Chapter 49 (p. 120)": {
+            "explanation": "A verse by the poet Bragi calls a shield the \"sole-blade of the thief of Thrud [Hrungnir].\"",
+            "quote": "Hrungnir’s sole-blade, as Bragi said:\nWill you hear, Hrafnketil, how I shall praise the sole-blade of the thief of Thrud [Hrungnir], which has fine colour planted on it, and the prince?",
+            "link": "http://vsnrweb-publications.org.uk/SNORRA%20EDDA%20searchable.pdf#page=148"
+          },
+          "Chapter 75 (p. 155)": {
+            "explanation": "Hrungnir is included in a long list of names for giants.",
+            "quote": "I shall tell the names of giants. Ymir, Gang and Mimir, Idi and Thiassi, Hrungnir, Hrimnir...",
+            "link": "http://vsnrweb-publications.org.uk/SNORRA%20EDDA%20searchable.pdf#page=183&zoom=auto"
           }
         }
       }
@@ -4993,6 +5124,114 @@
             "explanation": "Sol is named in a systematic list of the Asyniur.",
             "quote": "Hlin and Nanna, Hnoss, Rind and Siofn, Sol and Saga, Sigyn and Vor.",
             "link": "/Data/SNORRAEDDAsearchable.pdf#page=185"
+          }
+        }
+      }
+    }
+  },
+  "Surtr": {
+    "tags": ["Jötunn", "Male"],
+    "attestations": {
+      "Poetic Edda": {
+        "link": "https://books.openbookpublishers.com/10.11647/obp.0308/",
+        "Völuspá (The Seeress's Prophecy)": {
+          "link": "https://books.openbookpublishers.com/10.11647/obp.0308/ch1.xhtml",
+          "Stanza 51": {
+            "explanation": "The seeress describes Surtr's arrival from the south with his destructive, fiery sword at the onset of Ragnarök. The prophecy foretells the fated battle between the god Freyr (\"the bright slayer of Beli\") and Surtr.",
+            "quote": "51.‘Surtr travels from the south with the destruction of twigs,\nthe sun shines from the sword of the gods of the slain;\nrocky cliffs collapse and witches wander,\nmen tread the Hel-way, and the heavens are cloven.",
+            "link": "https://books.openbookpublishers.com/10.11647/obp.0308/ch1.xhtml#_idTextAnchor158"
+          },
+          "Stanza 52": {
+            "explanation": "The prophecy foretells the fated battle between the god Freyr (\"the bright slayer of Beli\") and Surtr.",
+            "quote": "52.‘Then Hlín’s second sorrow comes to pass,\nwhen Óðinn goes to fight against the wolf,\nand the bright slayer of Beli against Surtr;\nthen Frigg’s Angantýr will fall.",
+            "link": "https://books.openbookpublishers.com/10.11647/obp.0308/ch1.xhtml#_idTextAnchor159"
+          }
+        },
+        "Vafþrúðnismál (The Sayings of Vafþrúðnir)": {
+          "link": "https://books.openbookpublishers.com/10.11647/obp.0308/ch3.xhtml",
+          "Stanza 17-18": {
+            "explanation": "Vafþrúðnir, asks Odinn in disguise, the name of the battlefield where Surtr and the gods will meet.",
+            "quote": "Vafþrúðnir said:\n17.‘Say this, Gagnráðr, since you want to test\nyour talent on the floor,\nwhat the field is called on which Surtr and the sweet gods\nwill encounter each other in battle.’\n\nÓðinn said:\n18.‘The field’s called Vígríðr on which Surtr and the sweet gods\nwill encounter each other in battle;\nit’s a hundred leagues in every direction —\nthat’s the field determined for them.’",
+            "link": "https://books.openbookpublishers.com/10.11647/obp.0308/ch3.xhtml#_idTextAnchor591"
+          }
+        },
+        "Fáfnismál (The Sayings of Fáfnir)": {
+          "link": "https://books.openbookpublishers.com/10.11647/obp.0308/ch18.xhtml#_idTextAnchor2001",
+          "Stanza 14": {
+            "explanation": "While dying, the dragon Fáfnir answers Sigurðr's question about the name of the island where Surtr and the Æsir will fight.",
+            "quote": "Sigurðr said:\n‘Tell me this, Fáfnir, since they say you’re wise\nand know many things:\nwhat the islet is called where Surtr and the Æsir\nwill blend sword-liquid together.’",
+            "link": "https://books.openbookpublishers.com/10.11647/obp.0308/ch18.xhtml#_idTextAnchor2068"
+          }
+        },
+        "Svipdagsmál (Gróugaldr and Fjǫlsvinnsmál)": {
+          "Fjǫlsvinnsmál - Stanza 24": {
+            "explanation": "The giant Fjǫlsviðr mentions Surtr's companion (or wife), the giantess Sinmara, who is oppressed by the cockerel Viðófnir.",
+            "quote": "‘He’s called Viðófnir, and he stands on Veðrglasir,\non twigs of the tree of Mími;\nwith one sorrow he oppresses immeasurably\nSurtr’s Sinmara.’",
+            "link": "https://books.openbookpublishers.com/10.11647/obp.0308/ch36.xhtml#_idTextAnchor3654"
+          }
+        }
+      },
+      "Prose Edda": {
+        "link": "http://vsnrweb-publications.org.uk/SNORRA%20EDDA%20searchable.pdf",
+        "Gylfaginning (The Beguiling of Gylfi)": {
+          "link": "http://vsnrweb-publications.org.uk/SNORRA%20EDDA%20searchable.pdf#page=34&zoom=auto",
+          "Chapter 4 (p. 9)": {
+            "explanation": "Surtr is introduced as the guardian of Múspell, the realm of fire, who will bring destruction at the end of the world.",
+            "quote": "There is one called Surt that is stationed there at the frontier to defend the land. He has a flaming sword and at the end of the world he will go and wage war and defeat all the gods and burn the whole world with fire.",
+            "link": "http://vsnrweb-publications.org.uk/SNORRA%20EDDA%20searchable.pdf#page=37&zoom=auto"
+          },
+          "Chapter 4-5 (p. 10)": {
+            "explanation": "A verse from the poem *Völuspá* is quoted, describing his arrival from the south during Ragnarök.",
+            "quote": "Surt travels from the south with the stick-destroyer [fire]. Shines from his sword the sun of the gods of the slain. Rock cliffs crash and troll-wives are abroad, heroes tread the road of Hel and heaven splits.’",
+            "link": "http://vsnrweb-publications.org.uk/SNORRA%20EDDA%20searchable.pdf#page=38&zoom=auto"
+          },
+          "Chapter 17-19 (p. 20)": {
+            "explanation": "When discussing the fate of the hall Gimlé after Ragnarök, Gangleri asks what will protect it from the fire.",
+            "quote": "Then spoke Gangleri: ‘What will protect this place when Surt’s fire burns heaven and earth?’",
+            "link": "http://vsnrweb-publications.org.uk/SNORRA%20EDDA%20searchable.pdf#page=48&zoom=auto"
+          },
+          "Chapter 51 (p. 53)": {
+            "explanation": "During the events of Ragnarök, Surtr is described riding with the sons of Múspell, breaking the Bifrost bridge, and carrying a very fine sword.",
+            "quote": "Amid this turmoil the sky will open and from it will ride the sons of Muspell. Surt will ride in front, and both before and behind him there will be burning fire. His sword will be very fine.",
+            "link": "http://vsnrweb-publications.org.uk/SNORRA%20EDDA%20searchable.pdf#page=81&zoom=auto"
+          },
+          "Chapter 51 (p. 54)": {
+            "explanation": "The text details Surtr's fated battle with the god Freyr, and his final act of destroying the world.",
+            "quote": "Freyr will fight Surt and there will be a harsh conflict before Freyr falls.\n\nAfter that Surt will fling fire over the earth and burn the whole world.",
+            "link": "http://vsnrweb-publications.org.uk/SNORRA%20EDDA%20searchable.pdf#page=82&zoom=auto"
+          },
+          "Chapter 51-52 (p. 55)": {
+            "explanation": "Another quote from *Völuspá* describes Surtr's arrival from the south.",
+            "quote": "Surt travels from the south with the stick-destroyer [fire]. Shines from his sword the sun of the gods of the slain. Rock cliffs crash and troll-wives are abroad, heroes tread the road of Hel and heaven splits.\n\nThen Hlin’s second sorrow comes to pass as Odin goes to fight the wolf, and Beli’s bright slayer against Surt. There shall fall Frigg’s delight.\n\n[…]\n\nThere is a field called Vigrid where shall meet in battle Surt and the sweet gods. A hundred leagues each way it is; this field is marked out for them.’",
+            "link": "http://vsnrweb-publications.org.uk/SNORRA%20EDDA%20searchable.pdf#page=83&zoom=auto"
+          },
+          "Chapter 52-53 (p. 56)": {
+            "explanation": "In the aftermath of Ragnarök, the gods Vidar and Vali are said to survive because \"Surt's fire\" did not harm them. This is repeated in the accompanying verse.",
+            "quote": "Vidar and Vali will be alive, the sea and Surt’s fire not having harmed them...\n\nVidar and Vali will dwell in the gods’ holy places when Surt’s flame goes dark.",
+            "link": "http://vsnrweb-publications.org.uk/SNORRA%20EDDA%20searchable.pdf#page=84&zoom=auto"
+          },
+          "Chapter 53-54 (p. 57)": {
+            "explanation": "The hiding place of Líf and Leifþrasir, the humans who will repopulate the world, is described as a sanctuary from the cataclysm.",
+            "quote": "And in a place called Hoddmimir’s holt two people will lie hid during Surt’s fire...",
+            "link": "http://vsnrweb-publications.org.uk/SNORRA%20EDDA%20searchable.pdf#page=85&zoom=auto"
+          }
+        },
+        "Skáldskaparmál (The Language of Poetry)": {
+          "link": "http://vsnrweb-publications.org.uk/SNORRA%20EDDA%20searchable.pdf#page=87&zoom=auto",
+          "Epilogue (p. 66)": {
+            "explanation": "Snorri equates the mythological \"Surt's fire\" with the historical burning of Troy.",
+            "quote": "What they call Surt’s fire was when Troy burned.",
+            "link": "http://vsnrweb-publications.org.uk/SNORRA%20EDDA%20searchable.pdf#page=94&zoom=auto"
+          },
+          "Chapter 2 (p. 69)": {
+            "explanation": "In a verse by Eyvind, a kenning for the mead of poetry refers to \"Surt's deep vales,\" a poetic term for the mountains (Hnitbjörg) where the mead was kept.",
+            "quote": "...<the mead of poetry> which the speedy one [Odin] flying bore from Surt’s deep vales.",
+            "link": "http://vsnrweb-publications.org.uk/SNORRA%20EDDA%20searchable.pdf#page=97&zoom=auto"
+          },
+          "Chapter 75 (p. 156)": {
+            "explanation": "Surtr is included in the long list of names for giants.",
+            "quote": "Surt and Storverk, Sækarlsmuli, Skærir, Skrymir...",
+            "link": "http://vsnrweb-publications.org.uk/SNORRA%20EDDA%20searchable.pdf#page=184&zoom=auto"
           }
         }
       }
