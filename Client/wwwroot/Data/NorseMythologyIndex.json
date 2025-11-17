@@ -3111,6 +3111,116 @@
       }
     }
   },
+  "Mead of Poetry": {
+    "tags": ["Object"],
+    "attestations": {
+      "Poetic Edda": {
+        "link": "https://books.openbookpublishers.com/10.11647/obp.0308/",
+        "Hávamál (The Sayings of Hávi)": {
+          "link": "https://books.openbookpublishers.com/10.11647/obp.0308/ch2.xhtml",
+          "Stanzas 13-14": {
+            "explanation": "In a warning against drunkenness, Odin uses his own experience of being \"fettered\" in Gunnlǫð's court as a negative example. This is a direct reference to his quest for the mead, which was guarded by the giantess Gunnlǫð.",
+            "quote": "13.‘It’s called the heron of oblivion, the one that stands quietly\nover ale-feasts;\nit steals a man’s wits;\nwith this bird’s feathers I was fettered\nin the court of Gunnlǫð.\n\n14.‘I got drunk, got extremely drunk,\nat the house of wise Fjalarr;\nin that case the best ale-feast is one where each man\ngets his faculties back.",
+            "link": "https://books.openbookpublishers.com/10.11647/obp.0308/ch2.xhtml#_idTextAnchor355"
+          },
+          "Stanzas 104-110": {
+            "explanation": "This section provides the most detailed narrative of the myth in the *Poetic Edda*. Odin recounts his visit to the giant Suttungr's halls, his seduction of Gunnlǫð, the use of the auger Rati to drill into the mountain, his escape with the mead (here named **Óðrerir**), and how he brought it to the world of men.",
+            "quote": "104. I visited the ancient giant, [and] now I have come back;\nI got little by keeping quiet there;\nwith many words I spoke to my advancement\nin Suttungr’s halls.\n\n105. Gunnlǫð gave me on a golden seat\na drink of the precious mead;\nI let her have a poor reward\nfor her true feelings,\nfor her troubled mind.\n\n106. I made Rati’s mouth make room\nand gnaw through rock;\nabove and below me stood the roads of giants;\nthat’s how I risked my head for it.\n\n107. I’ve made good use of the well-bought look;\nfor the wise one, little is lacking;\nbecause Óðrerir has now come up\nto the rim of the sanctuary of men.\n\n108. I doubt that I would have come back\nfrom the courts of the giants,\nif I hadn’t made use of Gunnlǫð, the good woman,\nwho laid her arm over me.\n\n109. The following day, frost-giants went\nto seek Hávi’s counsel in Hávi’s hall;\nthey asked about Bǫlverkr, whether he had come among the gods,\nor whether Suttungr had slaughtered him.\n\n110. I think Óðinn has sworn a ring-oath;\nhow can his pledges be trusted?\nHe cheated Suttungr of the drink,\nand caused Gunnlǫð to weep.",
+            "link": "https://books.openbookpublishers.com/10.11647/obp.0308/ch2.xhtml#_idTextAnchor447"
+          },
+          "Stanza 140": {
+            "explanation": "After learning nine magical songs, Odin gets a drink of the \"precious mead, poured from **Óðrerir**.\" This connects the mead not just with poetry, but with deeper magical knowledge.",
+            "quote": "‘Nine mighty songs I learnt from the famous son\nof Bǫlþórr, father of Bestla,\nand I got a drink of the precious mead,\npoured from Óðrerir.",
+            "link": "https://books.openbookpublishers.com/10.11647/obp.0308/ch2.xhtml#_idTextAnchor485"
+          }
+        },
+        "Alvíssmál (The Sayings of Alvíss)": {
+          "link": "https://books.openbookpublishers.com/10.11647/obp.0308/ch11.xhtml#_idTextAnchor1396",
+          "Stanza 34": {
+            "explanation": "In a list of different names for ale among the various races, the dwarf Alvíss reveals that the sons of Suttungr refer to it as *sumbl*, a possible kenning for the Mead of Poetry.",
+            "quote": "‘It’s named ǫl among men, but bjórr by Æsir,\nVanir call it veig,\ngiants hreinalǫgr, and in Hel mjǫðr,\nSuttungr’s sons call it sumbl.’",
+            "link": "https://books.openbookpublishers.com/10.11647/obp.0308/ch11.xhtml#_idTextAnchor1471"
+          }
+        }
+      },
+      "Prose Edda": {
+        "link": "http://vsnrweb-publications.org.uk/SNORRA%20EDDA%20searchable.pdf",
+        "Skáldskaparmál (The Language of Poetry)": {
+          "link": "http://vsnrweb-publications.org.uk/SNORRA%20EDDA%20searchable.pdf#page=87&zoom=auto",
+          "Chapter 56-57 (p. 61)": {
+            "explanation": "The story begins after the war between the Æsir and the Vanir. They make a truce by spitting into a vat, and from this spittle, the gods create a being of immense wisdom named Kvasir.",
+            "quote": "Bragi replied: ‘The origin of it was that the gods had a dispute with the people called Vanir... But when they dispersed, the gods kept this symbol of truce and decided not to let it be wasted, and out of it made a man. His name was Kvasir...",
+            "link": "http://vsnrweb-publications.org.uk/SNORRA%20EDDA%20searchable.pdf#page=89&zoom=auto"
+          },
+          "Chapter 57-58 (p. 62)": {
+            "explanation": "Kvasir is murdered by the dwarves Fjalar and Galar, who drain his blood into two vats, **Són** and **Boðn**, and a pot called **Óðrerir**. They mix the blood with honey, creating the mead that grants the gift of poetry to whoever drinks it. The dwarves then give the mead to the giant Suttung as compensation for their murder of his father, Gilling.",
+            "quote": "They poured his blood into two vats and a pot, and the latter was called Odrerir, but the vats were called Son and Bodn. They mixed honey with the blood and it turned into the mead whoever drinks from which becomes a poet or scholar.\n\nSuttung took the mead home with him and put it for safe keeping in a place called Hnitbiorg, setting his daughter Gunnlod in charge of it.",
+            "link": "http://vsnrweb-publications.org.uk/SNORRA%20EDDA%20searchable.pdf#page=90&zoom=auto"
+          },
+          "Chapter 58 (p. 63)": {
+            "explanation": "Odin, calling himself Bölverk, plots to retrieve the mead. After working for Suttung's brother Baugi, he has a hole drilled into the mountain Hnitbjörg. He enters as a snake, spends three nights with Gunnlöð, and in return is allowed three draughts of the mead, which he uses to empty all three containers.",
+            "quote": "Bolverk went to where Gunnlod was and lay with her for three nights and then she let him drink three draughts of the mead. In the first draught he drank everything out of Odrerir, and in the second out of Bodn, in the third out of Son, and then he had all the mead.",
+            "link": "http://vsnrweb-publications.org.uk/SNORRA%20EDDA%20searchable.pdf#page=91&zoom=auto"
+          },
+          "Chapter 58, i, Epilogue (p. 64)": {
+            "explanation": "Odin escapes in the form of an eagle, pursued by Suttung. Back in Asgard, he spits the mead into vats for the gods and true poets. Some that he spills in his haste becomes the \"rhymester's share.\" This establishes poetry as \"Odin's booty,\" \"find,\" \"drink,\" and \"gift.\"",
+            "quote": "But Odin gave Suttung’s mead to the Æsir and to those people who are skilled at composing poetry. Thus we call poetry Odin’s booty and find, and his drink and his gift and the Æsir’s drink.’",
+            "link": "http://vsnrweb-publications.org.uk/SNORRA%20EDDA%20searchable.pdf#page=92&zoom=auto"
+          },
+          "Chapter 2 (p. 68)": {
+            "explanation": "Different kennings are used in different verses by different skalds for the mead of poetry.",
+            "quote": "I am mightily proud of my ancient horn-cascade [mead of poetry] of the meanness-avoiding cargo of Gunnlod’s embrace [Odin], though it be meagre.",
+            "link": "http://vsnrweb-publications.org.uk/SNORRA%20EDDA%20searchable.pdf#page=96&zoom=auto"
+          },
+          "Chapter 2 (p. 69)": {
+            "explanation": "A verse by Eyvind mentions the mead that Odin \"flying bore from Surt’s deep vales [Hnitbjörg].\"",
+            "quote": "... <the mead of poetry> which the speedy one [Odin] flying bore from Suit’s deep vales",
+            "link": "http://vsnrweb-publications.org.uk/SNORRA%20EDDA%20searchable.pdf#page=97&zoom=auto"
+          },
+          "Chapter 3 (p. 70)": {
+            "explanation": "The text explicitly lists the main kennings for poetry before providing poetic examples.",
+            "quote": "Now examples will be given of how the poets have referred to poetry using such terms as were noted above, as when it is called Kvasir’s blood and dwarfs’ ship, dwarfs’ mead, giants’ mead, Suttungi’s mead, Odin’s mead, Æsir’s mead...\n\nKvasir’s blood — fiord-bone’s [stone’s] men’s [dwarfs’] yeast-surf [mead].\n\nI bore Odin’s mead to the land of the English.",
+            "link": "http://vsnrweb-publications.org.uk/SNORRA%20EDDA%20searchable.pdf#page=98&zoom=auto"
+          },
+          "Chapter 3 (p. 71)": {
+            "explanation": "More poetic examples are given, using the names of the containers and other elements of the story.",
+            "quote": "Swell of Odrerir pounds against song’s skerry [my teeth].\n\nNow it is that Bodn’s wave [poetry] starts to swell.\n\nYou must decide about kindly gifts, since about High kin [= Hakon] Son’s seed [the mead of poetry] grows on our word-meadow [tongue].",
+            "link": "http://vsnrweb-publications.org.uk/SNORRA%20EDDA%20searchable.pdf#page=99&zoom=auto"
+          },
+          "Chapter 3-4 (p. 72)": {
+            "explanation": "The text directly explains why poetry has these names, linking the liquid nature of the mead to the names of its containers.",
+            "quote": "Poetry is called sea or liquid of the dwarfs, because the liquid in Odrerir was Kvasir’s blood before the mead was made, and it was made in that cauldron, and hence it is called Odin’s pot-liquid...",
+            "link": "http://vsnrweb-publications.org.uk/SNORRA%20EDDA%20searchable.pdf#page=100&zoom=auto"
+          },
+          "Chapter 18 (p. 83)": {
+            "explanation": "In a verse from *Thorsdrapa*, the poet Eilif Gudrunarson refers to his own poetic recitation.",
+            "quote": "I recite Grimnir’s [Odin’s] lip-streams [mead of poetry].",
+            "link": "http://vsnrweb-publications.org.uk/SNORRA%20EDDA%20searchable.pdf#page=111&zoom=auto"
+          },
+          "Chapter 32-33 (p. 95)": {
+            "explanation": "At the end of the section on \"Ægir's fire,\" a verse by the poet Bragi uses a kenning for the mead.",
+            "quote": "I got from the prince fire of mackerel’s seat [sea] for mountain-Fiolnir’s [giant’s] drink [mead of poetry]; the ruler gave it me with a cup.",
+            "link": "http://vsnrweb-publications.org.uk/SNORRA%20EDDA%20searchable.pdf#page=123&zoom=auto"
+          },
+          "Chapter 53 (p. 131)": {
+            "explanation": "A verse by Kormak uses a kenning for the mead of poetry.",
+            "quote": "May the son of Harald’s true trier listen; I let be heard with liveliness my fen-teeth-[rock-]Syr’s [giantess’s] men’s [giants’] yeast-Rhine [mead of poetry].",
+            "link": "http://vsnrweb-publications.org.uk/SNORRA%20EDDA%20searchable.pdf#page=159&zoom=auto"
+          },
+          "Chapter 54-56 (p. 133)": {
+            "explanation": "Two verses on this page use kennings for poetry.",
+            "quote": "Again we have produced Yule-beings’ feast [mead of poetry], our ruler’s eulogy, like a bridge of masonry.\n\nThe land-getter, who binds the straight mast-top, honours the provider of the deities’ fiord [the mead of poetry] with a head-band.",
+            "link": "http://vsnrweb-publications.org.uk/SNORRA%20EDDA%20searchable.pdf#page=161&zoom=auto"
+          },
+          "Chapter 61 (p. 140)": {
+            "explanation": "In a section listing various poetic terms for the sea, a verse by Egil Skallagrimsson is quoted which contains a kenning for the mead of poetry.",
+            "quote": "Depth, as Egil said:\nI go west over the depth, and I carry Vidrir’s [Odin’s] thought-strand-[breast-]mere [mead of poetry]; this is my way.",
+            "link": "http://vsnrweb-publications.org.uk/SNORRA%20EDDA%20searchable.pdf#page=168&zoom=auto"
+          }
+        }
+      }
+    }
+  },
   "Meili": {
     "tags": ["Aesir", "Male"],
     "attestations": {
@@ -5224,6 +5334,51 @@
             "explanation": "Surtr is included in the long list of names for giants.",
             "quote": "Surt and Storverk, Sækarlsmuli, Skærir, Skrymir...",
             "link": "http://vsnrweb-publications.org.uk/SNORRA%20EDDA%20searchable.pdf#page=184&zoom=auto"
+          }
+        }
+      }
+    }
+  },
+  "Sword of Freyr": {
+    "tags": ["Object"],
+    "attestations": {
+      "Poetic Edda": {
+        "link": "https://books.openbookpublishers.com/10.11647/obp.0308/",
+        "Fǫr Skírnis (Skírnir's Journey)": {
+          "link": "https://books.openbookpublishers.com/10.11647/obp.0308/ch5.xhtml",
+          "Stanza 8-9": {
+            "explanation": "Skírnir, preparing to journey to Jötunheimar for Freyr, requests the sword that fights giants on its own. Then Freyr agrees to give his magical sword to Skírnir to aid him in his quest.",
+            "quote": "Skírnir said:\n8. ‘Then give me the horse, the one that can bear me through dark,\ndiscerning flicker-flame,\nand the sword which fights by itself\nagainst the family of giants.’\n\nFreyr said:\n9. ‘I give you that horse which will bear you through dark,\ndiscerning, flicker-flame,\nand the sword which will fight by itself,\nif he who has it is wise.’",
+            "link": "https://books.openbookpublishers.com/10.11647/obp.0308/ch5.xhtml#_idTextAnchor820"
+          },
+          "Stanza 23": {
+            "explanation": "Skírnir, uses the sword to threaten Gerdr into marrying Freyr.",
+            "quote": "Skírnir said:\n‘Do you see this sword, girl, slender, sign-coloured,\nwhich I have here in my hand?\nI shall hew the head from your neck,\nunless you pronounce a pact with me!’",
+            "link": "https://books.openbookpublishers.com/10.11647/obp.0308/ch5.xhtml#_idTextAnchor835"
+          }
+        },
+        "Lokasenna (Loki's Flyting)": {
+          "link": "https://books.openbookpublishers.com/10.11647/obp.0308/ch8.xhtml",
+          "Stanza 42": {
+            "explanation": "Loki taunts Freyr, reminding him that he gave away his sword to win Gerðr and will therefore be powerless at Ragnarök against the sons of Muspell (including Surtr).",
+            "quote": "‘With gold you had Gymir’s daughter bought,\nand so gave your sword;\nbut when Muspell’s sons ride over Myrkviðr,\nthen, wretch, you won’t know how you’ll fight!’",
+            "link": "https://books.openbookpublishers.com/10.11647/obp.0308/ch8.xhtml#_idTextAnchor1194"
+          }
+        }
+      },
+      "Prose Edda": {
+        "link": "http://vsnrweb-publications.org.uk/SNORRA%20EDDA%20searchable.pdf",
+        "Gylfaginning (The Beguiling of Gylfi)": {
+          "link": "http://vsnrweb-publications.org.uk/SNORRA%20EDDA%20searchable.pdf#page=34&zoom=auto",
+          "Chapter 37-38 (p. 32)": {
+            "explanation": "After falling in love with the jötunn Gerðr, Freyr sends his servant Skírnir to woo her on his behalf. To persuade Skírnir to undertake the perilous journey, Freyr gives him his magical sword. The text notes its special quality. Gangleri expresses his astonishment that Freyr would part with such a valuable weapon, and High explains the future consequences of this decision, specifically in his fated battle with the giant Beli and the fire jötunn Surtr.",
+            "quote": "‘Then Skirnir replied, saying that he would undertake the mission, but Freyr must give him his sword. This was such a good sword that it would fight on its own. But Freyr did not let the lack of that be an obstacle and gave him the sword.\n\nThen spoke Gangleri: ‘It is very strange that such a prince as Freyr should want to give away his sword when he did not have another that was as good! This would have been a terrible handicap for him when he fought with the one called Beli.\n\nThere will come a time when Freyr will find being without the sword a greater disadvantage when Muspell’s sons come and wage war.’",
+            "link": "http://vsnrweb-publications.org.uk/SNORRA%20EDDA%20searchable.pdf#page=60&zoom=auto"
+          },
+          "Chapter 51 (p. 54)": {
+            "explanation": "During the events of Ragnarök, the prophecy mentioned earlier comes to pass. Freyr confronts Surtr without his weapon, and the reason for his death is explicitly stated.",
+            "quote": "Freyr will fight Surt and there will be a harsh conflict before Freyr falls. The cause of his death will be that he will be without the good sword that he gave Skirnir.",
+            "link": "http://vsnrweb-publications.org.uk/SNORRA%20EDDA%20searchable.pdf#page=82&zoom=auto"
           }
         }
       }
