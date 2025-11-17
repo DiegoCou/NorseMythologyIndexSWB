@@ -157,6 +157,107 @@
       }
     }
   },
+  "Andvaranaut": {
+    "tags": ["Object"],
+    "attestations": {
+      "Poetic Edda": {
+        "link": "https://books.openbookpublishers.com/10.11647/obp.0308/",
+        "Reginsmál (The Sayings of Reginn)": {
+          "link": "https://books.openbookpublishers.com/10.11647/obp.0308/ch17.xhtml#_idTextAnchor1939",
+          "Prose after Stanza 4 and Stanza 5": {
+            "explanation": "After Loki forces the dwarf Andvari to give up all his gold, he notices Andvari trying to hide one last ring and takes that from him as well. This is the origin of the cursed ring.",
+            "quote": "Loki saw all the gold, that which Andvari owned. And when he had brought forth the gold, then he kept back one ring, and Loki took that from him. The dwarf went into the stone and said:\n\n5. ‘That gold, which Gustr owned,\n\nshall be the death of two brothers,\n\nand for eight noblemen a source of strife —\n\nno one will profit from my possessions!’",
+            "link": "https://books.openbookpublishers.com/10.11647/obp.0308/ch17.xhtml#_idTextAnchor1975"
+          },
+          "Prose after Stanza 5 and Stanza 6": {
+            "explanation": "The ring is named explicitly as **Andvaranautr** when Odin uses it to cover the final part of the otter-skin, thus completing the ransom payment to Hreiðmarr.",
+            "quote": "The Æsir paid Hreiðmarr the treasure and filled up the otter-skin and stood it on its legs. Then the Æsir had to pile up the gold and cover it. And when that was done, Hreiðmarr went forward and saw a whisker, and he told them to cover it. Then Óðinn drew forth the ring Andvaranautr and covered the hair.\n\n6. ‘The gold is now paid to you’, said Loki, ‘and you have\n\na great payment for my head;\n\nfor your son happiness will not be shaped —\n\nit will be the death of you both!’",
+            "link": "https://books.openbookpublishers.com/10.11647/obp.0308/ch17.xhtml#_idTextAnchor1976"
+          }
+        },
+        "Dráp Niflunga (The Slaying of the Niflungar)": {
+          "link": "https://books.openbookpublishers.com/10.11647/obp.0308/ch24.xhtml#_idTextAnchor2486",
+          "Prose Passage": {
+            "explanation": "Guðrún sends the ring **Andvaranautr** to her brothers as a physical warning not to accept Atli's invitation, wrapping it in wolf's hair to signify danger.",
+            "quote": "King Atli invited Gunnarr and Hǫgni to his home and sent Vingi or Knéfrøðr [as his messenger]. Guðrún was wise to their tricks and sent word in runes that they should not come, and as a sign she sent Hǫgni the ring Andvaranautr and tied wolf’s hair around it.",
+            "link": "https://books.openbookpublishers.com/10.11647/obp.0308/ch24.xhtml#_idTextAnchor2495"
+          }
+        }
+      },
+      "Prose Edda": {
+        "link": "http://vsnrweb-publications.org.uk/SNORRA%20EDDA%20searchable.pdf",
+        "Skáldskaparmál (The Language of Poetry)": {
+          "link": "http://vsnrweb-publications.org.uk/SNORRA%20EDDA%20searchable.pdf#page=87&zoom=auto",
+          "Chapter 39-40 (p. 100)": {
+            "explanation": "The story of the ring begins with the tale of the Otter's Ransom. When Odin is covering the otter-skin with gold to pay the ransom, he initially holds the ring back. However, a single whisker remains exposed, and he is forced to use the ring to complete the payment, thereby passing its curse to Hreidmar and his family.",
+            "quote": "And when Odin saw the ring he found it beautiful and removed it from the treasure... Then Odin took out the ring and covered the whisker and declared that they were now quit of the otter-payment.",
+            "link": "http://vsnrweb-publications.org.uk/SNORRA%20EDDA%20searchable.pdf#page=128&zoom=auto"
+          },
+          "Chapter 40-41 (p. 102)": {
+            "explanation": "In the continuation of the saga, Sigurd wins the treasure and later, disguised as Gunnar, he marries Brynhild. He gives her the ring as a morning gift.",
+            "quote": "And in the morning when he got up and dressed, he gave Brynhild as morning gift the gold ring that Loki had taken from Andvari, and received from her another ring as keepsake.",
+            "link": "http://vsnrweb-publications.org.uk/SNORRA%20EDDA%20searchable.pdf#page=130&zoom=auto"
+          },
+          "Chapter 41-42 (p. 103)": {
+            "explanation": "The ring becomes the crucial piece of evidence in the quarrel between Brynhild and Gudrun. Gudrun reveals the truth of the deception by showing Brynhild the ring, which she had received from Sigurd. Here, it is explicitly named \"Andvari's gift.\"",
+            "quote": "‘Do you reckon it was Gunnar that rode the flickering flame? I reckon that the one that went to bed with you was the one that gave me this gold ring, and that gold ring that you are wearing and that you received as morning gift, that is known as Andvari’s gift...’\n[...]\nAfter this Brynhild stabbed herself with a sword and she was burned with Sigurd, while Gunnar and Hogni took over Fafnir’s legacy and Andvari’s gift and went on ruling their lands.",
+            "link": "http://vsnrweb-publications.org.uk/SNORRA%20EDDA%20searchable.pdf#page=131&zoom=auto"
+          }
+        }
+      }
+    }
+  },
+  "Apples of Idunn": {
+    "tags": ["Object"],
+    "attestations": {
+      "Poetic Edda": {
+        "link": "https://books.openbookpublishers.com/10.11647/obp.0308/",
+        "Fǫr Skírnis (Skírnir's Journey)": {
+          "link": "https://books.openbookpublishers.com/10.11647/obp.0308/ch5.xhtml",
+          "Stanza 19": {
+            "explanation": "Skírnir offers golden apples to Gerðr in an attempt to win her for Freyr. The editor's note explicitly connects these to Iðunn's apples of youth.",
+            "author_note": "Emendation of epli ellifu ‘eleven apples’ to epli ellilyfs ‘apples of old-age-healing’ would identify them as the gods’ youth-restoring apples, otherwise kept by the goddess Iðunn.",
+            "quote": "‘Eleven apples I have here, all golden,\nthese will I give you, Gerðr,\nto buy your affection, so that you may say that Freyr\nis the least loathsome one alive!’",
+            "link": "https://books.openbookpublishers.com/10.11647/obp.0308/ch5.xhtml#_idTextAnchor831"
+          },
+          "Stanza 20": {
+            "explanation": "Gerðr rejects the offer of the eleven apples.",
+            "quote": "Gerðr said:\n‘Eleven apples I will never take,\nfor any man’s wishes,\nnor, while our life endures, shall Freyr and I\nboth dwell together!’",
+            "link": "https://books.openbookpublishers.com/10.11647/obp.0308/ch5.xhtml#_idTextAnchor832"
+          }
+        }
+      },
+      "Prose Edda": {
+        "link": "http://vsnrweb-publications.org.uk/SNORRA%20EDDA%20searchable.pdf",
+        "Gylfaginning (The Beguiling of Gylfi)": {
+          "link": "http://vsnrweb-publications.org.uk/SNORRA%20EDDA%20searchable.pdf#page=34&zoom=auto",
+          "Chapter 25-27 (p. 25)": {
+            "explanation": "When introducing the goddess Idunn, the text explains her vital role and the function of her apples.",
+            "quote": "Idunn is his wife. She keeps in her casket apples which the gods have to feed on when they age, and then they all become young, and so it will go on right up to Ragnarok.’",
+            "link": "http://vsnrweb-publications.org.uk/SNORRA%20EDDA%20searchable.pdf#page=53&zoom=auto"
+          }
+        },
+        "Skáldskaparmál (The Language of Poetry)": {
+          "link": "http://vsnrweb-publications.org.uk/SNORRA%20EDDA%20searchable.pdf#page=87&zoom=auto",
+          "Chapter 56 (p. 60)": {
+            "explanation": "As part of a deal to save his own life, Loki is forced by the jötunn Þjazi (in eagle form) to promise to lure Idunn out of Asgard with her apples. Loki tricks Idunn by telling her he has found apples worth having and that she should bring her own for comparison. This allows Þjazi to abduct her. The immediate and dire consequences for the gods of losing the apples are described.",
+            "quote": "...he said that Loki would never get free unless he vowed solemnly to get Idunn to come outside Asgard with her apples, and Loki accepted.\n\nBut at the agreed time Loki lured Idunn out through Asgard into a certain forest, saying that he had found some apples that she would think worth having, and told her she should bring her apples with her and compare them with these.\n\nBut the Æsir were badly affected by Idunn’s disappearance and soon became grey and old.",
+            "link": "http://vsnrweb-publications.org.uk/SNORRA%20EDDA%20searchable.pdf#page=88&zoom=auto"
+          },
+          "Chapter 16 (p. 76)": {
+            "explanation": "In a list of kennings (poetic names) for Loki, he is identified as the \"thief from giants, of goat and Brisingamen and Idunn’s apples.\"",
+            "quote": "How shall Loki be referred to? By calling him son of Farbauti and Laufey, of Nal, [...] thief from giants, of goat and Brisingamen and Idunn’s apples, relative of Sleipnir",
+            "link": "http://vsnrweb-publications.org.uk/SNORRA%20EDDA%20searchable.pdf#page=104&zoom=auto"
+          },
+          "Chapter 18-22 (p. 86)": {
+            "explanation": "When listing the proper kennings for Idunn, her primary role is stated.",
+            "quote": "How shall Idunn be referred to? By calling her wife of Bragi and keeper of the apples, and the apples the Æsir’s old-age cure.",
+            "link": "http://vsnrweb-publications.org.uk/SNORRA%20EDDA%20searchable.pdf#page=114&zoom=auto"
+          }
+        }
+      }
+    }
+  },
   "Asgard (Ásgarðr)": {
     "tags": ["Location"],
     "attestations": {
@@ -483,6 +584,71 @@
       }
     }
   },
+  "Brísingamen": {
+    "tags": ["Object"],
+    "attestations": {
+      "Poetic Edda": {
+        "link": "https://books.openbookpublishers.com/10.11647/obp.0308/",
+        "Þrymskviða (The Lay of Þrymr)": {
+          "link": "https://books.openbookpublishers.com/10.11647/obp.0308/ch9.xhtml",
+          "Stanza 13": {
+            "explanation": "When Freyja is told she must marry the giant Þrymr, she becomes so enraged that the great torc of the Brísingar breaks apart from the force of her fury.",
+            "quote": "Freyja became incensed then and snorted,\nat which all the hall of the Æsir shook;\nthe great torc of the Brísingar fractured:\n‘You’d know me to be most man-eager,\nif I drive with you into Jǫtunheimar!’",
+            "link": "https://books.openbookpublishers.com/10.11647/obp.0308/ch9.xhtml#_idTextAnchor1275"
+          },
+          "Stanza 15": {
+            "explanation": "Heimdallr suggests that Þórr should be disguised as Freyja to retrieve the hammer, and that the disguise must include the Brísingamen.",
+            "quote": "‘Let’s bind Þórr, then, in a bride’s linen,\nlet him have the great torc of the Brísingar!",
+            "link": "https://books.openbookpublishers.com/10.11647/obp.0308/ch9.xhtml#_idTextAnchor1277"
+          },
+          "Stanza 19": {
+            "explanation": "As they dress Þórr in his bridal disguise, the gods place the Brísingamen upon him.",
+            "quote": "Then they bound Þórr in a bride’s linen\nand the great torc of the Brísingar;\nthey had keys clanging at his belt,\nand women’s skirts falling round his knees,\nand on his breast broad jewels,\nand they topped it off tidily about his head!",
+            "link": "https://books.openbookpublishers.com/10.11647/obp.0308/ch9.xhtml#_idTextAnchor1281"
+          }
+        }
+      },
+      "Prose Edda": {
+        "link": "http://vsnrweb-publications.org.uk/SNORRA%20EDDA%20searchable.pdf",
+        "Gylfaginning (The Beguiling of Gylfi)": {
+          "link": "http://vsnrweb-publications.org.uk/SNORRA%20EDDA%20searchable.pdf#page=34&zoom=auto",
+          "Chapter 35 (p. 30)": {
+            "explanation": "In the description of the goddess Freyja and her various names and possessions, the necklace is named as belonging to her.",
+            "quote": "Freyia owned the Brisings’ necklace.",
+            "link": "http://vsnrweb-publications.org.uk/SNORRA%20EDDA%20searchable.pdf#page=58&zoom=auto"
+          }
+        },
+        "Skáldskaparmál (The Language of Poetry)": {
+          "link": "http://vsnrweb-publications.org.uk/SNORRA%20EDDA%20searchable.pdf#page=87&zoom=auto",
+          "Chapter 8-16 (p. 76)": {
+            "explanation": "When listing the kennings (poetic names) for Heimdall, he is called the \"recoverer of Freyia’s necklace.\" The text also notes the occasion when he fought Loki for it.",
+            "quote": "How shall Heimdall be referred to? By calling him... recoverer of Freyia’s necklace... on that occasion he contended with Loki for the Brisingamen.",
+            "link": "http://vsnrweb-publications.org.uk/SNORRA%20EDDA%20searchable.pdf#page=104&zoom=auto"
+          },
+          "Chapter 16 (p. 76)": {
+            "explanation": "In the list of kennings for Loki, he is identified as the \"thief from giants, of goat and Brisingamen and Idunn’s apples.\"",
+            "quote": "How shall Loki be referred to? By calling him son of Farbauti and Laufey, of Nal, […] Geirrod’s visitor and casket-ornament, thief from giants, of goat and Brisingamen and Idunn’s apples, relative of Sleipnir",
+            "link": "http://vsnrweb-publications.org.uk/SNORRA%20EDDA%20searchable.pdf#page=104&zoom=auto"
+          },
+          "Chapter 16-17 (p. 77)": {
+            "explanation": "A verse by the skald Úlfr Uggason is quoted, which refers to the conflict between Heimdall and Loki over the necklace.",
+            "quote": "Renowned defender [Heimdall]... is first to get hold of the beautiful sea-kidney [jewel, Brisingamen].",
+            "link": "http://vsnrweb-publications.org.uk/SNORRA%20EDDA%20searchable.pdf#page=105&zoom=auto"
+          },
+          "Chapter 18-22 (p. 86)": {
+            "explanation": "This is the reference I missed. In the list of proper kennings for Freyja, being the owner of the necklace is explicitly mentioned.",
+            "quote": "How shall Freyja be referred to? By calling her daughter of Niord, sister of Freyr, wife of Od, mother of Hnoss, possessor of the fallen slain and of Sessrumnir and tom-cats, of Brisingamen, Van-deity, Van-lady, fair-tear deity.",
+            "link": "http://vsnrweb-publications.org.uk/SNORRA%20EDDA%20searchable.pdf#page=114&zoom=auto"
+          },
+          "Chapter 22 (p. 87)": {
+            "explanation": "In the poem *Haustlöng*, Loki is referred to by the kenning \"thief of Brising’s girdle [Brisingamen].\"",
+            "quote": "The thief of Brising’s girdle [Brisingamen] afterwards caused the gods’ lady [Idunn] to go into the rock-Nidud’s [giant’s] courts...",
+            "link": "http://vsnrweb-publications.org.uk/SNORRA%20EDDA%20searchable.pdf#page=115&zoom=auto"
+          }
+        }
+      }
+    }
+  },
   "Búri": {
     "tags": ["Aesir", "Male"],
     "attestations": {
@@ -698,6 +864,33 @@
             "explanation": "Eir is named in a list of Odin's maids, who are also identified as norns.",
             "quote": "Then are listed Hrund and Eir, Hrist, Skuld. They are called norns who shape necessity.",
             "link": "/Data/SNORRAEDDAsearchable.pdf#page=185"
+          }
+        }
+      }
+    }
+  },
+  "Eldhrimnir": {
+    "tags": ["Object"],
+    "attestations": {
+      "Poetic Edda": {
+        "link": "https://books.openbookpublishers.com/10.11647/obp.0308/",
+        "Grímnismál (The Sayings of Grímnir)": {
+          "link": "https://books.openbookpublishers.com/10.11647/obp.0308/ch4.xhtml#_idTextAnchor634",
+          "Stanza 18": {
+            "explanation": "Explains that Andhrimnir cooks meat from Sæhrimnir (a boar) for the einherjar (warriors from Valhǫll) in Eldhrimnir (a cauldron).",
+            "quote": "\"Andhrímnir has Sæhrímnir\nboiled in Eldhrímnir;\n[it’s] the best of flesh, but few know\non what the unique champions live\"",
+            "link": "https://books.openbookpublishers.com/10.11647/obp.0308/ch4.xhtml#_idTextAnchor714"
+          }
+        }
+      },
+      "Prose Edda": {
+        "link": "/Data/SNORRAEDDAsearchable.pdf",
+        "Gylfaginning (The Beguiling of Gylfi)": {
+          "link": "/Data/SNORRAEDDAsearchable.pdf#page=34&zoom=auto",
+          "Chapter 37-38 (p.32)": {
+            "explanation": "When explaining how the Einherjar are fed in Valhǫll, High identifies Andhrimnir as the cook and Eldhrimnir as his cauldron. He quotes a verse from Grímnismál.",
+            "quote": "The cook is called Andhrimnir and the pot Eldhrimnir. Thus it says here:\n\n\nAndhrimnir has Sæhrimnir cooked in Eldhrimnir, best of meats. But there are few that know on what the Einheriar feed.’",
+            "link": "/Data/SNORRAEDDAsearchable.pdf#page=60"
           }
         }
       }
@@ -2325,6 +2518,35 @@
       }
     }
   },
+  "Hringhorni": {
+    "tags": ["Object"],
+    "attestations": {
+      "Prose Edda": {
+        "link": "http://vsnrweb-publications.org.uk/SNORRA%20EDDA%20searchable.pdf",
+        "Gylfaginning (The Beguiling of Gylfi)": {
+          "link": "http://vsnrweb-publications.org.uk/SNORRA%20EDDA%20searchable.pdf#page=34&zoom=auto",
+          "Chapter 49 (p. 49)": {
+            "explanation": "Following Baldr's death, the Æsir prepare his funeral pyre upon his great ship. The text explicitly names it and declares it the largest of all ships.",
+            "quote": "So the Æsir took Baldr’s body and carried it to the sea. Hringhorni was the name of Baldr’s ship. It was the biggest of all ships. This the Æsir planned to launch and perform on it Baldr’s funeral.",
+            "link": "http://vsnrweb-publications.org.uk/SNORRA%20EDDA%20searchable.pdf#page=77&zoom=auto"
+          }
+        },
+        "Skáldskaparmál (The Language of Poetry)": {
+          "link": "http://vsnrweb-publications.org.uk/SNORRA%20EDDA%20searchable.pdf#page=87&zoom=auto",
+          "Chapter 4-5 (p. 74)": {
+            "explanation": "When listing the proper kennings (poetic names) for Baldr, the text identifies him as the owner of the ship.",
+            "quote": "How shall Baldr be referred to? By calling him son of Odin and Frigg, husband of Nanna, father of Forseti, owner of Hringhorni and Draupnir...",
+            "link": "http://vsnrweb-publications.org.uk/SNORRA%20EDDA%20searchable.pdf#page=102&zoom=auto"
+          },
+          "Chapter 75 (p. 162)": {
+            "explanation": "In a long, categorical list of names for ships, Hringhorni (spelled here as Hringhornir) is included.",
+            "quote": "Freighter, buss, bow-cold and reindeer, bac, thole-strap fixed, rimy-bowed, cruiser, boat and pinnace, brig, Hringhornir, long-boat, keel, longship, Leifnir, carvel.",
+            "link": "http://vsnrweb-publications.org.uk/SNORRA%20EDDA%20searchable.pdf#page=190&zoom=auto"
+          }
+        }
+      }
+    }
+  },
   "Hrungnir": {
     "tags": ["Jötunn", "Male"],
     "attestations": {
@@ -3221,6 +3443,40 @@
       }
     }
   },
+  "Megingiord (Megingjörð)": {
+    "tags": ["Object"],
+    "attestations": {
+      "Prose Edda": {
+        "link": "http://vsnrweb-publications.org.uk/SNORRA%20EDDA%20searchable.pdf",
+        "Gylfaginning (The Beguiling of Gylfi)": {
+          "link": "http://vsnrweb-publications.org.uk/SNORRA%20EDDA%20searchable.pdf#page=34&zoom=auto",
+          "Chapter 20-21 (p. 22)": {
+            "explanation": "When introducing Thor, the girdle is listed as one of his three special items, along with his hammer Mjöllnir and his iron gloves. Its function is explicitly described.",
+            "quote": "He has another possession that is very valuable, a girdle of might, and when he buckles it on his As-strength is doubled.",
+            "link": "http://vsnrweb-publications.org.uk/SNORRA%20EDDA%20searchable.pdf#page=50&zoom=auto"
+          }
+        },
+        "Skáldskaparmál (The Language of Poetry)": {
+          "link": "http://vsnrweb-publications.org.uk/SNORRA%20EDDA%20searchable.pdf#page=87&zoom=auto",
+          "Chapter 3-4 (p. 72)": {
+            "explanation": "In a list of kennings (poetic names) for Thor, he is identified as the \"ruler and owner of Miollnir and the girdle of might.\"",
+            "quote": "How shall Thor be referred to? By calling him son of Odin and lord... ruler and owner of Miollnir and the girdle of might...",
+            "link": "http://vsnrweb-publications.org.uk/SNORRA%20EDDA%20searchable.pdf#page=100&zoom=auto"
+          },
+          "Chapter 17-18 (p. 81)": {
+            "explanation": "The introduction to the story of Thor's journey to the court of the giant Geirrod explicitly states that Thor was tricked into going without his key equipment.",
+            "quote": "On that occasion he did not have the hammer Miollnir or the girdle of might or the iron gauntlets, and that was Loki’s doing.",
+            "link": "http://vsnrweb-publications.org.uk/SNORRA%20EDDA%20searchable.pdf#page=109&zoom=auto"
+          },
+          "Chapter 18 (p. 82)": {
+            "explanation": "Because he is without his own gear, Thor receives a replacement girdle from the giantess Gríðr, which he uses immediately.",
+            "quote": "She lent him a girdle of might and some iron gauntlets of hers, and her staff, called Grid’s pole. Then Thor approached the river called Vimur, greatest of all rivers. Then he buckled on the girdle of might and pressed down on Grid’s pole...",
+            "link": "http://vsnrweb-publications.org.uk/SNORRA%20EDDA%20searchable.pdf#page=110&zoom=auto"
+          }
+        }
+      }
+    }
+  },
   "Meili": {
     "tags": ["Aesir", "Male"],
     "attestations": {
@@ -3543,6 +3799,56 @@
             "explanation": "In a list of kennings for the sun, one way to refer to it is as the \"daughter of Mundilfæri.\"",
             "quote": "How shall the sun be referred to? By calling it daughter of Mundilfæri, sister of Moon, wife of Glen, fire of sky and air.",
             "link": "/Data/SNORRAEDDAsearchable.pdf#page=121"
+          }
+        }
+      }
+    }
+  },
+  "Naglfar": {
+    "tags": ["Object"],
+    "attestations": {
+      "Poetic Edda": {
+        "link": "https://books.openbookpublishers.com/10.11647/obp.0308/",
+        "Völuspá (The Seeress's Prophecy) - Codex Regius Version": {
+          "link": "https://books.openbookpublishers.com/10.11647/obp.0308/ch1.xhtml",
+          "Stanza 48": {
+            "explanation": "In a list of apocalyptic signs, the seeress states that Naglfar breaks loose.",
+            "quote": "‘Hrymr drives from the east, heaves his shield before him,\nJǫrmungandr writhes in giant-rage;\nthe snake lashes waves, and the eagle shrieks,\nthe fallow-nosed one tears corpses, Naglfar breaks loose.",
+            "link": "https://books.openbookpublishers.com/10.11647/obp.0308/ch1.xhtml#_idTextAnchor144"
+          },
+          "Stanza 49": {
+            "explanation": "The poem clarifies that Naglfar is a ship that carries Loki, the giants, and the wolf to the final battle.",
+            "quote": "‘A ship fares from the east, Muspell’s forces\nwill come over the sea, and Loki steers;\nall the giant’s kindred travel with the ravener,\nBýleiptr’s brother is with them on the voyage.",
+            "link": "https://books.openbookpublishers.com/10.11647/obp.0308/ch1.xhtml#_idTextAnchor146"
+          }
+        }
+      },
+      "Prose Edda": {
+        "link": "http://vsnrweb-publications.org.uk/SNORRA%20EDDA%20searchable.pdf",
+        "Gylfaginning (The Beguiling of Gylfi)": {
+          "link": "http://vsnrweb-publications.org.uk/SNORRA%20EDDA%20searchable.pdf#page=34&zoom=auto",
+          "Chapter 43-44 (p. 37)": {
+            "explanation": "While describing Freyr's ship Skidbladnir, the text contrasts it with Naglfari, identifying the latter as the largest of all ships and associating it with Muspell.",
+            "quote": "Skidbladnir is a good ship, but it must require a very great deal of magic to make something like that... but the biggest ship is Naglfari, it belongs to Muspell.",
+            "link": "http://vsnrweb-publications.org.uk/SNORRA%20EDDA%20searchable.pdf#page=65&zoom=auto"
+          },
+          "Chapter 51 (p. 53)": {
+            "explanation": "During the description of the cataclysmic events of Ragnarök, the text details the ship's construction and its release upon the world.",
+            "quote": "Then it will also happen that Naglfar will be loosed from its moorings, the ship of that name. It is made of dead people’s nails, and it is worth taking care lest anyone die with untrimmed nails, since such a person contributes much material to the ship Naglfar which gods and men wish would take a long time to finish. And in this flood Naglfar will be carried along.",
+            "link": "http://vsnrweb-publications.org.uk/SNORRA%20EDDA%20searchable.pdf#page=81&zoom=auto"
+          }
+        },
+        "Skáldskaparmál (The Language of Poetry)": {
+          "link": "http://vsnrweb-publications.org.uk/SNORRA%20EDDA%20searchable.pdf#page=87&zoom=auto",
+          "Chapter 51-52 (p. 55)": {
+            "explanation": "A verse from the poem *Völuspá* is quoted, describing the events of Ragnarök, including the ship being set free.",
+            "quote": "The serpent churns the waves, the eagle will screech with joy, darkly pale it tears corpses, Naglfar is loosed.",
+            "link": "http://vsnrweb-publications.org.uk/SNORRA%20EDDA%20searchable.pdf#page=83&zoom=auto"
+          },
+          "Chapter 75 (p. 162)": {
+            "explanation": "Naglfari is included in a long, categorical list of names for ships.",
+            "quote": "Now I shall expound the names of ships. Ark, oar-claw, ash, Sessrumnir, cutter, scout, ship and Skidbladnir, nave, Naglfari, row-boat, snack.",
+            "link": "http://vsnrweb-publications.org.uk/SNORRA%20EDDA%20searchable.pdf#page=190&zoom=auto"
           }
         }
       }
