@@ -2923,6 +2923,22 @@
       }
     }
   },
+  "Laevatinn (Lævateinn)": {
+    "tags": ["Object"],
+    "attestations": {
+      "Poetic Edda": {
+        "link": "https://books.openbookpublishers.com/10.11647/obp.0308/",
+        "Svipdagsmál (Gróugaldr and Fjǫlsvinnsmál)": {
+          "link": "https://books.openbookpublishers.com/10.11647/obp.0308/ch36.xhtml#_idTextAnchor3555",
+          "Stanza 26": {
+            "explanation": "The jötunn Fjǫlsviðr reveals to Svipdagr that the only weapon capable of killing the cockerel Viðófnir is named Lævateinn.",
+            "quote": "‘It’s called Lævateinn, but Loptr caused it to be plucked\ndown beneath corpse-gates;\nin a chest of tough-iron it lies besides Sinmara,\nand nine Njǫrðr-locks guard it.’",
+            "link": "https://books.openbookpublishers.com/10.11647/obp.0308/ch36.xhtml#_idTextAnchor3656"
+          }
+        }
+      }
+    }
+  },
   "Laufey": {
     "tags": ["Aesir","Female"],
     "attestations": {
@@ -6085,6 +6101,40 @@
             "explanation": "A kenning for Thor is mentioned, “troll-wives enemy’s Thor’s",
             "quote": "troll-wives enemy’s Thor’s",
             "link": "http://vsnrweb-publications.org.uk/EDDArestr.pdf#page=193&zoom=auto"
+          }
+        }
+      }
+    }
+  },
+  "Thor's Iron Gloves (Járngreipr)": {
+    "tags": ["Object"],
+    "attestations": {
+      "Prose Edda": {
+        "link": "http://vsnrweb-publications.org.uk/SNORRA%20EDDA%20searchable.pdf",
+        "Gylfaginning (The Beguiling of Gylfi)": {
+          "link": "http://vsnrweb-publications.org.uk/SNORRA%20EDDA%20searchable.pdf#page=34&zoom=auto",
+          "Chapter 20-21 (p. 22)": {
+            "explanation": "When Thor's three special possessions are introduced, the iron gloves are listed last, and their necessity for handling Mjöllnir is made clear.",
+            "quote": "He has a third thing that is a most important possession. This is a pair of iron gloves. He must not be without these when he grips the hammer.",
+            "link": "http://vsnrweb-publications.org.uk/SNORRA%20EDDA%20searchable.pdf#page=50&zoom=auto"
+          }
+        },
+        "Skáldskaparmál (The Language of Poetry)": {
+          "link": "http://vsnrweb-publications.org.uk/SNORRA%20EDDA%20searchable.pdf#page=87&zoom=auto",
+          "Chapter 17-18 (p. 81)": {
+            "explanation": "The story of Thor's perilous journey to the giant Geirrod's court begins by stating that Loki had tricked him into leaving his most important equipment behind.",
+            "quote": "On that occasion he did not have the hammer Miollnir or the girdle of might or the iron gauntlets, and that was Loki’s doing.",
+            "link": "http://vsnrweb-publications.org.uk/SNORRA%20EDDA%20searchable.pdf#page=109&zoom=auto"
+          },
+          "Chapter 18 (p. 82)": {
+            "explanation": "The giantess Gríðr aids Thor by lending him her own set of iron gauntlets, which prove essential for his survival.",
+            "quote": "She lent him a girdle of might and some iron gauntlets of hers, and her staff, called Grid’s pole.",
+            "link": "http://vsnrweb-publications.org.uk/SNORRA%20EDDA%20searchable.pdf#page=110&zoom=auto"
+          },
+          "Chapter 18 (p. 82) #2": {
+            "explanation": "During the climax of his confrontation with Geirrod, Thor uses the borrowed gauntlets to catch a lump of molten iron thrown at him.",
+            "quote": "And when Thor came into the hall opposite Geirrod, Geirrod picked up with tongs a glowing lump of molten iron and threw it at Thor, and with the iron gauntlets Thor caught and raised the molten lump into the air...",
+            "link": "http://vsnrweb-publications.org.uk/SNORRA%20EDDA%20searchable.pdf#page=110&zoom=auto"
           }
         }
       }
