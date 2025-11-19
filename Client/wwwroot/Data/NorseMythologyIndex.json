@@ -2283,6 +2283,38 @@
       }
     }
   },
+  "Himinbjörg": {
+    "tags": ["Location"],
+    "attestations": {
+      "Poetic Edda": {
+        "link": "https://books.openbookpublishers.com/10.11647/obp.0308/",
+        "Grímnismál (The Lay of Grímnir)": {
+          "link": "https://books.openbookpublishers.com/10.11647/obp.0308/ch4.xhtml",
+          "Stanza 13": {
+            "explanation": "In his monologue listing the homes of the gods, Odin (as Grímnir) names Himinbjörg as the eighth hall, where Heimdallr, the watchman of the gods, resides and drinks mead.",
+            "quote": "‘Himinbjǫrg is the eighth, and there Heimdallr,\nthey say, presides over sanctuaries;\nthere the gods’ watchman drinks in a homely hall,\nglad, the good mead.",
+            "link": "https://books.openbookpublishers.com/10.11647/obp.0308/ch4.xhtml#_idTextAnchor709"
+          }
+        }
+      },
+      "Prose Edda": {
+        "link": "http://vsnrweb-publications.org.uk/SNORRA%20EDDA%20searchable.pdf",
+        "Gylfaginning (The Beguiling of Gylfi)": {
+          "link": "http://vsnrweb-publications.org.uk/SNORRA%20EDDA%20searchable.pdf#page=34&zoom=auto",
+          "Chapter 17-19 (p. 20)": {
+            "explanation": "In a description of the magnificent dwellings of the gods, Himinbjörg is mentioned, and its strategic location is specified.",
+            "quote": "There also is a place called Himinbiorg. It stands at the edge of heaven at the bridge’s end where Bifrost reaches heaven.",
+            "link": "http://vsnrweb-publications.org.uk/SNORRA%20EDDA%20searchable.pdf#page=48&zoom=auto"
+          },
+          "Chapter 25-27 (p. 25)": {
+            "explanation": "While listing the proper kennings (poetic names) for Heimdall, his dwelling place is named, and a verse is quoted that describes him drinking mead in his hall.",
+            "quote": "He lives in a place called Himinbiorg by Bifrost. He is the gods’ watchman and sits there at the edge of heaven to guard the bridge against mountain-giants... Thus it is said here:\n\nThere is a place called Himinbiorg, and there they say it is Heimdall who is ruler of the holy places. There the gods’ watchman drinks in the pleasant hall, merry, the good mead.",
+            "link": "http://vsnrweb-publications.org.uk/SNORRA%20EDDA%20searchable.pdf#page=53&zoom=auto"
+          }
+        }
+      }
+    }
+  },
   "Hlín": {
     "tags": ["Aesir","Female"],
     "attestations": {
@@ -3535,6 +3567,187 @@
       }
     }
   },
+  "Midgard (Miðgarðr)": {
+    "tags": ["Location"],
+    "attestations": {
+      "Poetic Edda": {
+        "link": "https://books.openbookpublishers.com/10.11647/obp.0308/",
+        "Völuspá (The Seeress's Prophecy)": {
+          "link": "https://books.openbookpublishers.com/10.11647/obp.0308/ch1.xhtml",
+          "Stanza 4": {
+            "explanation": "The creation of Miðgarðr by the sons of Burr is described as one of the first acts of shaping the world.",
+            "quote": "‘Before the sons of Burr lifted up lands,\nthey who gave shape to glorious Miðgarðr;\nthe sun shone from the south on the hall’s stones,\nthen the ground was overgrown with green leek.",
+            "link": "https://books.openbookpublishers.com/10.11647/obp.0308/ch1.xhtml#_idTextAnchor102"
+          }
+        },
+        "Grímnismál (The Lay of Grímnir)": {
+          "link": "https://books.openbookpublishers.com/10.11647/obp.0308/ch4.xhtml",
+          "Stanza 41": {
+            "explanation": "The poem specifies that the gods created Miðgarðr for humanity from the eyelashes of the giant Ymir.",
+            "quote": "‘And from his eyelashes the kindly powers made\nMiðgarðr for the sons of men,\nand from his brain all those hard-hearted\nclouds were created.",
+            "link": "https://books.openbookpublishers.com/10.11647/obp.0308/ch4.xhtml#_idTextAnchor741"
+          }
+        },
+        "Hárbarðsljóð (The Song of Hárbarðr)": {
+          "link": "https://books.openbookpublishers.com/10.11647/obp.0308/ch6.xhtml",
+          "Stanza 23": {
+            "explanation": "Þórr boasts of his role as the protector of Miðgarðr, stating that without his giant-slaying efforts, there would be no men left.",
+            "quote": "‘I was in the east and I fought giants,\nbrides skilled in mischief who went to a mountain;\nthe kindred of giants would be large if all had lived —\nthere would be no men under Miðgarðr!",
+            "link": "https://books.openbookpublishers.com/10.11647/obp.0308/ch6.xhtml#_idTextAnchor949"
+          }
+        },
+        "Hymiskviða (The Lay of Hymir)": {
+          "link": "https://books.openbookpublishers.com/10.11647/obp.0308/ch7.xhtml",
+          "Title in Manuscript": {
+            "explanation": "The title given for this poem in the original manuscript is \"Þórr fished for the Miðgarðsormr\" (the Serpent of Miðgarðr).",
+            "link": "https://books.openbookpublishers.com/10.11647/obp.0308/ch7.xhtml#_idTextAnchor994"
+          },
+          "Stanza 22": {
+            "explanation": "The Miðgarðsormr is described as the \"girdle of all lands,\" which Þórr catches on his hook.",
+            "quote": "‘He baited the hook, the one who saves men,\nthe snake’s lone slayer, with the ox’s head;\nit gaped at the hook, the one whom gods hate,\nthe girdle of all lands, from below.",
+            "link": "https://books.openbookpublishers.com/10.11647/obp.0308/ch7.xhtml#_idTextAnchor1057"
+          }
+        },
+        "Hyndluljóð (The Song of Hyndla)": {
+          "link": "https://books.openbookpublishers.com/10.11647/obp.0308/ch35.xhtml#_idTextAnchor3440",
+          "Stanza 11": {
+            "explanation": "Hyndla begins to recite Óttarr's lineage by listing the great families of humanity, which she calls \"the greatest choice of humans under Miðgarðr.\"",
+            "quote": "‘Now let ancient kinsmen be enumerated\nand the families of people which have been born:\nwho is of the Skjǫldungar, who is of the Skilfingar,\nwho is of the Auðlingar, who is of the Ylfingar,\nwho is freeholder-born, who is chieftain-born,\nthe greatest choice of humans under Miðgarðr!’",
+            "link": "https://books.openbookpublishers.com/10.11647/obp.0308/ch35.xhtml#_idTextAnchor3509"
+          },
+          "Stanza 16": {
+            "explanation": "Hyndla repeats the phrase after listing several ancient dynasties.",
+            "quote": "‘[Descended] from there are the Skjǫldungar, from there are the Skilfingar,\nfrom there the Auðlingar, from there the Ynglingar,\nfrom there the freeholder-born, from there the chieftain-born,\nthe greatest choice of humans under Miðgarðr;\nall that is your family, Óttarr the Foolish!",
+            "link": "https://books.openbookpublishers.com/10.11647/obp.0308/ch35.xhtml#_idTextAnchor3515"
+          }
+        }
+      },
+      "Prose Edda": {
+        "link": "http://vsnrweb-publications.org.uk/SNORRA%20EDDA%20searchable.pdf",
+        "Gylfaginning (The Beguiling of Gylfi)": {
+          "link": "http://vsnrweb-publications.org.uk/SNORRA%20EDDA%20searchable.pdf#page=34&zoom=auto",
+          "Chapter 8 (p. 41)": {
+            "explanation": "During the creation of the world from the body of the giant Ymir, the gods create a defensive barrier to protect the world of men from the giants. And after creating the first humans, Ask and Embla, the gods give them Midgard as a place to live.",
+            "quote": "…and they called the fortification Midgard. They also took his brains and threw them into the sky and made out of them the clouds, as it says here:\nFrom Ymir’s flesh was earth created, and from blood, sea; rocks of bones, trees of hair, and from his skull, the sky. And from his eyelashes the joyous gods made Midgard for\nmen’s sons, and from his brains were those cruel clouds all created.’\n[…]\nThe man was called Ask, the woman Embla, and from them were produced the mankind to whom the dwelling-place under Midgard was given.",
+            "link": "http://vsnrweb-publications.org.uk/SNORRA%20EDDA%20searchable.pdf#page=41&zoom=auto"
+          },
+          "Chapter 12-14 (p. 43)": {
+            "explanation": "The origin of the wolves Skoll and Hati is traced to a giantess living in a forest to the east of Midgard.",
+            "quote": "‘A certain giantess lives east of Midgard in a forest called Ironwood.",
+            "link": "http://vsnrweb-publications.org.uk/SNORRA%20EDDA%20searchable.pdf#page=43&zoom=auto"
+          },
+          "Chapter 34 (p. 26)": {
+            "explanation": "When the gods learn of Loki's monstrous children, they realize the threat they pose. One of these children is the great serpent.",
+            "quote": "One was Fenriswolf, the second Iormungand (i.e. the Midgard serpent), the third is Hel.",
+            "link": "http://vsnrweb-publications.org.uk/SNORRA%20EDDA%20searchable.pdf#page=54&zoom=auto"
+          },
+          "Chapter 42 (p. 35)": {
+            "explanation": "In the story of the jötunn builder, the jötunn offers to construct a fortification that would be secure \"even though they [mountain-giants and frost-giants] should come in over Midgard.\"",
+            "quote": "It was right at the beginning of the gods’ settlement, when the gods had established Midgard and built Val-hall, there came there a certain builder and offered to build them a fortification in three seasons so good that it would be reliable and secure against mountain-giants and frost-giants even though they should come in over Midgard. And he stipulated as his payment that he should get Freyia as his wife, and he wished to\nhave the sun and moon.",
+            "link": "http://vsnrweb-publications.org.uk/SNORRA%20EDDA%20searchable.pdf#page=63&zoom=auto"
+          },
+          "Chapter 47 (p. 45)": {
+            "explanation": "In the hall of Útgarða-Loki, the giant explains the deceptions he used against Thor. The cat that Thor could not lift was, in fact, the great serpent.",
+            "quote": "For that cat was not what it appeared to you: it was the Midgard serpent which lies encircling all lands, and its length was hardly enough for both its head and its tail to touch the ground.",
+            "link": "http://vsnrweb-publications.org.uk/SNORRA%20EDDA%20searchable.pdf#page=73&zoom=auto"
+          },
+          "Chapter 47-48 (p. 46)": {
+            "explanation": "Thor's journey to fish for the serpent begins by him traveling in disguise through the human realm.",
+            "quote": "But the fact is that he had then made up his mind to seek an opportunity for a meeting to take place between him and the Midgard serpent, as later occurred.\n[…]\nHe went out across Midgard having assumed the appearance of a young boy...",
+            "link": "http://vsnrweb-publications.org.uk/SNORRA%20EDDA%20searchable.pdf#page=74&zoom=auto"
+          },
+          "Chapter 48 (p. 47)": {
+            "explanation": "During the fishing trip with the giant Hymir, Thor rows them dangerously far out, to where the serpent dwells. It is referenced several times as Midgard serpent on the page.",
+            "quote": "Then Hymir said they had got so far out that it was dangerous to be further out because of the Midgard serpent.\n\nBut I think in fact the contrary is correct to report to you that the Midgard serpent lives still and lies in the encircling sea.",
+            "link": "http://vsnrweb-publications.org.uk/SNORRA%20EDDA%20searchable.pdf#page=75&zoom=auto"
+          },
+          "Chapter 51 (p. 53)": {
+            "explanation": "During Ragnarök, the serpent's rage causes the oceans to flood the land.",
+            "quote": "Then the ocean will surge up on to the lands because the Midgard serpent will fly into a giant rage and make its way ashore.\n[…]\nThe Midgard serpent will spit so much poison that it will bespatter all the sky and sea, and it will be very terrible, and it will be on one side of the wolf.",
+            "link": "http://vsnrweb-publications.org.uk/SNORRA%20EDDA%20searchable.pdf#page=81&zoom=auto"
+          },
+          "Chapter 51 (p. 54)": {
+            "explanation": "In the final battle, the arrival of the serpent is noted, and Thor is victorious over it but succumbs to its venom. Jormungandr is referenced several times as Midgard serpent on the page.",
+            "quote": "Then there will also arrive there Fenriswolf and the Midgard serpent.\n\nThor will be victorious over the Midgard serpent and will step away from it nine paces. Then he will fall to the ground dead from the poison which the serpent will spit at him.",
+            "link": "http://vsnrweb-publications.org.uk/SNORRA%20EDDA%20searchable.pdf#page=82&zoom=auto"
+          },
+          "Chapter 51-52 (p. 55)": {
+            "explanation": "In a verse from *Völuspá*, Thor is referred to by a kenning as \"Midgard’s protector.\"",
+            "quote": "All heroes shall leave the world when Midgard’s protector strikes in wrath.",
+            "link": "http://vsnrweb-publications.org.uk/SNORRA%20EDDA%20searchable.pdf#page=83&zoom=auto"
+          },
+          "Chapter 52-53 (p. 56)": {
+            "explanation": "After the world is reborn, the gods who survived Ragnarök will discuss the great events of the past, including the serpent.",
+            "quote": "Then they will all sit down together and talk and discuss their mysteries and speak of the things that had happened in former times, of the Midgard serpent and Fenriswolf.",
+            "link": "http://vsnrweb-publications.org.uk/SNORRA%20EDDA%20searchable.pdf#page=84&zoom=auto"
+          }
+        },
+        "Skáldskaparmál (The Language of Poetry)": {
+          "link": "http://vsnrweb-publications.org.uk/SNORRA%20EDDA%20searchable.pdf#page=87&zoom=auto",
+          "Epilogue (p. 65)": {
+            "explanation": "In Snorri's euhemeristic explanation of the myths, he directly equates the story of Thor fishing for the serpent with an episode from the Trojan War and mentions the serpent twice.",
+            "quote": "The story goes that Oku-Thor used an ox-head as bait and pulled the Midgard serpent up to the gunwale...\n\n...they exaggerated the story beyond what was true, when they said that the Midgard serpent suffered death there.",
+            "link": "http://vsnrweb-publications.org.uk/SNORRA%20EDDA%20searchable.pdf#page=93&zoom=auto"
+          },
+          "Chapter 2 (p. 69)": {
+            "explanation": "A verse by Bragi mentions Thor testing his strength against the \"water-soaked earth-band [Midgard serpent].\"",
+            "quote": "Bragi said this:\nIt is conveyed to me that the son [Thor] of the father of mankind [Odin] was determined soon to test his strength against the water-soaked earth-band [Midgard serpent].",
+            "link": "http://vsnrweb-publications.org.uk/SNORRA%20EDDA%20searchable.pdf#page=97&zoom=auto"
+          },
+          "Chapter 3-4 (p. 72)": {
+            "explanation": "In a list of kennings for Thor, he is named the \"defender of Asgard, Midgard,\" and the \"enemy of the Midgard serpent.\" A verse by Olvir Hnufa is quoted:",
+            "quote": "…ruler and owner of Miollnir and the girdle of might, of Bilskirnir, defender of Asgard, Midgard, enemy and slayer of giants and troll-wives, killer of Hrungnir, Geirrod,\nThrivaldi, lord of Thialfi and Roskva, enemy of the Midgard serpent, foster-son of Vingnir and Hlora.",
+            "link": "http://vsnrweb-publications.org.uk/SNORRA%20EDDA%20searchable.pdf#page=100&zoom=auto"
+          },
+          "Chapter 4 (p. 73)": {
+            "explanation": "Several verses about Thor's fishing trip use kennings that reference the Midgard serpent.",
+            "quote": "Thrud’s father looked with piercing eyes on steep-way’s [land’s] ring [Midgard serpent]...\n\nThe coal-fish of the earth [Midgard serpent] responded thus...\n\nOflugbardi’s terrifier [Thor] lifted his hammer in his right hand when he recognized the coal-fish that bounds all lands [the Midgard serpent].\n\nWhile Bilskirnir’s lord... did quickly destroy the sea-bed-fish [Midgard serpent]...",
+            "link": "http://vsnrweb-publications.org.uk/SNORRA%20EDDA%20searchable.pdf#page=101&zoom=auto"
+          },
+          "Chapter 8-16 (p. 76)": {
+            "explanation": "In a list of kennings for Loki, he is named as the father of the serpent.",
+            "quote": "...father of Vanargand, i.e. Fenriswolf, and of Iormungand, i.e. the Midgard serpent...",
+            "link": "http://vsnrweb-publications.org.uk/SNORRA%20EDDA%20searchable.pdf#page=104&zoom=auto"
+          },
+          "Chapter 18 (p. 83)": {
+            "explanation": "A verse from *Thorsdrapa* calls Loki the \"sea-thread’s [Midgard serpent’s] father.\"",
+            "quote": "The sea-thread’s [Midgard serpent’s] father [Loki] set out to urge the feller [Thor] of flight-ledge-gods’ [giants’] life-net from home. Lopt was proficient at lying.",
+            "link": "http://vsnrweb-publications.org.uk/SNORRA%20EDDA%20searchable.pdf#page=111&zoom=auto"
+          },
+          "Chapter 42-43 (p. 106)": {
+            "explanation": "A verse from Bragi's *Ragnarsdrápa* describes the \"coiling eel [Midgard serpent]\" on Thor's fishing hook.",
+            "quote": "When on the hook of the old Lit’s men’s [giants’] fight challenger [Thor] hung the coiling eel [Midgard serpent] of the Volsungs’ drink [poison] coiled.",
+            "link": "http://vsnrweb-publications.org.uk/SNORRA%20EDDA%20searchable.pdf#page=134&zoom=auto"
+          },
+          "Chapter 45-46 (p. 113)": {
+            "explanation": "In a list of kennings for gold from the old *Lay of Biarki*, a kenning for gold is \"Fafnir's Midgard,\" poetically connecting the dragon Fafnir's lair (the earth he lies on) to the serpent's domain.",
+            "quote": "The most munificent prince enriched his men with Fenia’s labour, Fafnir’s Midgard, Glasir’s glowing foliage...",
+            "link": "http://vsnrweb-publications.org.uk/SNORRA%20EDDA%20searchable.pdf#page=141&zoom=auto"
+          },
+          "Chapter 47 (p. 116)": {
+            "explanation": "A verse by Ulf Uggason refers to Thor as the \"tester/rowan [of the] stiff earth-rope [Midgard serpent].\"",
+            "quote": "But the sharp-looking stiff earth-rope [Midgard serpent] stared over the gunwale at country-bone-[rock-]folk’s [giants’] tester/rowan [Thor] and blew poison.",
+            "link": "http://vsnrweb-publications.org.uk/SNORRA%20EDDA%20searchable.pdf#page=144&zoom=auto"
+          },
+          "Chapter 56-57 (p. 134)": {
+            "explanation": "A verse by Harald describes the world.",
+            "quote": "Broad ground, wrapped round by deadly-cold serpent [the Midgard serpent] lies beneath spruce [man]...",
+            "link": "http://vsnrweb-publications.org.uk/SNORRA%20EDDA%20searchable.pdf#page=162&zoom=auto"
+          },
+          "Chapter 57-58 (p. 135)": {
+            "explanation": "A verse by Ulf Uggason mentions the \"sharp-looking stiff land-rope [Midgard serpent].\"",
+            "quote": "But the sharp-looking stiff land-rope [Midgard serpent] stared over the gunwale at the country-bone-[rock-]folk’s [giants’] tester/rowan [Thor] and blew poison.",
+            "link": "http://vsnrweb-publications.org.uk/SNORRA%20EDDA%20searchable.pdf#page=163&zoom=auto"
+          },
+          "Chapter 61 (p. 142)": {
+            "explanation": "In a verse by Bragi, the giant Hymir is described as being reluctant to lift the serpent during Thor's fishing trip.",
+            "quote": "Breeze-sender [giant, Hymir], who cut the thin string [fishing-line] of gulls’ Møre [the sea] for Thor, did not want to lift the twisted bay-menacer [Midgard serpent].",
+            "link": "http://vsnrweb-publications.org.uk/SNORRA%20EDDA%20searchable.pdf#page=170&zoom=auto"
+          }
+        }
+      }
+    }
+  },
   "Mímir": {
     "tags": ["Jötunn", "Male"],
     "attestations": {
@@ -3815,6 +4028,94 @@
             "explanation": "In a list of kennings for the sun, one way to refer to it is as the \"daughter of Mundilfæri.\"",
             "quote": "How shall the sun be referred to? By calling it daughter of Mundilfæri, sister of Moon, wife of Glen, fire of sky and air.",
             "link": "/Data/SNORRAEDDAsearchable.pdf#page=121"
+          }
+        }
+      }
+    }
+  },
+  "Muspelheim (Múspell)": {
+    "tags": ["Location"],
+    "attestations": {
+      "Poetic Edda": {
+        "link": "https://books.openbookpublishers.com/10.11647/obp.0308/",
+        "Völuspá (The Seeress's Prophecy)": {
+          "link": "https://books.openbookpublishers.com/10.11647/obp.0308/ch1.xhtml",
+          "Stanza 49": {
+            "explanation": "The seeress describes the arrival of Muspell's forces by sea as part of the cataclysm of Ragnarök.",
+            "quote": "‘A ship fares from the east, Muspell’s forces\nwill come over the sea, and Loki steers;\nall the giant’s kindred travel with the ravener,\nBýleiptr’s brother is with them on the voyage.",
+            "link": "https://books.openbookpublishers.com/10.11647/obp.0308/ch1.xhtml#_idTextAnchor154"
+          }
+        },
+        "Vafþrúðnismál (The Sayings of Vafþrúðnir)": {
+          "link": "https://books.openbookpublishers.com/10.11647/obp.0308/ch3.xhtml",
+          "Stanzas 50-51": {
+            "explanation": "In his contest of wisdom with Odin, the giant Vafþrúðnir explains the origin of Muspell's sons and their role in destroying the world at Ragnarök.",
+            "quote": "50. ‘Say this as the tenth thing, since you, Vafþrúðnir,\nmay know all the fates of the gods:\nwhence come Muspell’s sons,\nwhen they travel alone, prince?’\n\n51. ‘From Muspell’s Home come Muspell’s sons,\nand the sea surges when they travel;\nthe powers’ doom awaits them from the ships,\nthe battle-ground is broken by the swords.’",
+            "link": "https://books.openbookpublishers.com/10.11647/obp.0308/ch3.xhtml#_idTextAnchor626"
+          }
+        },
+        "Lokasenna (Loki's Flyting)": {
+          "link": "https://books.openbookpublishers.com/10.11647/obp.0308/ch8.xhtml",
+          "Stanza 42": {
+            "explanation": "Loki taunts Freyr, reminding him that he gave away his magical sword and will be defenseless when Muspell's sons ride forth at Ragnarök.",
+            "quote": "Loki said:\n‘With gold you had Gymir’s daughter bought,\nand so gave your sword;\nbut when Muspell’s sons ride over Myrkviðr,\nthen, wretch, you won’t know how you’ll fight!’",
+            "link": "https://books.openbookpublishers.com/10.11647/obp.0308/ch8.xhtml#_idTextAnchor1194"
+          }
+        }
+      },
+      "Prose Edda": {
+        "link": "http://vsnrweb-publications.org.uk/SNORRA%20EDDA%20searchable.pdf",
+        "Gylfaginning (The Beguiling of Gylfi)": {
+          "link": "http://vsnrweb-publications.org.uk/SNORRA%20EDDA%20searchable.pdf#page=34&zoom=auto",
+          "Chapter 4 (p. 9)": {
+            "explanation": "Múspell is introduced as one of the first worlds to exist, the southern realm of fire.",
+            "quote": "Then spoke Third: ‘But first there was the world in the southern region called Muspell. It is bright and hot. That area is flaming and burning and it is impassable for those that are foreigners there and are not native to it.",
+            "link": "http://vsnrweb-publications.org.uk/SNORRA%20EDDA%20searchable.pdf#page=37&zoom=auto"
+          },
+          "Chapter 4-5 (p. 10)": {
+            "explanation": "The sparks from Múspell interact with the ice from Niflheim in Ginnungagap to begin creation.",
+            "quote": "But the southerly part of Ginnungagap cleared up in the face of the sparks and molten particles that came flying out of the world of Muspell.’\n\nThen spoke Third: ‘Just as from Niflheim there arose coldness and all things grim, so what was facing close to Muspell was hot and bright...",
+            "link": "http://vsnrweb-publications.org.uk/SNORRA%20EDDA%20searchable.pdf#page=38&zoom=auto"
+          },
+          "Chapter 8 (p. 12)": {
+            "explanation": "The gods use the sparks from Múspell to create the stars and celestial bodies.",
+            "quote": "Then they took molten particles and sparks that were flying uncontrolled and had shot out of the world of Muspell and set them in the middle of the firmament of the sky...",
+            "link": "http://vsnrweb-publications.org.uk/SNORRA%20EDDA%20searchable.pdf#page=40&zoom=auto"
+          },
+          "Chapter 10-12 (p. 14)": {
+            "explanation": "The sun is specifically said to have been created from a molten particle from Múspell.",
+            "quote": "...they made Sol drive the horses that drew the chariot of the sun which the gods had created, to illuminate the worlds, out of the molten particle that had flown out of the world of Muspell.",
+            "link": "http://vsnrweb-publications.org.uk/SNORRA%20EDDA%20searchable.pdf#page=42&zoom=auto"
+          },
+          "Chapter 12-14 (p. 15)": {
+            "explanation": "The text prophesies that the Bifrost bridge will break under the assault of the \"lads of Muspell\" during Ragnarök.",
+            "quote": "And strong as it is, yet it will break when Muspell’s lads go and ride it...\n\n...there is nothing in this world that will be secure when Muspell’s sons attack.’",
+            "link": "http://vsnrweb-publications.org.uk/SNORRA%20EDDA%20searchable.pdf#page=43&zoom=auto"
+          },
+          "Chapter 37-38 (p. 32)": {
+            "explanation": "It is foretold that Freyr, having given away his sword, will be at a great disadvantage when he faces the sons of Múspell.",
+            "quote": "There will come a time when Freyr will find being without the sword a greater disadvantage when Muspell’s sons come and wage war.’",
+            "link": "http://vsnrweb-publications.org.uk/SNORRA%20EDDA%20searchable.pdf#page=60&zoom=auto"
+          },
+          "Chapter 43-44 (p. 37)": {
+            "explanation": "When contrasting Freyr's ship Skidbladnir with the greatest of all ships, Naglfari, the text states that Naglfari belongs to Múspell.",
+            "quote": "...but the biggest ship is Naglfari, it belongs to Muspell.",
+            "link": "http://vsnrweb-publications.org.uk/SNORRA%20EDDA%20searchable.pdf#page=65&zoom=auto"
+          },
+          "Chapter 51 (p. 53)": {
+            "explanation": "During the events of Ragnarök, the sons of Múspell ride forth from the opened sky, led by Surtr.",
+            "quote": "Amid this turmoil the sky will open and from it will ride the sons of Muspell.",
+            "link": "http://vsnrweb-publications.org.uk/SNORRA%20EDDA%20searchable.pdf#page=81&zoom=auto"
+          },
+          "Chapter 51 (p. 54)": {
+            "explanation": "The forces of Múspell are described as having their own distinct and brilliant battle formation at the final battle on the field of Vígrid.",
+            "quote": "But Muspell’s sons will have their own battle array; it will be very bright.",
+            "link": "http://vsnrweb-publications.org.uk/SNORRA%20EDDA%20searchable.pdf#page=82&zoom=auto"
+          },
+          "Chapter 51-52 (p. 55)": {
+            "explanation": "In a quote from Voluspa Muspell’s troops are mentioned.",
+            "quote": "A bark sails from the east, across the sea will come Muspell’s troops with Loki at the helm. All that monstrous brood are there with the wolf. In company with them is Byleist’s brother.",
+            "link": "http://vsnrweb-publications.org.uk/SNORRA%20EDDA%20searchable.pdf#page=83&zoom=auto"
           }
         }
       }
