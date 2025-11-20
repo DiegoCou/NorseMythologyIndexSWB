@@ -3844,6 +3844,38 @@
       }
     }
   },
+  "Mimir's Well (Mímisbrunnr)": {
+    "tags": ["Location"],
+    "attestations": {
+      "Poetic Edda": {
+        "link": "https://books.openbookpublishers.com/10.11647/obp.0308/",
+        "Völuspá (The Seeress's Prophecy)": {
+          "link": "https://books.openbookpublishers.com/10.11647/obp.0308/ch1.xhtml",
+          "Stanza 27-28": {
+            "explanation": "The seeress reveals her knowledge of Odin's sacrifice, stating that his eye is hidden in Mímir's spring, from which Mímir himself drinks. She references too Heimdallr’s hearing is hidden there, with “Valfǫðr’s pledge” (Odin’s eye).",
+            "quote": "27. ‘She knows of Heimdallr’s hearing,\nhidden under the light-accustomed holy tree;\nshe sees a river splashing in a muddy fall\nfrom Valfǫðr’s pledge. Would you know still [more], or what?\n\n28. ‘Alone she sat outside when the old one came,\nYggjungr of the Æsir, and looked into her eyes:\n“What do you ask me? Why do you test me?\nI know it all, Óðinn, where you hid your eye,\nin the famous spring of Mímir;\nMímir drinks mead every morning\nfrom Valfǫðr’s pledge!” Would you know still [more], or what?",
+            "link": "https://books.openbookpublishers.com/10.11647/obp.0308/ch1.xhtml#_idTextAnchor131"
+          }
+        }
+      },
+      "Prose Edda": {
+        "link": "http://vsnrweb-publications.org.uk/SNORRA%20EDDA%20searchable.pdf",
+        "Gylfaginning (The Beguiling of Gylfi)": {
+          "link": "http://vsnrweb-publications.org.uk/SNORRA%20EDDA%20searchable.pdf#page=34&zoom=auto",
+          "Chapter 14-15 (p. 17)": {
+            "explanation": "When describing the three great roots of the world tree Yggdrasil, the text details the location of the well and tells the famous story of how Odin sacrificed his eye to drink from it and gain its wisdom.",
+            "quote": "But under the root that reaches towards the frost-giants, there is where Mimir’s well is, which has wisdom and intelligence contained in it, and the master of the well is called Mimir. He is full of learning because he drinks of the well from the horn Giallarhorn. All-father went there and asked for a single drink from the well, but he did not get one until he placed his eye as a pledge.",
+            "link": "http://vsnrweb-publications.org.uk/SNORRA%20EDDA%20searchable.pdf#page=45&zoom=auto"
+          },
+          "Chapter 51 (p. 54)": {
+            "explanation": "At the onset of Ragnarök, as the gods prepare for the final battle, Odin rides to the well to seek counsel from Mimir one last time.",
+            "quote": "And when these events take place, Heimdall will stand up and blow mightily on Giallarhorn and awaken all the gods and they will hold a parliament together. Then Odin will ride to Mimir’s well and consult Mimir on his own and his people’s behalf.",
+            "link": "http://vsnrweb-publications.org.uk/SNORRA%20EDDA%20searchable.pdf#page=82&zoom=auto"
+          }
+        }
+      }
+    }
+  },
   "Miolnir (Mjöllnir)": {
     "tags": ["Object", "Weapon"],
     "attestations": {
@@ -4260,6 +4292,41 @@
             "explanation": "Nep is listed among the sons of Odin.",
             "quote": "Odin’s sons are Baldr and Meili, Vidar and Nep, Vali, Ali, Thor and Hildolf, Hermod, Sigi, Skiold, Yngvi-Freyr and Itreksiod, Heimdall, Sæming.",
             "link": "/Data/SNORRAEDDAsearchable.pdf#page=184"
+          }
+        }
+      }
+    }
+  },
+  "Niflheim": {
+    "tags": ["Location"],
+    "attestations": {
+      "Poetic Edda": {
+        "link": "https://books.openbookpublishers.com/10.11647/obp.0308/",
+        "There are no attestations of Niflheim in the Poetic Edda.": {}
+      },
+      "Prose Edda": {
+        "link": "http://vsnrweb-publications.org.uk/SNORRA%20EDDA%20searchable.pdf",
+        "Gylfaginning (The Beguiling of Gylfi)": {
+          "link": "http://vsnrweb-publications.org.uk/SNORRA%20EDDA%20searchable.pdf#page=34&zoom=auto",
+          "Chapter 4 (p. 9)": {
+            "explanation": "Niflheim is introduced as one of the first worlds to exist, a realm of cold from which the primordial rivers flow.",
+            "quote": "Then spoke Just-as-high: ‘It was many ages before the earth was created that Niflheim was made, and in its midst lies a spring called Hvergelmir, and from it flow the rivers...",
+            "link": "http://vsnrweb-publications.org.uk/SNORRA%20EDDA%20searchable.pdf#page=37&zoom=auto"
+          },
+          "Chapter 4-5 (p. 10)": {
+            "explanation": "The cold from Niflheim is described as a key ingredient in the creation of the first being, Ymir, when it meets the heat from Muspell in Ginnungagap.",
+            "quote": "Then spoke Third: ‘Just as from Niflheim there arose coldness and all things grim, so what was facing close to Muspell was hot and bright...",
+            "link": "http://vsnrweb-publications.org.uk/SNORRA%20EDDA%20searchable.pdf#page=38&zoom=auto"
+          },
+          "Chapter 14-15 (p. 17)": {
+            "explanation": "When describing the three roots of the world tree Yggdrasil, one is said to extend into Niflheim, where the dragon Nidhogg gnaws at it.",
+            "quote": "Three of the tree’s roots support it and extend very, very far... The third extends over Niflheim, and under that root is Hvergelmir, and Nidhogg gnaws the bottom of the root.",
+            "link": "http://vsnrweb-publications.org.uk/SNORRA%20EDDA%20searchable.pdf#page=45&zoom=auto"
+          },
+          "Chapter 34 (p. 27)": {
+            "explanation": "After the gods discover Loki's monstrous children, Odin banishes Hel to Niflheim, giving her authority over the souls of those who die of sickness or old age.",
+            "quote": "Hel he threw into Niflheim and gave her authority over nine worlds, such that she has to administer board and lodging to those sent to her, and that is those who die of sickness or old age.",
+            "link": "http://vsnrweb-publications.org.uk/SNORRA%20EDDA%20searchable.pdf#page=55&zoom=auto"
           }
         }
       }
