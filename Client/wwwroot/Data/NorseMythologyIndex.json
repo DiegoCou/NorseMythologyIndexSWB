@@ -461,6 +461,84 @@
       }
     }
   },
+  "Bifröst (Bifrǫst)": {
+    "tags": ["Location"],
+    "attestations": {
+      "Poetic Edda": {
+        "link": "https://books.openbookpublishers.com/10.11647/obp.0308/",
+        "Grímnismál (The Lay of Grímnir)": {
+          "link": "https://books.openbookpublishers.com/10.11647/obp.0308/ch4.xhtml",
+          "Stanza 29": {
+            "explanation": "The poem describes how Þórr must wade through rivers to reach the judgment place at Yggdrasill because the god-bridge (ásbrú) is burning with flame. This is a clear reference to Bifröst.",
+            "quote": "‘Kǫrmt and Ǫrmt and two Kerlaugar,\nÞórr must wade them,\nevery day, when he goes to give judgement\nat the ash of Yggdrasill,\nbecause all the god-bridge burns with flame,\nholy waters boil(?).",
+            "link": "https://books.openbookpublishers.com/10.11647/obp.0308/ch4.xhtml#_idTextAnchor726"
+          },
+          "Stanza 44": {
+            "explanation": "In a list of the greatest things of their kind, Bilröst is explicitly named as the \"best of bridges.\"",
+            "quote": "‘The ash of Yggdrasill, it’s the greatest of trees,\nand Skíðblaðnir of ships,\nÓðinn of Æsir, and Sleipnir of steeds,\nBilrǫst of bridges, and Bragi of poets,\nHábrók of hawks, and Garmr of hounds,\nand Brimir of swords.",
+            "link": "https://books.openbookpublishers.com/10.11647/obp.0308/ch4.xhtml#_idTextAnchor744"
+          }
+        },
+        "Fáfnismál (The Sayings of Fáfnir)": {
+          "link": "https://books.openbookpublishers.com/10.11647/obp.0308/ch18.xhtml#_idTextAnchor2001",
+          "Stanza 15": {
+            "explanation": "The dying dragon Fáfnir prophesies that Bilröst will break when the gods ride over it on their way to the final battle at Ragnarök.",
+            "quote": "‘Óskópnir it’s called, and there all the gods\nshall sport with spears;\nBilrǫst breaks when they journey away,\nand their steeds swim in the mighty river.",
+            "link": "https://books.openbookpublishers.com/10.11647/obp.0308/ch4.xhtml#_idTextAnchor744"
+          }
+        }
+      },
+      "Prose Edda": {
+        "link": "http://vsnrweb-publications.org.uk/SNORRA%20EDDA%20searchable.pdf",
+        "Gylfaginning (The Beguiling of Gylfi)": {
+          "link": "http://vsnrweb-publications.org.uk/SNORRA%20EDDA%20searchable.pdf#page=34&zoom=auto",
+          "Chapter 12-14 (p. 15)": {
+            "explanation": "When Gangleri asks how to get from earth to heaven, High describes the bridge, which mortals see as the rainbow.",
+            "quote": "Has no one ever told you that the gods built a bridge to heaven from earth called Bifrost? You must have seen it, maybe it is what you call the rainbow. It has three colours and great strength and is built with art and skill to a greater extent than other constructions.",
+            "link": "http://vsnrweb-publications.org.uk/SNORRA%20EDDA%20searchable.pdf#page=43&zoom=auto"
+          },
+          "Chapter 14-15 (p. 17)": {
+            "explanation": "The text explains that the gods ride over Bifröst daily to hold their court at the Well of Urd. It is also given an alternate name, \"As-bridge.\"",
+            "quote": "Every day the Æsir ride there up over Bifrost. It is also called As-bridge.",
+            "link": "http://vsnrweb-publications.org.uk/SNORRA%20EDDA%20searchable.pdf#page=45&zoom=auto"
+          },
+          "Chapter 15-16 (p. 18)": {
+            "explanation": "Gangleri asks if fire burns over the bridge, and High confirms that the red color is indeed fire, placed there to deter the frost-giants.",
+            "quote": "Then spoke Gangleri: ‘Does fire burn over Bifrost?’\nHigh said: ‘The red you see in the rainbow is burning fire. The frost-giants and mountain-giants would go up into heaven if Bifrost was crossable by everyone that wanted to go.",
+            "link": "http://vsnrweb-publications.org.uk/SNORRA%20EDDA%20searchable.pdf#page=46&zoom=auto"
+          },
+          "Chapter 17-19 (p. 20)": {
+            "explanation": "The location of Heimdall's hall, Himinbjörg, is described as being at the end of the bridge.",
+            "quote": "There also is a place called Himinbiorg. It stands at the edge of heaven at the bridge’s end where Bifrost reaches heaven.",
+            "link": "http://vsnrweb-publications.org.uk/SNORRA%20EDDA%20searchable.pdf#page=48&zoom=auto"
+          },
+          "Chapter 25-27 (p. 25)": {
+            "explanation": "When describing the god Heimdall, his role as the guardian of the bridge is stated.",
+            "quote": "He lives in a place called Himinbiorg by Bifrost. He is the gods’ watchman and sits there at the edge of heaven to guard the bridge against mountain-giants.",
+            "link": "http://vsnrweb-publications.org.uk/SNORRA%20EDDA%20searchable.pdf#page=53&zoom=auto"
+          },
+          "Chapter 42 (p. 34)": {
+            "explanation": "In a verse listing the foremost of all things, Bifröst is named as the best of bridges.",
+            "quote": "“The ash Yggdrasil, this is the foremost of trees... Bifrost of bridges, and Bragi of poets...\"",
+            "link": "http://vsnrweb-publications.org.uk/SNORRA%20EDDA%20searchable.pdf#page=62&zoom=auto"
+          },
+          "Chapter 51 (p. 53)": {
+            "explanation": "During the events of Ragnarök, the prophecy of the bridge's destruction is fulfilled.",
+            "quote": "And when they ride over Bifrost it will break, as was said above.",
+            "link": "http://vsnrweb-publications.org.uk/SNORRA%20EDDA%20searchable.pdf#page=81&zoom=auto"
+          }
+        },
+        "Skáldskaparmál (The Language of Poetry)": {
+          "link": "http://vsnrweb-publications.org.uk/SNORRA%20EDDA%20searchable.pdf#page=87&zoom=auto",
+          "Chapter 16-17 (p. 77)": {
+            "explanation": "A verse by the skald Úlfr Uggason uses a kenning (a poetic name) for Bifröst, calling it the \"powers' way,\" and names Heimdall as its defender.",
+            "quote": "Renowned defender [Heimdall] of the powers’ way [Bifrost], kind of counsel, competes with Farbauti’s terribly sly son at Singastein.",
+            "link": "http://vsnrweb-publications.org.uk/SNORRA%20EDDA%20searchable.pdf#page=105&zoom=auto"
+          }
+        }
+      }
+    }
+  },
   "Borr": {
     "tags": ["Aesir", "Male"],
     "attestations": {
@@ -1021,6 +1099,34 @@
             "explanation": "In a systematic list of names for giants, Fenrir is included.",
             "quote": "Hrossthiof, Durnir, Hundalf, Baugi, Hraudung, Fenrir, Hroar and Midi.",
             "link": "/Data/SNORRAEDDAsearchable.pdf#page=184"
+          }
+        }
+      }
+    }
+  },
+  "Fólkvangr": {
+    "tags": ["Location"],
+    "attestations": {
+      "Poetic Edda": {
+        "link": "https://books.openbookpublishers.com/10.11647/obp.0308/",
+        "Grímnismál (The Lay of Grímnir)": {
+          "link": "https://books.openbookpublishers.com/10.11647/obp.0308/ch4.xhtml",
+          "Stanza 14": {
+            "explanation": "In his monologue listing the divine halls, Odin (as Grímnir) names Fólkvangr as the ninth realm. He states that it is Freyja who presides there and chooses half of the warriors slain in battle, with Odin receiving the other half.",
+            "author_note": "‘Folk/Host Plain’, possibly a term for ‘battlefield’.",
+            "quote": "‘Fólkvangr is the ninth, and there Freyja decides\nthe choice of seats in the hall;\nhalf the slain she selects each day,\nand Óðinn has [the other] half.",
+            "link": "https://books.openbookpublishers.com/10.11647/obp.0308/ch4.xhtml#_idTextAnchor710"
+          }
+        }
+      },
+      "Prose Edda": {
+        "link": "http://vsnrweb-publications.org.uk/SNORRA%20EDDA%20searchable.pdf",
+        "Gylfaginning (The Beguiling of Gylfi)": {
+          "link": "http://vsnrweb-publications.org.uk/SNORRA%20EDDA%20searchable.pdf#page=34&zoom=auto",
+          "Chapter 23-25 (p. 24)": {
+            "explanation": "When introducing the goddess Freyja, the text names her hall and explains her right to choose half of the slain, with the other half going to Odin.",
+            "quote": "And Freyia is the most glorious of the Asyniur. She has a dwelling in heaven called Folkvangar, and wherever she rides to battle she gets half the slain, and the other half Odin, as it says here:\n\nThere is a place called Folkvang, and there Freyia is in charge of allotting seats in the hall. Half the slain she chooses each day, and half has Odin.",
+            "link": "http://vsnrweb-publications.org.uk/SNORRA%20EDDA%20searchable.pdf#page=52&zoom=auto"
           }
         }
       }
