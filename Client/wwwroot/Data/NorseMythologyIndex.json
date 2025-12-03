@@ -539,6 +539,46 @@
       }
     }
   },
+  "Bilskírnir": {
+    "tags": ["Location"],
+    "attestations": {
+      "Poetic Edda": {
+        "link": "https://books.openbookpublishers.com/10.11647/obp.0308/",
+        "Grímnismál (The Lay of Grímnir)": {
+          "link": "https://books.openbookpublishers.com/10.11647/obp.0308/ch4.xhtml",
+          "Stanza 23": {
+            "explanation": "In his monologue describing the homes of the gods, Odin (as Grímnir) names Bilskírnir as the largest of all buildings, containing 540 rooms, and identifies it as belonging to his son, Þórr.",
+            "quote": "‘Five hundred rooms and forty\nare in Bilskírnir altogether, so I think;\nof those buildings that I know are roofed,\nI know my son’s is biggest.",
+            "link": "https://books.openbookpublishers.com/10.11647/obp.0308/ch4.xhtml#_idTextAnchor719"
+          }
+        }
+      },
+      "Prose Edda": {
+        "link": "http://vsnrweb-publications.org.uk/SNORRA%20EDDA%20searchable.pdf",
+        "Gylfaginning (The Beguiling of Gylfi)": {
+          "link": "http://vsnrweb-publications.org.uk/SNORRA%20EDDA%20searchable.pdf#page=34&zoom=auto",
+          "Chapter 20-21 (p. 22)": {
+            "explanation": "When introducing Thor, the text names his realm and his hall, quoting from the poem *Grímnismál* to emphasize its immense size.",
+            "quote": "His realm is a place called Thrudvangar, and his hall is called Bilskirnir. In that hall there are five hundred and forty apartments. It is the biggest building that has ever been built. Thus it says in Grimnismal:\n\nFive hundred apartments and yet forty more I think are in Bilskirnir in all. Of the buildings whose roofs I know, I know my son’s is the greatest.",
+            "link": "http://vsnrweb-publications.org.uk/SNORRA%20EDDA%20searchable.pdf#page=50&zoom=auto"
+          }
+        },
+        "Skáldskaparmál (The Language of Poetry)": {
+          "link": "http://vsnrweb-publications.org.uk/SNORRA%20EDDA%20searchable.pdf#page=87&zoom=auto",
+          "Chapter 3-4 (p. 72)": {
+            "explanation": "In a list of proper kennings for Thor, he is identified as the \"defender of... Bilskirnir.\"",
+            "quote": "How shall Thor be referred to? By calling him son of Odin and Iord... defender of Asgard, Midgard... of Bilskirnir...",
+            "link": "http://vsnrweb-publications.org.uk/SNORRA%20EDDA%20searchable.pdf#page=100&zoom=auto"
+          },
+          "Chapter 4 (p. 73)": {
+            "explanation": "A verse by the skald Gamli uses a kenning for Thor, calling him \"Bilskirnir's lord.\"",
+            "quote": "While Bilskirnir’s lord, who never nursed treachery in his heart, did quickly destroy the sea-bed-fish [Midgard serpent] with gorge-whale’s [giant’s] bane [Miollnir].",
+            "link": "http://vsnrweb-publications.org.uk/SNORRA%20EDDA%20searchable.pdf#page=101&zoom=auto"
+          }
+        }
+      }
+    }
+  },
   "Borr": {
     "tags": ["Aesir", "Male"],
     "attestations": {
@@ -6685,6 +6725,35 @@
       }
     }
   },
+  "Thrudvang (Þrúðvangr)": {
+    "tags": ["Location"],
+    "attestations": {
+      "Prose Edda": {
+        "link": "http://vsnrweb-publications.org.uk/SNORRA%20EDDA%20searchable.pdf",
+        "Gylfaginning (The Beguiling of Gylfi)": {
+          "link": "http://vsnrweb-publications.org.uk/SNORRA%20EDDA%20searchable.pdf#page=34&zoom=auto",
+          "Chapter 20-21 (p. 22)": {
+            "explanation": "When introducing the god Thor, the text names his realm where his hall is situated.",
+            "quote": "His realm is a place called Thrudvangar, and his hall is called Bilskirnir.",
+            "link": "http://vsnrweb-publications.org.uk/SNORRA%20EDDA%20searchable.pdf#page=50&zoom=auto"
+          },
+          "Chapter 47-48 (p. 46)": {
+            "explanation": "After his deceptive encounter with the giant Útgarða-Loki, Thor returns to his own lands.",
+            "quote": "Then he turned back and went on his way until he got back to Thrudvangar.",
+            "link": "http://vsnrweb-publications.org.uk/SNORRA%20EDDA%20searchable.pdf#page=74&zoom=auto"
+          }
+        },
+        "Skáldskaparmál (The Language of Poetry)": {
+          "link": "http://vsnrweb-publications.org.uk/SNORRA%20EDDA%20searchable.pdf#page=87&zoom=auto",
+          "Chapter 17 (p. 79)": {
+            "explanation": "Following his duel with the giant Hrungnir, Thor returns home with the whetstone fragment still lodged in his head.",
+            "quote": "Thor returned home to Thrudvangar and the whetstone remained in his head.",
+            "link": "http://vsnrweb-publications.org.uk/SNORRA%20EDDA%20searchable.pdf#page=107&zoom=auto"
+          }
+        }
+      }
+    }
+  },
   "Týr": {
     "tags": ["Aesir", "Male"],
     "attestations": {
@@ -6879,6 +6948,64 @@
             "explanation": "Ull's name is used in a kenning for a shield.",
             "quote": "Ull’s ash(-ship), as here [Thiodolf]: Storms of Ull’s ship rage totally round the prince, where rivet-masts [swords], sheath-rigged, wave.",
             "link": "/Data/SNORRAEDDAsearchable.pdf#page=148"
+          }
+        }
+      }
+    }
+  },
+  "Urdr's well (Urðarbrunnr)": {
+    "tags": ["Location"],
+    "attestations": {
+      "Poetic Edda": {
+        "link": "https://books.openbookpublishers.com/10.11647/obp.0308/",
+        "Völuspá (The Seeress's Prophecy) - Codex Regius Version": {
+          "link": "https://books.openbookpublishers.com/10.11647/obp.0308/ch1.xhtml",
+          "Stanza 19-20": {
+            "explanation": "The seeress describes the world-tree Yggdrasill standing evergreen above Urðr's spring. The three Norns, including Urðr herself, are described as coming from the body of water located at the well.",
+            "quote": "19. ‘I know a standing ash, it’s called Yggdrasill,\na tall tree doused with white mud;\nfrom there come dews, those that fall in dales;\nit always stands, green, above Urðr’s spring.\n\n20. ‘From there come maidens, knowing many things,\nthree [maidens], from the sea which stands under the tree;\none was called Urðr, the second Verðandi,\n— they inscribed on a stick — the third Skuld;\nthey laid down laws, they chose lives\nfor the sons of men, the fates of men.",
+            "link": "https://books.openbookpublishers.com/10.11647/obp.0308/ch1.xhtml#_idTextAnchor119"
+          }
+        },
+        "Hávamál (The Sayings of Hávi)": {
+          "link": "https://books.openbookpublishers.com/10.11647/obp.0308/ch2.xhtml",
+          "Stanza 111": {
+            "explanation": "The speaker (Odin) begins his recitation of wisdom from the \"sage's seat\" located at the spring of Urðr.",
+            "quote": "‘It is time to chant from the sage’s seat,\nat the spring of Urðr;\nI saw and I was silent, I saw and I pondered;\nI listened to the speech of men;\nI heard them discuss runes, they weren’t silent with counsels,\nat Hávi’s hall,\nin Hávi’s hall;\nI heard it said thus:",
+            "link": "https://books.openbookpublishers.com/10.11647/obp.0308/ch2.xhtml#_idTextAnchor454"
+          }
+        }
+      },
+      "Prose Edda": {
+        "link": "http://vsnrweb-publications.org.uk/SNORRA%20EDDA%20searchable.pdf",
+        "Gylfaginning (The Beguiling of Gylfi)": {
+          "link": "http://vsnrweb-publications.org.uk/SNORRA%20EDDA%20searchable.pdf#page=34&zoom=auto",
+          "Chapter 14-15 (p. 17)": {
+            "explanation": "When describing the three great roots of Yggdrasil, the text identifies the well's location and its significance as the court of the gods.",
+            "quote": "The third root of the ash extends to heaven, and beneath that root is a well which is very holy, called Weird’s well. There the gods have their court.",
+            "link": "http://vsnrweb-publications.org.uk/SNORRA%20EDDA%20searchable.pdf#page=45&zoom=auto"
+          },
+          "Chapter 15-16 (p. 18)": {
+            "explanation": "The hall of the Norns is described as being located by the well.",
+            "quote": "There stands there one beautiful hall under the ash by the well, and out of this hall come three maidens whose names are Weird, Verdandi, Skuld.",
+            "link": "http://vsnrweb-publications.org.uk/SNORRA%20EDDA%20searchable.pdf#page=46&zoom=auto"
+          },
+          "Chapter 16-17 (p. 19)": {
+            "explanation": "The Norns' daily tending of the world tree with the well's sacred water is explained. The text also mentions two swans that are fed from the well.",
+            "quote": "It is also said that the norns that dwell by Weird’s well take water from the well each day and with it the mud that lies round the well and pour it up over the ash so that its branches may not rot or decay.\n\nTwo birds feed in Weird’s well. They are called swans, and from these birds has come that species of bird that has that name.’\n\nThen spoke Gangleri: ‘You are able to give a great deal of information about the heavens. What other chief centres are there besides the one at Weird’s well?’",
+            "link": "http://vsnrweb-publications.org.uk/SNORRA%20EDDA%20searchable.pdf#page=47&zoom=auto"
+          }
+        },
+        "Skáldskaparmál (The Language of Poetry)": {
+          "link": "http://vsnrweb-publications.org.uk/SNORRA%20EDDA%20searchable.pdf#page=87&zoom=auto",
+          "Chapter 49 (p. 121)": {
+            "explanation": "In a section on kennings for a sword, a verse by the skald Kormak describes a battle where fate (\"Weird\") is decided, rising metaphorically from its source, the well.",
+            "quote": "Battle raged when the feeder of Grid’s steed [wolf], he who waged war, advanced with ringing Gaut’s [Odin’s] fire. Weird rose from the well.",
+            "link": "http://vsnrweb-publications.org.uk/SNORRA%20EDDA%20searchable.pdf#page=149&zoom=auto"
+          },
+          "Chapter 51-52 (p. 126)": {
+            "explanation": "In a section on kennings for Christ, a verse by the skald Eilif Gudrunarson is quoted, which syncretically places Christ's throne at the location of the pagan well of fate.",
+            "quote": "Thus has the powerful king of Rome increased his realm with lands of heath-land divinities [giants; i.e. heathen lands]. He is said to have his throne south at Weird’s well.",
+            "link": "http://vsnrweb-publications.org.uk/SNORRA%20EDDA%20searchable.pdf#page=154&zoom=auto"
           }
         }
       }
@@ -7213,6 +7340,22 @@
             "explanation": "Vor is named in a systematic list of the Asyniur.",
             "quote": "Hlin and Nanna, Hnoss, Rind and Siofn, Sol and Saga, Sigyn and Vor. Then there is Var, and Syn must be named, but Thrud and Ran reckoned next to them.",
             "link": "/Data/SNORRAEDDAsearchable.pdf#page=185"
+          }
+        }
+      }
+    }
+  },
+  "Ýdalir": {
+    "tags": ["Location"],
+    "attestations": {
+      "Poetic Edda": {
+        "link": "https://books.openbookpublishers.com/10.11647/obp.0308/",
+        "Grímnismál (The Lay of Grímnir)": {
+          "link": "https://books.openbookpublishers.com/10.11647/obp.0308/ch4.xhtml",
+          "Stanza 5": {
+            "explanation": "In his monologue listing the homes of the gods, Odin (as Grímnir) names Ýdalir as the place where Ullr has built his halls.",
+            "quote": "‘Ýdalir it’s called, where Ullr has\nbuilt halls for himself;\nin early days the gods gave Álfheimr\nto Freyr as a tooth-fee.",
+            "link": "https://books.openbookpublishers.com/10.11647/obp.0308/ch4.xhtml#_idTextAnchor700"
           }
         }
       }
