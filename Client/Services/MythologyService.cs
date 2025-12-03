@@ -1,10 +1,12 @@
 ﻿
+using System.Globalization;
 using System.Net.Http.Json;
 using System.Text.Json;
 using NorseMythologyIndex.Models;
 
 
 using System.Net.Http.Json;
+using System.Text;
 using System.Text.Json;
 using NorseMythologyIndex.Models;
 
@@ -121,6 +123,21 @@ namespace NorseMythologyIndex.Services
             
             return counts.OrderByDescending(x => x.Value)
                 .ToDictionary(x => x.Key, x => x.Value);
+        }
+        
+        public static string RemoveSpecialCharacters(string str)
+        {
+            string normalized = str.Normalize(NormalizationForm.FormD);
+            var builder = new StringBuilder();
+
+            foreach (char ch in normalized)
+            {
+                if (CharUnicodeInfo.GetUnicodeCategory(ch) != UnicodeCategory.NonSpacingMark)
+                {
+                    builder.Append(ch);
+                }
+            }
+            return builder.ToString().Normalize(NormalizationForm.FormC);
         }
     }
 }

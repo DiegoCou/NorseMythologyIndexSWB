@@ -1,4 +1,5 @@
-﻿@using System.Reflection.Metadata
+﻿@using System.Globalization
+@using System.Reflection.Metadata
 @using System.Text
 @using System.Text.RegularExpressions
 @using BlazorBootstrap
@@ -7,7 +8,7 @@
 @inject MythologyService MythologyService
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.0/font/bootstrap-icons.css">
 
-<div class="source-section-@RemoveSpecialCharacters(@reference.Key)">
+<div class="source-section-@MythologyService.RemoveSpecialCharacters(@reference.Key)">
     <div class="source-section-title">
         @if (!string.IsNullOrEmpty(reference.Value.Link))
         {
@@ -71,10 +72,7 @@
         collapseIcon = isCollapsed ? IconName.CaretRightFill : IconName.CaretDownFill;
     }
 
-    public string RemoveSpecialCharacters(string str)
-    {
-        return Regex.Replace(str, "[^a-zA-Z0-9_.]+", "", RegexOptions.Compiled);
-    }
+
     
 }
 
@@ -87,7 +85,7 @@
         border-width: 0px;
         font-weight: bold;
     }
-    .source-section-@RemoveSpecialCharacters(@reference.Key){
+    .source-section-@MythologyService.RemoveSpecialCharacters(@reference.Key){
         margin: 0;
         max-height: @collapseState;
         overflow: hidden;
