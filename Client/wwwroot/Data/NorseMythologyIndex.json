@@ -4435,13 +4435,77 @@
       }
     }
   },
-  "Niflheim": {
-    "tags": ["Location"],
+  "Nidhogg (Níðhöggr)": {
+    "tags": ["Creature", "Other"],
     "attestations": {
       "Poetic Edda": {
         "link": "https://books.openbookpublishers.com/10.11647/obp.0308/",
-        "There are no attestations of Niflheim in the Poetic Edda.": {}
+        "Völuspá (The Seeress's Prophecy) - Codex Regius Version": {
+          "link": "https://books.openbookpublishers.com/10.11647/obp.0308/ch1.xhtml",
+          "Stanza 38": {
+            "explanation": "The seeress describes a hall on Nástrǫnd (Corpse Shore) where Niðhǫggr torments the dead.",
+            "quote": "‘There she saw wading swift currents\nperjured people and murder-wolves,\nand the one who seduces another’s wife;\nthere Niðhǫggr sucked the corpses of the deceased,\nthe wolf tore men. Would you know still [more], or what?",
+            "link": "https://books.openbookpublishers.com/10.11647/obp.0308/ch1.xhtml#_idTextAnchor142"
+          },
+          "Stanza 63": {
+            "explanation": "The poem concludes with the final, ominous image of Niðhǫggr flying over the world, carrying corpses in his wings.",
+            "quote": "‘There the dim dragon comes flying,\nthe glistening snake, from beneath, from Niðafjǫll;\nNiðhǫggr carries in his wings — he flies over the field —\ncorpses. Now she will sink.’",
+            "link": "https://books.openbookpublishers.com/10.11647/obp.0308/ch1.xhtml#_idTextAnchor170"
+          }
+        },
+        "Grímnismál (The Lay of Grímnir)": {
+          "link": "https://books.openbookpublishers.com/10.11647/obp.0308/ch4.xhtml",
+          "Stanza 32": {
+            "explanation": "The squirrel Ratatoskr is described as carrying messages between the eagle at the top of Yggdrasill and Niðhǫggr at its base.",
+            "quote": "‘Ratatoskr is the name of the squirrel which must run\nin the ash of Yggdrasill;\nan eagle’s words he must bring from above\nand speak them to Niðhǫggr beneath.",
+            "link": "https://books.openbookpublishers.com/10.11647/obp.0308/ch4.xhtml#_idTextAnchor731"
+          },
+          "Stanza 35": {
+            "explanation": "Niðhǫggr is named as one of the creatures that torments the world-tree from below, gnawing at its roots.",
+            "quote": "‘The ash of Yggdrasill suffers hardship,\nmore than men may know;\na stag bites it from above, and its side rots,\nNiðhǫggr gnaws it from beneath.",
+            "link": "https://books.openbookpublishers.com/10.11647/obp.0308/ch4.xhtml#_idTextAnchor734"
+          }
+        }
       },
+      "Prose Edda": {
+        "link": "http://vsnrweb-publications.org.uk/SNORRA%20EDDA%20searchable.pdf",
+        "Gylfaginning (The Beguiling of Gylfi)": {
+          "link": "http://vsnrweb-publications.org.uk/SNORRA%20EDDA%20searchable.pdf#page=34&zoom=auto",
+          "Chapter 14-15 (p. 17)": {
+            "explanation": "When describing the three roots of Yggdrasil, the text identifies Nidhogg as the serpent who gnaws on the root that extends over Niflheim.",
+            "quote": "The third extends over Niflheim, and under that root is Hvergelmir, and Nidhogg gnaws the bottom of the root.",
+            "link": "http://vsnrweb-publications.org.uk/SNORRA%20EDDA%20searchable.pdf#page=45&zoom=auto"
+          },
+          "Chapter 16-17 (p. 19)": {
+            "explanation": "The text describes the various creatures living in the world tree, including the squirrel Ratatosk who carries insults between the eagle at the top and Nidhogg at the bottom. A verse is quoted to illustrate the tree's suffering.",
+            "quote": "A squirrel called Ratatosk runs up and down through the ash and carries malicious messages between the eagle and Nidhogg.\n\nThe ash Yggdrasil suffers hardships more than people realize. Stag bites above, and at the sides it rots, Nidhogg eats away at it below.",
+            "link": "http://vsnrweb-publications.org.uk/SNORRA%20EDDA%20searchable.pdf#page=47&zoom=auto"
+          },
+          "Chapter 52-53 (p. 56)": {
+            "explanation": "In the description of the halls of the afterlife, the text states that the worst place is Hvergelmir, where Nidhogg torments the bodies of the dead.",
+            "quote": "But it is worst in Hvergelmir:\nThere Nidhogg torments the bodies of the dead.’",
+            "link": "http://vsnrweb-publications.org.uk/SNORRA%20EDDA%20searchable.pdf#page=84&zoom=auto"
+          }
+        },
+        "Skáldskaparmál (The Language of Poetry)": {
+          "link": "http://vsnrweb-publications.org.uk/SNORRA%20EDDA%20searchable.pdf#page=87&zoom=auto",
+          "Chapter 75 (p. 137)": {
+            "explanation": "In a categorical list of names for serpents, Nidhogg is included.",
+            "quote": "These are names for serpents: dragon, Fafnir, Iormungand, adder, Nidhogg, snake, viper, Goin, Moin...",
+            "link": "http://vsnrweb-publications.org.uk/SNORRA%20EDDA%20searchable.pdf#page=165&zoom=auto"
+          },
+          "Chapter 75 (p. 159)": {
+            "explanation": "In a long, poetic list of names for swords, Nidhogg is also listed, with the gloss \"[mean-striker].\"",
+            "quote": "Feller, blancher, Fafnir [embracer]... Goin, guest-Moin [moor-guest] and mockery, crasher, Nidhogg [mean-striker].",
+            "link": "http://vsnrweb-publications.org.uk/SNORRA%20EDDA%20searchable.pdf#page=187&zoom=auto"
+          }
+        }
+      }
+    }
+  },
+  "Niflheim": {
+    "tags": ["Location"],
+    "attestations": {
       "Prose Edda": {
         "link": "http://vsnrweb-publications.org.uk/SNORRA%20EDDA%20searchable.pdf",
         "Gylfaginning (The Beguiling of Gylfi)": {
@@ -6773,7 +6837,7 @@
           "explanation": "Týr is a significant supporting character in this poem, where he accompanies Thor on a quest.",
           "Stanza 4-5": {
             "explanation": "The Æsir wish to hold a feast, but need a large cauldron to brew ale for everyone. Týr informs Thor that his father, the jötunn Hymir, possesses such a cauldron.",
-            "quote": "Then the victorious Týr gave this helpful advice to his friend: \"There lives to the east of the Elivágar Hymir the wise, at heaven's edge. My father, fierce of mood, owns a mighty kettle, a roomy cauldron, a league deep.\"",
+            "quote": "4. The glorious gods and the mighty powers\ncould not get it anywhere,\nuntil Týr, out of true loyalty,\nspoke a great piece of kindly advice to Hlórriði alone:\n\n5. ‘To the east23 of the Élivágar lives\nall-wise Hymir at heaven’s end;\nmy fierce father owns a kettle,\na capacious cauldron, one league deep.’",
             "link": "https://books.openbookpublishers.com/10.11647/obp.0308/ch7.xhtml#_idTextAnchor1038"
           },
           "Stanza 7": {
