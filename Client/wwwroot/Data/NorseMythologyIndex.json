@@ -4696,6 +4696,45 @@
       }
     }
   },
+  "Niflhel": {
+    "tags": ["Location"],
+    "attestations": {
+      "Poetic Edda": {
+        "link": "https://books.openbookpublishers.com/10.11647/obp.0308/",
+        "Vafþrúðnismál (The Sayings of Vafþrúðnir)": {
+          "link": "https://books.openbookpublishers.com/10.11647/obp.0308/ch3.xhtml",
+          "Stanza 43": {
+            "explanation": "The giant Vafþrúðnir, boasting of his vast knowledge, claims to have traveled to the nine worlds that lie beneath Niflhel.",
+            "quote": "Vafþrúðnir said:\n‘About the secrets of giants and of all gods\nI can tell the truth,\nbecause I have come to each world;\nI came to nine worlds beneath Niflhel;\nhumans die there from Hel.’",
+            "link": "https://books.openbookpublishers.com/10.11647/obp.0308/ch3.xhtml#_idTextAnchor619"
+          }
+        },
+        "Baldrs draumar (Baldr's Dreams)": {
+          "link": "https://books.openbookpublishers.com/10.11647/obp.0308/ch33.xhtml#_idTextAnchor3296",
+          "Stanza 2": {
+            "explanation": "To discover the meaning of Baldr's ominous dreams, Odin rides his horse Sleipnir down to the realm of Niflhel.",
+            "quote": "Up rose Óðinn, Gautr of ages,\nand on Sleipnir he laid a saddle;\nhe rode from there down to Niflhel,\nhe met a whelp, the one which came from Hel.",
+            "link": "https://books.openbookpublishers.com/10.11647/obp.0308/ch33.xhtml#_idTextAnchor3317"
+          }
+        }
+      },
+      "Prose Edda": {
+        "link": "http://vsnrweb-publications.org.uk/SNORRA%20EDDA%20searchable.pdf",
+        "Gylfaginning (The Beguiling of Gylfi)": {
+          "link": "http://vsnrweb-publications.org.uk/SNORRA%20EDDA%20searchable.pdf#page=34&zoom=auto",
+          "Chapter 3-4 (p. 9)": {
+            "explanation": "When describing the fates of souls after death, High distinguishes between the righteous who dwell with All-father and the wicked who are sent to the lowest realm.",
+            "quote": "And all men who are righteous shall live and dwell with him himself in the place called Gimle or Vingolf, but wicked men go to Hel and on to Niflhel; that is down in the ninth world.’",
+            "link": "http://vsnrweb-publications.org.uk/SNORRA%20EDDA%20searchable.pdf#page=37&zoom=auto"
+          },
+          "Chapter 42-43 (p. 36)": {
+            "explanation": "After the giant builder who constructed Asgard's walls reveals his true nature, Thor dispatches him with his hammer.",
+            "quote": "Then he paid the builder’s wages and it wasn’t the sun and moon, instead he stopped him from living in Giantland and struck the first blow so that his skull was shattered into fragments and sent him down beneath Niflhel.",
+            "link": "http://vsnrweb-publications.org.uk/SNORRA%20EDDA%20searchable.pdf#page=64&zoom=auto"
+          }
+        }
+      }
+    },
   "Njord (Njörðr)": {
     "tags": ["Vanir", "Aesir", "Male"],
     "attestations": {
