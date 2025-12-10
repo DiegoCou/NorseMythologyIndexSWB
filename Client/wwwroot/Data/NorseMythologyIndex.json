@@ -2362,6 +2362,168 @@
       }
     }
   },
+  "Helheim (Hel)": {
+    "tags": ["Location"],
+    "attestations": {
+      "Poetic Edda": {
+        "link": "https://books.openbookpublishers.com/10.11647/obp.0308/",
+        "Völuspá (The Seeress's Prophecy)": {
+          "link": "https://books.openbookpublishers.com/10.11647/obp.0308/ch1.xhtml",
+          "Stanza 42": {
+            "explanation": "A sooty-red cockerel is said to crow in the halls of **Hel**, contrasting with the one that crows for the Æsir.",
+            "quote": "‘Gullinkambi crowed above the Æsir,\nhe wakens heroes in Herjafǫðr’s hall;\nbut another crows beneath the earth,\na sooty-red cockerel, in the halls of Hel.",
+            "link": "https://books.openbookpublishers.com/10.11647/obp.0308/ch1.xhtml#_idTextAnchor146"
+          },
+          "Stanza 51": {
+            "explanation": "During Ragnarök, humanity is described as treading the \"Hel-way,\" the road to the underworld.",
+            "quote": "‘Surtr travels from the south with the destruction of twigs,\nthe sun shines from the sword of the gods of the slain;\nrocky cliffs collapse and witches wander,\nmen tread the Hel-way, and the heavens are cloven.",
+            "link": "https://books.openbookpublishers.com/10.11647/obp.0308/ch1.xhtml#_idTextAnchor158"
+          }
+        },
+        "Vafþrúðnismál (The Sayings of Vafþrúðnir)": {
+          "link": "https://books.openbookpublishers.com/10.11647/obp.0308/ch3.xhtml",
+          "Stanza 43": {
+            "explanation": "The giant Vafþrúðnir boasts of his vast knowledge, claiming to have visited the nine worlds beneath **Niflhel** and seen how humans die and go to **Hel**.",
+            "quote": "Vafþrúðnir said:\n‘About the secrets of giants and of all gods\nI can tell the truth,\nbecause I have come to each world;\nI came to nine worlds beneath Niflhel;\nhumans die there from Hel.’",
+            "link": "https://books.openbookpublishers.com/10.11647/obp.0308/ch3.xhtml#_idTextAnchor619"
+          }
+        },
+        "Grímnismál (The Lay of Grímnir)": {
+          "link": "https://books.openbookpublishers.com/10.11647/obp.0308/ch4.xhtml",
+          "Stanza 31": {
+            "explanation": "The goddess **Hel** is described as living beneath one of the three roots of the world-tree, Yggdrasill, defining the location of her realm.",
+            "quote": "‘Three roots extend in three directions\nfrom under the ash of Yggdrasill;\nHel lives under one, frost-giants [under] another,\nhuman beings [under] a third.",
+            "link": "https://books.openbookpublishers.com/10.11647/obp.0308/ch4.xhtml#_idTextAnchor730"
+          }
+        },
+        "Fǫr Skírnis (Skírnir's Journey)": {
+          "link": "https://books.openbookpublishers.com/10.11647/obp.0308/ch5.xhtml",
+          "Stanza 27": {
+            "explanation": "As part of his curse, Skírnir tells Gerðr she will sit on an eagle's hill and look longingly towards **Hel**.",
+            "quote": "‘On the eagle’s hill you shall sit early,\ngaze out from the world, look longingly to Hel;\nmay food be more loathsome to you than the shining snake is\nto any man among the living!",
+            "link": "https://books.openbookpublishers.com/10.11647/obp.0308/ch5.xhtml#_idTextAnchor839"
+          }
+        },
+        "Lokasenna (Loki's Flyting)": {
+          "link": "https://books.openbookpublishers.com/10.11647/obp.0308/ch8.xhtml",
+          "Stanza 63": {
+            "explanation": "Þórr threatens Loki, saying his hammer will send him to **Hel**, down below the corpse-gates.",
+            "quote": "‘Silence, perverted creature! My power-hammer,\nMjǫllnir, shall deprive you of speech;\nHrungnir’s slayer will send you to Hel,\ndown below corpse-gates!’",
+            "link": "https://books.openbookpublishers.com/10.11647/obp.0308/ch8.xhtml#_idTextAnchor1215"
+          }
+        },
+        "Helreið Brynhildar (Brynhildr’s Hel-Ride)": {
+          "link": "https://books.openbookpublishers.com/10.11647/obp.0308/ch23.xhtml#_idTextAnchor2449",
+          "Title and Prose Introduction": {
+            "explanation": "The title itself means \"Brynhildr's **Hel**Ride,\" and the introduction describes her driving her wagon on the \"**Hel**way.\"",
+            "quote": "After Brynhildr’s death two pyres were built, one for Sigurðr, and it burnt first, and Brynhildr was burnt on the other, and she was in a wagon which was hung with valuable cloths. It is said that Brynhildr drove with the wagon on the Hel-way5 and passed across a home-meadow,6 where a certain giantess lived. The giantess said:",
+            "link": "https://books.openbookpublishers.com/10.11647/obp.0308/ch23.xhtml#_idTextAnchor2468"
+          }
+        },
+        "Guðrúnarhvǫt (Guðrún's Incitement)": {
+          "link": "https://books.openbookpublishers.com/10.11647/obp.0308/ch30.xhtml#_idTextAnchor3037",
+          "Stanza 19": {
+            "explanation": "Grieving, Guðrún recalls her promise with Sigurðr that he would visit her from **Hel** after his death.",
+            "quote": "‘“Do you recall, Sigurðr, what we two said,\nwhen we both sat in bed,\nthat you would visit me, spirited one,\nhero, from Hel, and I you from [this] world?",
+            "link": "https://books.openbookpublishers.com/10.11647/obp.0308/ch30.xhtml#_idTextAnchor3088"
+          }
+        },
+        "Fáfnismál (The Sayings/Lay of Fáfnir)": {
+          "link": "https://books.openbookpublishers.com/10.11647/obp.0308/ch18.xhtml#_idTextAnchor2001",
+          "Stanza 39": {
+            "explanation": "Sǫrli or Hamðir declares that he and his brother will journey to **Hel**.",
+            "quote": "‘Fate won’t become so powerful that Reginn shall\nbring word of my death,\nbecause both those brothers shall swiftly\njourney to Hel from here!’",
+            "link": "https://books.openbookpublishers.com/10.11647/obp.0308/ch18.xhtml#_idTextAnchor2093"
+          }
+        },
+        "Baldrs draumar (Baldr’s Dreams)": {
+          "link": "https://books.openbookpublishers.com/10.11647/obp.0308/ch33.xhtml#_idTextAnchor3296",
+          "Stanza 2": {
+            "explanation": "Odin rides down to **Niflhel** and meets a hound that came from **Hel**.",
+            "quote": "Up rose Óðinn, Gautr of ages,\nand on Sleipnir he laid a saddle;\nhe rode from there down to Niflhel,\nhe met a whelp, the one which came from Hel.",
+            "link": "https://books.openbookpublishers.com/10.11647/obp.0308/ch33.xhtml#_idTextAnchor3317"
+          },
+          "Stanza 3": {
+            "explanation": "Odin arrives at the high hall of **Hel**.",
+            "quote": "It was bloody across the front of its breast,\nand it bayed long at the father of incantation;\nforward rode Óðinn, the earth-way resounded,\nhe came to the high hall of Hel.",
+            "link": "https://books.openbookpublishers.com/10.11647/obp.0308/ch33.xhtml#_idTextAnchor3318"
+          },
+          "Stanza 6": {
+            "explanation": "Odin, as Vegtamr, asks the seeress for news from **Hel**.",
+            "quote": "‘I am called Vegtamr, I am the son of Valtamr;\ntell me news from Hel — I remember [things] from home —\nfor whom are the benches strewn with arm-rings,\nthe floor beautifully flooded with gold?’",
+            "link": "https://books.openbookpublishers.com/10.11647/obp.0308/ch33.xhtml#_idTextAnchor3321"
+          }
+        },
+        "Svipdagsmál (Gróugaldr and Fjǫlsvinnsmál)": {
+          "link": "https://books.openbookpublishers.com/10.11647/obp.0308/ch36.xhtml#_idTextAnchor3555",
+          "Gróugaldr, Stanza 8": {
+            "explanation": "Gróa chants a spell to make mighty rivers turn towards **Hel** before her son.",
+            "quote": "‘That one I chant for you as the third, if mighty rivers\nfall to your life’s betrayal(?):\nmay Horn and Ruðr turn to Hel while [you pass by],\nand always dwindle before you.",
+            "link": "https://books.openbookpublishers.com/10.11647/obp.0308/ch36.xhtml#_idTextAnchor3637"
+          },
+          "Fjǫlsvinnsmál, Stanza 25": {
+            "explanation": "Svipdagr asks if any weapon can make the cockerel Viðófnir sink into **Hel's** seats.",
+            "quote": "‘Tell me, Fjǫlsviðr, that which I will ask you\nand which I would know:\nwhether there’s any weapon by which Viðófnir can [be made]\nto sink into Hel’s seats.’",
+            "link": "https://books.openbookpublishers.com/10.11647/obp.0308/ch36.xhtml#_idTextAnchor3655"
+          }
+        }
+      },
+      "Prose Edda": {
+        "link": "http://vsnrweb-publications.org.uk/SNORRA%20EDDA%20searchable.pdf",
+        "Gylfaginning (The Beguiling of Gylfi)": {
+          "link": "http://vsnrweb-publications.org.uk/SNORRA%20EDDA%20searchable.pdf#page=34&zoom=auto",
+          "Chapter 3-4 (p. 9)": {
+            "explanation": "Hel is established as the destination for wicked men after death, a place even lower than the ninth world.",
+            "quote": "...but wicked men go to Hel and on to Niflhel; that is down in the ninth world.’",
+            "link": "http://vsnrweb-publications.org.uk/SNORRA%20EDDA%20searchable.pdf#page=37&zoom=auto"
+          },
+          "Chapter 4-5 (p. 10)": {
+            "explanation": "In a verse from *Völuspá* describing Ragnarök, the path to the underworld is mentioned.",
+            "quote": "Rock cliffs crash and troll-wives are abroad, heroes tread the road of Hel and heaven splits.",
+            "link": "http://vsnrweb-publications.org.uk/SNORRA%20EDDA%20searchable.pdf#page=38&zoom=auto"
+          },
+          "Chapter 49 (p. 49)": {
+            "explanation": "After Baldr's death, the gods seek a volunteer to travel to the underworld to bargain for his return.",
+            "quote": "...Frigg spoke, and asked who there was among the Æsir who wished to earn all her love and favour and was willing to ride the road to Hel and try if he could find Baldr...",
+            "link": "http://vsnrweb-publications.org.uk/SNORRA%20EDDA%20searchable.pdf#page=77&zoom=auto"
+          },
+          "Chapter 49 (p. 50)": {
+            "explanation": "Hermod's journey is described, where the bridge-keeper Modgud questions him and gives him directions.",
+            "quote": "‘Why are you riding here on the road to Hel?’\n\n‘And she said that Baldr had ridden there over Gioll bridge, “but downwards and northwards lies the road to Hel.”’\n\n‘Then Hermod rode on until he came to Hel’s gates.",
+            "link": "http://vsnrweb-publications.org.uk/SNORRA%20EDDA%20searchable.pdf#page=78&zoom=auto"
+          },
+          "Chapter 49-50 (p. 51)": {
+            "explanation": "The Æsir send messengers throughout the world to fulfill the condition for Baldr's return.",
+            "quote": "‘After this the Æsir sent over all the world messengers to request that Baldr be wept out of Hel.\n\n...he was not redeemed from Hel.",
+            "link": "http://vsnrweb-publications.org.uk/SNORRA%20EDDA%20searchable.pdf#page=79&zoom=auto"
+          },
+          "Chapter 51 (p. 54)": {
+            "explanation": "During Ragnarök, Loki arrives at the final battle with the inhabitants of the underworld.",
+            "quote": "By then Loki will also have arrived there and Hrym and with him all the frost-giants, but with Loki will be all Hel’s people.",
+            "link": "http://vsnrweb-publications.org.uk/SNORRA%20EDDA%20searchable.pdf#page=82&zoom=auto"
+          },
+          "Chapter 52-53 (p. 56)": {
+            "explanation": "In the world's rebirth after Ragnarök, Baldr and his brother Hod are said to return from the realm of the dead.",
+            "quote": "After that Baldr and Hod will arrive from Hel.",
+            "link": "http://vsnrweb-publications.org.uk/SNORRA%20EDDA%20searchable.pdf#page=84&zoom=auto"
+          }
+        },
+        "Skáldskaparmál (The Language of Poetry)": {
+          "link": "http://vsnrweb-publications.org.uk/SNORRA%20EDDA%20searchable.pdf#page=87&zoom=auto",
+          "Chapter 58-60 (p. 137)": {
+            "explanation": "In a list of poetic terms for weather from the poem *Alsvinnsmal*, a specific name for wind is given for its use within the realm of Hel.",
+            "quote": "In Hel it is called boomer.",
+            "link": "http://vsnrweb-publications.org.uk/SNORRA%20EDDA%20searchable.pdf#page=165&zoom=auto"
+          },
+          "Chapter 62-63 (p. 144)": {
+            "explanation": "In a list of poetic terms for \"night\" from the poem *Alsvinnsmal*, a specific name is given for its use within the realm of Hel.",
+            "quote": "Its name is night among men, but obscurity in Hel...",
+            "link": "http://vsnrweb-publications.org.uk/SNORRA%20EDDA%20searchable.pdf#page=172&zoom=auto"
+          }
+        }
+      }
+    }
+  },
   "Hermod (Hermóðr)": {
     "tags": ["Aesir", "Male"],
     "attestations": {
