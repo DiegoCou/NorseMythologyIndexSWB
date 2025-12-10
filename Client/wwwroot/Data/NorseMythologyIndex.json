@@ -4697,7 +4697,7 @@
     }
   },
   "Niflhel": {
-    "tags": ["Location"],
+    "tags": [ "Location" ],
     "attestations": {
       "Poetic Edda": {
         "link": "https://books.openbookpublishers.com/10.11647/obp.0308/",
@@ -4734,7 +4734,8 @@
           }
         }
       }
-    },
+    }
+  },
   "Njord (Njörðr)": {
     "tags": ["Vanir", "Aesir", "Male"],
     "attestations": {
