@@ -6236,6 +6236,33 @@
       }
     }
   },
+  "Sökkvabekkr": {
+    "tags": ["Realm"],
+    "attestations": {
+      "Poetic Edda": {
+        "link": "https://books.openbookpublishers.com/10.11647/obp.0308/",
+        "Grímnismál (The Lay of Grímnir)": {
+          "link": "https://books.openbookpublishers.com/10.11647/obp.0308/ch4.xhtml",
+          "Stanza 7": {
+            "explanation": "In his monologue listing the homes of the gods, Odin (as Grímnir) names Sǫkkvabekkr as the fourth hall. He describes it as a place over which cool waves flow, and where he and the goddess Sága drink together daily.",
+            "quote": "‘Sǫkkvabekkr is the name of the fourth, and there cool waves\nplash over it;\nthere Óðinn and Sága drink through all days,\nglad, from golden goblets.",
+            "link": "https://books.openbookpublishers.com/10.11647/obp.0308/ch4.xhtml#_idTextAnchor703"
+          }
+        }
+      },
+      "Prose Edda": {
+        "link": "http://vsnrweb-publications.org.uk/SNORRA%20EDDA%20searchable.pdf",
+        "Gylfaginning (The Beguiling of Gylfi)": {
+          "link": "http://vsnrweb-publications.org.uk/SNORRA%20EDDA%20searchable.pdf#page=34&zoom=auto",
+          "Chapter 35 (p. 29)": {
+            "explanation": "When High describes the goddesses (Asyniur), he names Saga's hall immediately after Frigg's.",
+            "quote": "Second is Saga. She dwells at Sokkvabekk, and that is a big place.",
+            "link": "http://vsnrweb-publications.org.uk/SNORRA%20EDDA%20searchable.pdf#page=57&zoom=auto"
+          }
+        }
+      }
+    }
+  },
   "Sól": {
     "tags": ["Aesir","Female"],
     "attestations": {
