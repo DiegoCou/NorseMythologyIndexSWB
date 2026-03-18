@@ -2858,6 +2858,41 @@
       }
     }
   },
+  "Hræsvelgr": {
+    "tags": ["Jötunn", "Male"],
+    "attestations": {
+      "Poetic Edda": {
+        "link": "https://books.openbookpublishers.com/10.11647/obp.0308/",
+        "Vafþrúðnismál (The Lay of Vafthrúdnir)": {
+          "link": "https://books.openbookpublishers.com/10.11647/obp.0308/ch3.xhtml#_idTextAnchor512",
+          "Stanza 37": {
+            "explanation": "Vafdrudnir tells where the wind comes from.",
+            "quote": "Vafþrúðnir said:\n‘He’s called Hræsvelgr, who sits at the sky’s end,\na giant in eagle’s shape;\nfrom his wings, they say, the wind comes\nover all people.’",
+            "link": "https://books.openbookpublishers.com/10.11647/obp.0308/ch3.xhtml#_idTextAnchor613"
+          }
+        }
+      },
+      "Prose Edda": {
+        "link": "http://vsnrweb-publications.org.uk/SNORRA%20EDDA%20searchable.pdf",
+        "Gylfaginning (The Beguiling of Gylfi)": {
+          "link": "http://vsnrweb-publications.org.uk/SNORRA%20EDDA%20searchable.pdf#page=34&zoom=auto",
+          "Chapter 17-19 (p. 20)": {
+            "explanation": "When Gangleri asks where the incredibly strong, invisible winds come from, High explains their origin and quotes a verse (from the Eddic poem Vafþrúðnismál) to support his explanation.",
+            "quote": "Then said High: ‘I can easily tell you that. At the northernmost end of heaven there sits a giant called Hræsvelg. He has eagle form. And when he starts to fly winds arise from beneath his wings. It says so here:\n\nHe is called Hræsvelg who sits at heaven’s end, giant in eagle form. From his wings they say wind comes over all men.’",
+            "link": "http://vsnrweb-publications.org.uk/SNORRA%20EDDA%20searchable.pdf#page=48&zoom=auto"
+          }
+        },
+        "Skáldskaparmál (The Language of Poetry)": {
+          "link": "http://vsnrweb-publications.org.uk/SNORRA%20EDDA%20searchable.pdf#page=87&zoom=auto",
+          "Chapter 73-75 (p. 155)": {
+            "explanation": "In the metrical lists (þulur) towards the end of the section, Hraesvelg is included in a long, categorical catalogue of names for giants.",
+            "quote": "Hardverk, Hrokkvir and Hastigi, Hraesvelg, Herkir and...",
+            "link": "http://vsnrweb-publications.org.uk/SNORRA%20EDDA%20searchable.pdf#page=183&zoom=auto"
+          }
+        }
+      }
+    }
+  },
   "Hringhorni": {
     "tags": ["Object"],
     "attestations": {
@@ -6232,7 +6267,7 @@
     }
   },
   "Sökkvabekkr": {
-    "tags": ["Realm"],
+    "tags": ["Location"],
     "attestations": {
       "Poetic Edda": {
         "link": "https://books.openbookpublishers.com/10.11647/obp.0308/",
