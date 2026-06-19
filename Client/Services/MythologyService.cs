@@ -139,5 +139,14 @@ namespace NorseMythologyIndex.Services
             }
             return builder.ToString().Normalize(NormalizationForm.FormC);
         }
+        
+        public IEnumerable<IGrouping<char, KeyValuePair<string, MythologyItem>>> GetGroupedItems(Dictionary<string, MythologyItem> items)
+        {
+            return items
+                .Where(kvp => !string.IsNullOrEmpty(kvp.Key))
+                .GroupBy(kvp => char.ToUpper(kvp.Key[0]))
+                .OrderBy(g => g.Key);
+        }
     }
+    
 }

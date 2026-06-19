@@ -10,7 +10,7 @@
 @inject IScrollManager ScrollManager
 
 <PageTitle>@selectedItemName</PageTitle>
-<div class="page-container">
+<MudDrawerContainer Style="margin: 3.4rem" Class="mud-height-full" >
 @if (isLoading)
 {
     <div class="loading">
@@ -34,78 +34,78 @@ else if (selectedItem is not null)
         }
     </div>
     -->
-    <MudContainer Style="margin-top: 5rem; margin-left: -17rem; width: 25rem; position: fixed;">
-        <MudList T="string">
-            <ChildContent>
-            @foreach (var attestation in selectedItem.Attestations)
-            {
-                <button style="text-align: left" onclick="document.getElementById('@RemoveSpecialCharacters(@attestation.Key)').scrollIntoView({behavior:'smooth'})">@attestation.Key</button>
-                <MudList T="string">
-                    <ChildContent>
-                        <MudStack Style="margin: 0 5rem 0 0; padding: 0" Justify="Justify.FlexStart" AlignItems="AlignItems.Start" Spacing="0" >
-                        @foreach (var reference in attestation.Value.GetReferences())
-                        {
-                            <button style="margin-left: 1rem; text-align: left" onclick="document.getElementById('@RemoveSpecialCharacters(@reference.Key)').scrollIntoView({behavior:'smooth'})">· @reference.Key</button>
+        <MudDrawer Style="margin: 0 0; padding: 0 0" Open="true" Anchor="Anchor.Left" Elevation="1" Variant="DrawerVariant.Persistent">
+            <MudList T="string">
+                <ChildContent>
+                @foreach (var attestation in selectedItem.Attestations)
+                {
+                    <button style="text-align: left" onclick="document.getElementById('@RemoveSpecialCharacters(@attestation.Key)').scrollIntoView({behavior:'smooth'})">@attestation.Key</button>
+                    <MudList T="string">
+                        <ChildContent>
+                            <MudStack Style="margin: 0 5rem 0 0; padding: 0" Justify="Justify.FlexStart" AlignItems="AlignItems.Start" Spacing="0" >
+                            @foreach (var reference in attestation.Value.GetReferences())
+                            {
+                                <button style="margin-left: 1rem; text-align: left" onclick="document.getElementById('@RemoveSpecialCharacters(@reference.Key)').scrollIntoView({behavior:'smooth'})">· @reference.Key</button>
 
-                        }
-                        </MudStack>
-                    </ChildContent>
-                </MudList>
-            }
-            </ChildContent>
-        </MudList>
-    </MudContainer>
+                            }
+                            </MudStack>
+                        </ChildContent>
+                    </MudList>
+                }
+                </ChildContent>
+            </MudList>
+        </MudDrawer>
     
-    <MudContainer Class="attestations-container">
-        <MudScrollToTop>
-            <MudFab Color="Color.Tertiary" StartIcon="@Icons.Material.Filled.ArrowCircleUp" />
-        </MudScrollToTop>
-        <!-- Name of the Selected Item -->
-        <MudText class="selected-item-name" Typo="Typo.h3">@selectedItemName</MudText>
-        <MudList T="string">
-            @foreach (var attestation in selectedItem.Attestations)
-            {
-                <MudListItem class="reference-item" id="@RemoveSpecialCharacters(attestation.Key)" Expanded>
-                    <ChildContent>
-                        <!-- Name of the main source (Prose Edda/ Poetic Edda) -->
-                        <MudText Typo="Typo.h4"><a style="text-decoration: underline" href="@attestation.Value.Link" target="_blank">@attestation.Key</a></MudText>
-                        <hr/>
-                    </ChildContent>
-                    <NestedList>
-                        @foreach (var reference in attestation.Value.GetReferences())
-                        {
-                            <MudListItem id="@RemoveSpecialCharacters(reference.Key)" Class="reference-item" Expanded>
-                                <ChildContent>
-                                    <!-- Name of Book/Poem -->
-                                    <MudText Typo="Typo.h5"> <a style="text-decoration: underline" href="@reference.Value.Link" target="_blank">@reference.Key</a>
-                                    </MudText>
-                                    <hr/>
-                                </ChildContent>
-                                <NestedList>
-                                    @foreach (var content in reference.Value.GetContents())
-                                    {
-                                        <!-- Stanza or chapter -->
-                                        <MudContainer Style="padding: 0 2rem" Text="@(content.Key + ": " + content.Value.Explanation)">
-                                            <ChildContent>
-                                                <a style="font-weight: bold; text-decoration: underline" target="_blank" href="@content.Value.Link">@content.Key:</a>
-                                                <span>@content.Value.Explanation</span>
-                                                @if (!string.IsNullOrEmpty(content.Value.Text))
-                                                {
-                                                    <p style="white-space: pre-line; margin: 1rem 0; background-color: #f8f9fa; border-radius: 1rem; padding: 1.5rem">@content.Value.Text</p>
-                                                }
-                                            </ChildContent>
-                                        </MudContainer>
-                                    }
-                                </NestedList>
-                            </MudListItem>
-                        }
-                    </NestedList>
-                </MudListItem>
-            }
-        </MudList>
-    </MudContainer>
+        <MudMainContent class="d-flex justify-center align-center mud-height-full">
+            <MudScrollToTop>
+                <MudFab Color="Color.Tertiary" StartIcon="@Icons.Material.Filled.ArrowCircleUp" />
+            </MudScrollToTop>
+            <!-- Name of the Selected Item -->
+            <MudText class="selected-item-name" Typo="Typo.h3">@selectedItemName</MudText>
+            <MudList T="string">
+                @foreach (var attestation in selectedItem.Attestations)
+                {
+                    <MudListItem class="reference-item" id="@RemoveSpecialCharacters(attestation.Key)" Expanded>
+                        <ChildContent>
+                            <!-- Name of the main source (Prose Edda/ Poetic Edda) -->
+                            <MudText Typo="Typo.h4"><a style="text-decoration: underline" href="@attestation.Value.Link" target="_blank">@attestation.Key</a></MudText>
+                            <hr/>
+                        </ChildContent>
+                        <NestedList>
+                            @foreach (var reference in attestation.Value.GetReferences())
+                            {
+                                <MudListItem id="@RemoveSpecialCharacters(reference.Key)" Class="reference-item" Expanded>
+                                    <ChildContent>
+                                        <!-- Name of Book/Poem -->
+                                        <MudText Typo="Typo.h5"> <a style="text-decoration: underline" href="@reference.Value.Link" target="_blank">@reference.Key</a>
+                                        </MudText>
+                                        <hr/>
+                                    </ChildContent>
+                                    <NestedList>
+                                        @foreach (var content in reference.Value.GetContents())
+                                        {
+                                            <!-- Stanza or chapter -->
+                                            <MudContainer Style="padding: 0 2rem" Text="@(content.Key + ": " + content.Value.Explanation)">
+                                                <ChildContent>
+                                                    <a style="font-weight: bold; text-decoration: underline" target="_blank" href="@content.Value.Link">@content.Key:</a>
+                                                    <span>@content.Value.Explanation</span>
+                                                    @if (!string.IsNullOrEmpty(content.Value.Text))
+                                                    {
+                                                        <p style="white-space: pre-line; margin: 1rem 0; background-color: #f8f9fa; border-radius: 1rem; padding: 1.5rem">@content.Value.Text</p>
+                                                    }
+                                                </ChildContent>
+                                            </MudContainer>
+                                        }
+                                    </NestedList>
+                                </MudListItem>
+                            }
+                        </NestedList>
+                    </MudListItem>
+                }
+            </MudList>
+        </MudMainContent>
 }
-</div>
+</MudDrawerContainer>
 
 @code{
 
@@ -148,6 +148,14 @@ else if (selectedItem is not null)
 }
 
 <style>
+    
+    .page-container {
+        max-width: 70rem;
+        margin: 0 auto;
+        padding: 2rem;
+        position: relative;
+    }
+    
     .reference-item{
         scroll-margin: 4.5rem;
     }
@@ -159,12 +167,7 @@ else if (selectedItem is not null)
         margin-bottom: 1rem;
     }
     
-    .page-container {
-        max-width: 70rem;
-        margin: 0 auto;
-        padding: 2rem;
-        position: relative;
-    }
+    
 
     h1 {
         color: #2c3e50;

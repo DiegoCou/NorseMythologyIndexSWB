@@ -10,7 +10,7 @@
 <PageTitle>Jötunn</PageTitle>
 <div class="page-container">
     <MudStack>
-        <h1 style="margin-bottom: 0.1rem;">Jötunn</h1>
+        <h1 style="margin-bottom: 0.1rem;">Jötnar</h1>
     </MudStack>
     @if (isLoading)
     {
@@ -20,94 +20,24 @@
     }
     else if (jotunItems.Any())
     {
-        <MudContainer>
-            <MudText Typo="Typo.h6" >Male</MudText>
-            <MudStack Style="margin-bottom: 2rem" Row="true" Wrap="Wrap.Wrap" Spacing="2">
-                @foreach (var item in jotunItems)
+        @foreach (var group in MythologyService.GetGroupedItems(jotunItems))
+        {
+            <MudText Typo="Typo.h6">@group.Key</MudText>
+            <MudDivider Style="margin-bottom: 0.7rem; border-color: black" ></MudDivider>
+            <MudStack Style="margin-bottom: 1rem" Row="true" Wrap="Wrap.Wrap" Spacing="2">
+                @foreach (var item in group)
                 {
-                    if (item.Value.Tags.Contains("Male"))
-                    {
-                        <tr style="width: 8rem;">
-                            <td ><NavLink class="item" href="@($"/item/{item.Key}")">@item.Key</NavLink></td>
-                        </tr>
-                    }
+                    <tr style="width: auto;">
+                        <td>
+                            <NavLink class="item" href="@($"/item/{item.Key}")">@item.Key</NavLink>
+                        </td>
+                    </tr>
+                    <td style="margin: 0 1rem; width: auto;">
+                        ·
+                    </td>
                 }
             </MudStack>
-        </MudContainer>
-        <MudContainer>
-            <MudText Typo="Typo.h6" >Female</MudText>
-            <MudStack Style="margin-bottom: 2rem" Row="true" Wrap="Wrap.Wrap" Spacing="2">
-                @foreach (var item in jotunItems)
-                {
-                    if (item.Value.Tags.Contains("Female"))
-                    {
-                        <tr style="width: 8rem;">
-                            <td ><NavLink class="item" href="@($"/item/{item.Key}")">@item.Key</NavLink></td>
-                        </tr>
-                    }
-                }
-            </MudStack>
-        </MudContainer>
-        <MudContainer>
-            <MudText Typo="Typo.h6" >Creature</MudText>
-            <MudStack Style="margin-bottom: 2rem" Row="true" Wrap="Wrap.Wrap" Spacing="4">
-                @foreach (var item in jotunItems)
-                {
-                    if (item.Value.Tags.Contains("Creature"))
-                    {
-                        <tr style="width: 8rem;">
-                            <td ><NavLink class="item" href="@($"/item/{item.Key}")">@item.Key</NavLink></td>
-                        </tr>
-                    }
-                }
-            </MudStack>
-        </MudContainer>
-        <!--
-        <div class="tables-container">
-            <table class="as-table">
-                <tr>
-                    <th style="font-size: 18px">Male</th>
-                </tr>
-                @foreach (var item in jotunItems)
-                {
-                        @if (item.Value.Tags.Contains("Male"))
-                        {
-                            <tr>
-                                <td > <NavLink class="item" href="@($"/item/{item.Key}")">@item.Key</NavLink></td>
-                            </tr>
-                        }
-                }
-            </table>
-            <table class="as-table">
-                <tr>
-                    <th style="font-size: 18px">Female</th>
-                </tr>
-                @foreach (var item in jotunItems)
-                {
-                    @if (item.Value.Tags.Contains("Female"))
-                    {
-                        <tr>
-                            <td > <NavLink class="item" href="@($"/item/{item.Key}")">@item.Key</NavLink></td>
-                        </tr>
-                    }
-                }
-            </table>
-            <table class="as-table">
-                <tr>
-                    <th style="font-size: 18px">Creature</th>
-                </tr>
-                @foreach (var item in jotunItems)
-                {
-                    @if (item.Value.Tags.Contains("Creature"))
-                    {
-                        <tr>
-                            <td  > <NavLink class="item" href="@($"/item/{item.Key}")">@item.Key</NavLink></td>
-                        </tr>
-                    }
-                }
-            </table>
-        </div>
-        -->
+        }
     }
     else
     {
@@ -131,7 +61,7 @@
 
 <style>
     .page-container {
-        max-width: 60rem;
+        max-width: 70rem;
         margin: 0 auto;
         padding: 6rem;
         height: fit-content;
