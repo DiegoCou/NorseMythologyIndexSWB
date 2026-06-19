@@ -461,6 +461,41 @@
       }
     }
   },
+  "Bestla": {
+    "tags": ["Jötunn", "Female"],
+    "attestations": {
+      "Poetic Edda": {
+        "link": "https://books.openbookpublishers.com/10.11647/obp.0308/",
+        "Hávamál (The Sayings of Hávi)": {
+          "link": "https://books.openbookpublishers.com/10.11647/obp.0308/ch2.xhtml",
+          "Stanza 140": {
+            "explanation": "In his account of acquiring runic wisdom and the mead of poetry, Odin mentions learning nine mighty songs from the famous son of Bölþórr, who is identified as the father of Bestla.",
+            "quote": "Nine mighty songs I learnt from the famous son\nof Bǫlþórr, father of Bestla,\nand I got a drink of the precious mead,\npoured from Óðrerir.",
+            "link": "https://books.openbookpublishers.com/10.11647/obp.0308/ch2.xhtml#_idTextAnchor485"
+          }
+        }
+      },
+      "Prose Edda": {
+        "link": "http://vsnrweb-publications.org.uk/SNORRA%20EDDA%20searchable.pdf",
+        "Gylfaginning (The Beguiling of Gylfi)": {
+          "link": "http://vsnrweb-publications.org.uk/SNORRA%20EDDA%20searchable.pdf#page=34&zoom=auto",
+          "Chapter 5-7 (p. 11)": {
+            "explanation": "Bestla is introduced as the daughter of the giant Bölþorn. She marries Bor, and they give birth to the first generation of Norse gods: Odin, Vili, and Vé.",
+            "quote": "He married a wife called Bestla, daughter of the giant Bolthorn, and they had three sons. One was called Odin, the second Vili, the third Ve.",
+            "link": "http://vsnrweb-publications.org.uk/SNORRA%20EDDA%20searchable.pdf#page=39"
+          }
+        },
+        "Skáldskaparmál (The Language of Poetry)": {
+          "link": "http://vsnrweb-publications.org.uk/SNORRA%20EDDA%20searchable.pdf#page=87&zoom=auto",
+          "Chapter 2 (p. 69)": {
+            "explanation": "In a verse by the skald Einar, Odin is referred to by the matronymic kenning \"Bestla's son\".",
+            "quote": "For most highly-gifted rulers achieve less in most matters with Bestla’s son [Odin] than you.",
+            "link": "http://vsnrweb-publications.org.uk/SNORRA%20EDDA%20searchable.pdf#page=97"
+          }
+        }
+      }
+    }
+  },
   "Bifröst (Bifrǫst)": {
     "tags": ["Location"],
     "attestations": {
