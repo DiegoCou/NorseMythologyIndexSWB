@@ -133,6 +133,14 @@
   "Andhrímnir": {
     "tags": ["Aesir", "Male"],
     "attestations": {
+      "Information": {
+        "Objects": {
+          "Eldhrimnir": {
+            "link": "https://localhost:7192/item/Eldhrimnir",
+            "explanation": "A cauldron used by Andhrimnir to cook the meat of Sæhrimnir for the einherjar in Valhǫll. It is mentioned in relation to Ægir because it is named after him."
+          }
+        }
+      },
       "Poetic Edda": {
         "link": "https://books.openbookpublishers.com/10.11647/obp.0308/",
         "Grímnismál (The Sayings of Grímnir)": {

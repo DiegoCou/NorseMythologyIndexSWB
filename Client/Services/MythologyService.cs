@@ -139,6 +139,13 @@ namespace NorseMythologyIndex.Services
             }
             return builder.ToString().Normalize(NormalizationForm.FormC);
         }
+        public static string GetReferenceWithoutTranslation(string str)
+        {
+            if (!str.Contains("("))
+                return str;
+            str = str.Remove(str.IndexOf("(", StringComparison.Ordinal));
+            return str;
+        }
         
         public IEnumerable<IGrouping<char, KeyValuePair<string, MythologyItem>>> GetGroupedItems(Dictionary<string, MythologyItem> items)
         {

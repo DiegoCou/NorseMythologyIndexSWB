@@ -10,7 +10,7 @@
 @inject IScrollManager ScrollManager
 
 <PageTitle>@selectedItemName</PageTitle>
-<MudDrawerContainer Style="margin: 3.4rem" Class="mud-height-full" >
+<MudLayout Style="margin: 3.4rem 0" >
 @if (isLoading)
 {
     <div class="loading">
@@ -19,23 +19,10 @@
 }
 else if (selectedItem is not null)
 {
-    <!--
-    <div class="Item-detail">
-        <h2>@selectedItemName</h2>
-        <div class="tags-section">
-            @foreach (var tag in selectedItem.Tags)
-            {
-                <span class="tag">@tag</span>
-            }
-        </div>
-        @foreach (var attestation in selectedItem.Attestations)
-        {
-            <Attestation attestation="@attestation"></Attestation>
-        }
-    </div>
-    -->
-        <MudDrawer Style="margin: 0 0; padding: 0 0" Open="true" Anchor="Anchor.Left" Elevation="1" Variant="DrawerVariant.Persistent">
-            <MudList T="string">
+   
+    <MudStack  Style="margin: 0; padding: 0; overflow:hidden; height: 85vh" Row="true" Wrap="Wrap.NoWrap" Spacing="0" >
+        <MudContainer Style="margin: 0; padding: 1rem 0rem 0 1rem; width: fit-content; height:100%; flex-shrink: 0" >
+            <MudList  T="string">
                 <ChildContent>
                 @foreach (var attestation in selectedItem.Attestations)
                 {
@@ -45,7 +32,7 @@ else if (selectedItem is not null)
                             <MudStack Style="margin: 0 5rem 0 0; padding: 0" Justify="Justify.FlexStart" AlignItems="AlignItems.Start" Spacing="0" >
                             @foreach (var reference in attestation.Value.GetReferences())
                             {
-                                <button style="margin-left: 1rem; text-align: left" onclick="document.getElementById('@RemoveSpecialCharacters(@reference.Key)').scrollIntoView({behavior:'smooth'})">· @reference.Key</button>
+                                <button style="margin-left: 1rem; text-align: left" onclick="document.getElementById('@RemoveSpecialCharacters(@reference.Key)').scrollIntoView({behavior:'smooth'})">· @MythologyService.GetReferenceWithoutTranslation(reference.Key)</button>
 
                             }
                             </MudStack>
@@ -54,58 +41,71 @@ else if (selectedItem is not null)
                 }
                 </ChildContent>
             </MudList>
-        </MudDrawer>
-    
-        <MudMainContent class="d-flex justify-center align-center mud-height-full">
+        </MudContainer>
+        <MudContainer Style="margin: 0; padding: 1rem 0rem 0 1rem;flex-grow: 1; overflow-y: auto; height: 100%;">
             <MudScrollToTop>
                 <MudFab Color="Color.Tertiary" StartIcon="@Icons.Material.Filled.ArrowCircleUp" />
             </MudScrollToTop>
             <!-- Name of the Selected Item -->
-            <MudText class="selected-item-name" Typo="Typo.h3">@selectedItemName</MudText>
-            <MudList T="string">
-                @foreach (var attestation in selectedItem.Attestations)
-                {
-                    <MudListItem class="reference-item" id="@RemoveSpecialCharacters(attestation.Key)" Expanded>
-                        <ChildContent>
-                            <!-- Name of the main source (Prose Edda/ Poetic Edda) -->
-                            <MudText Typo="Typo.h4"><a style="text-decoration: underline" href="@attestation.Value.Link" target="_blank">@attestation.Key</a></MudText>
-                            <hr/>
-                        </ChildContent>
-                        <NestedList>
-                            @foreach (var reference in attestation.Value.GetReferences())
-                            {
-                                <MudListItem id="@RemoveSpecialCharacters(reference.Key)" Class="reference-item" Expanded>
-                                    <ChildContent>
-                                        <!-- Name of Book/Poem -->
-                                        <MudText Typo="Typo.h5"> <a style="text-decoration: underline" href="@reference.Value.Link" target="_blank">@reference.Key</a>
-                                        </MudText>
-                                        <hr/>
-                                    </ChildContent>
-                                    <NestedList>
-                                        @foreach (var content in reference.Value.GetContents())
-                                        {
-                                            <!-- Stanza or chapter -->
-                                            <MudContainer Style="padding: 0 2rem" Text="@(content.Key + ": " + content.Value.Explanation)">
-                                                <ChildContent>
-                                                    <a style="font-weight: bold; text-decoration: underline" target="_blank" href="@content.Value.Link">@content.Key:</a>
-                                                    <span>@content.Value.Explanation</span>
-                                                    @if (!string.IsNullOrEmpty(content.Value.Text))
-                                                    {
-                                                        <p style="white-space: pre-line; margin: 1rem 0; background-color: #f8f9fa; border-radius: 1rem; padding: 1.5rem">@content.Value.Text</p>
-                                                    }
-                                                </ChildContent>
-                                            </MudContainer>
-                                        }
-                                    </NestedList>
-                                </MudListItem>
-                            }
-                        </NestedList>
-                    </MudListItem>
-                }
-            </MudList>
-        </MudMainContent>
+            <MudStack class="d-flex justify-left align-left mud-height-full">
+                <MudText class="selected-item-name" >@selectedItemName</MudText>
+                <MudStack Wrap="Wrap.NoWrap" Spacing="1" Row="true">
+                    @for (int index = 0; index < @selectedItem.Tags.Count; index++)
+                    {
+                        var index1 = index;
+                        <MudText Style="width: fit-content; font-size: 0.8rem">@selectedItem.Tags[index1]</MudText>
+                        if (index1 < @selectedItem.Tags.Count - 1)
+                        {
+                            <MudText Style="width: fit-content; font-size: 1rem" >·</MudText>
+                        }
+                            
+                    }
+                </MudStack>
+                <MudTabs >
+                    @foreach (var attestation in selectedItem.Attestations)
+                    {
+                        <MudTabPanel Style="width: auto; text-transform: none;" Text="@attestation.Key">
+                            <ChildContent>
+                                <!-- Name of the main source (Prose Edda/ Poetic Edda) -->
+                                <MudList  T="string">
+                                    @foreach (var reference in attestation.Value.GetReferences())
+                                    {
+                                        <MudListItem id="@RemoveSpecialCharacters(reference.Key)" Class="reference-item" Expanded>
+                                            <ChildContent>
+                                                <!-- Name of Book/Poem -->
+                                                <MudText style="font-size: 0.9rem; font-weight: bold; text-decoration: underline"> <a style="text-decoration: underline" href="@reference.Value.Link" target="_blank">@reference.Key</a>
+                                                </MudText>
+                                            </ChildContent>
+                                            <NestedList>
+                                                @foreach (var content in reference.Value.GetContents())
+                                                {
+                                                    <!-- Stanza or chapter -->
+                                                    <MudContainer Style="padding: 0 2rem" Text="@(content.Key + ": " + content.Value.Explanation)">
+                                                        <ChildContent>
+                                                            <a style="font-weight: bold; text-decoration: underline" target="_blank" href="@content.Value.Link">@content.Key:</a>
+                                                            <span>@content.Value.Explanation</span>
+                                                            @if (!string.IsNullOrEmpty(content.Value.Text))
+                                                            {
+                                                                <p style="white-space: pre-line; margin: 1rem 0; background-color: #f8f9fa; border-radius: 1rem; padding: 1.5rem">@content.Value.Text</p>
+                                                            }
+                                                        </ChildContent>
+                                                    </MudContainer>
+                                                }
+                                            </NestedList>
+                                        </MudListItem>
+                                    }
+                                </MudList>
+                            </ChildContent>
+                        </MudTabPanel>
+                    }
+                </MudTabs>
+
+            </MudStack>
+        </MudContainer>
+    </MudStack>
+        
 }
-</MudDrawerContainer>
+</MudLayout>
 
 @code{
 
@@ -163,11 +163,10 @@ else if (selectedItem is not null)
         margin-top: 3rem;
     }
     .selected-item-name{
-        padding: 0 1rem;
-        margin-bottom: 1rem;
+        width: fit-content;
+        font-size: 1.2rem;
+        font-weight: bold;
     }
-    
-    
 
     h1 {
         color: #2c3e50;
@@ -199,13 +198,12 @@ else if (selectedItem is not null)
         border-radius: 8px;
         position: relative;
         margin: auto;
-        width: 60rem;
         height: fit-content;
     }
     
     .reference h5 {
         color: #34495e;
-        margin-bottom: 0.75rem;
+        
     }
 
  
