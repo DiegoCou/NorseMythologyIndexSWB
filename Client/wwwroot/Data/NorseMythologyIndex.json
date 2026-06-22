@@ -6774,6 +6774,48 @@
   "Thor (Þórr)": {
     "tags": ["Aesir", "Male"],
     "attestations": {
+      "Information": {
+        "Family": {
+          "Odin": {
+            "link": "https://localhost:7192/item/Odin (Óðinn)",
+            "explanation": "Father."
+          },
+          "Jord": {
+            "link": "https://localhost:7192/item/Jord (Jörð)",
+            "explanation": "Mother."
+          },
+          "Sif": {
+            "link": "https://localhost:7192/item/Sif",
+            "explanation": "Wife."
+          },
+          "Magni": {
+            "link": "https://localhost:7192/item/Magni",
+            "explanation": "Son of Thor and the jötunn Járnsaxa."
+          },
+          "Modi": {
+            "link": "https://localhost:7192/item/Modi (Móði)",
+            "explanation": "Son."
+          },
+          "Thrudr": {
+            "link": "https://localhost:7192/item/Thrudr (Þrúðr)",
+            "explanation": "Daughter Thor and Sif."
+          }
+        },
+        "Objects": {
+          "Mjolnir": {
+            "link": "https://localhost:7192/item/Miolnir (Mjöllnir)",
+            "explanation": "The hammer of Thor, a powerful weapon."
+          },
+          "Megingjord": {
+            "link": "https://localhost:7192/item/Megingiord (Megingjörð)",
+            "explanation": "The belt worn by Thor that doubles his strength."
+          },
+          "Jarngreipr": {
+            "link": "https://localhost:7192/item/Thor's Iron Gloves (Járngreipr)",
+            "explanation": "A pair of iron gloves."
+          }
+        }
+      },
       "Poetic Edda": {
         "link": "https://books.openbookpublishers.com/10.11647/obp.0308/",
         "Völuspá (The Seeress's Prophecy)": {
@@ -7012,7 +7054,7 @@
       }
     }
   },
-  "Trudr (Þrúðr)": {
+  "Thrudr (Þrúðr)": {
     "tags": ["Aesir", "Female"],
     "attestations": {
       "Poetic Edda": {

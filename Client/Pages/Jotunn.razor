@@ -8,7 +8,7 @@
 @inject Microsoft.AspNetCore.Components.NavigationManager navigationManager
 
 <PageTitle>Jötunn</PageTitle>
-<div class="page-container">
+<MudMainContent Style="overflow-y: auto; height:100vh; width: 100%" class="page-container">
     <MudStack>
         <h1 style="margin-bottom: 0.1rem;">Jötnar</h1>
     </MudStack>
@@ -43,7 +43,7 @@
     {
         <p>No Æsir Items found.</p>
     }
-</div>
+</MudMainContent>
 
 @code {
     private Dictionary<string, MythologyItem> jotunItems = new();
@@ -61,9 +61,8 @@
 
 <style>
     .page-container {
-        max-width: 70rem;
         margin: 0 auto;
-        padding: 6rem;
+        padding: 6rem 30ch;
         height: fit-content;
     }
 

@@ -10,7 +10,7 @@
 @inject IScrollManager ScrollManager
 
 <PageTitle>@selectedItemName</PageTitle>
-<MudLayout Style="margin: 3.4rem 0" >
+<MudLayout Style="margin-top: 3.4rem; padding: 0;" >
 @if (isLoading)
 {
     <div class="loading">
@@ -20,19 +20,19 @@
 else if (selectedItem is not null)
 {
    
-    <MudStack  Style="margin: 0; padding: 0; overflow:hidden; height: 85vh" Row="true" Wrap="Wrap.NoWrap" Spacing="0" >
-        <MudContainer Style="margin: 0; padding: 1rem 0rem 0 1rem; width: fit-content; height:100%; flex-shrink: 0" >
+    <MudStack  Style="margin: 0; padding: 0;" Row="true" Wrap="Wrap.NoWrap" Spacing="0" >
+        <MudContainer Fixed="true" Style="margin: 0; padding: 1rem 0rem 0 1rem; width: fit-content; height:100vh; flex-shrink: 0; background-color: #e6e6e6" >
             <MudList  T="string">
                 <ChildContent>
                 @foreach (var attestation in selectedItem.Attestations)
                 {
-                    <button style="text-align: left" onclick="document.getElementById('@RemoveSpecialCharacters(@attestation.Key)').scrollIntoView({behavior:'smooth'})">@attestation.Key</button>
+                    <button style="text-align: left" onclick="scrollToElement('@RemoveSpecialCharacters(@attestation.Key)')">@attestation.Key</button>
                     <MudList T="string">
                         <ChildContent>
                             <MudStack Style="margin: 0 5rem 0 0; padding: 0" Justify="Justify.FlexStart" AlignItems="AlignItems.Start" Spacing="0" >
                             @foreach (var reference in attestation.Value.GetReferences())
                             {
-                                <button style="margin-left: 1rem; text-align: left" onclick="document.getElementById('@RemoveSpecialCharacters(@reference.Key)').scrollIntoView({behavior:'smooth'})">· @MythologyService.GetReferenceWithoutTranslation(reference.Key)</button>
+                                <button style="margin-left: 1rem; text-align: left"  onmousedown="event.preventDefault()" onclick="scrollToElement('@RemoveSpecialCharacters(@reference.Key)')">· @MythologyService.GetReferenceWithoutTranslation(reference.Key)</button>
 
                             }
                             </MudStack>
@@ -42,7 +42,7 @@ else if (selectedItem is not null)
                 </ChildContent>
             </MudList>
         </MudContainer>
-        <MudContainer Style="margin: 0; padding: 1rem 0rem 0 1rem;flex-grow: 1; overflow-y: auto; height: 100%;">
+        <MudMainContent id="main-content" Style="margin: 0; padding: 1rem 0rem 0 1rem;flex-grow: 1; overflow-y: auto; height:100vh">
             <MudScrollToTop>
                 <MudFab Color="Color.Tertiary" StartIcon="@Icons.Material.Filled.ArrowCircleUp" />
             </MudScrollToTop>
@@ -73,16 +73,16 @@ else if (selectedItem is not null)
                                         <MudListItem id="@RemoveSpecialCharacters(reference.Key)" Class="reference-item" Expanded>
                                             <ChildContent>
                                                 <!-- Name of Book/Poem -->
-                                                <MudText style="font-size: 0.9rem; font-weight: bold; text-decoration: underline"> <a style="text-decoration: underline" href="@reference.Value.Link" target="_blank">@reference.Key</a>
+                                                <MudText style="font-size: 0.9rem; font-weight: bold; text-decoration: underline;"> <a style="text-decoration: underline; color: @ReturnColorIfLink(reference.Value.Link)" href="@reference.Value.Link" target="_blank">@reference.Key</a>
                                                 </MudText>
                                             </ChildContent>
-                                            <NestedList>
+                                            <NestedList >
                                                 @foreach (var content in reference.Value.GetContents())
                                                 {
                                                     <!-- Stanza or chapter -->
-                                                    <MudContainer Style="padding: 0 2rem" Text="@(content.Key + ": " + content.Value.Explanation)">
+                                                    <MudContainer class="align-left justify-content-left align-content-left" Style="margin: 0; padding: 0 2rem" Text="@(content.Key + ": " + content.Value.Explanation)">
                                                         <ChildContent>
-                                                            <a style="font-weight: bold; text-decoration: underline" target="_blank" href="@content.Value.Link">@content.Key:</a>
+                                                            <a style="font-weight: bold; text-decoration: underline; color: @ReturnColorIfLink(content.Value.Link)" target="_blank" href="@content.Value.Link">@content.Key:</a>
                                                             <span>@content.Value.Explanation</span>
                                                             @if (!string.IsNullOrEmpty(content.Value.Text))
                                                             {
@@ -101,7 +101,7 @@ else if (selectedItem is not null)
                 </MudTabs>
 
             </MudStack>
-        </MudContainer>
+        </MudMainContent>
     </MudStack>
         
 }
@@ -145,7 +145,31 @@ else if (selectedItem is not null)
     {
         return Regex.Replace(str, "[^a-zA-Z0-9_.]+", "", RegexOptions.Compiled);
     }
+
+    public string ReturnColorIfLink(string? link)
+    {
+        if(link == null)
+        {
+            return "black";
+        }
+        return link.Length > 0 ? "slateBlue" : "black";
+    }
 }
+
+<script>
+    function scrollToElement(elementId) {
+        const mainContent = document.getElementById('main-content');
+        const targetElement = document.getElementById(elementId);
+        
+        if (mainContent && targetElement) {
+            const offsetTop = targetElement.offsetTop - mainContent.offsetTop;
+            mainContent.scrollTo({
+                top: offsetTop,
+                behavior: 'smooth'
+            });
+        }
+    }
+</script>
 
 <style>
     

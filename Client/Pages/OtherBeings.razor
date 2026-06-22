@@ -6,7 +6,7 @@
 @inject MythologyService MythologyService
 
 <PageTitle>Other Beings</PageTitle>
-<div class="page-container">
+<MudMainContent Style="overflow-y: auto; height:100vh; width: 100%" class="page-container">
     <h1 style="margin-bottom: 0.1rem;">Other beings</h1>
 
     @if (isLoading)
@@ -42,7 +42,7 @@
     {
         <p>No Æsir Items found.</p>
     }
-</div>
+</MudMainContent>
 
 @code {
     private Dictionary<string, MythologyItem> mythItems = new();
@@ -59,9 +59,8 @@
 
 <style>
     .page-container {
-        max-width: 70rem;
         margin: 0 auto;
-        padding: 6rem;
+        padding: 6rem 30ch;
         height: fit-content;
     }
 
