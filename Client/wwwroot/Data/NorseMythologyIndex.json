@@ -136,7 +136,7 @@
       "Information": {
         "Objects": {
           "Eldhrimnir": {
-            "link": "https://localhost:7192/item/Eldhrimnir",
+            "link": "/item/Eldhrimnir",
             "explanation": "A cauldron used by Andhrimnir to cook the meat of Sæhrimnir for the einherjar in Valhǫll. It is mentioned in relation to Ægir because it is named after him."
           }
         }
@@ -6777,42 +6777,52 @@
       "Information": {
         "Family": {
           "Odin": {
-            "link": "https://localhost:7192/item/Odin (Óðinn)",
+            "link": "/item/Odin (Óðinn)",
             "explanation": "Father."
           },
           "Jord": {
-            "link": "https://localhost:7192/item/Jord (Jörð)",
+            "link": "/item/Jord (Jörð)",
             "explanation": "Mother."
           },
           "Sif": {
-            "link": "https://localhost:7192/item/Sif",
+            "link": "/item/Sif",
             "explanation": "Wife."
           },
           "Magni": {
-            "link": "https://localhost:7192/item/Magni",
+            "link": "/item/Magni",
             "explanation": "Son of Thor and the jötunn Járnsaxa."
           },
           "Modi": {
-            "link": "https://localhost:7192/item/Modi (Móði)",
+            "link": "/item/Modi (Móði)",
             "explanation": "Son."
           },
           "Thrudr": {
-            "link": "https://localhost:7192/item/Thrudr (Þrúðr)",
+            "link": "/item/Thrudr (Þrúðr)",
             "explanation": "Daughter Thor and Sif."
           }
         },
         "Objects": {
           "Mjolnir": {
-            "link": "https://localhost:7192/item/Miolnir (Mjöllnir)",
+            "link": "/item/Miolnir (Mjöllnir)",
             "explanation": "The hammer of Thor, a powerful weapon."
           },
           "Megingjord": {
-            "link": "https://localhost:7192/item/Megingiord (Megingjörð)",
+            "link": "/item/Megingiord (Megingjörð)",
             "explanation": "The belt worn by Thor that doubles his strength."
           },
           "Jarngreipr": {
-            "link": "https://localhost:7192/item/Thor's Iron Gloves (Járngreipr)",
+            "link": "/item/Thor's Iron Gloves (Járngreipr)",
             "explanation": "A pair of iron gloves."
+          }
+        },
+        "Locations": {
+          "Bilskirnir": {
+            "link": "/item/Bilskírnir",
+            "explanation": "Thor's hall in Þrúðvangr."
+          },
+          "Thrudvang": {
+            "link": "/item/Thrudvang (Þrúðvangr)",
+            "explanation": "The realm of Thor."
           }
         }
       },

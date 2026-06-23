@@ -20,35 +20,41 @@
 else if (selectedItem is not null)
 {
    
-    <MudStack  Style="margin: 0; padding: 0;" Row="true" Wrap="Wrap.NoWrap" Spacing="0" >
-        <MudContainer Fixed="true" Style="margin: 0; padding: 1rem 0rem 0 1rem; width: fit-content; height:100vh; flex-shrink: 0; background-color: #e6e6e6" >
-            <MudList  T="string">
+    <MudStack Style="margin: 0; padding: 0;" Row="true" Wrap="Wrap.NoWrap" Spacing="0">
+        <!-- Sidebar with navigation -->
+        <MudContainer Fixed="true" Style="margin: 0; padding: 1rem 0rem 0 1rem; width: fit-content; height:100vh; flex-shrink: 0; background-color: #e6e6e6">
+            <MudList T="string">
                 <ChildContent>
-                @foreach (var attestation in selectedItem.Attestations)
-                {
-                    <button style="text-align: left" onclick="scrollToElement('@RemoveSpecialCharacters(@attestation.Key)')">@attestation.Key</button>
-                    <MudList T="string">
-                        <ChildContent>
-                            <MudStack Style="margin: 0 5rem 0 0; padding: 0" Justify="Justify.FlexStart" AlignItems="AlignItems.Start" Spacing="0" >
-                            @foreach (var reference in attestation.Value.GetReferences())
-                            {
-                                <button style="margin-left: 1rem; text-align: left"  onmousedown="event.preventDefault()" onclick="scrollToElement('@RemoveSpecialCharacters(@reference.Key)')">· @MythologyService.GetReferenceWithoutTranslation(reference.Key)</button>
+                    @{
+                        var tabs = selectedItem.Attestations.Keys.ToList();
+                        var currentTab = _activePanelIndex >= 0 && _activePanelIndex < tabs.Count ? tabs[_activePanelIndex] : string.Empty;
+                    }
+                    @if (selectedItem.Attestations.TryGetValue(currentTab, out var selectedAttestation))
+                    {
+                        <button style="text-align: left" onclick="scrollToElement('@RemoveSpecialCharacters(@currentTab)')">@currentTab</button>
+                        <MudList T="string">
+                            <ChildContent>
+                                <MudStack Style="margin: 0 5rem 0 0; padding: 0" Justify="Justify.FlexStart" AlignItems="AlignItems.Start" Spacing="0">
+                                    @foreach (var reference in selectedAttestation.GetReferences())
+                                    {
+                                        <button style="margin-left: 1rem; text-align: left" onmousedown="event.preventDefault()" onclick="scrollToElement('@RemoveSpecialCharacters(@reference.Key)')">· @MythologyService.GetReferenceWithoutTranslation(reference.Key)</button>
 
-                            }
-                            </MudStack>
-                        </ChildContent>
-                    </MudList>
-                }
+                                    }
+                                </MudStack>
+                            </ChildContent>
+                        </MudList>
+                    }
                 </ChildContent>
             </MudList>
         </MudContainer>
-        <MudMainContent id="main-content" Style="margin: 0; padding: 1rem 0rem 0 1rem;flex-grow: 1; overflow-y: auto; height:100vh">
+        <!-- Main content area -->
+        <MudMainContent id="main-content" Style="margin: 0; padding: 1rem 0rem 0 1rem;flex-grow: 1; overflow-y: auto; height:90vh">
             <MudScrollToTop>
-                <MudFab Color="Color.Tertiary" StartIcon="@Icons.Material.Filled.ArrowCircleUp" />
+                <MudFab Color="Color.Tertiary" StartIcon="@Icons.Material.Filled.ArrowCircleUp"/>
             </MudScrollToTop>
             <!-- Name of the Selected Item -->
             <MudStack class="d-flex justify-left align-left mud-height-full">
-                <MudText class="selected-item-name" >@selectedItemName</MudText>
+                <MudText class="selected-item-name">@selectedItemName</MudText>
                 <MudStack Wrap="Wrap.NoWrap" Spacing="1" Row="true">
                     @for (int index = 0; index < @selectedItem.Tags.Count; index++)
                     {
@@ -56,18 +62,18 @@ else if (selectedItem is not null)
                         <MudText Style="width: fit-content; font-size: 0.8rem">@selectedItem.Tags[index1]</MudText>
                         if (index1 < @selectedItem.Tags.Count - 1)
                         {
-                            <MudText Style="width: fit-content; font-size: 1rem" >·</MudText>
+                            <MudText Style="width: fit-content; font-size: 1rem">·</MudText>
                         }
-                            
+
                     }
                 </MudStack>
-                <MudTabs >
+                <MudTabs @bind-ActivePanelIndex="_activePanelIndex">
                     @foreach (var attestation in selectedItem.Attestations)
                     {
-                        <MudTabPanel Style="width: auto; text-transform: none;" Text="@attestation.Key">
+                        <MudTabPanel Style="width: auto; text-transform: none;" Text="@attestation.Key" ID="@attestation.Key">
                             <ChildContent>
                                 <!-- Name of the main source (Prose Edda/ Poetic Edda) -->
-                                <MudList  T="string">
+                                <MudList T="string">
                                     @foreach (var reference in attestation.Value.GetReferences())
                                     {
                                         <MudListItem id="@RemoveSpecialCharacters(reference.Key)" Class="reference-item" Expanded>
@@ -129,11 +135,20 @@ else if (selectedItem is not null)
     [Parameter] public string selectedItemName { get; set; }
     private Dictionary<string, MythologyItem> _mythologyItems = new();
     public bool isLoading = true;
+    private int _activePanelIndex = 0;
+
     protected override async Task OnInitializedAsync()
     {
         _mythologyItems = await MythologyService.GetAllItemsAsync();
-        selectedItem = _mythologyItems[selectedItemName];
         isLoading = false;
+    }
+
+    protected override async Task OnParametersSetAsync()
+    {
+        if (_mythologyItems.Any())
+        {
+            _activePanelIndex = 0;
+        }
     }
 
     public void ScrollToId(string id)
