@@ -2263,7 +2263,7 @@
         },
         "Locations": {
           "Himinbjorg": {
-            "link": "/item/Himinbjorg (Himinbjörg)",
+            "link": "/item/Himinbjörg",
             "explanation": "Heimdallr's dwelling, situated at the edge of heaven where the rainbow bridge Bifröst connects to it."
           }
         }
@@ -2337,11 +2337,6 @@
         "link": "/Data/SNORRAEDDAsearchable.pdf",
         "Gylfaginning (The Beguiling of Gylfi)": {
           "link": "/Data/SNORRAEDDAsearchable.pdf#page=34&zoom=auto",
-          "Chapter 15-16 (p.18)": {
-            "explanation": "His horse, Gulltoppr, is named in a list of the Æsir's horses.",
-            "quote": "Glad, third Gyllir, fourth Glær, fifth Skeidbrimir, sixth Silfrtopp,\nseventh Sinir, eighth Gils, ninth Falhofnir, tenth Gulltopp, Lettfeti\neleventh.",
-            "link": "/Data/SNORRAEDDAsearchable.pdf#page=46"
-          },
           "Chapter 25-27 (p.25)": {
             "explanation": "This chapter provides the most detailed description of Heimdallr.",
             "quote": "‘Heimdall is the name of one. He is known as the white As. He is great and holy. Nine maidens bore him as their son, all of them sisters. He is also called Hallinskidi and Gullintanni: his teeth were of gold. His horse is called Gulltopp. He lives in a place called Himinbiorg by Bifrost. He is the gods’ watchman and sits there at the edge of heaven to guard the bridge against mountain-giants. He needs less sleep than a bird. He can see, by night just as well as by day, a distance of a hundred leagues. He can also hear grass growing on the earth and wool on sheep and everything that sounds louder than that. He has a trumpet called Giallarhorn and its blast can be heard in all worlds.",
