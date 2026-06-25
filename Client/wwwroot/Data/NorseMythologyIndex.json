@@ -2107,6 +2107,64 @@
       }
     }
   },
+  "Gulltoppr": {
+    "tags": ["Creature", "Other"],
+    "attestations": {
+      "Information": {
+        "Owner": {
+          "Heimdallr": {
+            "link": "/item/Heimdallr",
+            "explanation": "Gulltoppr is the horse of Heimdallr, the watchman of the gods."
+          }
+        }
+      },
+      "Poetic Edda": {
+        "link": "https://books.openbookpublishers.com/10.11647/obp.0308/",
+        "Grímnismál (The Lay of Grímnir)": {
+          "link": "https://books.openbookpublishers.com/10.11647/obp.0308/ch04.xhtml",
+          "Stanza 30": {
+            "explanation": "Gulltoppr is listed among the steeds the Æsir ride daily to Yggdrasill.",
+            "quote": "'Glaðr and Gyllir, Gler and Skeiðbrimir,\nSilfrintoppr and Sinir,\nGísl and Falhófnir, Gulltoppr and Léttfeti —\nthe Æsir ride these steeds,\nevery day, when they go to give judgement\nat the ash of Yggdrasill.",
+            "link": "https://books.openbookpublishers.com/10.11647/obp.0308/ch4.xhtml#_idTextAnchor727"
+          }
+        }
+      },
+      "Prose Edda": {
+        "link": "http://vsnrweb-publications.org.uk/SNORRA%20EDDA%20searchable.pdf",
+        "Gylfaginning (The Beguiling of Gylfi)": {
+          "link": "http://vsnrweb-publications.org.uk/SNORRA%20EDDA%20searchable.pdf#page=34&zoom=auto",
+          "Chapter 15-16 (p.18)": {
+            "explanation": "In the list of the horses ridden daily by the Æsir to their court, Gulltopp is named tenth.",
+            "quote": "Glad, third Gyllir, fourth Glær, fifth Skeidbrimir, sixth Silfrtopp, seventh Sinir, eighth Gils, ninth Falhofnir, tenth Gulltopp, Lettfeti eleventh.",
+            "link": "http://vsnrweb-publications.org.uk/SNORRA%20EDDA%20searchable.pdf#page=46&zoom=auto"
+          },
+          "Chapter 25-27 (p.25)": {
+            "explanation": "In the description of Heimdallr's traits and possessions, his horse is named alongside his dwelling, Himinbjörg.",
+            "quote": "His horse is called Gulltopp. He lives in a place called Himinbiorg by Bifrost.",
+            "link": "http://vsnrweb-publications.org.uk/SNORRA%20EDDA%20searchable.pdf#page=53&zoom=auto"
+          },
+          "Chapter 49 (p.50)": {
+            "explanation": "Gulltopp is mentioned among the mounts ridden by the gods to Baldr's funeral pyre.",
+            "quote": "But Heimdall rode a horse called Gulltopp, and Freyia her cats.",
+            "link": "http://vsnrweb-publications.org.uk/SNORRA%20EDDA%20searchable.pdf#page=78&zoom=auto"
+          }
+        },
+        "Skáldskaparmál (The Language of Poetry)": {
+          "link": "http://vsnrweb-publications.org.uk/SNORRA%20EDDA%20searchable.pdf#page=87&zoom=auto",
+          "Chapter 8-16 (p.76)": {
+            "explanation": "When listing the proper kennings for Heimdallr, his horse is referenced as one of his distinguishing features.",
+            "quote": "His horse is called Gulltopp. He lives in a place called Himinbiorg by Bifrost.",
+            "link": "http://vsnrweb-publications.org.uk/SNORRA%20EDDA%20searchable.pdf#page=104&zoom=auto"
+          },
+          "Chapter 58 (p.136)": {
+            "explanation": "Gulltopp is included in Thorgrim's thula, a poetic list detailing the names of notable horses.",
+            "quote": "Hrafn and Sleipnir, splendid horses, Val and Lettfeti, Tialdari was there, Gulltopp and Goti, I heard Soti mentioned...",
+            "link": "http://vsnrweb-publications.org.uk/SNORRA%20EDDA%20searchable.pdf#page=164&zoom=auto"
+          }
+        }
+      }
+    }
+  },
   "Gungnir": {
     "tags": ["Object","Weapon"],
     "attestations": {
@@ -2184,6 +2242,32 @@
   "Heimdallr": {
     "tags": ["Aesir", "Male"],
     "attestations": {
+      "Information": {
+        "Family": {
+          "Nine mothers of Heimdallr": {
+            "link": "/item/Nine mothers of Heimdallr",
+            "explanation": "Nine jötunn sisters who gave birth to Heimdallr at the edge of the earth."
+          }
+        },
+        "Objects": {
+          "Gjallarhorn": {
+            "link": "/item/Gjallarhorn",
+            "explanation": "The resounding horn sounded by Heimdallr to warn the gods at the onset of Ragnarök."
+          }
+        },
+        "Animals": {
+          "Gulltoppr": {
+            "link": "/item/Gulltoppr",
+            "explanation": "Heimdallr's golden-maned horse."
+          }
+        },
+        "Locations": {
+          "Himinbjorg": {
+            "link": "/item/Himinbjorg (Himinbjörg)",
+            "explanation": "Heimdallr's dwelling, situated at the edge of heaven where the rainbow bridge Bifröst connects to it."
+          }
+        }
+      },
       "Poetic Edda": {
         "link": "https://books.openbookpublishers.com/10.11647/obp.0308/",
         "Völuspá (The Seeress's Prophecy)": {
@@ -4809,6 +4893,51 @@
       }
     }
   },
+  "Nine mothers of Heimdallr": {
+    "tags": ["Jötunn", "Female"],
+    "attestations": {
+      "Poetic Edda": {
+        "link": "https://books.openbookpublishers.com/10.11647/obp.0308/",
+        "Hyndluljóð (The Lay of Hyndla)": {
+          "link": "https://books.openbookpublishers.com/10.11647/obp.0308/ch35.xhtml#_idTextAnchor3440",
+          "Stanza 35": {
+            "explanation": "Heimdallr's birth to nine mothers at the edge of the earth is introduced.",
+            "quote": "'There was one born in ancient days,\nmuch infused with supernatural strength, of the powers' family;\nnine bore him, the stud-ennobled(?) man,\ngiants' maidens, at the earth's edge.'",
+            "link": "https://books.openbookpublishers.com/10.11647/obp.0308/ch35.xhtml#_idTextAnchor3535"
+          },
+          "Stanza 37": {
+            "explanation": "The nine giantesses who gave birth to Heimdallr are named.",
+            "quote": "'Gjálp bore him, Greip bore him,\nEistla bore him and Eyrgjafa;\nUlfrún bore him and Angeyja,\nÍmðr and Atla and Járnsaxa.'",
+            "link": "https://books.openbookpublishers.com/10.11647/obp.0308/ch35.xhtml#_idTextAnchor3538"
+          }
+        }
+      },
+      "Prose Edda": {
+        "link": "http://vsnrweb-publications.org.uk/SNORRA%20EDDA%20searchable.pdf",
+        "Gylfaginning (The Beguiling of Gylfi)": {
+          "link": "http://vsnrweb-publications.org.uk/SNORRA%20EDDA%20searchable.pdf#page=34&zoom=auto",
+          "Chapter 25-27 (p.25)": {
+            "explanation": "While describing Heimdallr's qualities and origins, High explains his lineage of nine sisters and quotes a couple of lines from the otherwise lost poem Heimdalargaldr.",
+            "quote": "He is great and holy. Nine maidens bore him as their son, all of them sisters.\nAnd moreover he says himself in Heimdalargaldr: 'Offspring of nine mothers am I, of nine sisters am I the son.'",
+            "link": "http://vsnrweb-publications.org.uk/SNORRA%20EDDA%20searchable.pdf#page=53&zoom=auto"
+          }
+        },
+        "Skáldskaparmál (The Language of Poetry)": {
+          "link": "http://vsnrweb-publications.org.uk/SNORRA%20EDDA%20searchable.pdf#page=87&zoom=auto",
+          "Chapter 8-16 (p.75-76)": {
+            "explanation": "In the section listing appropriate poetic names for Heimdallr, 'son of nine mothers' is given as an official kenning.",
+            "quote": "How shall Heimdall be referred to? By calling him son of nine mothers, guardian of the gods, as was written above...",
+            "link": "http://vsnrweb-publications.org.uk/SNORRA%20EDDA%20searchable.pdf#page=103&zoom=auto"
+          },
+          "Chapter 16-17 (p.77)": {
+            "explanation": "A verse by the skald Úlfr Uggason is quoted to demonstrate the 'son of nine mothers' kenning, followed by a brief explanatory prose sentence.",
+            "quote": "...Son of eight mothers plus one, mighty of mood, is first to get hold of the beautiful sea-kidney [jewel, Brisingamen]. I announce it in strands of praise.\nHere it is mentioned that Heimdall is son of nine mothers.",
+            "link": "http://vsnrweb-publications.org.uk/SNORRA%20EDDA%20searchable.pdf#page=105&zoom=auto"
+          }
+        }
+      }
+    }
+  },
   "Njord (Njörðr)": {
     "tags": ["Vanir", "Aesir", "Male"],
     "attestations": {
@@ -6823,6 +6952,12 @@
           "Thrudvang": {
             "link": "/item/Thrudvang (Þrúðvangr)",
             "explanation": "Thor's realm."
+          }
+        },
+        "Animals": {
+          "Tanngrisnir and Tanngnjóstr": {
+            "link": "/item/Tanngrisnir and Tanngnjóstr",
+            "explanation": "The two goats that pull Thor's chariot."
           }
         }
       },
