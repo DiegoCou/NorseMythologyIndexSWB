@@ -7,65 +7,31 @@
 @inject NavigationManager NavigationManager
 @inject MythologyService MythologyService
 
-<div class="menu-container"  >
-    <MudAppBar Fixed="true" Elevation="0" class="justify-content-center align-center" Style="background-color: #E6E6E6; height: 70px; width: 100%; text-align: center; position: fixed; z-index: 100;" >
-        <div class="nav-item">
-            <NavLink class="nav-link-menu" href="" Match="NavLinkMatch.All">
-                Home
-            </NavLink>
-        </div>
-        <MudMenu >
-            <ActivatorContent>
-                <NavLink class="nav-link-menu">
-                    Characters
-                </NavLink>
-            </ActivatorContent>
-            <ChildContent>
-                <MudMenuItem Style="padding: 0 ;margin:0">
-                    <NavLink class="nav-link" href="/aesir">
-                        Æsir
-                    </NavLink>
-                </MudMenuItem>
-                <MudMenuItem Style="padding: 0 ;margin:0">
-                    <NavLink class="nav-link" href="/vanir">
-                        Vanir
-                    </NavLink>
-                </MudMenuItem>
-                <MudMenuItem Style="padding: 0 ;margin:0">
-                    <NavLink class="nav-link" href="/jotunn">
-                        Jötunn
-                    </NavLink>
-                </MudMenuItem>
-                <MudMenuItem Style="padding: 0 ;margin:0">
-                    <NavLink class="nav-link" href="/otherbeings">
-                        Other Beings
-                    </NavLink>
-                </MudMenuItem>
-            </ChildContent>
-        </MudMenu>
-        <div class="nav-item ">
-            <NavLink class="nav-link-menu" href="objects">
-                Objects
-            </NavLink>
-        </div>
-        <div class="nav-item ">
-            <NavLink class="nav-link-menu" href="locations">
-                Locations
-            </NavLink>
-        </div>
-        <div class="nav-item ">
-            <NavLink class="nav-link-menu" href="aboutus">
-                About Us
-            </NavLink>
-        </div>
-        <div class="nav-item">
-            <MudAutocomplete  Style="width: 10rem; margin-top: -1rem" Dense="true" T="string" MaxItems="100"
-                              Label="Search" Variant="Variant.Text"
-                              Value="_searchString" ValueChanged="OnValueChanged" SearchFunc="@Search" Clearable="true" >
-            </MudAutocomplete>
-        </div>
-    </MudAppBar>
-</div>
+<MudAppBar Fixed="true" Elevation="0" class="d-flex menu-container align-center">
+    <div class="menu-inner">
+    <MudMenuItem class="nav-item " Href="/" Label="Home"></MudMenuItem>
+    <MudMenu class="nav-item">
+        <ActivatorContent >
+            <MudText Style="color:black">Characters</MudText>
+        </ActivatorContent>
+        <ChildContent>
+            <MudMenuItem Href="/aesir" class="nav-link" Label="Æsir"></MudMenuItem>
+            <MudMenuItem Href="/vanir" class="nav-link" Label="Vanir"></MudMenuItem>
+            <MudMenuItem Href="/jotunn" class="nav-link" Label="Jötunn"></MudMenuItem>
+            <MudMenuItem Href="/otherbeings" class="nav-link" Label="Other Beings"></MudMenuItem>
+        </ChildContent>
+    </MudMenu>
+    <MudMenuItem class="nav-item" Href="objects" Label="Objects"></MudMenuItem>
+    <MudMenuItem class="nav-item" Href="locations" Label="Locations"></MudMenuItem>
+    <MudMenuItem class="nav-item" Href="aboutus" Label="About Us"></MudMenuItem>
+    <div class="nav-item">
+        <MudAutocomplete Style="width: 10rem; margin-top: -1rem" Dense="true" T="string" MaxItems="100"
+                         Label="Search" Variant="Variant.Text"
+                         Value="_searchString" ValueChanged="OnValueChanged" SearchFunc="@Search" Clearable="true">
+        </MudAutocomplete>
+    </div>
+    </div>
+</MudAppBar>
 
 @code{
 
@@ -100,38 +66,45 @@
 <style>
     .menu-container{
         background-color: #E6E6E6;
-        height: 70px;
-        width: 100%;
-        align-content: center;
-        text-align: center;
-        position: fixed;
-        z-index: 100;
+        height: 4rem;
+        /* Override MudBlazor's flex on the AppBar */
+        display: block !important;
+        overflow-x: auto;
+        overflow-y: hidden;
+        white-space: nowrap;
+        padding: 0;
+    }
+    .menu-inner{
+        display: inline-flex;    /* inline-flex instead of flex */
+        align-items: center;
+        justify-content: center;
+        min-width: 100%;         /* at least fill the bar */
+        height: 4rem;
+        
+    }
+    /* On small screens, start from the left so scroll works correctly */
+    @@media (max-width: 960px) {
+        .menu-inner {
+            justify-content: start;
+            min-width: max-content;
+        }
     }
     .nav-item{
-        display: inline-block;
         margin: auto 1rem;
+        width: fit-content;
+        color: black;
+    }
+    .nav-item:hover{
+        background-color: transparent;
     }
     .nav-link{
+        margin-top: 0.5rem;
         color: black;
         text-decoration: none;
         font-size: 1.1rem;
     }
-    .mud-menu-item .mud-menu-item-text{
-        margin:0;
+    .nav-link:hover{
+        background-color: transparent;
     }
-    /* Estilo para el enlace activo */
-    .nav-link.active{
-        /* background-color: #E6E6E6;  Azul, puedes cambiarlo al color que prefieras */
-    }
-
-    .nav-link-menu{
-        color: black;
-        text-decoration: none;
-        font-size: 1.1rem;
-    }
-
-    /* Estilo para el enlace activo */
-    .nav-link-menu.active{
-        text-decoration-line: underline;
-    }
+    
 </style>

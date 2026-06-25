@@ -63,23 +63,18 @@
         padding: 6rem 30ch;
         height: fit-content;
     }
-
+    @@media (max-width: 960px) {
+        .page-container {
+            padding: 6rem 1rem;
+        }
+    }
     h1 {
         color: #2c3e50;
         margin-bottom: 2rem;
         font-size: 2.5rem;
         text-align: center;
     }
-    .tables-container{
-        margin:auto;
-        width: fit-content;
-        display: grid;
-        grid-template-columns: repeat(2, 1fr);
-        grid-gap: 5rem;
-    }
-    .as-table{
-        height: fit-content;
-    }
+
     .item {
         margin: 0;
         padding: 0;
