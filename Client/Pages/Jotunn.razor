@@ -9,9 +9,7 @@
 
 <PageTitle>Jötunn</PageTitle>
 <MudMainContent Style="overflow-y: auto; height:100vh; width: 100%" class="page-container">
-    <MudStack>
-        <h1 style="margin-bottom: 0.1rem;">Jötnar</h1>
-    </MudStack>
+    <MudText Align="Align.Center" Typo="Typo.h4">Jötnar</MudText>
     @if (isLoading)
     {
         <div class="loading">
@@ -29,7 +27,7 @@
                 {
                     <tr style="width: auto;">
                         <td>
-                            <NavLink class="item" href="@($"/item/{item.Key}")">@item.Key</NavLink>
+                            <NavLink class="item --mud-palette-text-primary" href="@($"/item/{item.Key}")">@item.Key</NavLink>
                         </td>
                     </tr>
                     <td style="margin: 0 1rem; width: auto;">
@@ -81,7 +79,6 @@
         margin: 0;
         padding: 0;
         text-decoration: none;
-        color: black;
     }
     .loading {
         text-align: center;

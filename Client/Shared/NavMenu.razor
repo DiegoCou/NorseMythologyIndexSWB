@@ -21,15 +21,17 @@
             <MudMenuItem Href="/otherbeings" class="nav-link" Label="Other Beings"></MudMenuItem>
         </ChildContent>
     </MudMenu>
-    <MudMenuItem class="nav-item" Href="objects" Label="Objects"></MudMenuItem>
-    <MudMenuItem class="nav-item" Href="locations" Label="Locations"></MudMenuItem>
-    <MudMenuItem class="nav-item" Href="aboutus" Label="About Us"></MudMenuItem>
+    <MudMenuItem class="nav-item " Href="objects" Label="Objects"></MudMenuItem>
+    <MudMenuItem class="nav-item " Href="locations" Label="Locations"></MudMenuItem>
+    <MudMenuItem class="nav-item " Href="aboutus" Label="About Us"></MudMenuItem>
     <div class="nav-item">
-        <MudAutocomplete Style="width: 10rem; margin-top: -1rem" Dense="true" T="string" MaxItems="100"
-                         Label="Search" Variant="Variant.Text"
+        <MudAutocomplete Style="width: 10rem; margin-top: -1rem;" class="search-bar" Dense="true" T="string" MaxItems="100"
+                         Label="Search" Variant="Variant.Text" 
                          Value="_searchString" ValueChanged="OnValueChanged" SearchFunc="@Search" Clearable="true">
         </MudAutocomplete>
     </div>
+    <MudThemeProvider @ref="_mudThemeProvider" @bind-IsDarkMode="@_isDarkMode" Theme="_theme"/>
+    <MudSwitch @bind-Value="_isDarkMode" Color="Color.Primary" Class="ma-4" T="bool"/>
     </div>
 </MudAppBar>
 
@@ -59,6 +61,28 @@
 
         return _mythologyItems.Keys.Where(x => MythologyService.RemoveSpecialCharacters(x).Contains(value, StringComparison.CurrentCultureIgnoreCase));
     }
+    
+    
+    private MudTheme _theme = new();
+    private bool _isDarkMode;
+        
+    private MudThemeProvider _mudThemeProvider;
+
+    protected override async Task OnAfterRenderAsync(bool firstRender)
+    {
+        if (firstRender)
+        {
+            await _mudThemeProvider.WatchSystemDarkModeAsync(OnSystemDarkModeChanged);
+            StateHasChanged();
+        }
+    }
+
+    private Task OnSystemDarkModeChanged(bool newValue)
+    {
+        _isDarkMode = newValue;
+        StateHasChanged();
+        return Task.CompletedTask;
+    }
 
     
 }
@@ -74,6 +98,17 @@
         white-space: nowrap;
         padding: 0;
     }
+    .search-bar {
+        --mud-palette-lines-inputs: darkgrey !important;
+    }
+    .search-bar .mud-input-label{
+        color: darkgray !important;
+    }
+    
+    .search-bar .mud-input-slot{
+        color: black !important;
+    }
+    
     .menu-inner{
         display: inline-flex;    /* inline-flex instead of flex */
         align-items: center;
@@ -99,7 +134,6 @@
     }
     .nav-link{
         margin-top: 0.5rem;
-        color: black;
         text-decoration: none;
         font-size: 1.1rem;
     }
