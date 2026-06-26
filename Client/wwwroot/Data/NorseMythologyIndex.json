@@ -2793,7 +2793,7 @@
         "Gylfaginning (The Beguiling of Gylfi)": {
           "link": "/Data/SNORRAEDDAsearchable.pdf#page=34&zoom=auto",
           "Chapter 34-35 (p.29)": {
-            "explanation": "Hnoss is introduced as the daughter of Freyja and Od. Her name is so beautiful that it becomes the word for \"treasure\" (hnossir).",
+            "explanation": "Hnoss is introduced as the daughter of Freyja and Od. She is so beautiful that her name becomes the word for \"treasure\" (hnossir).",
             "quote": "Freyia is highest in rank next to Frigg. She was married to someone called Od. Hnoss is the name of their daughter. She is so beautiful that from her name whatever is beautiful and precious is called hnossir [treasures].",
             "link": "/Data/SNORRAEDDAsearchable.pdf#page=57"
           }
@@ -3517,10 +3517,6 @@
             "link": "https://books.openbookpublishers.com/10.11647/obp.0308/ch1.xhtml#_idTextAnchor117"
           }
         }
-      },
-      "Prose Edda": {
-        "link": "/Data/SNORRAEDDAsearchable.pdf",
-        "No attestations of Lóðurr occur in the Prose Edda.": {}
       }
     }
   },
@@ -4371,6 +4367,11 @@
             "explanation": "Thor wakes up and finds out his hammer is missing. Then tells Loki about it, which ask Freyja for her feather-skin to recover the hammer.",
             "quote": "1. Angry then was Vingþórr, when he awoke\nand missed his hammer;\nhis beard shuddered, his hair shook,\nJǫrð’s son groped around himself.\n\n2. And he spoke these words first of all:\n‘Listen now, Loki, to what I now say,\nit’s unknown anywhere on earth\nor in sky above — the Áss has been robbed of his hammer!’\n\n3. They went to fair Freyja’s dwellings,\nand he spoke these words first of all:\n‘Will you lend me your feather-skin, Freyja,\n[to see] if I can find my hammer?’",
             "link": "https://books.openbookpublishers.com/10.11647/obp.0308/ch9.xhtml#_idTextAnchor1263"
+          },
+          "Stanza 30-31-32": {
+            "explanation": "Thrymr asks to bring mjolnir to hallow the bride, once Thor has the hammer in his lap he kills Thrymr and everyone in attendance.",
+            "quote": "30. Then Þrymr, lord of giants, said this:\n‘Bring in the hammer to hallow the bride,\nlay Mjǫllnir in the maiden’s lap,\nhallow53 us both together by Vár’s hand!’\n\n31. Hlórriði’s heart laughed in his chest\nwhen, hard-hearted, he recognized his hammer;\nhe slew Þrymr first, the lord of giants,\nand all the giant’s family he laid low!\n\n32. He slew the aged sister of giants,\nthe one who had asked for a bride-fee;\nshe received a shattering blow instead of shillings,\nand a hammer’s stroke instead of a host of rings!\n\nThus Óðinn’s son came by his hammer again.",
+            "link": "https://books.openbookpublishers.com/10.11647/obp.0308/ch9.xhtml#_idTextAnchor1292"
           }
         }
       },
