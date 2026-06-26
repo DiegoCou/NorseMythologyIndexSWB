@@ -362,6 +362,40 @@
   "Baldr": {
     "tags": ["Aesir", "Male"],
     "attestations": {
+      "Information": {
+        "Family": {
+          "Odin (Óðinn)": {
+            "link": "/item/Odin (Óðinn)",
+            "explanation": "Father."
+          },
+          "Frigg": {
+            "link": "/item/Frigg",
+            "explanation": "Mother."
+          },
+          "Nanna": {
+            "link": "/item/Nanna",
+            "explanation": "Wife."
+          },
+          "Forseti": {
+            "link": "/item/Forseti",
+            "explanation": "Son of Baldr and Nanna."
+          },
+          "Hod (Hǫðr)": {
+            "link": "/item/Hod (Hǫðr)",
+            "explanation": "Blind brother of Baldr."
+          },
+          "Vali": {
+            "link": "/item/Vali",
+            "explanation": "Half-brother of Baldr."
+          }
+        },
+        "Animals": {
+          "Hringhorni": {
+            "link": "/item/Hringhorni",
+            "explanation": "Baldr's ship, said to be the greatest ever built. It served as his funeral pyre."
+          }
+        }
+      },
       "Poetic Edda": {
         "link": "https://books.openbookpublishers.com/10.11647/obp.0308/",
         "Völuspá (The Seeress's Prophecy)": {
@@ -585,6 +619,14 @@
   "Bilskírnir": {
     "tags": ["Location"],
     "attestations": {
+      "Information": {
+        "Owner": {
+          "Thor (Þórr)": {
+            "link": "/item/Thor (Þórr)",
+            "explanation": "Thor's hall, located within his realm Þrúðvangr."
+          }
+        }
+      },
       "Poetic Edda": {
         "link": "https://books.openbookpublishers.com/10.11647/obp.0308/",
         "Grímnismál (The Lay of Grímnir)": {
@@ -1033,6 +1075,14 @@
   "Eldhrimnir": {
     "tags": ["Object"],
     "attestations": {
+      "Information": {
+        "Owner": {
+          "Andhrímnir": {
+            "link": "/item/Andhrímnir",
+            "explanation": "The cook of Valhöll, who uses Eldhrimnir to boil the meat of Sæhrímnir for the einherjar."
+          }
+        }
+      },
       "Poetic Edda": {
         "link": "https://books.openbookpublishers.com/10.11647/obp.0308/",
         "Grímnismál (The Sayings of Grímnir)": {
@@ -1459,6 +1509,48 @@
   "Freyr": {
     "tags": ["Aesir", "Vanir", "Male"],
     "attestations": {
+      "Information": {
+        "Family": {
+          "Njord (Njörðr)": {
+            "link": "/item/Njord (Njörðr)",
+            "explanation": "Father."
+          },
+          "Freyja": {
+            "link": "/item/Freyja",
+            "explanation": "Twin sister of Freyr."
+          },
+          "Gerd (Gerðr)": {
+            "link": "/item/Gerd (Gerðr)",
+            "explanation": "Wife of Freyr."
+          }
+        },
+        "Objects": {
+          "Sword of Freyr": {
+            "link": "/item/Sword of Freyr",
+            "explanation": "Freyr's magical sword."
+          },
+          "Skidbladnir (Skíðblaðnir)": {
+            "link": "/item/Skidbladnir (Skíðblaðnir)",
+            "explanation": "A magical ship given to Freyr."
+          }
+        },
+        "Animals": {
+          "Gullinbursti": {
+            "link": "/item/Gullinbursti",
+            "explanation": "A golden boar crafted by the dwarves and given to Freyr."
+          }
+        },
+        "Locations": {
+          "Alfheim (Álfheimr)": {
+            "link": "/item/Alfheim (Álfheimr)",
+            "explanation": "The realm of the light elves, given to Freyr as a tooth-gift when he cut his first tooth."
+          },
+          "Vanaheimr": {
+            "link": "/item/Vanaheimr",
+            "explanation": "The realm of the Vanir, Freyr's original home before being sent to Asgard as a hostage after the Æsir-Vanir war."
+          }
+        }
+      },
       "Poetic Edda": {
         "link": "https://books.openbookpublishers.com/10.11647/obp.0308/",
         "Völuspá (The Seeress's Prophecy)": {
@@ -1970,6 +2062,14 @@
   "Gjallarhorn": {
     "tags": ["Object"],
     "attestations": {
+      "Information": {
+        "Owner": {
+          "Heimdallr": {
+            "link": "/item/Heimdallr",
+            "explanation": "The horn belongs to Heimdallr, who sounds it to summon the gods at the onset of Ragnarök."
+          }
+        }
+      },
       "Poetic Edda": {
         "link": "https://books.openbookpublishers.com/10.11647/obp.0308/",
         "Völuspá (The Seeress's Prophecy)": {
@@ -3205,6 +3305,14 @@
   "Jord (Jörð)": {
     "tags": ["Aesir","Female"],
     "attestations": {
+      "Information": {
+        "Family": {
+          "Thor (Þórr)": {
+            "link": "/item/Thor (Þórr)",
+            "explanation": "Son of Jörð and Odin."
+          }
+        }
+      },
       "Poetic Edda": {
         "link": "https://books.openbookpublishers.com/10.11647/obp.0308/",
         "Völuspá (The Seeress's Prophecy)": {
@@ -3731,6 +3839,14 @@
   "Magni": {
     "tags": ["Aesir", "Male"],
     "attestations": {
+      "Information": {
+        "Family": {
+          "Thor (Þórr)": {
+            "link": "/item/Thor (Þórr)",
+            "explanation": "Father."
+          }
+        }
+      },
       "Poetic Edda": {
         "link": "https://books.openbookpublishers.com/10.11647/obp.0308/",
         "Vafþrúðnismál (The Lay of Vafthrúdnir)": {
@@ -3950,6 +4066,14 @@
   "Megingiord (Megingjörð)": {
     "tags": ["Object"],
     "attestations": {
+      "Information": {
+        "Owner": {
+          "Thor (Þórr)": {
+            "link": "/item/Thor (Þórr)",
+            "explanation": "The belt worn by Thor that doubles his strength."
+          }
+        }
+      },
       "Prose Edda": {
         "link": "http://vsnrweb-publications.org.uk/SNORRA%20EDDA%20searchable.pdf",
         "Gylfaginning (The Beguiling of Gylfi)": {
@@ -4335,6 +4459,14 @@
   "Miolnir (Mjöllnir)": {
     "tags": ["Object", "Weapon"],
     "attestations": {
+      "Information": {
+        "Owner": {
+          "Thor (Þórr)": {
+            "link": "/item/Thor (Þórr)",
+            "explanation": "The hammer of Thor, his primary weapon."
+          }
+        }
+      },
       "Poetic Edda": {
         "link": "https://books.openbookpublishers.com/10.11647/obp.0308/",
         "Vafþrúðnismál (The Lay of Vafthrúdnir)": {
@@ -4454,6 +4586,14 @@
   "Modi (Móði)": {
     "tags": ["Aesir", "Male"],
     "attestations": {
+      "Information": {
+        "Family": {
+          "Thor (Þórr)": {
+            "link": "/item/Thor (Þórr)",
+            "explanation": "Father."
+          }
+        }
+      },
       "Poetic Edda": {
         "link": "https://books.openbookpublishers.com/10.11647/obp.0308/",
         "Vafþrúðnismál (The Lay of Vafthrúdnir)": {
@@ -4892,6 +5032,14 @@
   "Nine mothers of Heimdallr": {
     "tags": ["Jötunn", "Female"],
     "attestations": {
+      "Information": {
+        "Family": {
+          "Heimdallr": {
+            "link": "/item/Heimdallr",
+            "explanation": "Son"
+          }
+        }
+      },
       "Poetic Edda": {
         "link": "https://books.openbookpublishers.com/10.11647/obp.0308/",
         "Hyndluljóð (The Lay of Hyndla)": {
@@ -5125,6 +5273,14 @@
   "Odin (Óðinn)": {
     "tags": ["Aesir", "Male"],
     "attestations": {
+      "Information": {
+        "Family": {
+          "Thor (Þórr)": {
+            "link": "/item/Thor (Þórr)",
+            "explanation": "Son of Odin and Jörð."
+          }
+        }
+      },
       "Poetic Edda": {
         "link": "https://books.openbookpublishers.com/10.11647/obp.0308/",
         "Völuspá (The Seeress's Prophecy)": {
@@ -5972,6 +6128,14 @@
   "Sif": {
     "tags": ["Aesir", "Female"],
     "attestations": {
+      "Information": {
+        "Family": {
+          "Thor (Þórr)": {
+            "link": "/item/Thor (Þórr)",
+            "explanation": "Husband."
+          }
+        }
+      },
       "Poetic Edda": {
         "link": "https://books.openbookpublishers.com/10.11647/obp.0308/",
         "Hárbarðsljóð (The Lay of Hárbarðr)": {
@@ -7164,6 +7328,14 @@
   "Thor's Iron Gloves (Járngreipr)": {
     "tags": ["Object"],
     "attestations": {
+      "Information": {
+        "Owner": {
+          "Thor (Þórr)": {
+            "link": "/item/Thor (Þórr)",
+            "explanation": "A pair of iron gloves belonging to Thor."
+          }
+        }
+      },
       "Prose Edda": {
         "link": "http://vsnrweb-publications.org.uk/SNORRA%20EDDA%20searchable.pdf",
         "Gylfaginning (The Beguiling of Gylfi)": {
@@ -7198,6 +7370,14 @@
   "Thrudr (Þrúðr)": {
     "tags": ["Aesir", "Female"],
     "attestations": {
+      "Information": {
+        "Family": {
+          "Thor (Þórr)": {
+            "link": "/item/Thor (Þórr)",
+            "explanation": "Father."
+          }
+        }
+      },
       "Poetic Edda": {
         "link": "https://books.openbookpublishers.com/10.11647/obp.0308/",
         "Grímnismál (The Sayings of Grímnir)": {
@@ -7277,6 +7457,14 @@
   "Thrudvang (Þrúðvangr)": {
     "tags": ["Location"],
     "attestations": {
+      "Information": {
+        "Owner": {
+          "Thor (Þórr)": {
+            "link": "/item/Thor (Þórr)",
+            "explanation": "The realm of Thor, where his hall Bilskírnir stands."
+          }
+        }
+      },
       "Prose Edda": {
         "link": "http://vsnrweb-publications.org.uk/SNORRA%20EDDA%20searchable.pdf",
         "Gylfaginning (The Beguiling of Gylfi)": {
