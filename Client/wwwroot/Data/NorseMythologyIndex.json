@@ -1524,6 +1524,12 @@
             "explanation": "Wife of Freyr."
           }
         },
+        "Servant": {
+          "Skírnir": {
+            "link": "/item/Skírnir",
+            "explanation": "Freyr's servant."
+          }
+        },
         "Objects": {
           "Sword of Freyr": {
             "link": "/item/Sword of Freyr",
@@ -6534,6 +6540,63 @@
       }
     }
   },
+  "Skírnir": {
+      "tags": ["Other", "Male"],
+      "attestations": {
+        "Information": {
+          "Master": {
+            "Freyr": {
+              "link": "/item/Freyr",
+              "explanation": "Master of Skírnir, whom he serves as messenger and on whose behalf he wooed the jötunn Gerðr."
+            }
+          },
+          "Objects": {
+            "Sword of Freyr": {
+              "link": "/item/Sword of Freyr",
+              "explanation": "Freyr's magical, self-fighting sword, given to Skírnir as payment for his journey to win Gerðr's hand."
+            }
+          }
+        },
+        "Poetic Edda": {
+          "link": "https://books.openbookpublishers.com/10.11647/obp.0308/",
+          "Fǫr Skírnis (Skírnir's Journey)": {
+            "link": "https://books.openbookpublishers.com/10.11647/obp.0308/ch5.xhtml#_idTextAnchor760",
+            "Note": {
+              "explanation": "Since the entire narrative revolves around Skírnir, I recommend reading the whole poem. Only a summarization of the poem is given here."
+            },
+            "Summary": {
+              "explanation": "Freyr, son of Njǫrðr, sits in Óðinn's high-seat Hliðskjálf and glimpses the jötunn Gerðr in Jötunheimar, instantly falling into a lovesick despair so deep he won't speak to anyone. His servant Skírnir is sent to find out what's wrong; once Freyr admits his longing, Skírnir agrees to ride into giant territory to win Gerðr for him, in exchange for Freyr's magic horse and his self-fighting sword. Skírnir crosses into Jötunheimar, passes Gymir's fierce guard-dogs with the help of a herdsman, and confronts Gerðr directly in her hall. He first tries to win her with gifts (golden apples, the ring Draupnir) and then with violent threats; when she still refuses, he unleashes an escalating curse involving runes, isolation, monstrous suitors, and madness, until she finally breaks and agrees to marry Freyr. Gerðr sets a meeting nine nights later in a grove called Barri; Skírnir rides back and reports the news to Freyr, who can barely stand to wait even that long."
+            }
+          }
+        },
+        "Prose Edda": {
+          "link": "http://vsnrweb-publications.org.uk/SNORRA%20EDDA%20searchable.pdf",
+          "Gylfaginning (The Beguiling of Gylfi)": {
+            "link": "http://vsnrweb-publications.org.uk/SNORRA%20EDDA%20searchable.pdf#page=34&zoom=auto",
+            "Chapter 34 (p.28)": {
+              "explanation": "When the Æsir realize they cannot bind the wolf Fenrir with ordinary chains, Odin dispatches Skírnir to the dwarf realm to have the magical thread Gleipnir crafted.",
+              "quote": "Then All-father sent some one called Skirnir, Freyr's messenger, down into the world of black-elves to some dwarfs and had a fetter called Gleipnir made.",
+              "link": "http://vsnrweb-publications.org.uk/SNORRA%20EDDA%20searchable.pdf#page=56&zoom=auto"
+            },
+            "Chapter 37 (p.31)": {
+              "explanation": "When Freyr falls into a deep melancholy after seeing the beautiful giantess Gerðr, his father Njörðr sends Skírnir to discover the cause of his grief.",
+              "quote": "Then Niord sent for Freyr's servant Skirnir, and bade him go to Freyr and try to get him to talk and ask who he was so angry with that he would not speak to anyone.",
+              "link": "http://vsnrweb-publications.org.uk/SNORRA%20EDDA%20searchable.pdf#page=59&zoom=auto"
+            },
+            "Chapter 37-38 (p.32)": {
+              "explanation": "Skírnir agrees to travel to Jötunheim to ask for Gerðr's hand, but demands Freyr's magical, self-fighting sword as payment for the dangerous mission.",
+              "quote": "Then Skirnir replied, saying that he would undertake the mission, but Freyr must give him his sword. This was such a good sword that it would fight on its own...",
+              "link": "http://vsnrweb-publications.org.uk/SNORRA%20EDDA%20searchable.pdf#page=60&zoom=auto"
+            },
+            "Chapter 51 (p.54)": {
+              "explanation": "During the prophecy of Ragnarök, Snorri explains that Freyr is fated to fall to the fire-giant Surtr because he is unarmed, specifically reminding the reader of the sword Freyr surrendered to Skírnir.",
+              "quote": "Freyr will fight Surt and there will be a harsh conflict before Freyr falls. The cause of his death will be that he will be without the good sword that he gave Skirnir.",
+              "link": "http://vsnrweb-publications.org.uk/SNORRA%20EDDA%20searchable.pdf#page=82&zoom=auto"
+            }
+          }
+        }
+      }
+    },
   "Skuld": {
     "tags": ["Aesir","Female"],
     "attestations": {
