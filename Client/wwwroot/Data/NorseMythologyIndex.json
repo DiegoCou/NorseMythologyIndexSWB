@@ -166,7 +166,7 @@
     }
   },
   "Andvaranaut": {
-    "tags": ["Object"],
+    "tags": ["Object", "Jewelry"],
     "attestations": {
       "Poetic Edda": {
         "link": "https://books.openbookpublishers.com/10.11647/obp.0308/",
@@ -216,7 +216,7 @@
     }
   },
   "Apples of Idunn": {
-    "tags": ["Object"],
+    "tags": ["Object", "Food"],
     "attestations": {
       "Poetic Edda": {
         "link": "https://books.openbookpublishers.com/10.11647/obp.0308/",
@@ -788,7 +788,7 @@
     }
   },
   "Brísingamen": {
-    "tags": ["Object"],
+    "tags": ["Object", "Jewelry"],
     "attestations": {
       "Poetic Edda": {
         "link": "https://books.openbookpublishers.com/10.11647/obp.0308/",
@@ -973,7 +973,7 @@
     }
   },
   "Draupnir": {
-    "tags": ["Object"],
+    "tags": ["Object", "Jewelry"],
     "attestations": {
       "Poetic Edda": {
         "link": "https://books.openbookpublishers.com/10.11647/obp.0308/",
@@ -2180,7 +2180,7 @@
     }
   },
   "Gullinbursti": {
-    "tags": ["Object", "Creature", "Other"],
+    "tags": [ "Creature", "Other"],
     "attestations": {
       "Prose Edda": {
         "link": "http://vsnrweb-publications.org.uk/SNORRA%20EDDA%20searchable.pdf",
@@ -3122,7 +3122,7 @@
     }
   },
   "Hringhorni": {
-    "tags": ["Object"],
+    "tags": ["Object", "Ship"],
     "attestations": {
       "Prose Edda": {
         "link": "http://vsnrweb-publications.org.uk/SNORRA%20EDDA%20searchable.pdf",
@@ -3535,7 +3535,7 @@
     }
   },
   "Laevatinn (Lævateinn)": {
-    "tags": ["Object"],
+    "tags": ["Object", "Weapon"],
     "attestations": {
       "Poetic Edda": {
         "link": "https://books.openbookpublishers.com/10.11647/obp.0308/",
@@ -3960,7 +3960,7 @@
     }
   },
   "Mead of Poetry": {
-    "tags": ["Object"],
+    "tags": ["Object", "Food"],
     "attestations": {
       "Poetic Edda": {
         "link": "https://books.openbookpublishers.com/10.11647/obp.0308/",
@@ -4753,7 +4753,7 @@
     }
   },
   "Naglfar": {
-    "tags": ["Object"],
+    "tags": ["Object", "Ship"],
     "attestations": {
       "Poetic Edda": {
         "link": "https://books.openbookpublishers.com/10.11647/obp.0308/",
@@ -6267,7 +6267,7 @@
     }
   },
   "Sif's golden hair": {
-    "tags": ["Object"],
+    "tags": ["Object", "Jewelry"],
     "attestations": {
       "Prose Edda": {
         "link": "http://vsnrweb-publications.org.uk/SNORRA%20EDDA%20searchable.pdf",
@@ -6886,7 +6886,7 @@
     }
   },
   "Sword of Freyr": {
-    "tags": ["Object"],
+    "tags": ["Object", "Weapon"],
     "attestations": {
       "Poetic Edda": {
         "link": "https://books.openbookpublishers.com/10.11647/obp.0308/",
@@ -6964,6 +6964,97 @@
       }
     }
   },
+  "Tanngrisnir and Tanngnjóstr": {
+      "tags": ["Creature", "Other"],
+      "attestations": {
+        "Information": {
+          "Owner": {
+            "Thor (Þórr)": {
+              "link": "/item/Thor (Þórr)",
+              "explanation": "Thor owns the goats."
+            }
+          }
+        },
+        "Poetic Edda": {
+          "link": "https://books.openbookpublishers.com/10.11647/obp.0308/",
+          "Hymiskviða (The Lay of Hymir)": {
+            "link": "https://books.openbookpublishers.com/10.11647/obp.0308/ch7.xhtml#_idTextAnchor990",
+            "Stanza 7": {
+              "explanation": "The goats are left at Egill's farm while Þórr and Týr continue on foot to Hymir's hall.",
+              "quote": "'They travelled far away that day,\nfrom Ásgarðr, until they came to Egill's;\nhe tended the nobly-horned he-goats,\n[and] they turned to the hall which Hymir owned.'",
+              "link": "https://books.openbookpublishers.com/10.11647/obp.0308/ch7.xhtml#_idTextAnchor1041"
+            },
+            "Stanza 20": {
+              "explanation": "Þórr is referred to by the kenning hafra dróttinn ('lord of he-goats') as he urges Hymir to row further out to sea.",
+              "quote": "'The lord of goats asked the offspring of apes\nto row further out;\nbut that giant reckoned\nlittle desire to row further.'",
+              "link": "https://books.openbookpublishers.com/10.11647/obp.0308/ch7.xhtml#_idTextAnchor1055"
+            },
+            "Stanza 31": {
+              "explanation": "The kenning hafra dróttinn is used again as Þórr rises in full divine fury to smash Hymir's goblet.",
+              "quote": "'The hard lord of he-goats rose at the knee,\nassumed his full Áss-strength;\nintact was the top of the old man's helmet-stump,\nbut the round wine-vessel was riven.'",
+              "link": "https://books.openbookpublishers.com/10.11647/obp.0308/ch7.xhtml#_idTextAnchor1066"
+            },
+            "Stanza 37": {
+              "explanation": "One of the goats is found crippled on the journey home, with Loki cryptically blamed as the cause.",
+              "quote": "'They had not gone far before\nHlórriði's goat lay half-dead before them;\nthe trace's team-mate was lamed by a curse,\nand the crafty Loki was the cause of that.'",
+              "link": "https://books.openbookpublishers.com/10.11647/obp.0308/ch7.xhtml#_idTextAnchor1072"
+            }
+          },
+          "Þrymskviða (The Lay of Þrymr)": {
+            "link": "https://books.openbookpublishers.com/10.11647/obp.0308/ch9.xhtml#_idTextAnchor1221",
+            "Stanza 21": {
+              "explanation": "The goats are harnessed and driven at full speed into Jötunheimar, the ground shattering and burning beneath them.",
+              "quote": "'At once the goats were driven home,\nhurried to the traces, they had to run hard;\nrocks broke, earth burnt with flame,\nÓðinn's son drove into Jǫtunheimar!'",
+              "link": "https://books.openbookpublishers.com/10.11647/obp.0308/ch9.xhtml#_idTextAnchor1283"
+            }
+          }
+        },
+        "Prose Edda": {
+          "link": "http://vsnrweb-publications.org.uk/SNORRA%20EDDA%20searchable.pdf",
+          "Gylfaginning (The Beguiling of Gylfi)": {
+            "link": "http://vsnrweb-publications.org.uk/SNORRA%20EDDA%20searchable.pdf#page=34&zoom=auto",
+            "Chapter 20-21 (p.22)": {
+              "explanation": "The goats are officially introduced by name as Thor's beasts of draft.",
+              "quote": "Thor has two goats whose names are Tanngniost and Tanngrisnir, and a chariot that he drives in, and the goats draw the chariot.",
+              "link": "http://vsnrweb-publications.org.uk/SNORRA%20EDDA%20searchable.pdf#page=50&zoom=auto"
+            },
+            "Chapter 37-38 (p.37-38)": {
+              "explanation": "In the narrative of the travel to Utgard-Loki's Castle, Thor starts the journey with his goats, kills them to eat them, resurrects them with Mjolnir and then leaves them behind.",
+              "quote": "Oku-Thor set off with his goats and chariot and with him the As called Loki. [...] During the evening Thor took his goats and slaughtered them both. After this they were skinned and put in the pot.\nThen the goats got up and one of them was lame in the hind leg. Thor noticed this and declared that the peasant or one of his people must have not treated the goat's bones with proper care. [...] He left the goats behind there and started on his journey east to Giantland...",
+              "link": "http://vsnrweb-publications.org.uk/SNORRA%20EDDA%20searchable.pdf#page=66&zoom=auto"
+            },
+            "Chapter 47-48 (p.46)": {
+              "explanation": "When Thor sets off in haste to fish for the Midgard Serpent, Snorri mentions that he goes without his typical gear, including his goats.",
+              "quote": "...hastily that he had with him no chariot and no goats and no companionship.",
+              "link": "http://vsnrweb-publications.org.uk/SNORRA%20EDDA%20searchable.pdf#page=74&zoom=auto"
+            }
+          },
+          "Skáldskaparmál (The Language of Poetry)": {
+            "link": "http://vsnrweb-publications.org.uk/SNORRA%20EDDA%20searchable.pdf#page=87&zoom=auto",
+            "Chapter 4-5 (p.74)": {
+              "explanation": "A verse by the skald Bragi uses a kenning for Thor, calling him 'goat-possessor' when describing his capture of the Midgard Serpent.",
+              "quote": "The stockily built stumpy one [Hymir] is said to have thought tremendous danger in the goat-possessor's [Thor's] enormous heavy haul.",
+              "link": "http://vsnrweb-publications.org.uk/SNORRA%20EDDA%20searchable.pdf#page=102&zoom=auto"
+            },
+            "Chapter 8-16 (p.76)": {
+              "explanation": "In a list of kennings for Loki, he is named as the thief of Thor's goat, referencing an untold mythological event.",
+              "quote": "...thief from giants, of goat and Brisingamen and Idunn's apples...",
+              "link": "http://vsnrweb-publications.org.uk/SNORRA%20EDDA%20searchable.pdf#page=104&zoom=auto"
+            },
+            "Chapter 17 (p.80)": {
+              "explanation": "In a lengthy quotation from the poem Haustlöng by Þjóðólfr of Hvinir, the goats are described pulling Thor's chariot into battle against the giant Hrungnir.",
+              "quote": "...when the goats drew the temple-power [Thor] of the easy-chariot forward to the encounter with Hrungnir.",
+              "link": "http://vsnrweb-publications.org.uk/SNORRA%20EDDA%20searchable.pdf#page=108&zoom=auto"
+            },
+            "Chapter 75 (p.164)": {
+              "explanation": "Both goats are listed by name in a thula of poetic terms for goats.",
+              "quote": "A goat is called Grimnir and Geirolnir, Tanngniost, kiappi and Tanngrisnir, squinter and rusher; a buck is Grim counted.",
+              "link": "http://vsnrweb-publications.org.uk/SNORRA%20EDDA%20searchable.pdf#page=192&zoom=auto"
+            }
+          }
+        }
+      }
+    },
   "Thjalfi (Þjálfi)": {
     "tags": ["Other","Male"],
     "attestations": {
