@@ -1,5 +1,4 @@
-﻿
-@page "/aesir"
+﻿@page "/mythologyList/{selectedListName}"
 @using System.Reflection.Metadata
 @using MudBlazor
 @using NorseMythologyIndex.Models
@@ -9,20 +8,20 @@
 
 <PageTitle>Æsir</PageTitle>
 <MudMainContent Style="overflow-y: auto; height:100vh; width: 100%" class="page-container">
-    <MudText Align="Align.Center" Typo="Typo.h4">Æsir</MudText>
+    <MudText Align="Align.Center" Typo="Typo.h4">@GetTitle(SelectedListName)</MudText>
     
-    @if (isLoading)
+    @if (_isLoading)
     {
         <div class="loading">
-            <p>Loading Æsir...</p>
+            <p>Loading @GetTitle(SelectedListName)...</p>
         </div>
     }
-    else if (aesirItems.Any())
+    else if (_mythologyItems.Any())
     {
         <MudStack AlignItems="AlignItems.Stretch" Row="true" Wrap="Wrap.Wrap" Spacing="2" Style="margin-bottom: 1rem;">
-            @foreach(var tag in tagDictionary.Keys)
+            @foreach(var tag in TagDictionary.Keys)
             {
-                <MudCheckBox @bind-value="tagDictionary[tag]" Label="@tag"  ></MudCheckBox>
+                <MudCheckBox @bind-value="TagDictionary[tag]" Label="@tag"  ></MudCheckBox>
             }
         </MudStack>
         @foreach (var group in MythologyService.GetGroupedItems(FilteredItems))
@@ -49,42 +48,72 @@
 </MudMainContent>
 
 @code {
-    private Dictionary<string, MythologyItem> aesirItems = new();   
-    private bool isLoading = true;
-    public Dictionary<string, bool> tagDictionary = new();
-    
+    private Dictionary<string, MythologyItem> _mythologyItems = new();   
+    private bool _isLoading = true;
+    public Dictionary<string, bool> TagDictionary = new();
+    [Parameter] public string? SelectedListName { get; set; }
+
+    protected string GetTitle(string name)
+    {
+        return name switch
+        {
+            "aesir" => "Æsir",
+            "vanir" => "Vanir",
+            "jötunn" => "Jötunn",
+            "other" => "Other Beings",
+            "object" => "Objects",
+            "location" => "Locations",
+            _ => name
+        };
+    }
+
     private Dictionary<string, MythologyItem> FilteredItems
     {
         get
         {
-            var checkedTags = tagDictionary
+            var checkedTags = TagDictionary
                 .Where(kvp => kvp.Value)
                 .Select(kvp => kvp.Key)
                 .ToHashSet();
 
             if (checkedTags.Count == 0)
-                return aesirItems;
+                return _mythologyItems;
 
-            return aesirItems
+            return _mythologyItems
                 .Where(kvp => checkedTags.All(t => kvp.Value.Tags.Contains(t)))
                 .ToDictionary(kvp => kvp.Key, kvp => kvp.Value);
         }
     }
     protected override async Task OnInitializedAsync()
     {
-        aesirItems = await MythologyService.GetItemsByTypeAsync("Aesir");
-        foreach (var tag in MythologyService.GetTagList(aesirItems, "Aesir"))
+        if (SelectedListName != null)
         {
-            tagDictionary[tag] = false;
+            _mythologyItems = await MythologyService.GetItemsByTypeAsync(SelectedListName);
+            foreach (var tag in MythologyService.GetTagList(_mythologyItems, SelectedListName))
+            {
+                TagDictionary[tag] = false;
+            }
         }
-        isLoading = false;
+
+        _isLoading = false;
     }
 
-    public void NavToPage(string uri)
+    protected override async Task OnParametersSetAsync()
     {
-        navigationManager.NavigateTo($"/item/{uri}");
+        if (SelectedListName != null)
+        {
+            TagDictionary.Clear();
+            _mythologyItems = await MythologyService.GetItemsByTypeAsync(SelectedListName);
+            foreach (var tag in MythologyService.GetTagList(_mythologyItems, SelectedListName))
+            {
+                TagDictionary[tag] = false;
+            }
+        }
+
+        _isLoading = false;    
+        
     }
-    
+
 }
 
 <style>
@@ -116,5 +145,3 @@
         color: #666;
     }
 </style>
-
-

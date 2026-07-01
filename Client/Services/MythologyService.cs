@@ -103,7 +103,26 @@ namespace NorseMythologyIndex.Services
                 .Where(c => c.Value.Tags.Contains(gender, StringComparer.OrdinalIgnoreCase))
                 .ToDictionary(c => c.Key, c => c.Value);
         }
+        // Obtener lista de Tags
+        public IEnumerable<String> GetTagList(Dictionary<string, MythologyItem> items, string type)
+        {
+            List<String> tagList = [];
 
+            if (items == null)
+            {
+                return tagList;
+            }
+            
+            foreach(var item in items)
+            {
+                foreach (var tag in item.Value.Tags)
+                {
+                    if(tag.ToLower() != type.ToLower())
+                        tagList.Add(tag);
+                }
+            }
+            return tagList.Distinct().AsEnumerable();
+        }
         // Contar personajes por tipo
         public async Task<Dictionary<string, int>> GetItemCountByTypeAsync()
         {
