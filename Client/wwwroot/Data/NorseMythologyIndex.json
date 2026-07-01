@@ -380,6 +380,10 @@
             "link": "/item/Forseti",
             "explanation": "Son of Baldr and Nanna."
           },
+          "Thor (Þórr)": {
+            "link": "/item/Thor (Þórr)",
+            "explanation": "Half-brother."
+          },
           "Hod (Hǫðr)": {
             "link": "/item/Hod (Hǫðr)",
             "explanation": "Blind brother of Baldr."
@@ -389,7 +393,7 @@
             "explanation": "Half-brother of Baldr."
           }
         },
-        "Animals": {
+        "Objects": {
           "Hringhorni": {
             "link": "/item/Hringhorni",
             "explanation": "Baldr's ship, said to be the greatest ever built. It served as his funeral pyre."
