@@ -427,6 +427,60 @@
       }
     }
   },
+  "Ask and Embla": {
+      "tags": ["Human", "Male", "Female"],
+      "attestations": {
+        "Information": {
+          "Related Figures": {
+            "Odin (Óðinn)": {
+              "link": "/item/Odin (Óðinn)",
+              "explanation": "One of the three gods who created Ask and Embla. In Vǫluspá he bestows breath upon them; in Gylfaginning he and his brothers Vili and Vé fashion them from two logs found on the sea shore."
+            },
+            "Vili": {
+              "link": "/item/Vili",
+              "explanation": "One of Bor's sons who, alongside Odin and Vé, created Ask and Embla from two logs on the sea shore, giving them consciousness and movement."
+            },
+            "Vé": {
+              "link": "/item/Vé",
+              "explanation": "One of Bor's sons who, alongside Odin and Vili, created Ask and Embla from two logs on the sea shore, giving them face, speech, hearing, and sight."
+            }
+          },
+          "Locations": {
+            "Midgard (Miðgarðr)": {
+              "link": "/item/Midgard (Miðgarðr)",
+              "explanation": "The dwelling-place given to Ask and Embla and the mankind descended from them."
+            }
+          }
+        },
+        "Poetic Edda": {
+          "link": "https://books.openbookpublishers.com/10.11647/obp.0308/",
+          "Vǫluspá (The Prophecy of the Seeress)": {
+            "link": "https://books.openbookpublishers.com/10.11647/obp.0308/ch1.xhtml#_idTextAnchor026",
+            "Stanza 17": {
+              "explanation": "The seeress recalls three Æsir (Óðinn, Hœnir and Lóðurr) finding Ask and Embla on the shore, lifeless and without fate.",
+              "quote": "'Until three came from that company,\nstrong and kind, Æsir, to a house;\nthey found on the shore, with little strength,\nAskr and Embla, lacking fate.'",
+              "link": "https://books.openbookpublishers.com/10.11647/obp.0308/ch1.xhtml#_idTextAnchor117"
+            },
+            "Stanza 18": {
+              "explanation": "The three gods each bestow a gift upon them — breath, sense, and blood/colour — bringing the first humans to life.",
+              "quote": "'Breath they did not have, sense they did not have,\nneither movement nor good colour;\nbreath gave Óðinn, sense gave Hœnir,\nblood gave Lóðurr and good colour.'",
+              "link": "https://books.openbookpublishers.com/10.11647/obp.0308/ch1.xhtml#_idTextAnchor118"
+            }
+          }
+        },
+        "Prose Edda": {
+          "link": "http://vsnrweb-publications.org.uk/SNORRA%20EDDA%20searchable.pdf",
+          "Gylfaginning (The Beguiling of Gylfi)": {
+            "link": "http://vsnrweb-publications.org.uk/SNORRA%20EDDA%20searchable.pdf#page=34&zoom=auto",
+            "Chapter 8-10 (p.13)": {
+              "explanation": "Snorri details the creation of humanity. While walking along the sea shore, Bor's sons (Odin, Vili, and Vé) find two logs and fashion them into the first man and woman, giving them life, physical form, clothing, and names.",
+              "quote": "As Bor's sons walked along the sea shore, they came across two logs and created people out of them. The first gave breath and life, the second consciousness and movement, the third a face, speech and hearing and sight; they gave them clothes and names. The man was called Ask, the woman Embla, and from them were produced the mankind to whom the dwelling-place under Midgard was given.",
+              "link": "http://vsnrweb-publications.org.uk/SNORRA%20EDDA%20searchable.pdf#page=41&zoom=auto"
+            }
+          }
+        }
+      }
+    },
   "Baldr": {
     "tags": ["Aesir", "Male"],
     "attestations": {
