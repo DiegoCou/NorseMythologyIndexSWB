@@ -215,6 +215,74 @@
       }
     }
   },
+  "Angrboða": {
+      "tags": ["Jötunn", "Female"],
+      "attestations": {
+        "Information": {
+          "Family": {
+            "Loki": {
+              "link": "/item/Loki",
+              "explanation": "Partner of Angrboða in Jötunheimr and father of her three children: Fenrir, Jörmungandr, and Hel."
+            },
+            "Fenrir": {
+              "link": "/item/Fenrir",
+              "explanation": "Son of Angrboða and Loki. A great wolf whose evil nature the gods foresaw and feared."
+            },
+            "Hel": {
+              "link": "/item/Hel",
+              "explanation": "Daughter of Angrboða and Loki. Ruler of the realm of the dead."
+            },
+            "Jörmungandr": {
+              "link": "/item/Jörmungandr",
+              "explanation": "Son of Angrboða and Loki. The Midgard Serpent, who encircles all of Miðgarðr and is fated to face Thor at Ragnarök."
+            }
+          }
+        },
+        "Poetic Edda": {
+          "link": "https://books.openbookpublishers.com/10.11647/obp.0308/",
+          "Hyndluljóð (The Song of Hyndla)": {
+            "link": "https://books.openbookpublishers.com/10.11647/obp.0308/ch35.xhtml#_idTextAnchor3440",
+            "Stanza 40": {
+              "explanation": "Angrboða is named explicitly as the mother of the wolf Fenrir, in the giantess Hyndla's genealogical catalogue.",
+              "quote": "'Loki engendered a wolf on Angrboða,\nand conceived Sleipnir by Svaðilfari;\none witch was thought most evil of all,\nthat one had come from the brother of Býleistr.'",
+              "link": "https://books.openbookpublishers.com/10.11647/obp.0308/ch35.xhtml#_idTextAnchor3541"
+            }
+          },
+          "Vǫluspá (The Prophecy of the Seeress)": {
+            "link": "https://books.openbookpublishers.com/10.11647/obp.0308/ch1.xhtml#_idTextAnchor026",
+            "Stanza 40": {
+              "explanation": "An unnamed 'old one' in Járnviðr (Iron Wood) who breeds wolf-children is referenced obliquely. The editorial footnote explicitly notes that Snorri perhaps identifies her as Angrboða, but she is not named in the verse itself.",
+              "quote": "'She sat to the east of Miðgarðr, in the forest of Járnviðr,\nand there the old one bred Fenrir's kin;\none of them will be, in troll's likeness,\nthe swallower of the moon.'",
+              "link": "https://books.openbookpublishers.com/10.11647/obp.0308/ch1.xhtml#_idTextAnchor144"
+            }
+          },
+          "Baldrs draumar (Baldr's Dreams)": {
+            "link": "https://books.openbookpublishers.com/10.11647/obp.0308/ch33.xhtml#_idTextAnchor3296",
+            "Stanza 13": {
+              "explanation": "The dead seeress whom Óðinn has awoken is called 'the mother of three giants' by Óðinn — a description the footnote identifies as perhaps Angrboða, but she is not named in the verse.",
+              "quote": "'You're not Vegtamr, as I thought,\nrather you're Óðinn, the old Gautr!'\n'You're neither a seeress nor a wise woman,\nrather you're the mother of three giants!'",
+              "link": "https://books.openbookpublishers.com/10.11647/obp.0308/ch33.xhtml#_idTextAnchor3329"
+            }
+          }
+        },
+        "Prose Edda": {
+          "link": "http://vsnrweb-publications.org.uk/SNORRA%20EDDA%20searchable.pdf",
+          "Gylfaginning (The Beguiling of Gylfi)": {
+            "link": "http://vsnrweb-publications.org.uk/SNORRA%20EDDA%20searchable.pdf#page=34&zoom=auto",
+            "Chapter 27-34 (p.26)": {
+              "explanation": "Angrboda is introduced by name when Snorri details Loki's lineage and his union with her in Giantland.",
+              "quote": "Loki had other offspring too. There was a giantess called Angrboda in Giantland. With her Loki had three children. One was Fenriswolf, the second Iormungand (i.e. the Midgard serpent), the third is Hel.",
+              "link": "http://vsnrweb-publications.org.uk/SNORRA%20EDDA%20searchable.pdf#page=54&zoom=auto"
+            },
+            "Chapter 34 (p.27)": {
+              "explanation": "She is referenced indirectly as 'their mother' when the gods learn of the prophecies concerning the three siblings and anticipate the evil they will commit based on their parentage.",
+              "quote": "...when the gods traced prophecies stating that from these siblings great mischief and disaster would arise for them, then they all felt evil was to be expected from them, to begin with because of their mother's nature, but still worse because of their father's.",
+              "link": "http://vsnrweb-publications.org.uk/SNORRA%20EDDA%20searchable.pdf#page=55&zoom=auto"
+            }
+          }
+        }
+      }
+    },
   "Apples of Idunn": {
     "tags": ["Object", "Food"],
     "attestations": {
@@ -366,37 +434,41 @@
         "Family": {
           "Odin (Óðinn)": {
             "link": "/item/Odin (Óðinn)",
-            "explanation": "Father."
+            "explanation": "Father of Baldr. Odin rode to Hel to investigate Baldr's prophetic nightmares, and placed his ring Draupnir on Baldr's funeral pyre. He whispered a secret into Baldr's ear at the pyre — something only he knows."
           },
           "Frigg": {
             "link": "/item/Frigg",
-            "explanation": "Mother."
+            "explanation": "Mother of Baldr. She extracted oaths from all things in the world not to harm him, but was deceived by Loki into revealing the mistletoe's exception. Then sends Hermodr in a quest to try and recover Baldr from Hel."
           },
           "Nanna": {
             "link": "/item/Nanna",
-            "explanation": "Wife."
+            "explanation": "Wife of Baldr and daughter of Nep. She died of grief upon seeing Baldr's body carried to his funeral ship and was burned on the pyre alongside him. From Hel, she sent a linen robe to Frigg and a finger-ring to Fulla."
           },
           "Forseti": {
             "link": "/item/Forseti",
-            "explanation": "Son of Baldr and Nanna."
+            "explanation": "Son of Baldr and Nanna. God of justice and presider over the hall Glitnir, the best place of judgment."
           },
           "Thor (Þórr)": {
             "link": "/item/Thor (Þórr)",
-            "explanation": "Half-brother."
+            "explanation": "Half-brother of Baldr, both being sons of Odin."
           },
           "Hod (Hǫðr)": {
             "link": "/item/Hod (Hǫðr)",
-            "explanation": "Blind brother of Baldr."
+            "explanation": "Blind brother of Baldr. Manipulated by Loki into throwing the mistletoe weapon that killed him. He is fated to return alongside Baldr after Ragnarök."
           },
           "Vali": {
             "link": "/item/Vali",
-            "explanation": "Half-brother of Baldr."
+            "explanation": "Son of Odin and Rindr, born specifically to avenge Baldr's death by slaying Höðr."
           }
         },
         "Objects": {
           "Hringhorni": {
             "link": "/item/Hringhorni",
             "explanation": "Baldr's ship, said to be the greatest ever built. It served as his funeral pyre."
+          },
+          "Draupnir": {
+            "link": "/item/Draupnir",
+            "explanation": "Odin's golden ring, placed on Baldr's funeral pyre. Baldr later sent it back from Hel to Odin via Hermóðr as a keepsake."
           }
         }
       },
@@ -627,7 +699,7 @@
         "Owner": {
           "Thor (Þórr)": {
             "link": "/item/Thor (Þórr)",
-            "explanation": "Thor's hall, located within his realm Þrúðvangr."
+            "explanation": "Thor, the strongest of the Æsir, son of Odin and Jörð, wielder of Mjöllnir and defender of aesir and men against the jötnar."
           }
         }
       },
@@ -2069,6 +2141,132 @@
       }
     }
   },
+  "Geirrøðr (King)": {
+      "tags": ["Other","Human", "Male"],
+      "attestations": {
+        "Information": {
+          "Related Figures": {
+            "Odin (Óðinn)": {
+              "link": "/item/Odin (Óðinn)",
+              "explanation": "Odin fostered Geirrøðr as a boy, but the king grew to be inhospitable and was tricked by Frigg into torturing the disguised god between two fires for eight nights. Odin ultimately condemned him to death."
+            },
+            "Frigg": {
+              "link": "/item/Frigg",
+              "explanation": "Frigg tricked Geirrøðr into suspecting the disguised Odin of being a dangerous sorcerer, leading him to capture and torture the god."
+            }
+          }
+        },
+        "Poetic Edda": {
+          "link": "https://books.openbookpublishers.com/10.11647/obp.0308/",
+          "Grímnismál (The Sayings of Grímnir)": {
+            "link": "https://books.openbookpublishers.com/10.11647/obp.0308/ch04.xhtml",
+            "Prose Prologue": {
+              "explanation": "The entire frame narrative introduces Geirrøðr. As a boy he was fostered by Óðinn, but grew up to become a stingy, inhospitable king. Tricked by Frigg into suspecting a dangerous sorcerer, he captures the disguised Óðinn and tortures him between two fires for eight nights, refusing him food or drink.",
+              "link": "https://books.openbookpublishers.com/10.11647/obp.0308/ch4.xhtml#_idTextAnchor693"
+            },
+            "Stanza 2": {
+              "explanation": "Óðinn (speaking as Grímnir) identifies himself as having sat between the fires for eight nights, and singles out Geirrøðr's own son Agnarr as the only one who showed him mercy with a drink.",
+              "quote": "'For eight nights I sat here amid fires,\nwithout anyone having offered me food,\nexcept Agnarr alone, who alone shall rule —\nGeirrøðr's son — the land of the Gotar.'",
+              "link": "https://books.openbookpublishers.com/10.11647/obp.0308/ch4.xhtml#_idTextAnchor697"
+            },
+            "Stanza 51": {
+              "explanation": "After his long catalogue of cosmic wisdom, Óðinn finally turns on Geirrøðr directly, condemning him for drunkenness and for having lost divine favour.",
+              "quote": "'You're drunk, Geirrøðr, you've drunk too much!\nYou're robbed of much when you're not in my company,\n[namely] all the unique champions and Óðinn's favour.'",
+              "link": "https://books.openbookpublishers.com/10.11647/obp.0308/ch4.xhtml#_idTextAnchor753"
+            },
+            "Stanzas 52-53": {
+              "explanation": "Óðinn declares that Geirrøðr's death is imminent, seeing the sword already soaked in blood, and announces that Yggr (Óðinn himself) will claim the slain.",
+              "quote": "'52. Much have I told you, but few things you remember —\nfriends deceive you;\nI see the sword of my friend lying\nall soaked in blood!\n\n53. Your edge-weary corpse Yggr will now have,\nyour life, I know, has ebbed away;\nthe spirit-women are angry — now you can see Óðinn,\napproach me, if you can!'",
+              "link": "https://books.openbookpublishers.com/10.11647/obp.0308/ch4.xhtml#_idTextAnchor754"
+            },
+            "Prose Epilogue": {
+              "explanation": "Óðinn reveals his true name, and Geirrøðr — rising in a panic to free the god from the fire — drops his sword hilt-down, stumbles, and impales himself on it. Óðinn vanishes, and Agnarr becomes king in his father's place.",
+              "quote": "King Geirrøðr sat and had a sword on his knee, and it was drawn to the middle. And when he heard that Óðinn had come there, he stood up and wanted to take Óðinn from the fires. The sword slipped from his hand, the hilt pointed downwards. The king lost his footing and toppled forward, and the sword ran him through, and he got his death. Óðinn disappeared then. And Agnarr was king there for a long time after.",
+              "link": "https://books.openbookpublishers.com/10.11647/obp.0308/ch4.xhtml#_idTextAnchor756"
+            }
+          }
+        },
+        "Prose Edda": {
+          "link": "http://vsnrweb-publications.org.uk/SNORRA%20EDDA%20searchable.pdf",
+          "Gylfaginning (The Beguiling of Gylfi)": {
+            "link": "http://vsnrweb-publications.org.uk/SNORRA%20EDDA%20searchable.pdf#page=34&zoom=auto",
+            "Chapter 20-21 (p.21)": {
+              "explanation": "When discussing the many names of Odin, the text mentions names he took while visiting Geirrod.",
+              "quote": "...and he called himself by various other names on his visit to King Geirrod.",
+              "link": "http://vsnrweb-publications.org.uk/SNORRA%20EDDA%20searchable.pdf#page=49&zoom=auto"
+            }
+          }
+        }
+      }
+    },
+  "Geirröðr (Jötunn)": {
+      "tags": ["Jötunn", "Male"],
+      "attestations": {
+        "Information": {
+          "Related Figures": {
+            "Thor (Þórr)": {
+              "link": "/item/Thor (Þórr)",
+              "explanation": "Slayer of Geirröðr. Thor was lured to the giant's courts without his hammer or belt of might by Loki, who had been captured and coerced by Geirröðr. Thor ultimately killed him by catching a glowing lump of molten iron and throwing it back through him."
+            },
+            "Loki": {
+              "link": "/item/Loki",
+              "explanation": "Loki was captured by Geirröðr and locked in a chest and starved for three months until he swore oaths to lure Thor to the giant's courts unarmed."
+            }
+          }
+        },
+        "Prose Edda": {
+          "link": "http://vsnrweb-publications.org.uk/SNORRA%20EDDA%20searchable.pdf",
+          "Skáldskaparmál (The Language of Poetry)": {
+            "link": "http://vsnrweb-publications.org.uk/SNORRA%20EDDA%20searchable.pdf#page=87&zoom=auto",
+            "Chapter 3-4 (p.72)": {
+              "explanation": "In a list of poetic kennings for Thor, he is described as the slayer of Geirrod.",
+              "quote": "How shall Thor be referred to? By calling him son of Odin and Iord... enemy and slayer of giants and troll-wives, killer of Hrungnir, Geirrod, Thrivaldi...",
+              "link": "http://vsnrweb-publications.org.uk/SNORRA%20EDDA%20searchable.pdf#page=100&zoom=auto"
+            },
+            "Chapter 4-5 (p.74)": {
+              "explanation": "In a section on Thor kennings, his journey to the giant's home is referenced.",
+              "quote": "Vimur is the name of a river that Thor waded when he was on his way to Geirrod's courts.",
+              "link": "http://vsnrweb-publications.org.uk/SNORRA%20EDDA%20searchable.pdf#page=102&zoom=auto"
+            },
+            "Chapter 8-16 (p.76)": {
+              "explanation": "In a list of kennings for Loki, he is described as Geirrod's guest.",
+              "quote": "How shall Loki be referred to? By calling him... Geirrod's visitor and casket-ornament...",
+              "link": "http://vsnrweb-publications.org.uk/SNORRA%20EDDA%20searchable.pdf#page=104&zoom=auto"
+            },
+            "Chapter 17-18 (p.81)": {
+              "explanation": "The narrative introduces the myth of Thor's journey to Geirrod's courts. Snorri details Loki's capture by Geirrod and how Loki was forced to promise to lure Thor there without his hammer, belt, or gloves.",
+              "quote": "The story of how Thor went to Geirrod's courts is worth detailed treatment... Loki was captured there and brought to giant Geirrod... Then Geirrod locked Loki in a chest and starved him there for three months. And when Geirrod took him out and demanded that he speak, Loki said who he was, and to redeem his life he swore Geirrod oaths that he would get Thor to come to Geirrod's courts without his bringing either his hammer or girdle of might.",
+              "link": "http://vsnrweb-publications.org.uk/SNORRA%20EDDA%20searchable.pdf#page=109&zoom=auto"
+            },
+            "Chapter 18 (p.82)": {
+              "explanation": "On the journey, Thor is warned about the giant's cunning nature. He defeats Geirrod's daughters (Gjálp and Greip) and ultimately kills Geirrod himself after catching and throwing back a glowing lump of molten iron.",
+              "quote": "She told Thor the truth about Geirrod, that he was a cunning giant and awkward to deal with... Then Thor saw up in a certain cleft that Geirrod's daughter Gialp was standing astride the river... And when Thor got to Geirrod's, he and his companion were first of all shown into a goat-shed as their lodging... Under the seat it had been Geirrod's daughters Gialp and Greip and he had broken both their backs. Then Geirrod had Thor called into the hall for games... Geirrod picked up with tongs a glowing lump of molten iron and threw it at Thor...",
+              "link": "http://vsnrweb-publications.org.uk/SNORRA%20EDDA%20searchable.pdf#page=110&zoom=auto"
+            },
+            "Chapter 18 (p.83)": {
+              "explanation": "The climax of the story describes the direct blow that kills the giant. Snorri also quotes from Þórsdrápa to illustrate the myth.",
+              "quote": "...and it crashed through the pillar and through Geirrod and through the wall and so into the ground outside.\nLopt was proficient at lying. The not very trustworthy trier [Loki]... said that green paths led to Geirrod's wall-steed [house].",
+              "link": "http://vsnrweb-publications.org.uk/SNORRA%20EDDA%20searchable.pdf#page=111&zoom=auto"
+            },
+            "Chapter 18 (p.84)": {
+              "explanation": "A verse in the quoted Þórsdrápa identifies Thor and Þjálfi's conflict with Geirrod.",
+              "quote": "...performed Hedin's parting-bowl-[helmet-]game [battle] with the cave's kindred-Briton [Geirrod].",
+              "link": "http://vsnrweb-publications.org.uk/SNORRA%20EDDA%20searchable.pdf#page=112&zoom=auto"
+            },
+            "Chapter 18 (p.85)": {
+              "explanation": "Another verse from Þórsdrápa describes the moment Geirrod threw the molten iron at Thor.",
+              "quote": "...when the sparkling cinder flew furiously from the grip's breast [palm] of the passionate desirer [Geirrod] of Hrimnir's lady towards the one who longs for Thrud in his heart [Thor].",
+              "link": "http://vsnrweb-publications.org.uk/SNORRA%20EDDA%20searchable.pdf#page=113&zoom=auto"
+            },
+            "Chapter 75 (p.156)": {
+              "explanation": "Geirrod is included in a categorical list of names for giants.",
+              "quote": "Geirrod, Fyrnir, Galar, Thrivaldi, Fiolverk, Geitir, Flegg...",
+              "link": "http://vsnrweb-publications.org.uk/SNORRA%20EDDA%20searchable.pdf#page=184&zoom=auto"
+            }
+          }
+        }
+      }
+    },
   "Gjallarhorn": {
     "tags": ["Object"],
     "attestations": {
