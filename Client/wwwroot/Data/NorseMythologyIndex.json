@@ -3499,6 +3499,91 @@
       }
     }
   },
+  "Huginn and Muninn": {
+      "tags": ["Other", "Creature"],
+      "attestations": {
+        "Information": {
+          "Owner": {
+            "Odin (Óðinn)": {
+              "link": "/item/Odin (Óðinn)",
+              "explanation": "Odin's two ravens, whose names mean 'Thought' and 'Memory'. They fly across the world each day at dawn and return at dinner-time to perch on his shoulders and whisper all they have seen and heard into his ears."
+            }
+          }
+        },
+        "Poetic Edda": {
+          "link": "https://books.openbookpublishers.com/10.11647/obp.0308/",
+          "Grímnismál (The Sayings of Grímnir)": {
+            "link": "https://books.openbookpublishers.com/10.11647/obp.0308/ch4.xhtml#_idTextAnchor634",
+            "Stanza 20": {
+              "explanation": "The only place in the entire Poetic Edda where both ravens are named together as Óðinn's own. Óðinn (disguised as Grímnir) speaks of them with unmistakable concern — notably more worried about Muninn (Memory) than Huginn (Thought).",
+              "quote": "'Huginn and Muninn fly every day\nover the vast earth;\nI fear for Huginn, that he won't come back,\nyet I'm more concerned about Muninn.'",
+              "link": "https://books.openbookpublishers.com/10.11647/obp.0308/ch4.xhtml#_idTextAnchor716"
+            }
+          },
+          "Helgakviða Hundingsbana in fyrri (The Earlier Lay of Helgi Hundingsbani)": {
+            "link": "https://books.openbookpublishers.com/10.11647/obp.0308/ch12.xhtml#_idTextAnchor1475",
+            "Stanza 54": {
+              "explanation": "Huginn is used in a kenning for a corpse. A raven's (Huginn) barley (i.e. raven's food) is a corpse.",
+              "quote": "'There came from the sky helmet-creatures, from above —\nthe clamour of spears grew — they who protected the prince;\nthen Sigrún said this — wound-creatures flew,\nthe horse of the troll-woman ate from Huginn's barley.'",
+              "link": "https://books.openbookpublishers.com/10.11647/obp.0308/ch12.xhtml#_idTextAnchor1594"
+            }
+          },
+          "Reginsmál (The Sayings of Reginn)": {
+            "link": "https://books.openbookpublishers.com/10.11647/obp.0308/ch17.xhtml#_idTextAnchor1939",
+            "Stanza 18": {
+              "explanation": "Huginn is used in a kenning to refer to killing — a raven (Huginn) is gladdened because there is death to feed upon.",
+              "quote": "'They called me Hnikarr, when young Vǫlsungr\ngladdened Huginn, and he had slain;\nnow you can me \"old man from the cliff,\"\nFengr or Fjǫlnir — I want to receive passage!'",
+              "link": "https://books.openbookpublishers.com/10.11647/obp.0308/ch17.xhtml#_idTextAnchor1990"
+            },
+            "Stanza 26": {
+              "explanation": "Huginn is used again in a kenning to refer to killing — a raven (Huginn) is gladdened because there is death to feed upon.",
+              "quote": "'Now a bloody eagle is carved with bitter sword\non the back of the slayer of Sigmundr!\nNone is more outstanding than the one who might redden the earth,\nthe ruler's heir, and gladden Huginn!'",
+              "link": "https://books.openbookpublishers.com/10.11647/obp.0308/ch17.xhtml#_idTextAnchor1998"
+            }
+          },
+          "Fáfnismál (The Sayings of Fáfnir)": {
+            "link": "https://books.openbookpublishers.com/10.11647/obp.0308/ch18.xhtml#_idTextAnchor2001",
+            "Stanza 35": {
+              "explanation": "Huginn is used in a kenning to refer to killing — a raven (Huginn) is gladdened because there is death to feed upon.",
+              "quote": "'Astute he'd seem to me, if he knew how to take\nthe great loving advice of you sisters,\nif he thought about himself and gladdened Huginn;\nI expect a wolf when I see its ears!'",
+              "link": "https://books.openbookpublishers.com/10.11647/obp.0308/ch18.xhtml#_idTextAnchor2089"
+            }
+          },
+          "Guðrúnarkviða ǫnnur (Lay of Guðrún)": {
+            "link": "https://books.openbookpublishers.com/10.11647/obp.0308/ch25.xhtml#_idTextAnchor2494",
+            "Stanza 29": {
+              "explanation": "Guðrún mourns Sigurðr, refusing to be consoled. The footnote explicitly notes that this Huginn is Óðinn's raven, and that a 'corpse-greedy one' drank Sigurðr's blood alongside him — implying Óðinn's presence at the death.",
+              "quote": "'\"I cannot, Grímildr, rush into rejoicing\nor entertain hopes of a battle-ready one,\nsince, distressingly, a corpse-greedy one drank Sigurðr's\nheart-blood, together with Huginn!\"'",
+              "link": "https://books.openbookpublishers.com/10.11647/obp.0308/ch25.xhtml#_idTextAnchor2580"
+            }
+          }
+        },
+        "Prose Edda": {
+          "link": "http://vsnrweb-publications.org.uk/SNORRA%20EDDA%20searchable.pdf",
+          "Gylfaginning (The Beguiling of Gylfi)": {
+            "link": "http://vsnrweb-publications.org.uk/SNORRA%20EDDA%20searchable.pdf#page=61&zoom=auto",
+            "Chapter 38 (p.33)": {
+              "explanation": "Snorri introduces Odin's ravens, explaining their names and how they gather information for him. A verse from Grímnismál is quoted.",
+              "quote": "Two ravens sit on his shoulders and speak into his ear all the news they see or hear. Their names are Hugin and Munin. He sends them out at dawn to fly over all the world and they return at dinner-time.\nHugin and Munin fly each day over the mighty earth. I fear for Hugin lest he come not back, yet I am afraid more about Munin.",
+              "link": "http://vsnrweb-publications.org.uk/SNORRA%20EDDA%20searchable.pdf#page=61&zoom=auto"
+            }
+          },
+          "Skáldskaparmál (The Language of Poetry)": {
+            "link": "http://vsnrweb-publications.org.uk/SNORRA%20EDDA%20searchable.pdf#page=166&zoom=auto",
+            "Chapter 60 (p.138) - Thula": {
+              "explanation": "Snorri lists the ravens by name in a collection of poetic terms and synonyms for ravens.",
+              "quote": "These are names for raven: crow, Hugin, Munin, secure-mood, early-flier, year-counter, flesh-marker.",
+              "link": "http://vsnrweb-publications.org.uk/SNORRA%20EDDA%20searchable.pdf#page=166&zoom=auto"
+            },
+            "Chapter 60 (p.138) - Einar Skúlason": {
+              "explanation": "Two verses by the skald Einar Skúlason are quoted in the same section, using the ravens' names in poetic descriptions.",
+              "quote": "The troubler of Hugin's food [raven] finds an end to his trouble [gets fed].\nBlue-black Munin drinks blood from wounds.",
+              "link": "http://vsnrweb-publications.org.uk/SNORRA%20EDDA%20searchable.pdf#page=166&zoom=auto"
+            }
+          }
+        }
+      }
+    },
   "Idun (Iðunn)": {
     "tags": ["Aesir","Female"],
     "attestations": {
@@ -5591,6 +5676,7 @@
             "explanation": "Odin's two wolves, whose names mean 'ravenous' and 'greedy'. Odin feeds them all the food set before him at table, as he himself requires only wine."
           },
           "Huginn and Muninn": {
+            "link": "/item/Huginn and Muninn",
             "explanation": "Odin's two ravens, whose names mean 'thought' and 'memory'. They fly across the world each day and return to whisper all they have seen into Odin's ears."
           }
         },
